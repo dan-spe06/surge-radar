@@ -1,1 +1,170 @@
-[]
+[
+ {
+  "uid": "ETH-SHORT-1791845930749",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791845930749,
+  "factors": [
+   "Volume 5.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 16.907875648330812,
+   "rsi": 30.60655059896817,
+   "rvol": 4.958240313866184,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2479.49,
+   "stop": 2496.3978756483307,
+   "takeProfit": 2437.2203108791728,
+   "stopDist": 16.907875648330812,
+   "tpDist": 42.26968912082703,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 0.2957201782172802,
+   "unit": "ETH",
+   "notional": 733.235224687964,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-13T04:58:50.749Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.083984530613685,
+   "mae": 0.4914869361971434
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1791845931134",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791845931134,
+  "factors": [
+   "Volume 9.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.7795568686540744,
+   "rsi": 24.130355828248412,
+   "rvol": 9.724412185389593,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 82.367,
+   "stop": 83.14655686865407,
+   "takeProfit": 80.41810782836482,
+   "stopDist": 0.7795568686540744,
+   "tpDist": 1.948892171635186,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 6.413900256735128,
+   "unit": "HYPE",
+   "notional": 528.2937224465023,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-13T04:58:51.134Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08594626344026005,
+   "mae": 0.6324105653140772
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1791845931174",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791845931174,
+  "factors": [
+   "Volume 10.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0018539460495316591,
+   "rsi": 31.502662107309675,
+   "rvol": 10.827472814864985,
+   "bbPct": 0.8214285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.19379,
+   "stop": 0.19564394604953164,
+   "takeProfit": 0.18915513487617083,
+   "stopDist": 0.0018539460495316591,
+   "tpDist": 0.004634865123829148,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 2696.9501088033776,
+   "unit": "XLM",
+   "notional": 522.6419615850065,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-13T04:58:51.174Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.016181700652821478,
+   "mae": 0.3613913145796547
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1791845931527",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791845931527,
+  "factors": [
+   "Volume 5.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09887044742746323,
+   "rsi": 24.52666193130017,
+   "rvol": 5.40621277877113,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.166,
+   "stop": 7.264870447427463,
+   "takeProfit": 6.918823881431342,
+   "stopDist": 0.09887044742746323,
+   "tpDist": 0.24717611856865807,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 50.571228613770295,
+   "unit": "UNI",
+   "notional": 362.39342424627796,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T04:58:51.527Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13148519439581074,
+   "mae": 0.3742270917418994
+  }
+ }
+]
