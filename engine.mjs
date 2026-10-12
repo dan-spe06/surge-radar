@@ -6,8 +6,8 @@ export const CONFIG = {
   accountSize: 500,
   riskPct: 1.0,           // % of account risked per trade
   rewardRisk: 2.5,        // take-profit = 2.5 x stop distance
-  alertScore: 75,         // minimum score to alert
-  watchScore: 60,         // shown in app as "building"
+  alertScore: 50,         // minimum score to alert
+  watchScore: 40,         // shown in app as "building"
   stopAtrMult: 1.0,       // base stop distance in 1h ATRs
   timeStopHours: 6,
   dedupHours: 4,          // same symbol+direction is not re-pushed within this window
@@ -130,9 +130,9 @@ function nyParts(ts = Date.now()) {
   const g = k => p.find(x => x.type === k).value;
   return { dow: g('weekday'), hour: +g('hour') % 24, min: +g('minute') };
 }
-function sessionCheck(a) {
+function sessionCheck(a, ts) {
   if (a.cls === 'crypto') return { ok: true };
-  const { dow, hour } = nyParts();
+  const { dow, hour } = nyParts(ts);
   if (dow === 'Sat' || (dow === 'Sun' && hour < 18) || (dow === 'Fri' && hour >= 17)) return { ok: false, why: 'Market closed' };
   if (dow === 'Fri' && hour >= 12) return { ok: false, why: 'Friday afternoon — weekend-gap risk, no new trades' };
   if (hour >= 17 && hour < 19) return { ok: false, why: 'Low-liquidity rollover window (5–7 PM ET)' };
@@ -140,10 +140,9 @@ function sessionCheck(a) {
 }
 
 // ---------- core analysis ----------
-export async function analyze(a, news) {
-  let c15;
-  if (a.cls === 'crypto') c15 = await okxCandles(a.okx, '15m', 300);
-  else c15 = await yahooCandles(a.yahoo, '15m', '5d');
+export async function analyze(a, news, opts = {}) {
+  let c15 = opts.c15;
+  if (!c15) { if (a.cls === 'crypto') c15 = await okxCandles(a.okx, '15m', 300); else c15 = await yahooCandles(a.yahoo, '15m', '5d'); }
   if (c15.length < 120) throw new Error('not enough data');
   const h1 = resample(c15);
   const closesH = h1.map(b => b.c), closes15 = c15.map(b => b.c);
@@ -162,7 +161,7 @@ export async function analyze(a, news) {
   let wasOn = false;
   for (let k = 2; k <= 4; k++) { const sl = closesH.slice(0, -k + 1 || undefined); const s2 = stdev(sl.slice(-20)); const at = atrSeries(h1.slice(0, -k + 1 || undefined)).at(-1); if (2 * s2 < 1.5 * at) wasOn = true; }
   const recentMinW = Math.min(...bbW.slice(-5));
-  const firing = wasOn && !squeezeOn && percentileRank(bbW, recentMinW) < 0.3 && bbWidthNow > bbW.at(-2);
+  const firing = wasOn && !squeezeOn && percentileRank(bbW, recentMinW) < 0.6 && bbWidthNow > bbW.at(-2);
 
   // 2) ATR compression: current 15m ATR vs its 5-day distribution
   const atrPct = percentileRank(atr15.slice(-400), atr15.at(-1));
@@ -202,10 +201,10 @@ export async function analyze(a, news) {
 
   // 6) Crypto derivatives
   let der = null;
-  if (a.cls === 'crypto') der = await okxDerivs(a.id);
+  if (a.cls === 'crypto' && !opts.c15) der = await okxDerivs(a.id);
 
   // 7) News catalysts within next 4h
-  const now = Date.now();
+  const now = opts.now || Date.now();
   const upcoming = (news || []).filter(e => e.time > now - 15 * 60000 && e.time < now + 4 * 3600000 && (a.cls === 'crypto' ? e.ccy === 'USD' : a.ccy.includes(e.ccy)));
   const imminent = upcoming.filter(e => e.time > now - 15 * 60000 && e.time < now + 30 * 60000);
 
@@ -213,9 +212,10 @@ export async function analyze(a, news) {
   const factors = [];
   let s = 0;
   if (firing) { s += 22; factors.push('Squeeze just fired (energy releasing)'); }
-  else if (squeezeOn && bbPct < 0.4) { s += 14; factors.push('Volatility squeeze active'); }
-  if (bbPct < 0.15) { s += 10; factors.push(`Bollinger width in bottom ${Math.round(bbPct * 100)}% of 5 days`); }
-  if (atrPct < 0.2 && !firing) { s += 6; factors.push('ATR compressed'); }
+  else if (squeezeOn && bbPct < 0.6) { s += 14; factors.push('Volatility squeeze active'); }
+  if (bbPct <= 0.4) { s += 10; factors.push(`Range tight (bottom ${Math.max(1, Math.round(bbPct * 100))}% of 5 days)`); }
+  else if (bbPct <= 0.6) { s += 6; factors.push(`Range moderately tight (${Math.round(bbPct * 100)}th percentile)`); }
+  if (atrPct < 0.6 && !firing) { s += 6; factors.push('Volatility below average'); }
   if (rvol >= 3) { s += 20; factors.push(`Volume ${rvol.toFixed(1)}x normal`); }
   else if (rvol >= 2) { s += 14; factors.push(`Volume ${rvol.toFixed(1)}x normal`); }
   else if (rvol >= 1.5) { s += 7; factors.push(`Volume ${rvol.toFixed(1)}x normal`); }
@@ -239,7 +239,7 @@ export async function analyze(a, news) {
   if (dir === 'LONG' && r > 78) blocks.push('RSI overbought — chasing');
   if (dir === 'SHORT' && r < 22) blocks.push('RSI oversold — chasing');
   if (imminent.length) blocks.push(`News in <30 min (${imminent[0].title}) — wait for the release`);
-  const sess = sessionCheck(a); if (!sess.ok) blocks.push(sess.why);
+  const sess = sessionCheck(a, now); if (!sess.ok) blocks.push(sess.why);
   if (!dir) blocks.push('No clear direction');
 
   // ---------- levels ----------
@@ -258,8 +258,8 @@ export async function analyze(a, news) {
     plan = { entry: px, stop: sl, takeProfit: tp, stopDist, tpDist, rr: CONFIG.rewardRisk, ...sizing(a, px, stopDist), timeStop: new Date(now + CONFIG.timeStopHours * 3600000).toISOString() };
   }
 
-  const status = s >= CONFIG.alertScore && blocks.length === 0 ? 'ALERT' : s >= CONFIG.watchScore ? 'WATCH' : 'QUIET';
-  return { id: a.id, name: a.name, cls: a.cls, price: px, score: s, dir, status, factors, blocks, plan,
+  const status = s >= (opts.alertScore ?? CONFIG.alertScore) && blocks.length === 0 ? 'ALERT' : s >= CONFIG.watchScore ? 'WATCH' : 'QUIET';
+  return { _raw: s, id: a.id, name: a.name, cls: a.cls, price: px, score: s, dir, status, factors, blocks, plan,
     stats: { atr1h: atrH, rsi: r, rvol, bbPct, funding: der?.funding ?? null, oiChg6h: der?.oiChg6h ?? null }, at: now };
 }
 
