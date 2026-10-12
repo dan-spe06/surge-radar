@@ -34,7 +34,13 @@ async function getJSON(url, ms = 12000) {
 }
 
 // ---------- universe ----------
+import fs from 'node:fs';
+const UNI_CACHE = new URL('./data/universe.json', import.meta.url).pathname;
 export async function cryptoUniverse() {
+  try { const u = await fetchUniverse(); try { fs.writeFileSync(UNI_CACHE, JSON.stringify(u)); } catch {} return u; }
+  catch (e) { try { return JSON.parse(fs.readFileSync(UNI_CACHE, 'utf8')); } catch { throw e; } }
+}
+async function fetchUniverse() {
   const [cg, inst] = await Promise.all([
     getJSON('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=80'),
     getJSON('https://www.okx.com/api/v5/public/instruments?instType=SPOT'),
