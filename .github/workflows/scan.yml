@@ -1,24 +1,36 @@
 name: Surge Radar scan
+# Runs one long job that scans every 10 minutes for ~5.5 hours, then restarts itself.
+# The cron below is only a safety net in case the chain ever breaks.
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '7 */2 * * *'
   workflow_dispatch:
 concurrency: { group: scan, cancel-in-progress: false }
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: node ci.mjs
+      - name: Scan every 10 minutes
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-      - name: Save history
         run: |
           git config user.name surge-radar-bot
           git config user.email bot@users.noreply.github.com
-          git add data
-          git diff --cached --quiet || (git commit -m "scan $(date -u +%FT%TZ)" && git pull --rebase && git push)
+          for i in $(seq 1 33); do
+            start=$(date +%s)
+            git pull -q --rebase || true
+            node ci.mjs || echo "scan failed"
+            git add data
+            git diff --cached --quiet || (git commit -qm "scan $(date -u +%FT%TZ)" && (git push -q || (git pull -q --rebase && git push -q)))
+            [ $i -lt 33 ] && sleep $(( 600 - ($(date +%s) - start) ))
+          done
+      - name: Restart chain
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run scan.yml --repo ${{ github.repository }}
