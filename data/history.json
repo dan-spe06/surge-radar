@@ -37,7 +37,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.083984530613685,
+   "mfe": 1.70807974938299,
    "mae": 0.4914869361971434
   }
  },
@@ -79,7 +79,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08594626344026005,
+   "mfe": 0.46693193869032285,
    "mae": 0.6324105653140772
   }
  },
@@ -121,7 +121,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.016181700652821478,
+   "mfe": 1.2405970500495518,
    "mae": 0.3613913145796547
   }
  },
@@ -163,8 +163,386 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13148519439581074,
+   "mfe": 0.981081835107148,
    "mae": 0.3742270917418994
+  }
+ },
+ {
+  "uid": "TRX-SHORT-1791846530500",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846530500,
+  "factors": [
+   "Volume 6.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005106614267377668,
+   "rsi": 28.383102514598434,
+   "rvol": 5.9883713853991285,
+   "bbPct": 1,
+   "funding": -0.0003269835188927,
+   "oiChg6h": 0.0012958042281232594
+  },
+  "plan": {
+   "entry": 0.32939,
+   "stop": 0.3299006614267378,
+   "takeProfit": 0.3281133464331556,
+   "stopDist": 0.0005106614267377668,
+   "tpDist": 0.0012766535668444169,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 9791.223182728434,
+   "unit": "TRX",
+   "notional": 3225.131004158919,
+   "note": "Needs ~6.5x leverage",
+   "timeStop": "2026-10-13T05:08:50.500Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.469978712771,
+   "mae": 0.6853856227909149
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1791846530501",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846530501,
+  "factors": [
+   "Volume 7.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.8513265036673383,
+   "rsi": 27.810725635001404,
+   "rvol": 7.474365169813676,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 736.8,
+   "stop": 740.6513265036673,
+   "takeProfit": 727.1716837408316,
+   "stopDist": 3.8513265036673383,
+   "tpDist": 9.628316259168345,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 1.298253989953556,
+   "unit": "BNB",
+   "notional": 956.5535397977799,
+   "note": "Needs ~1.9x leverage",
+   "timeStop": "2026-10-13T05:08:50.501Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7789523939721336,
+   "mae": 0.9087777929674891
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1791846530512",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846530512,
+  "factors": [
+   "Volume 15.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 419.0266089922695,
+   "rsi": 34.83029525116713,
+   "rvol": 15.88898787109475,
+   "bbPct": 1,
+   "funding": 0.0000292636324858,
+   "oiChg6h": -0.01992162163804648
+  },
+  "plan": {
+   "entry": 82089,
+   "stop": 82508.02660899227,
+   "takeProfit": 81041.43347751933,
+   "stopDist": 419.0266089922695,
+   "tpDist": 1047.5665224806737,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 0.011932416444923773,
+   "unit": "BTC",
+   "notional": 979.5201335473475,
+   "note": "Needs ~2.0x leverage",
+   "timeStop": "2026-10-13T05:08:50.512Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6827728689785522,
+   "mae": 0.43911292517319483
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1791846530870",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846530870,
+  "factors": [
+   "Volume 10.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.14027595943411858,
+   "rsi": 31.298346033569572,
+   "rvol": 10.569866337693492,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 12.735,
+   "stop": 12.875275959434118,
+   "takeProfit": 12.384310101414703,
+   "stopDist": 0.14027595943411858,
+   "tpDist": 0.3506898985852964,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 35.6440263903401,
+   "unit": "LINK",
+   "notional": 453.92667608098117,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:08:50.870Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6772365014164538,
+   "mae": 0.6344636697480567
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1791846530886",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846530886,
+  "factors": [
+   "Volume 5.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0029836540674586863,
+   "rsi": 25.226518519269888,
+   "rvol": 5.914042102852646,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2354,
+   "stop": 0.23838365406745868,
+   "takeProfit": 0.22794086483135328,
+   "stopDist": 0.0029836540674586863,
+   "tpDist": 0.007459135168646716,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 1675.7974909131228,
+   "unit": "ADA",
+   "notional": 394.4827293609491,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:08:50.886Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6032870967287229,
+   "mae": 0.7708668458200354
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1791846531222",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846531222,
+  "factors": [
+   "Volume 20.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.561244778226005,
+   "rsi": 22.09055651924669,
+   "rvol": 20.141867416646875,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 268.3,
+   "stop": 270.861244778226,
+   "takeProfit": 261.896888054435,
+   "stopDist": 2.561244778226005,
+   "tpDist": 6.403111945565012,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 1.9521757711354517,
+   "unit": "BCH",
+   "notional": 523.7687593956417,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-13T05:08:51.222Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5856527313406356,
+   "mae": 0.9760878855677259
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1791846531248",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846531248,
+  "factors": [
+   "Volume 3.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.13962121502819214,
+   "rsi": 29.42808763013045,
+   "rvol": 3.4404144274020756,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.219,
+   "stop": 10.358621215028192,
+   "takeProfit": 9.86994696242952,
+   "stopDist": 0.13962121502819214,
+   "tpDist": 0.34905303757048034,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 35.81117668250062,
+   "unit": "AVAX",
+   "notional": 365.95441451847387,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:08:51.248Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.48703200288200577,
+   "mae": 0.7018990629770177
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1791846531418",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846531418,
+  "factors": [
+   "Volume 3.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0147960094738673,
+   "rsi": 24.498439518053146,
+   "rvol": 3.8523581576692916,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.0373,
+   "stop": 1.0520960094738674,
+   "takeProfit": 1.0003099763153318,
+   "stopDist": 0.0147960094738673,
+   "tpDist": 0.03699002368466825,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 337.92895367031196,
+   "unit": "SUI",
+   "notional": 350.5337036422146,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:08:51.418Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4798591142118502,
+   "mae": 0.7299265399278685
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1791846531579",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791846531579,
+  "factors": [
+   "Volume 6.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.7742542842741864,
+   "rsi": 27.216600858489613,
+   "rvol": 6.627326085694754,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 275.5,
+   "stop": 279.2742542842742,
+   "takeProfit": 266.06436428931454,
+   "stopDist": 3.7742542842741864,
+   "tpDist": 9.435635710685466,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 1.3247650061186942,
+   "unit": "TAO",
+   "notional": 364.9727591857002,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:08:51.579Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5299060024474777,
+   "mae": 0.3974295018356082
   }
  }
 ]
