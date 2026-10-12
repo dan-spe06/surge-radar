@@ -79,7 +79,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6465211458789072,
+   "mfe": 1.4405619976627158,
    "mae": 0.6324105653140772
   }
  },
@@ -163,7 +163,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.981081835107148,
+   "mfe": 1.0822242923346863,
    "mae": 0.3742270917418994
   }
  },
@@ -543,6 +543,132 @@
    "r": null,
    "mfe": 0.5299060024474777,
    "mae": 0.3974295018356082
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1791847731159",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791847731159,
+  "factors": [
+   "Volume 6.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.980117005129716,
+   "rsi": 25.165372904865293,
+   "rvol": 6.866460515730359,
+   "bbPct": 1,
+   "funding": 0.0000854042749114,
+   "oiChg6h": -0.011196728282692005
+  },
+  "plan": {
+   "entry": 105.9,
+   "stop": 106.88011700512972,
+   "takeProfit": 103.44970748717571,
+   "stopDist": 0.980117005129716,
+   "tpDist": 2.45029251282429,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 5.101431741140194,
+   "unit": "SOL",
+   "notional": 540.2416213867466,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-13T05:28:51.159Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16324581571649724,
+   "mae": 0.5203460375962905
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1791847731479",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791847731479,
+  "factors": [
+   "Volume 3.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 21.613374568020582,
+   "rsi": 26.50798097321764,
+   "rvol": 3.8227949424544883,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1183.56,
+   "stop": 1205.1733745680206,
+   "takeProfit": 1129.5265635799485,
+   "stopDist": 21.613374568020582,
+   "tpDist": 54.03343642005146,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 0.23133823847193496,
+   "unit": "ZEC",
+   "notional": 273.80268552584334,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T05:28:51.479Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10780361912791833,
+   "mae": 0.7930274814817977
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1791847731507",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1791847731507,
+  "factors": [
+   "Volume 8.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008239889763212585,
+   "rsi": 25.103008026522346,
+   "rvol": 7.994913343749062,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08276,
+   "stop": 0.08358398897632126,
+   "takeProfit": 0.08070002755919685,
+   "stopDist": 0.0008239889763212585,
+   "tpDist": 0.0020599724408031463,
+   "rr": 2.5,
+   "risk$": 5,
+   "qty": 6068.042344841504,
+   "unit": "DOGE",
+   "notional": 502.1911844590829,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-13T05:28:51.507Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.31553820193175375,
+   "mae": 0.7281650813809845
   }
  }
 ]
