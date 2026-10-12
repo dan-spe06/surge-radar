@@ -80,7 +80,7 @@ nav button.on{color:var(--amber)}
 const PORT_RAW = '__PORT_8000__';
 const BASE = PORT_RAW.indexOf('PORT_') === 2 ? '' : PORT_RAW; // pplx preview rewrites the placeholder; Vercel serves /api on the same origin
 const API = BASE + '/api/scan';
-const PUBLIC_URL = 'https://surge-radar.vercel.app'; // public link used for "Copy report link"
+const PUBLIC_URL = 'https://surge-radar-theta.vercel.app'; // public link used for "Copy report link"
 const ck = document.cookie.match(/sr=([^;]+)/);
 const S = Object.assign({account:500,risk:1,rr:2.5,notify:false}, ck ? JSON.parse(decodeURIComponent(ck[1])) : {}); const seenMem = {};
 const saveS = () => { document.cookie = 'sr=' + encodeURIComponent(JSON.stringify(S)) + ';max-age=31536000;path=/;SameSite=Lax'; };
