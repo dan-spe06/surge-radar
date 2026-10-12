@@ -1,0 +1,26 @@
+{
+ "generated": "2026-10-12T17:40:09.984Z",
+ "total": 0,
+ "open": 0,
+ "closed": 0,
+ "wins": 0,
+ "losses": 0,
+ "timeouts": 0,
+ "winRate": null,
+ "netR": 0,
+ "avgR": null,
+ "breakevenWinRate": 0.286,
+ "byClass": {},
+ "bySymbol": {},
+ "byDirection": {},
+ "config": {
+  "accountSize": 500,
+  "riskPct": 1,
+  "rewardRisk": 2.5,
+  "alertScore": 75,
+  "watchScore": 60,
+  "stopAtrMult": 1,
+  "timeStopHours": 6,
+  "dedupHours": 4
+ }
+}
