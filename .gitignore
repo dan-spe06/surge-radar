@@ -1,0 +1,7 @@
+node_modules
+alert-state.json
+pending-alerts.json
+last-scan.json
+settings.json
+local-data
+.ntfy-topic
