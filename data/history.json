@@ -920,5 +920,49 @@
    "mfe": 0.02745351051972295,
    "mae": 0.3048616575155621
   }
+ },
+ {
+  "uid": "BTC-LONG-1791928213211",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 58,
+  "at": 1791928213211,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 2.0x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 417.6867704682577,
+   "rsi": 55.2953880075565,
+   "rvol": 2.0179908992392614,
+   "bbPct": 0.07142857142857142,
+   "funding": -0.0000066343400526,
+   "oiChg6h": -0.0017800027856437522
+  },
+  "plan": {
+   "entry": 83520.6,
+   "stop": 82894.06984429761,
+   "takeProfit": 85086.92538925598,
+   "stopDist": 626.5301557023865,
+   "tpDist": 1566.3253892559665,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.011970692761934095,
+   "unit": "BTC",
+   "notional": 999.7994418923929,
+   "note": "Needs ~2.0x leverage",
+   "timeStop": "2026-10-14T09:50:13.211Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.015003268261614775,
+   "mae": 0.10869389027837087
+  }
  }
 ]
