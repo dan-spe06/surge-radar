@@ -1,20 +1,20 @@
 {
- "generated": "2026-10-13T00:48:52.762Z",
+ "generated": "2026-10-13T00:58:52.353Z",
  "total": 18,
- "open": 8,
- "closed": 10,
- "wins": 10,
+ "open": 2,
+ "closed": 16,
+ "wins": 16,
  "losses": 0,
  "timeouts": 0,
  "winRate": 1,
- "netR": 25,
+ "netR": 40,
  "avgR": 2.5,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 10,
-   "wins": 10,
-   "R": 25,
+   "n": 16,
+   "wins": 16,
+   "R": 40,
    "winRate": 1
   }
  },
@@ -49,6 +49,12 @@
    "R": 2.5,
    "winRate": 1
   },
+  "BTC": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
   "LINK": {
    "n": 1,
    "wins": 1,
@@ -67,6 +73,18 @@
    "R": 2.5,
    "winRate": 1
   },
+  "AVAX": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "SUI": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
   "TAO": {
    "n": 1,
    "wins": 1,
@@ -78,13 +96,31 @@
    "wins": 1,
    "R": 2.5,
    "winRate": 1
+  },
+  "ZEC": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "DOGE": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "LTC": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
   }
  },
  "byDirection": {
   "SHORT": {
-   "n": 10,
-   "wins": 10,
-   "R": 25,
+   "n": 16,
+   "wins": 16,
+   "R": 40,
    "winRate": 1
   }
  },
