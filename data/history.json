@@ -790,5 +790,48 @@
    "mfe": 2.7869133058362023,
    "mae": 0.5771713946998058
   }
+ },
+ {
+  "uid": "RENDER-LONG-1791870550914",
+  "id": "RENDER",
+  "name": "Render",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1791870550914,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.4x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.05769333003774353,
+   "rsi": 66.51169490490004,
+   "rvol": 4.361097367219999,
+   "bbPct": 0.8571428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.178,
+   "stop": 2.0914600049433845,
+   "takeProfit": 2.3943499876415384,
+   "stopDist": 0.0865399950566153,
+   "tpDist": 0.21634998764153826,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 86.66513090384888,
+   "unit": "RENDER",
+   "notional": 188.75665510858283,
+   "note": "Spot OK",
+   "timeStop": "2026-10-13T17:49:10.914Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1617749110205206,
+   "mae": 0.023110701574357156
+  }
  }
 ]

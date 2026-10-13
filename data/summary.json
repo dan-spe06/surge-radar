@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T05:39:08.557Z",
- "total": 18,
- "open": 0,
+ "generated": "2026-10-13T05:49:11.303Z",
+ "total": 19,
+ "open": 1,
  "closed": 18,
  "wins": 16,
  "losses": 2,
@@ -138,13 +138,16 @@
  },
  "config": {
   "accountSize": 500,
-  "riskPct": 1,
+  "riskPct": 1.5,
   "rewardRisk": 2.5,
   "alertScore": 50,
   "watchScore": 40,
   "stopAtrMult": 1.5,
   "timeStopHours": 12,
   "maxOpen": 10,
+  "coreCount": 20,
+  "smallCoinMinScore": 60,
+  "cryptoCount": 40,
   "tradeClasses": [
    "crypto"
   ],
