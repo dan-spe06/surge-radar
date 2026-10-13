@@ -1,18 +1,69 @@
 {
- "generated": "2026-10-12T23:58:53.828Z",
+ "generated": "2026-10-13T00:08:53.924Z",
  "total": 18,
- "open": 18,
- "closed": 0,
- "wins": 0,
+ "open": 12,
+ "closed": 6,
+ "wins": 6,
  "losses": 0,
  "timeouts": 0,
- "winRate": null,
- "netR": 0,
- "avgR": null,
+ "winRate": 1,
+ "netR": 15,
+ "avgR": 2.5,
  "breakevenWinRate": 0.286,
- "byClass": {},
- "bySymbol": {},
- "byDirection": {},
+ "byClass": {
+  "crypto": {
+   "n": 6,
+   "wins": 6,
+   "R": 15,
+   "winRate": 1
+  }
+ },
+ "bySymbol": {
+  "ETH": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "XLM": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "UNI": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "BNB": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "LINK": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  },
+  "SOL": {
+   "n": 1,
+   "wins": 1,
+   "R": 2.5,
+   "winRate": 1
+  }
+ },
+ "byDirection": {
+  "SHORT": {
+   "n": 6,
+   "wins": 6,
+   "R": 15,
+   "winRate": 1
+  }
+ },
  "config": {
   "accountSize": 500,
   "riskPct": 1,
