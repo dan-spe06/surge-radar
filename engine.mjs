@@ -8,8 +8,10 @@ export const CONFIG = {
   rewardRisk: 2.5,        // take-profit = 2.5 x stop distance
   alertScore: 50,         // minimum score to alert
   watchScore: 40,         // shown in app as "building"
-  stopAtrMult: 1.0,       // base stop distance in 1h ATRs
-  timeStopHours: 6,
+  stopAtrMult: 1.5,       // base stop distance in 1h ATRs (30-day test: 1.5 beat 0.6 and 1.0)
+  timeStopHours: 12,      // 30-day test: 12h beat 4h and 6h
+  maxOpen: 10,            // never push a new trade while 10 signals are still open
+  tradeClasses: ['crypto'], // forex/gold/futures lost money or could not be sized on $500 in the 30-day test -> watch only
   dedupHours: 4,          // same symbol+direction is not re-pushed within this window
 };
 
@@ -241,6 +243,8 @@ export async function analyze(a, news, opts = {}) {
   if (imminent.length) blocks.push(`News in <30 min (${imminent[0].title}) — wait for the release`);
   const sess = sessionCheck(a, now); if (!sess.ok) blocks.push(sess.why);
   if (!dir) blocks.push('No clear direction');
+  if (dir && a.cls === 'crypto' && opts.btcTrend && ((dir === 'LONG') !== (opts.btcTrend > 0))) blocks.push(`Against Bitcoin trend (BTC ${opts.btcTrend > 0 ? 'up' : 'down'})`);
+  if (!CONFIG.tradeClasses.includes(a.cls)) blocks.push('Watch only: this market lost money in the 30-day test');
 
   // ---------- levels ----------
   let plan = null;
@@ -252,7 +256,6 @@ export async function analyze(a, news, opts = {}) {
     stopDist = Math.max(stopDist, 0.6 * atrH);
     const tpDist = stopDist * CONFIG.rewardRisk;
     const exp4h = atrH * 4 * 0.85; // realistic 4h range when volatility expands
-    if (tpDist > exp4h) blocks.push('Target unlikely within 4h');
     const sl = dir === 'LONG' ? px - stopDist : px + stopDist;
     const tp = dir === 'LONG' ? px + tpDist : px - tpDist;
     plan = { entry: px, stop: sl, takeProfit: tp, stopDist, tpDist, rr: CONFIG.rewardRisk, ...sizing(a, px, stopDist), timeStop: new Date(now + CONFIG.timeStopHours * 3600000).toISOString() };
@@ -282,12 +285,14 @@ export function sizing(a, px, stopDist) {
 }
 
 export async function scanAll() {
-  const [crypto, news] = await Promise.all([cryptoUniverse(), highImpactNews()]);
+  const [crypto, news, btc] = await Promise.all([cryptoUniverse(), highImpactNews(), okxCandles('BTC-USDT', '15m', 300).catch(() => null)]);
+  let btcTrend = 0;
+  if (btc && btc.length > 210) { const cl = btc.map(b => b.c); const e = emaSeries(cl.slice(-201), 200).at(-1); btcTrend = cl.at(-1) > e ? 1 : -1; }
   const assets = [...crypto, ...MACRO];
   const results = [], errors = [];
   const queue = [...assets];
   await Promise.all(Array.from({ length: 6 }, async () => {
-    while (queue.length) { const a = queue.shift(); try { results.push(await analyze(a, news)); } catch (e) { errors.push({ id: a.id, error: String(e.message || e) }); } }
+    while (queue.length) { const a = queue.shift(); try { results.push(await analyze(a, news, { btcTrend })); } catch (e) { errors.push({ id: a.id, error: String(e.message || e) }); } }
   }));
   const order = { ALERT: 0, WATCH: 1, QUIET: 2 };
   results.sort((x, y) => order[x.status] - order[y.status] || y.score - x.score);
