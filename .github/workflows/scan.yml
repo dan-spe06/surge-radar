@@ -27,7 +27,7 @@ jobs:
             node ci.mjs || echo "scan failed"
             git add data
             git diff --cached --quiet || (git commit -qm "scan $(date -u +%FT%TZ)" && (git push -q || (git pull -q --rebase && git push -q)))
-            [ $i -lt 33 ] && sleep $(( 600 - ($(date +%s) - start) ))
+            if [ $i -lt 33 ]; then w=$(( 600 - ($(date +%s) - start) )); [ $w -gt 0 ] && sleep $w; fi; true
           done
       - name: Restart chain
         if: always()
