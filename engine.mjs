@@ -4,13 +4,16 @@
 
 export const CONFIG = {
   accountSize: 500,
-  riskPct: 1.0,           // % of account risked per trade
+  riskPct: 1.5,           // % risked per trade. 30-day test: 1.5% gave the best profit-to-drawdown (1%, 1.25%, 1.75%, 2% all worse)
   rewardRisk: 2.5,        // take-profit = 2.5 x stop distance
   alertScore: 50,         // minimum score to alert
   watchScore: 40,         // shown in app as "building"
   stopAtrMult: 1.5,       // base stop distance in 1h ATRs (30-day test: 1.5 beat 0.6 and 1.0)
   timeStopHours: 12,      // 30-day test: 12h beat 4h and 6h
   maxOpen: 10,            // never push a new trade while 10 signals are still open
+  coreCount: 20,          // top-20 coins trade at the normal threshold
+  smallCoinMinScore: 60,  // coins ranked 21-40 need a higher score (they were weaker in the 30-day test)
+  cryptoCount: 40,        // top-N cryptocurrencies by market cap (stablecoins and wrapped tokens excluded)
   tradeClasses: ['crypto'], // forex/gold/futures lost money or could not be sized on $500 in the 30-day test -> watch only
   dedupHours: 4,          // same symbol+direction is not re-pushed within this window
 };
@@ -55,8 +58,8 @@ async function fetchUniverse() {
     if (Math.abs((c.current_price || 0) - 1) < 0.02 && /usd/.test(s)) continue;
     const S = c.symbol.toUpperCase();
     if (!okx.has(S)) continue;
-    out.push({ id: S, name: c.name, cls: 'crypto', okx: `${S}-USDT`, rank: c.market_cap_rank });
-    if (out.length === 20) break;
+    out.push({ id: S, name: c.name, cls: 'crypto', okx: `${S}-USDT`, rank: c.market_cap_rank, core: out.length < CONFIG.coreCount });
+    if (out.length === CONFIG.cryptoCount) break;
   }
   return out;
 }
@@ -244,6 +247,7 @@ export async function analyze(a, news, opts = {}) {
   const sess = sessionCheck(a, now); if (!sess.ok) blocks.push(sess.why);
   if (!dir) blocks.push('No clear direction');
   if (dir && a.cls === 'crypto' && opts.btcTrend && ((dir === 'LONG') !== (opts.btcTrend > 0))) blocks.push(`Against Bitcoin trend (BTC ${opts.btcTrend > 0 ? 'up' : 'down'})`);
+  if (a.cls === 'crypto' && a.core === false && s < CONFIG.smallCoinMinScore) blocks.push(`Smaller coin: needs score ${CONFIG.smallCoinMinScore}+`);
   if (!CONFIG.tradeClasses.includes(a.cls)) blocks.push('Watch only: this market lost money in the 30-day test');
 
   // ---------- levels ----------

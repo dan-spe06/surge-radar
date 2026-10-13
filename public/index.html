@@ -72,7 +72,7 @@ nav button.on{color:var(--amber)}
     <h1>Surge Radar</h1>
     <div class="meta"><div><span class="pulse"></span><span id="last">Scanning…</span></div><div class="mono" id="next"></div></div>
   </div>
-  <div class="tabs" id="tabs"><button data-f="ALERT" class="on">Signals</button><button data-f="WATCH">Building</button><button data-f="ALL">All 27</button></div>
+  <div class="tabs" id="tabs"><button data-f="ALERT" class="on">Signals</button><button data-f="WATCH">Building</button><button data-f="ALL">All 47</button></div>
 </header>
 <main id="view"></main>
 <nav><button data-v="scan" class="on">Scanner</button><button data-v="history">History</button><button data-v="news">News</button><button data-v="settings">Settings</button></nav>
@@ -82,7 +82,7 @@ const BASE = PORT_RAW.indexOf('PORT_') === 2 ? '' : PORT_RAW; // pplx preview re
 const API = BASE + '/api/scan';
 const PUBLIC_URL = 'https://surge-radar-theta.vercel.app'; // public link used for "Copy report link"
 const ck = document.cookie.match(/sr=([^;]+)/);
-const S = Object.assign({account:500,risk:1,rr:2.5,notify:false}, ck ? JSON.parse(decodeURIComponent(ck[1])) : {}); const seenMem = {};
+const S = Object.assign({account:500,risk:1.5,rr:2.5,notify:false}, ck ? JSON.parse(decodeURIComponent(ck[1])) : {}); const seenMem = {};
 const saveS = () => { document.cookie = 'sr=' + encodeURIComponent(JSON.stringify(S)) + ';max-age=31536000;path=/;SameSite=Lax'; };
 let hist = null, summ = null;
 let scan = null, filter = 'ALERT', view = 'scan', nextAt = 0;
