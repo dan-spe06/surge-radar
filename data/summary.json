@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T05:19:08.936Z",
+ "generated": "2026-10-13T05:29:08.918Z",
  "total": 18,
  "open": 0,
  "closed": 18,
@@ -142,8 +142,12 @@
   "rewardRisk": 2.5,
   "alertScore": 50,
   "watchScore": 40,
-  "stopAtrMult": 1,
-  "timeStopHours": 6,
+  "stopAtrMult": 1.5,
+  "timeStopHours": 12,
+  "maxOpen": 10,
+  "tradeClasses": [
+   "crypto"
+  ],
   "dedupHours": 4
  }
 }
