@@ -874,7 +874,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.412134830718351,
+   "mfe": 0.46062128139109715,
    "mae": 0.5624428278038658
   }
  },
@@ -961,7 +961,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05219222044202801,
+   "mfe": 0.2560132158685546,
    "mae": 0.6149743894897656
   }
  },
@@ -1005,7 +1005,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.003572429315497562,
-   "mae": 0.6704259015406201
+   "mae": 0.8633370845771815
   }
  },
  {
@@ -1047,7 +1047,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2706713012589957,
+   "mfe": 0.7308125133992852,
    "mae": 0.08120139037770178
   }
  },
@@ -1135,8 +1135,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.008126081120444384,
-   "mae": 0.12595425736682442
+   "mfe": 0.15439554128836244,
+   "mae": 0.21127810913145004
+  }
+ },
+ {
+  "uid": "BCH-LONG-1791938433485",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1791938433485,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 18% of 5 days)",
+   "Volume 4.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.640426610685906,
+   "rsi": 62.44479312271289,
+   "rvol": 4.3366074809833375,
+   "bbPct": 0.17543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 278.8,
+   "stop": 274.83936008397114,
+   "takeProfit": 288.7015997900722,
+   "stopDist": 3.960639916028859,
+   "tpDist": 9.901599790072147,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.8936333923331978,
+   "unit": "BCH",
+   "notional": 527.9449897824956,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-14T12:40:33.485Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.5554657950844019
   }
  }
 ]
