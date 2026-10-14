@@ -259,6 +259,8 @@ export async function analyze(a, news, opts = {}) {
     if (pinFor(cb, !L)) { priority = true; factors.push('Shakeout wick against the move (strong pattern)'); }
     else if (bodyOf(cb) < 0.1 * rngOf(cb)) { priority = true; factors.push('Doji pause before continuation (strong pattern)'); }
   }
+  // 30-day test: crypto signals issued 16:00-20:00 UTC (12-4 PM ET during daylight time) lost money in both halves.
+  { const hU = new Date(now).getUTCHours(); if (a.cls === 'crypto' && hU >= 16 && hU < 20) blocks.push('US midday window (lost money in test)'); }
   const sess = sessionCheck(a, now); if (!sess.ok) blocks.push(sess.why);
   if (!dir) blocks.push('No clear direction');
   if (dir && a.cls === 'crypto' && opts.btcTrend && ((dir === 'LONG') !== (opts.btcTrend > 0))) blocks.push(`Against Bitcoin trend (BTC ${opts.btcTrend > 0 ? 'up' : 'down'})`);
