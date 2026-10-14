@@ -1371,7 +1371,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.1201429048788207,
-   "mae": 0.5503859394589337
+   "mae": 0.5884171280428088
   }
  },
  {
@@ -1552,7 +1552,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.12380518630986292,
-   "mae": 0.05777575361126081
+   "mae": 0.06602943269858379
   }
  },
  {
@@ -1598,7 +1598,52 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.12418048837448255,
-   "mae": 0
+   "mae": 0.2144935708286353
+  }
+ },
+ {
+  "uid": "ICP-SHORT-1791972247791",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1791972247791,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 2.8x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core CPI m/m"
+  ],
+  "stats": {
+   "atr1h": 0.04101627186671714,
+   "rsi": 37.741398594922615,
+   "rvol": 2.8161804547429403,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.066,
+   "stop": 3.1275244078000757,
+   "takeProfit": 2.9121889804998107,
+   "stopDist": 0.06152440780007572,
+   "tpDist": 0.1538110195001893,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 121.90283934745602,
+   "unit": "ICP",
+   "notional": 373.75410543930013,
+   "note": "Spot OK",
+   "timeStop": "2026-10-14T22:04:07.791Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.21129825486892936
   }
  }
 ]
