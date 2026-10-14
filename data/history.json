@@ -963,7 +963,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.43110454866643927,
+   "mfe": 0.6488115476968279,
    "mae": 0.6149743894897656
   }
  },
@@ -1007,7 +1007,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.003572429315497562,
-   "mae": 0.9220836999874916
+   "mae": 0.92605306589359
   }
  },
  {
@@ -1049,7 +1049,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.001483814658281,
+   "mfe": 1.3804236364208686,
    "mae": 0.08120139037770178
   }
  },
@@ -1181,8 +1181,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.25248445231109307,
+   "mfe": 0.6059626855466176,
    "mae": 0.7069564664710634
+  }
+ },
+ {
+  "uid": "SUI-LONG-1791948821974",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1791948821974,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal"
+  ],
+  "stats": {
+   "atr1h": 0.012551002936464288,
+   "rsi": 57.19650297141733,
+   "rvol": 2.3133405001271115,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.0685,
+   "stop": 1.0496734955953035,
+   "takeProfit": 1.1155662610117412,
+   "stopDist": 0.018826504404696433,
+   "tpDist": 0.047066261011741085,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 398.3745382987327,
+   "unit": "SUI",
+   "notional": 425.6631941721959,
+   "note": "Spot OK",
+   "timeStop": "2026-10-14T15:33:41.974Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.29214132808574056
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1791948821570",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1791948821570,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006738645333878555,
+   "rsi": 56.89168380606611,
+   "rvol": 0.17671309971413807,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08516,
+   "stop": 0.08414920319991821,
+   "takeProfit": 0.08768699200020445,
+   "stopDist": 0.0010107968000817834,
+   "tpDist": 0.0025269920002044585,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7419.888942459233,
+   "unit": "DOGE",
+   "notional": 631.8777423398283,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-14T15:33:41.570Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.019786370513230678,
+   "mae": 0.2374364461586995
   }
  }
 ]
