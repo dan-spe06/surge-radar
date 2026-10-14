@@ -1468,7 +1468,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.9865614693833764,
+   "mfe": 2.2514363319678368,
    "mae": 0.8608433033994581
   }
  },
@@ -1656,7 +1656,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1540135458225793,
+   "mfe": 1.349058088778509,
    "mae": 0.926461579040672
   }
  },
@@ -1748,7 +1748,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1585191650170152,
+   "mfe": 1.2837644801539865,
    "mae": 0.3287689522345648
   }
  },
@@ -1839,7 +1839,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1919503452813263,
+   "mfe": 1.376160853188438,
    "mae": 0.3034055424352491
   }
  },
@@ -1927,7 +1927,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4906596494511097,
+   "mfe": 1.560851619124195,
    "mae": 0.2835637852410903
   }
  },
@@ -1971,7 +1971,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8865889508355129,
+   "mfe": 1.0343537759747627,
    "mae": 0.3694120628481315
   }
  },
@@ -2016,7 +2016,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8401959854257092,
+   "mfe": 0.8725112156343958,
    "mae": 0.38778276250417687
   }
  },
@@ -2060,8 +2060,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.04259052132225167,
+   "mfe": 0.11073535543787089,
    "mae": 0.204434502346834
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1791989068358",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1791989068358,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (51th percentile)",
+   "Volume 6.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.15256731659575776,
+   "rsi": 24.78461504475655,
+   "rvol": 6.13865964518852,
+   "bbPct": 0.5087719298245614,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 12.341,
+   "stop": 12.569850974893637,
+   "takeProfit": 11.768872562765907,
+   "stopDist": 0.22885097489363665,
+   "tpDist": 0.5721274372340917,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 32.77241883494612,
+   "unit": "LINK",
+   "notional": 404.4444208420701,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T02:44:28.358Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13982898702910357,
+   "mae": 0.5418373247377783
   }
  }
 ]
