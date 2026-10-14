@@ -1933,7 +1933,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.0442491461179655,
+   "mfe": 2.144901781875564,
    "mae": 0.2835637852410903
   }
  },
@@ -2287,6 +2287,49 @@
    "r": null,
    "mfe": 0.2969359394160367,
    "mae": 0.3582388430374053
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1792017888190",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792017888190,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 444.05211441475495,
+   "rsi": 31.16083434785736,
+   "rvol": 2.1840966554943164,
+   "bbPct": 1,
+   "funding": 0.000027036540906,
+   "oiChg6h": 0.009661663358281173
+  },
+  "plan": {
+   "entry": 81496.4,
+   "stop": 82162.47817162213,
+   "takeProfit": 79831.20457094467,
+   "stopDist": 666.0781716221325,
+   "tpDist": 1665.1954290553313,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.011259939628009258,
+   "unit": "BTC",
+   "notional": 917.6445439000936,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-10-15T10:44:48.190Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06140420410473507,
+   "mae": 0.2787961051895267
   }
  }
 ]
