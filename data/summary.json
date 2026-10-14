@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-14T12:24:09.307Z",
+ "generated": "2026-10-14T12:34:09.030Z",
  "total": 38,
- "open": 8,
- "closed": 30,
+ "open": 3,
+ "closed": 35,
  "wins": 16,
- "losses": 10,
- "timeouts": 4,
- "winRate": 0.533,
- "netR": 30.79,
- "avgR": 1.026,
+ "losses": 14,
+ "timeouts": 5,
+ "winRate": 0.457,
+ "netR": 26.39,
+ "avgR": 0.754,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 30,
+   "n": 35,
    "wins": 16,
-   "R": 30.79,
-   "winRate": 0.533
+   "R": 26.39,
+   "winRate": 0.457
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 1.5,
-   "winRate": 0.5
+   "R": 0.5,
+   "winRate": 0.333
   },
   "HYPE": {
    "n": 1,
@@ -56,10 +56,10 @@
    "winRate": 1
   },
   "BTC": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 2.12,
-   "winRate": 0.5
+   "R": 1.12,
+   "winRate": 0.333
   },
   "LINK": {
    "n": 1,
@@ -74,10 +74,10 @@
    "winRate": 1
   },
   "BCH": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 3.56,
-   "winRate": 0.5
+   "R": 2.56,
+   "winRate": 0.333
   },
   "AVAX": {
    "n": 1,
@@ -104,10 +104,10 @@
    "winRate": 1
   },
   "ZEC": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 2.94,
-   "winRate": 0.5
+   "R": 2.54,
+   "winRate": 0.333
   },
   "DOGE": {
    "n": 2,
@@ -150,19 +150,25 @@
    "wins": 0,
    "R": -1,
    "winRate": 0
+  },
+  "POL": {
+   "n": 1,
+   "wins": 0,
+   "R": -1,
+   "winRate": 0
   }
  },
  "byDirection": {
   "SHORT": {
-   "n": 20,
+   "n": 22,
    "wins": 16,
-   "R": 36,
-   "winRate": 0.8
+   "R": 34,
+   "winRate": 0.727
   },
   "LONG": {
-   "n": 10,
+   "n": 13,
    "wins": 0,
-   "R": -5.21,
+   "R": -7.61,
    "winRate": 0
   }
  },
