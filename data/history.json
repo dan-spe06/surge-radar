@@ -874,7 +874,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3442537997765038,
+   "mfe": 0.412134830718351,
    "mae": 0.5624428278038658
   }
  },
@@ -917,7 +917,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08842584202283828,
+   "mfe": 0.6863377629931535,
    "mae": 0.31411923664431307
   }
  },
@@ -961,7 +961,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.04421175860073861,
+   "mfe": 0.05219222044202801,
    "mae": 0.6149743894897656
   }
  },
@@ -1005,7 +1005,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.003572429315497562,
-   "mae": 0.4826748941819955
+   "mae": 0.6704259015406201
   }
  },
  {
@@ -1047,8 +1047,96 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05413426025179606,
+   "mfe": 0.2706713012589957,
    "mae": 0.08120139037770178
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1791937833188",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 80,
+  "at": 1791937833188,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 4.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 19.447170006119258,
+   "rsi": 60.3733685871841,
+   "rvol": 4.803379156627638,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1242.54,
+   "stop": 1213.369244990821,
+   "takeProfit": 1315.4668875229472,
+   "stopDist": 29.170755009178887,
+   "tpDist": 72.92688752294721,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.25710681803196545,
+   "unit": "ZEC",
+   "notional": 319.46550567743833,
+   "note": "Spot OK",
+   "timeStop": "2026-10-14T12:30:33.188Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17654668171528604,
+   "mae": 0.399029781585606
+  }
+ },
+ {
+  "uid": "AAVE-LONG-1791937833993",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1791937833993,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 18% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.6408073136010002,
+   "rsi": 58.87120022953049,
+   "rvol": 0.5424986757042367,
+   "bbPct": 0.17543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 162.47,
+   "stop": 160.0087890295985,
+   "takeProfit": 168.62302742600374,
+   "stopDist": 2.4612109704015004,
+   "tpDist": 6.153027426003751,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.0472804201650847,
+   "unit": "AAVE",
+   "notional": 495.0916498642213,
+   "note": "Spot OK",
+   "timeStop": "2026-10-14T12:30:33.993Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.008126081120444384,
+   "mae": 0.12595425736682442
   }
  }
 ]
