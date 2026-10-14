@@ -1705,5 +1705,270 @@
    "mfe": 0.7289532050502481,
    "mae": 1.045543897088719
   }
+ },
+ {
+  "uid": "SHIB-SHORT-1791982446442",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1791982446442,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 36% of 5 days)",
+   "Volume 5.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.258309644157551e-8,
+   "rsi": 28.737984904555447,
+   "rvol": 5.787981514852766,
+   "bbPct": 0.35714285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000005082,
+   "stop": 0.000005145874644662363,
+   "takeProfit": 0.000004922313388344092,
+   "stopDist": 6.387464466236326e-8,
+   "tpDist": 1.5968661165590815e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 117417482.94091429,
+   "unit": "SHIB",
+   "notional": 596.7156483057264,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-15T00:54:06.442Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07827832196060877,
+   "mae": 0.3131132878424351
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1791982447146",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1791982447146,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 38% of 5 days)",
+   "Volume 4.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008982606481935037,
+   "rsi": 37.566635949876066,
+   "rvol": 4.023436026562815,
+   "bbPct": 0.375,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07505,
+   "stop": 0.07639739097229026,
+   "takeProfit": 0.07168152256927436,
+   "stopDist": 0.0013473909722902554,
+   "tpDist": 0.0033684774307256387,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5566.313085244828,
+   "unit": "SKY",
+   "notional": 417.75179704762434,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T00:54:07.146Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.35624403745566474
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1791982446780",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1791982446780,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 18% of 5 days)",
+   "Volatility below average",
+   "Volume 8.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006152381567205732,
+   "rsi": 31.6567631959727,
+   "rvol": 8.114709322130988,
+   "bbPct": 0.17857142857142858,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.4567,
+   "stop": 0.4659285723508086,
+   "takeProfit": 0.4336285691229785,
+   "stopDist": 0.009228572350808598,
+   "tpDist": 0.023071430877021494,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 812.6934172372672,
+   "unit": "ONDO",
+   "notional": 371.1570836522599,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T00:54:06.780Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07585138560880926,
+   "mae": 0.3034055424352491
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1791982447152",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1791982447152,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (41th percentile)",
+   "Volume 4.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.027720578983214696,
+   "rsi": 34.96033163416223,
+   "rvol": 4.9191133769905795,
+   "bbPct": 0.4107142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.306,
+   "stop": 2.347580868474822,
+   "takeProfit": 2.202047828812945,
+   "stopDist": 0.04158086847482204,
+   "tpDist": 0.1039521711870551,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 180.37141298627236,
+   "unit": "MORPHO",
+   "notional": 415.9364783463441,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T00:54:07.152Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04569409128985597,
+   "mae": 0.24290016948818008
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1791982445380",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1791982445380,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 27% of 5 days)",
+   "Volume 5.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 453.04327757312296,
+   "rsi": 40.626011747850086,
+   "rvol": 5.005123016733614,
+   "bbPct": 0.26785714285714285,
+   "funding": 0.000090870694427,
+   "oiChg6h": 0.0003997241476598862
+  },
+  "plan": {
+   "entry": 82913.1,
+   "stop": 83592.66491635969,
+   "takeProfit": 81214.18770910079,
+   "stopDist": 679.5649163596845,
+   "tpDist": 1698.9122908992113,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.011036473219035857,
+   "unit": "BTC",
+   "notional": 915.0682076572419,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-10-15T00:54:05.380Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.25383888403782473,
+   "mae": 0.270761476307013
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1791982445748",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1791982445748,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 10.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0027070041846768535,
+   "rsi": 32.7039152019632,
+   "rvol": 10.463487068622673,
+   "bbPct": 0.25,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2309,
+   "stop": 0.23496050627701529,
+   "takeProfit": 0.22074873430746178,
+   "stopDist": 0.004060506277015281,
+   "tpDist": 0.010151265692538202,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1847.0603142406558,
+   "unit": "ADA",
+   "notional": 426.4862265581674,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T00:54:05.748Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0985098834261643,
+   "mae": 0.2709021794219672
+  }
  }
 ]
