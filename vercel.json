@@ -1,1 +1,1 @@
-{ "outputDirectory": "public", "functions": { "api/*.js": { "maxDuration": 30 } }, "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)data'" }
+{ "outputDirectory": "public", "functions": { "api/*.js": { "maxDuration": 30 } }, "git": { "deploymentEnabled": { "data": false } }, "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)data'" }

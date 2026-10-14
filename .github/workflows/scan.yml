@@ -13,20 +13,22 @@ jobs:
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { ref: data, path: store }
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - name: Scan every 10 minutes
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DATA_DIR: store/data
         run: |
-          git config user.name surge-radar-bot
-          git config user.email bot@users.noreply.github.com
+          cd store && git config user.name surge-radar-bot && git config user.email bot@users.noreply.github.com && cd ..
           for i in $(seq 1 33); do
             start=$(date +%s)
             git pull -q --rebase || true
+            (cd store && git pull -q --rebase || true)
             node ci.mjs || echo "scan failed"
-            git add data
-            git diff --cached --quiet || (git commit -qm "scan $(date -u +%FT%TZ)" && (git push -q || (git pull -q --rebase && git push -q)))
+            (cd store && git add data && (git diff --cached --quiet || (git commit -qm "scan $(date -u +%FT%TZ)" && (git push -q || (git pull -q --rebase && git push -q)))))
             if [ $i -lt 33 ]; then w=$(( 600 - ($(date +%s) - start) )); [ $w -gt 0 ] && sleep $w; fi; true
           done
       - name: Restart chain
