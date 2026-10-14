@@ -244,6 +244,21 @@ export async function analyze(a, news, opts = {}) {
   if (dir === 'LONG' && r > 78) blocks.push('RSI overbought — chasing');
   if (dir === 'SHORT' && r < 22) blocks.push('RSI oversold — chasing');
   if (imminent.length) blocks.push(`News in <30 min (${imminent[0].title}) — wait for the release`);
+  // Candlestick patterns (30-day crypto test, both halves consistent):
+  //  - with-direction pin bar on the last 15m candle: -0.46R/trade -> block
+  //  - 1h inside-bar breakout in the signal direction: -0.13R/trade -> block
+  //  - counter-direction rejection wick or doji on the last 15m candle: +0.24 to +0.37R/trade -> priority
+  const cb = c15.at(-1), bodyOf = b => Math.abs(b.c - b.o), rngOf = b => (b.h - b.l) || 1e-12;
+  const pinFor = (b, L) => { const lw = Math.min(b.o, b.c) - b.l, uw = b.h - Math.max(b.o, b.c); return L ? (lw >= 2 * bodyOf(b) && lw >= 0.6 * rngOf(b)) : (uw >= 2 * bodyOf(b) && uw >= 0.6 * rngOf(b)); };
+  let priority = false;
+  if (dir) {
+    const L = dir === 'LONG';
+    if (pinFor(cb, L)) blocks.push('Pin bar in signal direction (lost money in test)');
+    const [m1, ib, bb] = h1.slice(-3);
+    if (ib && ib.h <= m1.h && ib.l >= m1.l && (L ? bb.c > ib.h : bb.c < ib.l)) blocks.push('1h inside-bar breakout (lost money in test)');
+    if (pinFor(cb, !L)) { priority = true; factors.push('Shakeout wick against the move (strong pattern)'); }
+    else if (bodyOf(cb) < 0.1 * rngOf(cb)) { priority = true; factors.push('Doji pause before continuation (strong pattern)'); }
+  }
   const sess = sessionCheck(a, now); if (!sess.ok) blocks.push(sess.why);
   if (!dir) blocks.push('No clear direction');
   if (dir && a.cls === 'crypto' && opts.btcTrend && ((dir === 'LONG') !== (opts.btcTrend > 0))) blocks.push(`Against Bitcoin trend (BTC ${opts.btcTrend > 0 ? 'up' : 'down'})`);
@@ -266,7 +281,7 @@ export async function analyze(a, news, opts = {}) {
   }
 
   const status = s >= (opts.alertScore ?? CONFIG.alertScore) && blocks.length === 0 ? 'ALERT' : s >= CONFIG.watchScore ? 'WATCH' : 'QUIET';
-  return { _raw: s, id: a.id, name: a.name, cls: a.cls, price: px, score: s, dir, status, factors, blocks, plan,
+  return { _raw: s, priority, id: a.id, name: a.name, cls: a.cls, price: px, score: s, dir, status, factors, blocks, plan,
     stats: { atr1h: atrH, rsi: r, rvol, bbPct, funding: der?.funding ?? null, oiChg6h: der?.oiChg6h ?? null }, at: now };
 }
 
@@ -283,6 +298,10 @@ export function sizing(a, px, stopDist) {
   if (a.id === 'XAUUSD') {
     const oz = risk$ / stopDist; const lots = oz / 100;
     return { risk$, qty: Math.max(0.01, Math.floor(lots * 100) / 100), unit: 'lots', note: lots < 0.01 ? `Min 0.01 lot risks ≈ $${stopDist.toFixed(2)} — over budget` : `$${stopDist.toFixed(2)} stop` };
+  }
+  if (a.cls === 'stock') {
+    const sh = risk$ / stopDist;
+    return { risk$, qty: +sh.toFixed(3), unit: 'shares', notional: sh * px, note: sh * px > CONFIG.accountSize ? `Needs ~${(sh * px / CONFIG.accountSize).toFixed(1)}x margin` : 'Fractional shares OK' };
   }
   const m = a.micro; const per = stopDist * m.ptVal;
   return { risk$, qty: per <= risk$ ? Math.floor(risk$ / per) : 0, unit: m.sym, note: per > risk$ ? `1 ${m.sym} risks $${per.toFixed(0)} — exceeds $${risk$.toFixed(0)} budget` : `${m.sym} micro` };

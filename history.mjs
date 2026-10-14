@@ -49,7 +49,7 @@ export async function record(dir, scan) {
   const state = rd(F('state.json'), {}), hist = rd(F('history.json'), []);
   const openN = hist.filter(h => h.outcome.result === 'OPEN').length;
   const room = Math.max(0, (CONFIG.maxOpen ?? 99) - openN);
-  const cand = scan.results.filter(r => r.status === 'ALERT').sort((x, y) => y.score - x.score).slice(0, room);
+  const cand = scan.results.filter(r => r.status === 'ALERT').sort((x, y) => (y.priority ? 1 : 0) - (x.priority ? 1 : 0) || y.score - x.score).slice(0, room);
   const fresh = dedupe(cand, state);
   for (const a of fresh) hist.push({ uid: `${a.id}-${a.dir}-${a.at}`, id: a.id, name: a.name, cls: a.cls, dir: a.dir, score: a.score, at: a.at, factors: a.factors, stats: a.stats, plan: a.plan, outcome: { result: 'OPEN' } });
   for (const h of hist) if (h.outcome.result === 'OPEN') { try { h.outcome = await evaluate(h); } catch {} }
