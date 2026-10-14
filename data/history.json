@@ -963,8 +963,10 @@
    "timeStop": "2026-10-14T09:50:13.211Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": -0.38,
+   "closedAt": 1791971413211,
+   "exit": 83284.7,
    "mfe": 0.9999518687135613,
    "mae": 0.6149743894897656
   }
@@ -1369,7 +1371,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.1201429048788207,
-   "mae": 0.5443436010858075
+   "mae": 0.5503859394589337
   }
  },
  {
@@ -1409,10 +1411,12 @@
    "timeStop": "2026-10-14T20:24:05.547Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1791971100000,
+   "exit": 1.3640883350004174,
    "mfe": 0.19592905148342146,
-   "mae": 0.9535213838859448
+   "mae": 1.064547846393215
   }
  },
  {
@@ -1456,7 +1460,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13243743129223012,
+   "mfe": 0.1986561469383326,
    "mae": 0.1986561469383326
   }
  },
@@ -1547,8 +1551,54 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11142466767887847,
+   "mfe": 0.12380518630986292,
    "mae": 0.05777575361126081
+  }
+ },
+ {
+  "uid": "POL-SHORT-1791971648363",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 92,
+  "at": 1791971648363,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 16% of 5 days)",
+   "Volume 3.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core CPI m/m",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0011810765812450502,
+   "rsi": 31.62109962335836,
+   "rvol": 3.5746068682367644,
+   "bbPct": 0.16071428571428573,
+   "funding": -0.0000652778601154,
+   "oiChg6h": -0.03712167071303764
+  },
+  "plan": {
+   "entry": 0.09821,
+   "stop": 0.09998161487186757,
+   "takeProfit": 0.09378096282033106,
+   "stopDist": 0.0017716148718675754,
+   "tpDist": 0.004429037179668939,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4233.42574003895,
+   "unit": "POL",
+   "notional": 415.7647419292253,
+   "note": "Spot OK",
+   "timeStop": "2026-10-14T21:54:08.363Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12418048837448255,
+   "mae": 0
   }
  }
 ]
