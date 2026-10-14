@@ -1468,7 +1468,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8608433033994581,
+   "mfe": 0.9932807346916882,
    "mae": 0.8608433033994581
   }
  },
@@ -1513,7 +1513,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4588236164836188,
+   "mfe": 1.6047059781319761,
    "mae": 0.692941217829724
   }
  },
@@ -1746,7 +1746,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07827832196060877,
+   "mfe": 0.3600802810187977,
    "mae": 0.3131132878424351
   }
  },
@@ -1790,7 +1790,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.059374006242619376,
    "mae": 0.35624403745566474
   }
  },
@@ -1835,7 +1835,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07585138560880926,
+   "mfe": 0.42260057696338055,
    "mae": 0.3034055424352491
   }
  },
@@ -1879,7 +1879,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.04569409128985597,
+   "mfe": 0.30302397381693624,
    "mae": 0.24290016948818008
   }
  },
@@ -1923,7 +1923,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.25383888403782473,
+   "mfe": 0.29710185905645814,
    "mae": 0.270761476307013
   }
  },
@@ -1967,8 +1967,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0985098834261643,
+   "mfe": 0.3201571211350459,
    "mae": 0.2709021794219672
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1791983047494",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1791983047494,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 2.8x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.004126021460231294,
+   "rsi": 33.596273972815354,
+   "rvol": 2.7671282461617457,
+   "bbPct": 0.21052631578947367,
+   "funding": -0.0000047876134352,
+   "oiChg6h": 0.0028913622582512886
+  },
+  "plan": {
+   "entry": 0.3211,
+   "stop": 0.32728903219034694,
+   "takeProfit": 0.30562741952413264,
+   "stopDist": 0.00618903219034694,
+   "tpDist": 0.01547258047586735,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1211.821132825546,
+   "unit": "JUP",
+   "notional": 389.11576575028283,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T01:04:07.494Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2262066114607706,
+   "mae": 0.06463046041736431
   }
  }
 ]
