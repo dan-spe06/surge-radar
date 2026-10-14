@@ -1410,5 +1410,95 @@
    "mfe": 0.19592905148342146,
    "mae": 0.6400349015124879
   }
+ },
+ {
+  "uid": "BNB-SHORT-1791968645522",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 54,
+  "at": 1791968645522,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core CPI m/m",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 3.020294157755101,
+   "rsi": 44.71509749928995,
+   "rvol": 0.33392140376872376,
+   "bbPct": 0.03508771929824561,
+   "funding": 0.0001,
+   "oiChg6h": 0.00269731844303592
+  },
+  "plan": {
+   "entry": 741.5,
+   "stop": 746.0304412366327,
+   "takeProfit": 730.1738969084183,
+   "stopDist": 4.530441236632651,
+   "tpDist": 11.326103091581627,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.6554678911528136,
+   "unit": "BNB",
+   "notional": 1227.5294412898113,
+   "note": "Needs ~2.5x leverage",
+   "timeStop": "2026-10-14T21:04:05.522Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06621871564610252,
+   "mae": 0.06621871564610252
+  }
+ },
+ {
+  "uid": "SHIB-SHORT-1791968646533",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1791968646533,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core CPI m/m"
+  ],
+  "stats": {
+   "atr1h": 3.655913760286473e-8,
+   "rsi": 35.15151539625188,
+   "rvol": 2.4902177451903453,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000005147,
+   "stop": 0.000005201838706404297,
+   "takeProfit": 0.000005009903233989258,
+   "stopDist": 5.4838706404297095e-8,
+   "tpDist": 1.3709676601074273e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 136764714.04533914,
+   "unit": "SHIB",
+   "notional": 703.9279831913606,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-14T21:04:06.533Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.036470590412093176,
+   "mae": 0.10941177123626408
+  }
  }
 ]
