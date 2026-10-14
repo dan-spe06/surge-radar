@@ -1101,7 +1101,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.4823065082269584,
-   "mae": 0.5083858815218705
+   "mae": 0.5327253269622311
   }
  },
  {
@@ -1371,7 +1371,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.1201429048788207,
-   "mae": 0.5884171280428088
+   "mae": 0.8629880923515141
   }
  },
  {
@@ -1460,7 +1460,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1986561469383326,
+   "mfe": 0.286947767799811,
    "mae": 0.1986561469383326
   }
  },
@@ -1505,7 +1505,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.36470590412090087,
+   "mfe": 0.4376470849450872,
    "mae": 0.16411765685441157
   }
  },
@@ -1551,8 +1551,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12380518630986292,
-   "mae": 0.06602943269858379
+   "mfe": 0.1650735817464778,
+   "mae": 0.07840995132957741
   }
  },
  {
@@ -1642,8 +1642,54 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
-   "mae": 0.21129825486892936
+   "mfe": 0.09752227147796129,
+   "mae": 0.3575816620858749
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1791972846028",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1791972846028,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 3.4x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core CPI m/m",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 15.94066658805472,
+   "rsi": 43.17700073823968,
+   "rvol": 3.4156386950620066,
+   "bbPct": 0.12280701754385964,
+   "funding": 0.0000089690674731,
+   "oiChg6h": -0.0036822427906866386
+  },
+  "plan": {
+   "entry": 2496.46,
+   "stop": 2520.3709998820823,
+   "takeProfit": 2436.682500294795,
+   "stopDist": 23.91099988208208,
+   "tpDist": 59.7774997052052,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.31366316912661574,
+   "unit": "ETH",
+   "notional": 783.0475551978311,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-10-14T22:14:06.028Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7289532050502481,
+   "mae": 0.05520471776629121
   }
  }
 ]
