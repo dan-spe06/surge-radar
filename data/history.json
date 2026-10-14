@@ -2158,5 +2158,133 @@
    "mfe": 1.068484837659933,
    "mae": 0.14012915903735979
   }
+ },
+ {
+  "uid": "NEAR-SHORT-1792010688615",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 55,
+  "at": 1792010688615,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (46th percentile)",
+   "Volume 1.7x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10468998380983875,
+   "rsi": 33.4350232109185,
+   "rvol": 1.6940387636150385,
+   "bbPct": 0.45614035087719296,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.792,
+   "stop": 4.949034975714758,
+   "takeProfit": 4.399412560713104,
+   "stopDist": 0.15703497571475813,
+   "tpDist": 0.3925874392868953,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 47.76006087728614,
+   "unit": "NEAR",
+   "notional": 228.8662117239552,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T08:44:48.615Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.127360162339427,
+   "mae": 0.14009617857337422
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792010687754",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792010687754,
+  "factors": [
+   "Volume 4.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.012173473307281824,
+   "rsi": 29.545475629639796,
+   "rvol": 4.789962918340342,
+   "bbPct": 0.8596491228070176,
+   "funding": 0.0000160163530378,
+   "oiChg6h": 0.004904815948851952
+  },
+  "plan": {
+   "entry": 1.3219,
+   "stop": 1.3401602099609229,
+   "takeProfit": 1.2762494750976932,
+   "stopDist": 0.018260209960922737,
+   "tpDist": 0.04565052490230684,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 410.7291217379302,
+   "unit": "XRP",
+   "notional": 542.94282602537,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-15T08:44:47.754Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.043811106318719886,
+   "mae": 0.28477219107162455
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1792010688149",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792010688149,
+  "factors": [
+   "Volume 4.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 24.35991193103374,
+   "rsi": 29.419523333973842,
+   "rvol": 4.52141581675798,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1134.91,
+   "stop": 1171.4498678965506,
+   "takeProfit": 1043.5603302586235,
+   "stopDist": 36.53986789655061,
+   "tpDist": 91.34966974137653,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.20525525766085229,
+   "unit": "ZEC",
+   "notional": 232.9462444718779,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T08:44:48.149Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17077237437382933,
+   "mae": 0.27586306629618346
+  }
  }
 ]
