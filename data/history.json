@@ -2253,7 +2253,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2300083081732399,
+   "mfe": 0.3066777442309906,
    "mae": 0.8105054668961781
   }
  },
@@ -2295,7 +2295,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2969359394160367,
+   "mfe": 0.3741119162965154,
    "mae": 0.5894931000019668
   }
  },
@@ -2383,7 +2383,95 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.1733462245124865,
-   "mae": 0.09301504729937726
+   "mae": 0.3382365356341002
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1792030510879",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792030510879,
+  "factors": [
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 3.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10300515796970403,
+   "rsi": 33.355782483514446,
+   "rvol": 3.2987472608761252,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.015,
+   "stop": 7.1695077369545555,
+   "takeProfit": 6.62873065761361,
+   "stopDist": 0.15450773695455605,
+   "tpDist": 0.3862693423863901,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 48.541258501546146,
+   "unit": "UNI",
+   "notional": 340.5169283883462,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T14:15:10.879Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.01294433560041088,
+   "mae": 0.03883300680123839
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792030510399",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1792030510399,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volatility below average",
+   "Volume 2.4x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.852717228397289,
+   "rsi": 35.462089392001104,
+   "rvol": 2.388054793800893,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 79.658,
+   "stop": 80.93707584259593,
+   "takeProfit": 76.46031039351017,
+   "stopDist": 1.2790758425959337,
+   "tpDist": 3.197689606489834,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.863608513454888,
+   "unit": "HYPE",
+   "notional": 467.0833269647894,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T14:15:10.399Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0007818144684643847,
+   "mae": 0.026581691927655755
   }
  }
 ]
