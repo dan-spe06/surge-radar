@@ -2255,7 +2255,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.8674484068351236,
+   "mfe": 2.091980326718525,
    "mae": 0.8105054668961781
   }
  },
@@ -2340,7 +2340,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1788406127883782,
+   "mfe": 1.9039807248321743,
    "mae": 0.6562292815203882
   }
  },
@@ -2472,7 +2472,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6864331033084522,
+   "mfe": 0.9280137740627916,
    "mae": 0.27676232183507005
   }
  },
@@ -2562,8 +2562,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17986070967750298,
+   "mfe": 0.37256861290339643,
    "mae": 0.9506923225810813
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1792031712175",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792031712175,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (44th percentile)",
+   "Volume 9.4x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.03691471285333768,
+   "rsi": 33.858567679417334,
+   "rvol": 9.409042153461671,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.2695,
+   "stop": 2.3248720692800062,
+   "takeProfit": 2.1310698267999837,
+   "stopDist": 0.05537206928000652,
+   "tpDist": 0.1384301732000163,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 135.44734913325811,
+   "unit": "MORPHO",
+   "notional": 307.39775885792926,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T14:35:12.175Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4352374818815323,
+   "mae": 0
   }
  }
 ]
