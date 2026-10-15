@@ -2985,7 +2985,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.09757855831890419,
+   "mfe": 0.12197319789862573,
    "mae": 0.3903142332755807
   }
  },
@@ -3029,7 +3029,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11978907249034206,
+   "mfe": 0.1921595660778711,
    "mae": 0.40758107652315556
   }
  },
@@ -3116,6 +3116,138 @@
    "r": null,
    "mfe": 0.16081688816144069,
    "mae": 0.35379715395516764
+  }
+ },
+ {
+  "uid": "WLFI-LONG-1792077354897",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1792077354897,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (47th percentile)",
+   "Volume 3.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.000425743195971685,
+   "rsi": 60.308616258046705,
+   "rvol": 2.9721262559060277,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0577,
+   "stop": 0.057061385206042474,
+   "takeProfit": 0.05929653698489382,
+   "stopDist": 0.0006386147939575276,
+   "tpDist": 0.0015965369848938188,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11744.168896436187,
+   "unit": "WLFI",
+   "notional": 677.638545324368,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-16T03:15:54.897Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06263556744765712,
+   "mae": 0.03131778372382856
+  }
+ },
+ {
+  "uid": "BTC-LONG-1792077353358",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1792077353358,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (51th percentile)",
+   "Volume 3.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 675.0358020367629,
+   "rsi": 56.37215474815269,
+   "rvol": 2.953807900664523,
+   "bbPct": 0.5087719298245614,
+   "funding": 0.0000177128911287,
+   "oiChg6h": 0.006231750037332602
+  },
+  "plan": {
+   "entry": 82253.6,
+   "stop": 81241.04629694486,
+   "takeProfit": 84784.98425763787,
+   "stopDist": 1012.5537030551443,
+   "tpDist": 2531.3842576378606,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.007407014538952849,
+   "unit": "BTC",
+   "notional": 609.2536110812122,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-16T03:15:53.358Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09520482687400154,
+   "mae": 0.04305944451978498
+  }
+ },
+ {
+  "uid": "XLM-LONG-1792077354032",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1792077354032,
+  "factors": [
+   "Range moderately tight (56th percentile)",
+   "Volume 6.1x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0022710077510957375,
+   "rsi": 57.405488362507725,
+   "rvol": 6.13539748530679,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.18517,
+   "stop": 0.1817634883733564,
+   "takeProfit": 0.193686279066609,
+   "stopDist": 0.003406511626643606,
+   "tpDist": 0.008516279066609015,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2201.6657572337886,
+   "unit": "XLM",
+   "notional": 407.68244826698066,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T03:15:54.032Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.026419989086807445,
+   "mae": 0.032291097772761936
   }
  }
 ]
