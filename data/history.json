@@ -3295,5 +3295,49 @@
    "mfe": 1.7829185029972991,
    "mae": 0.4334179734424948
   }
+ },
+ {
+  "uid": "ALGO-LONG-1792108602355",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1792108602355,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.0017319792101003224,
+   "rsi": 68.76325623796647,
+   "rvol": 2.4574696601151453,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.11892,
+   "stop": 0.11632203118484952,
+   "takeProfit": 0.12541492203787621,
+   "stopDist": 0.0025979688151504835,
+   "tpDist": 0.006494922037876209,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2886.870679995277,
+   "unit": "ALGO",
+   "notional": 343.3066612650383,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T11:56:42.355Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.27713958527954596
+  }
  }
 ]
