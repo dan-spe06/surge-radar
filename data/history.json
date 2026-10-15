@@ -3251,5 +3251,47 @@
    "mfe": 0.3346531950995365,
    "mae": 0.19668214097955294
   }
+ },
+ {
+  "uid": "ZEC-LONG-1792079778092",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792079778092,
+  "factors": [
+   "Volume 4.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 27.886860737837814,
+   "rsi": 61.02810422220368,
+   "rvol": 4.031615533145319,
+   "bbPct": 0.625,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1179.38,
+   "stop": 1137.5497088932434,
+   "takeProfit": 1283.9557277668919,
+   "stopDist": 41.83029110675672,
+   "tpDist": 104.57572776689179,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.17929590738106405,
+   "unit": "ZEC",
+   "notional": 211.45800724707934,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T03:56:18.092Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05020285406669576,
+   "mae": 0.4334179734424948
+  }
  }
 ]
