@@ -2897,7 +2897,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.2757863283078523,
-   "mae": 0.578478639865202
+   "mae": 0.605384623114774
   }
  },
  {
@@ -2944,6 +2944,178 @@
    "exit": 81001.79327418421,
    "mfe": 0.405640802412418,
    "mae": 1.4847140895078215
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1792076754711",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1792076754711,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008198522439586745,
+   "rsi": 61.6204858276304,
+   "rvol": 2.8967422323240797,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7071,
+   "stop": 0.6948022163406198,
+   "takeProfit": 0.7378444591484502,
+   "stopDist": 0.012297783659380118,
+   "tpDist": 0.030744459148450295,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 609.8659894931055,
+   "unit": "ASTER",
+   "notional": 431.2362411705749,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T03:05:54.711Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09757855831890419,
+   "mae": 0.3903142332755807
+  }
+ },
+ {
+  "uid": "BTC-LONG-1792076753277",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 57,
+  "at": 1792076753277,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (49th percentile)",
+   "Volume 1.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 670.6232184894008,
+   "rsi": 55.672331222444946,
+   "rvol": 1.762002109854037,
+   "bbPct": 0.49122807017543857,
+   "funding": 0.0000197357003066,
+   "oiChg6h": -0.007968500069114155
+  },
+  "plan": {
+   "entry": 82169.4,
+   "stop": 81163.46517226589,
+   "takeProfit": 84684.23706933524,
+   "stopDist": 1005.9348277341012,
+   "tpDist": 2514.837069335253,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.007455751399813821,
+   "unit": "BTC",
+   "notional": 612.6346190718617,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-16T03:05:53.277Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11978907249034206,
+   "mae": 0.40758107652315556
+  }
+ },
+ {
+  "uid": "SOL-LONG-1792076753314",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1792076753314,
+  "factors": [
+   "Range moderately tight (58th percentile)",
+   "Volume 7.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.4036437175852199,
+   "rsi": 59.648733910990565,
+   "rvol": 7.352960636851381,
+   "bbPct": 0.5789473684210527,
+   "funding": 0.0000474231925578,
+   "oiChg6h": 0.004980211561630056
+  },
+  "plan": {
+   "entry": 105.88,
+   "stop": 103.77453442362217,
+   "takeProfit": 111.14366394094456,
+   "stopDist": 2.1054655763778296,
+   "tpDist": 5.263663940944574,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.562157502903819,
+   "unit": "SOL",
+   "notional": 377.16123640745633,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T03:05:53.314Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0854917800696949,
+   "mae": 0.6031920038250448
+  }
+ },
+ {
+  "uid": "BCH-LONG-1792076753970",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792076753970,
+  "factors": [
+   "Volume 3.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.145501596806263,
+   "rsi": 64.37723795225283,
+   "rvol": 3.9348038837150963,
+   "bbPct": 0.8070175438596491,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 276.8,
+   "stop": 270.5817476047906,
+   "takeProfit": 292.3456309880235,
+   "stopDist": 6.2182523952093955,
+   "tpDist": 15.54563098802349,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.206126661210805,
+   "unit": "BCH",
+   "notional": 333.85585982315087,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T03:05:53.970Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16081688816144069,
+   "mae": 0.35379715395516764
   }
  }
 ]
