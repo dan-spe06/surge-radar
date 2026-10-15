@@ -2165,9 +2165,11 @@
    "timeStop": "2026-10-15T03:24:27.184Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.2786785762159925,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792030500000,
+   "exit": 719.4274530601682,
+   "mfe": 3.573293555452893,
    "mae": 0.14012915903735979
   }
  },
@@ -2211,7 +2213,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4393925600710322,
+   "mfe": 1.241761582809436,
    "mae": 0.8533130876741813
   }
  },
@@ -2253,7 +2255,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3066777442309906,
+   "mfe": 1.8674484068351236,
    "mae": 0.8105054668961781
   }
  },
@@ -2295,7 +2297,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3741119162965154,
+   "mfe": 1.4545755926232422,
    "mae": 0.5894931000019668
   }
  },
@@ -2338,7 +2340,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14472775735200358,
+   "mfe": 1.1788406127883782,
    "mae": 0.6562292815203882
   }
  },
@@ -2382,7 +2384,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1733462245124865,
+   "mfe": 2.2915525289210463,
    "mae": 0.3382365356341002
   }
  },
@@ -2426,8 +2428,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.01294433560041088,
-   "mae": 0.03883300680123839
+   "mfe": 1.501542929647823,
+   "mae": 0.2329980408074246
   }
  },
  {
@@ -2470,8 +2472,98 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0007818144684643847,
-   "mae": 0.026581691927655755
+   "mfe": 0.6864331033084522,
+   "mae": 0.27676232183507005
+  }
+ },
+ {
+  "uid": "ASTER-SHORT-1792031111790",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1792031111790,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 6.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.007097015200625593,
+   "rsi": 31.294256859074537,
+   "rvol": 6.044942975262607,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6802,
+   "stop": 0.6908455228009385,
+   "takeProfit": 0.6535861929976541,
+   "stopDist": 0.01064552280093839,
+   "tpDist": 0.026613807002345974,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 704.5215289322272,
+   "unit": "ASTER",
+   "notional": 479.21554397970095,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T14:25:11.790Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792030500000,
+   "exit": 0.6908455228009385,
+   "mfe": 0.6669470473891747,
+   "mae": 1.0896599647485061
+  }
+ },
+ {
+  "uid": "VVV-SHORT-1792031112698",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1792031112698,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5189200771012407,
+   "rsi": 34.10465565844156,
+   "rvol": 2.561190195113798,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 21.59,
+   "stop": 22.36838011565186,
+   "takeProfit": 19.64404971087035,
+   "stopDist": 0.778380115651861,
+   "tpDist": 1.9459502891296525,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.635395161294763,
+   "unit": "VVV",
+   "notional": 208.02818153235393,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T14:25:12.698Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17986070967750298,
+   "mae": 0.9506923225810813
   }
  }
 ]
