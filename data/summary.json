@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-15T00:45:15.078Z",
+ "generated": "2026-10-15T00:55:14.272Z",
  "total": 52,
- "open": 10,
- "closed": 42,
+ "open": 6,
+ "closed": 46,
  "wins": 19,
  "losses": 17,
- "timeouts": 6,
- "winRate": 0.452,
- "netR": 31.1,
- "avgR": 0.74,
+ "timeouts": 10,
+ "winRate": 0.413,
+ "netR": 35.11,
+ "avgR": 0.763,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 42,
+   "n": 46,
    "wins": 19,
-   "R": 31.1,
-   "winRate": 0.452
+   "R": 35.11,
+   "winRate": 0.413
   }
  },
  "bySymbol": {
@@ -56,10 +56,10 @@
    "winRate": 1
   },
   "BTC": {
-   "n": 3,
+   "n": 4,
    "wins": 1,
-   "R": 1.12,
-   "winRate": 0.333
+   "R": 3.09,
+   "winRate": 0.25
   },
   "LINK": {
    "n": 2,
@@ -68,10 +68,10 @@
    "winRate": 0.5
   },
   "ADA": {
-   "n": 1,
+   "n": 2,
    "wins": 1,
-   "R": 2.5,
-   "winRate": 1
+   "R": 2.97,
+   "winRate": 0.5
   },
   "BCH": {
    "n": 3,
@@ -146,10 +146,10 @@
    "winRate": 0
   },
   "SHIB": {
-   "n": 1,
+   "n": 2,
    "wins": 1,
-   "R": 2.5,
-   "winRate": 1
+   "R": 2.67,
+   "winRate": 0.5
   },
   "DOT": {
    "n": 1,
@@ -175,6 +175,12 @@
    "R": 2.5,
    "winRate": 1
   },
+  "ONDO": {
+   "n": 1,
+   "wins": 0,
+   "R": 1.4,
+   "winRate": 0
+  },
   "MORPHO": {
    "n": 1,
    "wins": 0,
@@ -184,10 +190,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 29,
+   "n": 33,
    "wins": 19,
-   "R": 38.71,
-   "winRate": 0.655
+   "R": 42.72,
+   "winRate": 0.576
   },
   "LONG": {
    "n": 13,
