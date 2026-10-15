@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-15T08:35:36.552Z",
+ "generated": "2026-10-15T08:45:36.505Z",
  "total": 59,
- "open": 7,
- "closed": 52,
+ "open": 4,
+ "closed": 55,
  "wins": 20,
  "losses": 21,
- "timeouts": 11,
- "winRate": 0.385,
- "netR": 33.72,
- "avgR": 0.648,
+ "timeouts": 14,
+ "winRate": 0.364,
+ "netR": 35.19,
+ "avgR": 0.64,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 52,
+   "n": 55,
    "wins": 20,
-   "R": 33.72,
-   "winRate": 0.385
+   "R": 35.19,
+   "winRate": 0.364
   }
  },
  "bySymbol": {
@@ -104,10 +104,10 @@
    "winRate": 1
   },
   "ZEC": {
-   "n": 3,
+   "n": 4,
    "wins": 1,
-   "R": 2.54,
-   "winRate": 0.333
+   "R": 3.28,
+   "winRate": 0.25
   },
   "DOGE": {
    "n": 3,
@@ -116,9 +116,9 @@
    "winRate": 0.333
   },
   "XRP": {
-   "n": 2,
+   "n": 3,
    "wins": 0,
-   "R": -2,
+   "R": -1.65,
    "winRate": 0
   },
   "LTC": {
@@ -193,6 +193,12 @@
    "R": 0.11,
    "winRate": 0
   },
+  "NEAR": {
+   "n": 1,
+   "wins": 0,
+   "R": 0.38,
+   "winRate": 0
+  },
   "ASTER": {
    "n": 1,
    "wins": 0,
@@ -202,10 +208,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 39,
+   "n": 42,
    "wins": 20,
-   "R": 41.33,
-   "winRate": 0.513
+   "R": 42.8,
+   "winRate": 0.476
   },
   "LONG": {
    "n": 13,
