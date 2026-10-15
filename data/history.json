@@ -2753,8 +2753,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.226625978655637,
+   "mfe": 0.29614315002240416,
    "mae": 0.17657361527157692
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1792062353643",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 52,
+  "at": 1792062353643,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (42th percentile)",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core PPI m/m"
+  ],
+  "stats": {
+   "atr1h": 1.1935170232781822,
+   "rsi": 37.56434411815136,
+   "rvol": 0.5461826762311223,
+   "bbPct": 0.42105263157894735,
+   "funding": 0.0000153609297276,
+   "oiChg6h": 0.007171262665075672
+  },
+  "plan": {
+   "entry": 102.15,
+   "stop": 103.94027553491728,
+   "takeProfit": 97.67431116270683,
+   "stopDist": 1.7902755349172734,
+   "tpDist": 4.475688837293184,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.189299274732348,
+   "unit": "SOL",
+   "notional": 427.9369209139094,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T23:05:53.643Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1228861120588149,
+   "mae": 0.14522904152404964
   }
  }
 ]
