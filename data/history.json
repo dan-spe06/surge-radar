@@ -2797,7 +2797,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.1228861120588149,
-   "mae": 0.1787434357219097
+   "mae": 0.2066720975534571
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1792063555513",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792063555513,
+  "factors": [
+   "Volume 6.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core PPI m/m"
+  ],
+  "stats": {
+   "atr1h": 0.005062100338937575,
+   "rsi": 26.14239250229474,
+   "rvol": 6.1412561258191465,
+   "bbPct": 1,
+   "funding": 0.0000482853843474,
+   "oiChg6h": 0.001728878831628845
+  },
+  "plan": {
+   "entry": 0.294,
+   "stop": 0.30159315050840635,
+   "takeProfit": 0.27501712372898407,
+   "stopDist": 0.007593150508406362,
+   "tpDist": 0.018982876271015907,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 987.732297904113,
+   "unit": "JUP",
+   "notional": 290.3932955838092,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T23:25:55.513Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2502255154690363,
+   "mae": 0.7770160743512378
   }
  }
 ]
