@@ -2666,5 +2666,49 @@
    "mfe": 0.02733602408712225,
    "mae": 1.0954911652912491
   }
+ },
+ {
+  "uid": "NEAR-SHORT-1792059933078",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1792059933078,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core PPI m/m"
+  ],
+  "stats": {
+   "atr1h": 0.11195626893840757,
+   "rsi": 34.43397813017879,
+   "rvol": 0.7304441550068357,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.577,
+   "stop": 4.744934403407611,
+   "takeProfit": 4.157163991480972,
+   "stopDist": 0.16793440340761134,
+   "tpDist": 0.41983600851902836,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 44.66029501885898,
+   "unit": "NEAR",
+   "notional": 204.41017030131755,
+   "note": "Spot OK",
+   "timeStop": "2026-10-15T22:25:33.078Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04168294201759977,
+   "mae": 0.26200706411064223
+  }
  }
 ]
