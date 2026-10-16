@@ -3531,5 +3531,49 @@
    "mfe": 0.2752217035228521,
    "mae": 0.49974467218624996
   }
+ },
+ {
+  "uid": "ASTER-LONG-1792139842374",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1792139842374,
+  "factors": [
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005437996269647384,
+   "rsi": 63.63814458652169,
+   "rvol": 2.986992915847361,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7135,
+   "stop": 0.705343005595529,
+   "takeProfit": 0.7338924860111777,
+   "stopDist": 0.008156994404471075,
+   "tpDist": 0.02039248601117769,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 919.4563129636379,
+   "unit": "ASTER",
+   "notional": 656.0320792995557,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-16T20:37:22.374Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.036778252518541464,
+   "mae": 0.09807534004945752
+  }
  }
 ]
