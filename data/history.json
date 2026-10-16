@@ -3337,7 +3337,96 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.1963072062396775,
-   "mae": 0.27713958527954596
+   "mae": 0.35412280341275554
+  }
+ },
+ {
+  "uid": "LTC-LONG-1792110400893",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 59,
+  "at": 1792110400893,
+  "factors": [
+   "Volatility below average",
+   "Volume 5.2x normal",
+   "Broke 24h high",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.6063755182065572,
+   "rsi": 64.36950998732524,
+   "rvol": 5.227962186532196,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 61.14,
+   "stop": 60.230436722690165,
+   "takeProfit": 63.413908193274594,
+   "stopDist": 0.9095632773098359,
+   "tpDist": 2.2739081932745897,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8.245715484669002,
+   "unit": "LTC",
+   "notional": 504.1430447326628,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-16T12:26:40.893Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5277257910188128,
+   "mae": 0.08795429850313416
+  }
+ },
+ {
+  "uid": "TRX-LONG-1792110400040",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 53,
+  "at": 1792110400040,
+  "factors": [
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 1.6x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.0008282634829369625,
+   "rsi": 60.053688604356545,
+   "rvol": 1.5502368248861031,
+   "bbPct": 0.2631578947368421,
+   "funding": 0.0001,
+   "oiChg6h": -0.0046687476588662576
+  },
+  "plan": {
+   "entry": 0.33323,
+   "stop": 0.3319876047755946,
+   "takeProfit": 0.3363359880610136,
+   "stopDist": 0.0012423952244054438,
+   "tpDist": 0.0031059880610136096,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6036.7263594313745,
+   "unit": "TRX",
+   "notional": 2011.618324753317,
+   "note": "Needs ~4.0x leverage",
+   "timeStop": "2026-10-16T12:26:40.040Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18512627502252388,
+   "mae": 0.24146905437727306
   }
  }
 ]
