@@ -3484,7 +3484,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5615747978821081,
+   "mfe": 0.5963113833181162,
    "mae": 0.31262926892406323
   }
  },
@@ -3661,7 +3661,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.12606335372404445,
-   "mae": 0.0667394225597901
+   "mae": 0.12606335372404445
+  }
+ },
+ {
+  "uid": "ARB-LONG-1792142842264",
+  "id": "ARB",
+  "name": "Arbitrum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1792142842264,
+  "factors": [
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.003434839242870045,
+   "rsi": 71.84534207993708,
+   "rvol": 3.61863336073285,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.20019,
+   "stop": 0.19503774113569494,
+   "takeProfit": 0.21307064716076268,
+   "stopDist": 0.0051522588643050675,
+   "tpDist": 0.012880647160762669,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1455.6722007817039,
+   "unit": "ARB",
+   "notional": 291.4110178744893,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T21:27:22.264Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.37847477220323905,
+   "mae": 0.16885797529067953
   }
  }
 ]
