@@ -63,6 +63,7 @@ nav button{flex:1;background:none;border:0;color:var(--mute);font:inherit;font-s
 nav button.on{color:var(--amber)}
 .news div{display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid var(--line)}
 .disc{font-size:11px;color:var(--mute);text-align:center;padding:8px 0}
+#hf button{font-size:12px;padding:8px 4px;min-width:30%}
 </style>
 </head>
 <body>
@@ -149,26 +150,42 @@ async function loadHistory() {
   catch { hist = hist || []; summ = summ || {}; }
   if (view === 'history') render();
 }
-function pct(x) { return x == null ? '—' : (x * 100).toFixed(0) + '%'; }
+function pct(x) { return x == null || !isFinite(x) ? '—' : (x * 100).toFixed(0) + '%'; }
+let hFilter = 'ALL', hShow = 40;
+const money = x => (x >= 0 ? '+$' : '-$') + Math.abs(x).toFixed(2);
+const dayKey = ts => new Date(ts).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+function tradeUSD(h) { return h.outcome.r == null ? null : h.outcome.r * (h.plan.risk$ || S.account * S.risk / 100); }
 function renderHistory(v) {
   if (!hist) { v.innerHTML = '<div class="skel"></div><div class="skel"></div>'; loadHistory(); return; }
-  const sm = summ || {}, perR = S.account * S.risk / 100;
-  const rows = [...hist].reverse();
-  const res = o => o.result === 'WIN' ? '<span class="tag LONG">WIN</span>' : o.result === 'LOSS' ? '<span class="tag SHORT">LOSS</span>' : o.result === 'TIME' ? '<span class="tag WATCH">TIME</span>' : '<span class="tag QUIET">OPEN</span>';
-  const cls = Object.entries(sm.byClass || {}).map(([k, g]) => `<div><span>${k}</span><span class="mono">${g.n} · ${pct(g.winRate)} · ${g.R > 0 ? '+' : ''}${g.R}R</span></div>`).join('');
-  v.innerHTML = `<section class="panel"><h2>Accuracy</h2>
-    <div class="plan"><div><span>Win rate</span><b class="mono">${pct(sm.winRate)}</b></div><div><span>Net result</span><b class="mono" style="color:${(sm.netR || 0) >= 0 ? 'var(--long)' : 'var(--short)'}">${sm.netR == null ? '—' : (sm.netR >= 0 ? '+' : '') + sm.netR + 'R'}</b></div><div><span>≈ dollars</span><b class="mono">${sm.netR == null ? '—' : (sm.netR >= 0 ? '+$' : '-$') + Math.abs(sm.netR * perR).toFixed(2)}</b></div></div>
-    <p class="note">${sm.total || 0} alerts · ${sm.wins || 0} wins · ${sm.losses || 0} losses · ${sm.timeouts || 0} timed out · ${sm.open || 0} open. At 2.5:1 you only need a ${pct(sm.breakevenWinRate || 0.286)} win rate to break even.</p>
-    ${cls ? `<div class="news" style="margin-top:8px">${cls}</div>` : ''}</section>
-    <section class="panel"><h2>Export for review</h2><p class="note">Download the full log, or copy a link to send back to Perplexity so the strategy can be analyzed and refined.</p>
+  const all = [...hist].sort((a, b) => b.at - a.at);
+  const closed = all.filter(h => h.outcome.result !== 'OPEN');
+  const W = closed.filter(h => h.outcome.result === 'WIN').length, Lc = closed.filter(h => h.outcome.result === 'LOSS').length, T = closed.filter(h => h.outcome.result === 'TIME').length, O = all.length - closed.length;
+  const netR = closed.reduce((s, h) => s + h.outcome.r, 0), netUSD = closed.reduce((s, h) => s + tradeUSD(h), 0);
+  const tag = o => o.result === 'WIN' ? '<span class="tag LONG">WIN</span>' : o.result === 'LOSS' ? '<span class="tag SHORT">LOSS</span>' : o.result === 'TIME' ? '<span class="tag WATCH">TIMED OUT</span>' : '<span class="tag QUIET">OPEN</span>';
+  // daily breakdown
+  const days = {};
+  for (const h of all) { const k = dayKey(h.at); const d = days[k] ||= { n: 0, w: 0, l: 0, t: 0, o: 0, usd: 0, at: h.at }; d.n++; const r = h.outcome.result; if (r === 'WIN') d.w++; else if (r === 'LOSS') d.l++; else if (r === 'TIME') d.t++; else d.o++; if (r !== 'OPEN') d.usd += tradeUSD(h); }
+  const dayRows = Object.entries(days).sort((a, b) => b[1].at - a[1].at).map(([k, d]) => `<div><span>${k} · ${d.n} alerts · ${d.w}W ${d.l}L ${d.t}T${d.o ? ' ' + d.o + ' open' : ''}</span><span class="mono" style="color:${d.usd >= 0 ? 'var(--long)' : 'var(--short)'}">${money(d.usd)}</span></div>`).join('');
+  const list = all.filter(h => hFilter === 'ALL' || h.outcome.result === hFilter);
+  const chip = (f, l, n) => `<button data-hf="${f}" class="${hFilter === f ? 'on' : ''}">${l} ${n}</button>`;
+  v.innerHTML = `<section class="panel"><h2>All alerts — results</h2>
+    <div class="plan"><div><span>Win rate</span><b class="mono">${pct(W / closed.length)}</b></div><div><span>Net (R)</span><b class="mono" style="color:${netR >= 0 ? 'var(--long)' : 'var(--short)'}">${(netR >= 0 ? '+' : '') + netR.toFixed(1)}R</b></div><div><span>Net ($)</span><b class="mono" style="color:${netUSD >= 0 ? 'var(--long)' : 'var(--short)'}">${money(netUSD)}</b></div></div>
+    <p class="note">${all.length} alerts since ${all.length ? dayKey(all.at(-1).at) : '—'} · ${W} wins · ${Lc} losses · ${T} timed out · ${O} open. Dollars use the risk each alert was sent with. Break-even win rate at 2.5:1 ≈ 29% (timed-out trades also count).</p></section>
+    <section class="panel news"><h2>By day</h2>${dayRows || '<p class="note">No alerts yet.</p>'}</section>
+    <section class="panel"><h2>Export for review</h2>
       <div class="row" style="gap:8px"><a class="btn ghost" style="text-align:center;text-decoration:none" href="${BASE}/api/history?format=csv&download=1" download>CSV</a><a class="btn ghost" style="text-align:center;text-decoration:none" href="${BASE}/api/history?format=json&download=1" download>JSON</a></div>
       <button class="btn" id="cpl">Copy report link</button><button class="btn ghost" id="cpt">Copy full report text</button><p class="note" id="cpmsg"></p></section>
-    ${rows.length ? rows.map(h => `<article class="card" onclick="this.classList.toggle('open')"><div class="row"><div><div class="sym">${h.id} <span class="tag ${h.dir}">${h.dir}</span></div><div class="nm">${new Date(h.at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })} · score ${h.score}</div></div><div class="score">${res(h.outcome)}<div class="mono">${h.outcome.r == null ? '' : (h.outcome.r > 0 ? '+' : '') + h.outcome.r + 'R'}</div></div></div>
-      <div class="detail"><div class="plan"><div><span>Entry</span><b class="mono">${fmt(h.plan.entry)}</b></div><div class="sl"><span>Stop</span><b class="mono">${fmt(h.plan.stop)}</b></div><div class="tp"><span>Target</span><b class="mono">${fmt(h.plan.takeProfit)}</b></div></div><p class="note">Exit ${fmt(h.outcome.exit)} · best ${h.outcome.mfe?.toFixed(2) ?? '—'}R · worst ${h.outcome.mae?.toFixed(2) ?? '—'}R</p><ul class="f">${h.factors.map(f => `<li>${f}</li>`).join('')}</ul></div></article>`).join('') : '<div class="empty"><b>No alerts logged yet</b><p class="note">Every trade signal is recorded here and graded automatically once its stop, target, or time limit is reached.</p></div>'}`;
+    <div class="tabs" id="hf" style="flex-wrap:wrap">${chip('ALL', 'All', all.length)}${chip('WIN', 'Wins', W)}${chip('LOSS', 'Losses', Lc)}${chip('TIME', 'Timed out', T)}${chip('OPEN', 'Open', O)}</div>
+    ${list.slice(0, hShow).map(h => { const usd = tradeUSD(h); return `<article class="card" onclick="this.classList.toggle('open')"><div class="row"><div><div class="sym">${h.id} <span class="tag ${h.dir}">${h.dir}</span></div><div class="nm">${new Date(h.at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })} · score ${h.score}</div></div><div class="score">${tag(h.outcome)}<div class="mono" style="color:${usd == null ? 'var(--mute)' : usd >= 0 ? 'var(--long)' : 'var(--short)'}">${usd == null ? 'in progress' : (h.outcome.r > 0 ? '+' : '') + h.outcome.r + 'R · ' + money(usd)}</div></div></div>
+      <div class="detail"><div class="plan"><div><span>Entry</span><b class="mono">${fmt(h.plan.entry)}</b></div><div class="sl"><span>Stop</span><b class="mono">${fmt(h.plan.stop)}</b></div><div class="tp"><span>Target</span><b class="mono">${fmt(h.plan.takeProfit)}</b></div></div>
+      <p class="note">Exit ${fmt(h.outcome.exit)}${h.outcome.closedAt ? ' at ' + new Date(h.outcome.closedAt).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : ''} · size ${fmt(h.plan.qty)} ${h.plan.unit} · risk $${(h.plan.risk$ || 0).toFixed(2)} · best ${h.outcome.mfe?.toFixed(2) ?? '—'}R · worst ${h.outcome.mae?.toFixed(2) ?? '—'}R</p><ul class="f">${h.factors.map(f => `<li>${f}</li>`).join('')}</ul></div></article>`; }).join('') || '<div class="empty"><b>No alerts in this filter</b></div>'}
+    ${list.length > hShow ? `<button class="btn ghost" id="more">Show ${Math.min(40, list.length - hShow)} more (${list.length - hShow} left)</button>` : ''}`;
   const msg = t => { $('#cpmsg').textContent = t; };
   const copy = async txt => { try { await navigator.clipboard.writeText(txt); msg('Copied.'); } catch { const ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); msg('Copied.'); } catch { msg(txt.slice(0, 200)); } ta.remove(); } };
   $('#cpl').onclick = () => copy(PUBLIC_URL + '/api/report');
   $('#cpt').onclick = async () => copy(await fetch(BASE + '/api/report').then(r => r.text()));
+  $('#hf').onclick = e => { const f = e.target.closest('button')?.dataset.hf; if (f) { hFilter = f; hShow = 40; render(); } };
+  const m = $('#more'); if (m) m.onclick = () => { hShow += 40; render(); };
 }
 function notifyNew() {
   if (!S.notify || Notification.permission !== 'granted') return;
