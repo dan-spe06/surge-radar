@@ -3486,7 +3486,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4589365883122813,
+   "mfe": 2.066826833442404,
    "mae": 0.31262926892406323
   }
  },
@@ -3707,6 +3707,139 @@
    "r": null,
    "mfe": 0.37847477220323905,
    "mae": 0.4929876519980732
+  }
+ },
+ {
+  "uid": "MORPHO-LONG-1792147041277",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1792147041277,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 5.1x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.03139439155254021,
+   "rsi": 65.4363245436388,
+   "rvol": 5.1088489957450705,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.4756,
+   "stop": 2.4285084126711896,
+   "takeProfit": 2.5933289683220258,
+   "stopDist": 0.047091587328810317,
+   "tpDist": 0.11772896832202578,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 159.26411542750333,
+   "unit": "MORPHO",
+   "notional": 394.27424415232724,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T22:37:21.277Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15926411542749994,
+   "mae": 0.06795268924907004
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1792147040537",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1792147040537,
+  "factors": [
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Volume 4.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.12399462656472575,
+   "rsi": 76.65699802679094,
+   "rvol": 4.304103265212266,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.511,
+   "stop": 10.32500806015291,
+   "takeProfit": 10.97597984961772,
+   "stopDist": 0.18599193984708862,
+   "tpDist": 0.46497984961772154,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 40.324328065861614,
+   "unit": "AVAX",
+   "notional": 423.8490123002714,
+   "note": "Spot OK",
+   "timeStop": "2026-10-16T22:37:20.537Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04838919367903577,
+   "mae": 0.505398245092129
+  }
+ },
+ {
+  "uid": "LINK-LONG-1792147040264",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792147040264,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.12054292557156819,
+   "rsi": 62.97962311017423,
+   "rvol": 1.0887351181374176,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 12.671,
+   "stop": 12.490185611642648,
+   "takeProfit": 13.12303597089338,
+   "stopDist": 0.18081438835735228,
+   "tpDist": 0.4520359708933807,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 41.47899991884155,
+   "unit": "LINK",
+   "notional": 525.5804079716413,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-16T22:37:20.264Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.49774799902609784
   }
  }
 ]
