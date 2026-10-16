@@ -3993,7 +3993,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19284825488715943,
+   "mfe": 0.5509950139633302,
    "mae": 0.6611940167559992
   }
  },
@@ -4037,7 +4037,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.15936215418954328,
+   "mfe": 0.38001744460582043,
    "mae": 0.7845521437023302
   }
  },
@@ -4080,7 +4080,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0785722451409544,
+   "mfe": 0.7104585113270656,
    "mae": 0.5127872840777291
   }
  },
@@ -4123,7 +4123,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.24037515146342794,
+   "mfe": 0.5430697866395968,
    "mae": 0.400625252439044
   }
  },
@@ -4167,8 +4167,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06069764760707594,
-   "mae": 0
+   "mfe": 0.2124417666247523,
+   "mae": 0.045523235705300216
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792164463630",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1792164463630,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 2.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.01150527301513235,
+   "rsi": 37.22173663096584,
+   "rvol": 2.7857829363234505,
+   "bbPct": 0.24561403508771928,
+   "funding": 0.0000654655223326,
+   "oiChg6h": -0.011489828382303462
+  },
+  "plan": {
+   "entry": 1.316,
+   "stop": 1.3332579095226986,
+   "takeProfit": 1.2728552261932538,
+   "stopDist": 0.017257909522698525,
+   "tpDist": 0.04314477380674631,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 434.5833422139338,
+   "unit": "XRP",
+   "notional": 571.9116783535369,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-17T03:27:43.630Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.39981667483682654,
+   "mae": 0.10430000213134549
   }
  }
 ]
