@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-16T02:57:04.846Z",
+ "generated": "2026-10-16T03:07:04.860Z",
  "total": 76,
- "open": 10,
- "closed": 66,
+ "open": 6,
+ "closed": 70,
  "wins": 20,
  "losses": 29,
- "timeouts": 17,
- "winRate": 0.303,
- "netR": 29.52,
- "avgR": 0.447,
+ "timeouts": 21,
+ "winRate": 0.286,
+ "netR": 29.16,
+ "avgR": 0.417,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 66,
+   "n": 70,
    "wins": 20,
-   "R": 29.52,
-   "winRate": 0.303
+   "R": 29.16,
+   "winRate": 0.286
   }
  },
  "bySymbol": {
@@ -56,10 +56,10 @@
    "winRate": 1
   },
   "BTC": {
-   "n": 6,
+   "n": 7,
    "wins": 1,
-   "R": 2.98,
-   "winRate": 0.167
+   "R": 2.9,
+   "winRate": 0.143
   },
   "LINK": {
    "n": 2,
@@ -74,10 +74,10 @@
    "winRate": 0.5
   },
   "BCH": {
-   "n": 3,
+   "n": 4,
    "wins": 1,
-   "R": 2.56,
-   "winRate": 0.333
+   "R": 2.77,
+   "winRate": 0.25
   },
   "AVAX": {
    "n": 1,
@@ -98,10 +98,10 @@
    "winRate": 1
   },
   "SOL": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 1.5,
-   "winRate": 0.5
+   "R": 1.29,
+   "winRate": 0.333
   },
   "ZEC": {
    "n": 4,
@@ -200,9 +200,9 @@
    "winRate": 0
   },
   "ASTER": {
-   "n": 1,
+   "n": 2,
    "wins": 0,
-   "R": -1,
+   "R": -1.28,
    "winRate": 0
   },
   "WLFI": {
@@ -220,9 +220,9 @@
    "winRate": 0.385
   },
   "LONG": {
-   "n": 14,
+   "n": 18,
    "wins": 0,
-   "R": -8.61,
+   "R": -8.97,
    "winRate": 0
   }
  },
