@@ -3530,10 +3530,12 @@
    "timeStop": "2026-10-16T19:07:01.044Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792162800000,
+   "exit": 0.08522929493518873,
    "mfe": 0.4418032609182721,
-   "mae": 0.637355523947676
+   "mae": 1.318167106346323
   }
  },
  {
@@ -3574,10 +3576,12 @@
    "timeStop": "2026-10-16T20:37:22.374Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792162800000,
+   "exit": 0.705343005595529,
    "mfe": 0.9071968954574514,
-   "mae": 0.5639332052843705
+   "mae": 1.152385245581102
   }
  },
  {
@@ -3709,10 +3713,12 @@
    "timeStop": "2026-10-16T21:27:22.264Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792162800000,
+   "exit": 0.19503774113569494,
    "mfe": 0.4425243490376388,
-   "mae": 0.522101096013704
+   "mae": 1.0616702584367899
   }
  },
  {
@@ -3846,10 +3852,12 @@
    "timeStop": "2026-10-16T22:37:20.264Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792162800000,
+   "exit": 12.490185611642648,
    "mfe": 0.580705998863784,
-   "mae": 0.9235990648595376
+   "mae": 1.4932439970782936
   }
  },
  {
@@ -3937,10 +3945,186 @@
    "timeStop": "2026-10-17T00:37:20.582Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792162800000,
+   "exit": 1201.1794403581935,
+   "mfe": 0.16985806147810642,
+   "mae": 1.2055295880781087
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1792163264188",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1792163264188,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 3.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0024198646077441105,
+   "rsi": 37.35236563023939,
+   "rvol": 3.862451140855699,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2254,
+   "stop": 0.22902979691161615,
+   "takeProfit": 0.21632550772095957,
+   "stopDist": 0.0036297969116161656,
+   "tpDist": 0.009074492279040414,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2066.231302362486,
+   "unit": "ADA",
+   "notional": 465.72853555250435,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T03:07:44.188Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.16985806147810642,
-   "mae": 0.7362719085082297
+   "mfe": 0.16529850418899597,
+   "mae": 0.6611940167559992
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1792163265571",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1792163265571,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 2.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 5.438346833815395e-8,
+   "rsi": 37.94322470573598,
+   "rvol": 2.228506314035098,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000003994,
+   "stop": 0.000004075575202507231,
+   "takeProfit": 0.000003790061993731923,
+   "stopDist": 8.157520250723093e-8,
+   "tpDist": 2.0393800626807733e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 91939704.34011722,
+   "unit": "PEPE",
+   "notional": 367.2071791344282,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T03:07:45.571Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15936215418954328,
+   "mae": 0.7845521437023302
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792163264153",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792163264153,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 32% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.8060522289992534,
+   "rsi": 36.92006370498828,
+   "rvol": 1.3104957175373046,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 79.671,
+   "stop": 80.88007834349888,
+   "takeProfit": 76.64830414125281,
+   "stopDist": 1.20907834349888,
+   "tpDist": 3.0226958587472,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.203071984811335,
+   "unit": "HYPE",
+   "notional": 494.20494810190394,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T03:07:44.153Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04300796576136414,
+   "mae": 0.5127872840777291
+  }
+ },
+ {
+  "uid": "PUMP-SHORT-1792163265236",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792163265236,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 25% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00007488294813508916,
+   "rsi": 33.09076514492175,
+   "rvol": 0.8400036834383768,
+   "bbPct": 0.24561403508771928,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.004355,
+   "stop": 0.004467324422202634,
+   "takeProfit": 0.004074188944493416,
+   "stopDist": 0.00011232442220263374,
+   "tpDist": 0.00028081105550658436,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 66770.87540650748,
+   "unit": "PUMP",
+   "notional": 290.7871623953401,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T03:07:45.236Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1958612345257581,
+   "mae": 0.400625252439044
   }
  }
 ]
