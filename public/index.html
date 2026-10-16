@@ -86,6 +86,7 @@ const ck = document.cookie.match(/sr=([^;]+)/);
 const S = Object.assign({account:500,risk:1.5,rr:2.5,notify:false}, ck ? JSON.parse(decodeURIComponent(ck[1])) : {}); const seenMem = {};
 const saveS = () => { document.cookie = 'sr=' + encodeURIComponent(JSON.stringify(S)) + ';max-age=31536000;path=/;SameSite=Lax'; };
 let hist = null, summ = null;
+const HRAW = 'https://raw.githubusercontent.com/dan-spe06/surge-radar/data/data'; // live alert log written by the 10-minute scanner
 let scan = null, filter = 'ALERT', view = 'scan', nextAt = 0;
 const $ = s => document.querySelector(s);
 const fmt = x => { if (x == null || !isFinite(x)) return '—'; const a = Math.abs(x); const d = a >= 1000 ? 2 : a >= 10 ? 3 : a >= 1 ? 4 : a >= .01 ? 5 : 8; return x.toLocaleString('en-US', { minimumFractionDigits: Math.min(d, 2), maximumFractionDigits: d }); };
@@ -142,11 +143,11 @@ function render() {
     return;
   }
   const list = scan.results.filter(r => filter === 'ALL' || r.status === filter);
-  v.innerHTML = list.length ? list.map(card).join('') : `<div class="empty"><b>${filter === 'ALERT' ? 'No trade signals right now' : 'Nothing building yet'}</b><p class="note">${filter === 'ALERT' ? 'Signals need a score of 50+ and no blockers. Expect roughly 10–20 a day across all 27 markets.' : 'Markets scoring 40–49 show here.'}</p></div>`;
+  v.innerHTML = list.length ? list.map(card).join('') : `<div class="empty"><b>${filter === 'ALERT' ? 'No trade signals right now' : 'Nothing building yet'}</b><p class="note">${filter === 'ALERT' ? 'Signals need a score of 50+ and no blockers. Expect roughly 10–20 a day across all 47 markets.' : 'Markets scoring 40–49 show here.'}</p></div>`;
   v.innerHTML += `<p class="disc">${scan.results.length} markets · tap a card for details · not financial advice</p>`;
 }
 async function loadHistory() {
-  try { const [h, sm] = await Promise.all([fetch(BASE + '/api/history?format=json', { cache: 'no-store' }).then(r => r.json()), fetch(BASE + '/api/history?format=summary', { cache: 'no-store' }).then(r => r.json())]); hist = Array.isArray(h) ? h : []; summ = sm; }
+  try { const [h, sm] = await Promise.all([fetch(HRAW + '/history.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()), fetch(HRAW + '/summary.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json())]); hist = Array.isArray(h) ? h : []; summ = sm; }
   catch { hist = hist || []; summ = summ || {}; }
   if (view === 'history') render();
 }
@@ -173,7 +174,7 @@ function renderHistory(v) {
     <p class="note">${all.length} alerts since ${all.length ? dayKey(all.at(-1).at) : '—'} · ${W} wins · ${Lc} losses · ${T} timed out · ${O} open. Dollars use the risk each alert was sent with. Break-even win rate at 2.5:1 ≈ 29% (timed-out trades also count).</p></section>
     <section class="panel news"><h2>By day</h2>${dayRows || '<p class="note">No alerts yet.</p>'}</section>
     <section class="panel"><h2>Export for review</h2>
-      <div class="row" style="gap:8px"><a class="btn ghost" style="text-align:center;text-decoration:none" href="${BASE}/api/history?format=csv&download=1" download>CSV</a><a class="btn ghost" style="text-align:center;text-decoration:none" href="${BASE}/api/history?format=json&download=1" download>JSON</a></div>
+      <div class="row" style="gap:8px"><a class="btn ghost" style="text-align:center;text-decoration:none" href="${HRAW}/history.csv" target="_blank" rel="noopener">CSV</a><a class="btn ghost" style="text-align:center;text-decoration:none" href="${HRAW}/history.json" target="_blank" rel="noopener">JSON</a></div>
       <button class="btn" id="cpl">Copy report link</button><button class="btn ghost" id="cpt">Copy full report text</button><p class="note" id="cpmsg"></p></section>
     <div class="tabs" id="hf" style="flex-wrap:wrap">${chip('ALL', 'All', all.length)}${chip('WIN', 'Wins', W)}${chip('LOSS', 'Losses', Lc)}${chip('TIME', 'Timed out', T)}${chip('OPEN', 'Open', O)}</div>
     ${list.slice(0, hShow).map(h => { const usd = tradeUSD(h); return `<article class="card" onclick="this.classList.toggle('open')"><div class="row"><div><div class="sym">${h.id} <span class="tag ${h.dir}">${h.dir}</span></div><div class="nm">${new Date(h.at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })} · score ${h.score}</div></div><div class="score">${tag(h.outcome)}<div class="mono" style="color:${usd == null ? 'var(--mute)' : usd >= 0 ? 'var(--long)' : 'var(--short)'}">${usd == null ? 'in progress' : (h.outcome.r > 0 ? '+' : '') + h.outcome.r + 'R · ' + money(usd)}</div></div></div>
@@ -182,8 +183,8 @@ function renderHistory(v) {
     ${list.length > hShow ? `<button class="btn ghost" id="more">Show ${Math.min(40, list.length - hShow)} more (${list.length - hShow} left)</button>` : ''}`;
   const msg = t => { $('#cpmsg').textContent = t; };
   const copy = async txt => { try { await navigator.clipboard.writeText(txt); msg('Copied.'); } catch { const ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); msg('Copied.'); } catch { msg(txt.slice(0, 200)); } ta.remove(); } };
-  $('#cpl').onclick = () => copy(PUBLIC_URL + '/api/report');
-  $('#cpt').onclick = async () => copy(await fetch(BASE + '/api/report').then(r => r.text()));
+  $('#cpl').onclick = () => copy(HRAW + '/history.csv');
+  $('#cpt').onclick = async () => { const [a, b] = await Promise.all([fetch(HRAW + '/summary.json?t=' + Date.now()).then(r => r.text()), fetch(HRAW + '/history.csv?t=' + Date.now()).then(r => r.text())]); copy(`SURGE RADAR PERFORMANCE REPORT\nGenerated ${new Date().toISOString()}\n\n== SUMMARY ==\n${a}\n\n== ALERT LOG (CSV) ==\n${b}`); };
   $('#hf').onclick = e => { const f = e.target.closest('button')?.dataset.hf; if (f) { hFilter = f; hShow = 40; render(); } };
   const m = $('#more'); if (m) m.onclick = () => { hShow += 40; render(); };
 }
