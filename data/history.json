@@ -4451,7 +4451,138 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.12816323197589893,
-   "mae": 0.03204080799397829
+   "mae": 0.08010201998494218
+  }
+ },
+ {
+  "uid": "ICP-SHORT-1792229325661",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1792229325661,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 3.7x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.03359870503879831,
+   "rsi": 43.794288339663616,
+   "rvol": 3.749354392253199,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.994,
+   "stop": 3.0443980575581975,
+   "takeProfit": 2.8680048561045064,
+   "stopDist": 0.05039805755819747,
+   "tpDist": 0.12599514389549368,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 148.81525922580107,
+   "unit": "ICP",
+   "notional": 445.55288612204845,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T21:28:45.661Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03968406912688473,
+   "mae": 0.21826238019783517
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1792229324902",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1792229324902,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 1.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.37802641225476913,
+   "rsi": 39.29063767963302,
+   "rvol": 1.5703218513692276,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 59.33,
+   "stop": 59.89703961838215,
+   "takeProfit": 57.912400954044614,
+   "stopDist": 0.5670396183821537,
+   "tpDist": 1.4175990459553842,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 13.226589036932884,
+   "unit": "LTC",
+   "notional": 784.733527561228,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-10-17T21:28:44.902Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.2292608766401745
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1792229324894",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792229324894,
+  "factors": [
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 3.3x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.001072059364325875,
+   "rsi": 34.69486357636168,
+   "rvol": 3.2646272871619546,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17913,
+   "stop": 0.18073808904648883,
+   "takeProfit": 0.17510977738377798,
+   "stopDist": 0.0016080890464888124,
+   "tpDist": 0.004020222616222031,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4663.920829742545,
+   "unit": "XLM",
+   "notional": 835.4481382317821,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-10-17T21:28:44.894Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.018655683318971578,
+   "mae": 0.21143107761498245
   }
  }
 ]
