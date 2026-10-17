@@ -4406,7 +4406,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1967098077469353,
+   "mfe": 0.32784967957822553,
    "mae": 0.24822904310922048
   }
  },
@@ -4451,7 +4451,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3444386859352293,
-   "mae": 0.21627545395933037
+   "mae": 0.5527039378960633
   }
  },
  {
@@ -4494,7 +4494,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.21826238019784397,
+   "mfe": 0.41668272583225,
    "mae": 0.23810441476127314
   }
  },
@@ -4711,7 +4711,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1017351284202139,
+   "mfe": 0.2895538270421419,
    "mae": 0.26607648971441306
   }
  },
@@ -4755,8 +4755,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19093728903128301,
+   "mfe": 0.28235574862806817,
    "mae": 0.0474450233350406
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1792238948672",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792238948672,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08183224960387968,
+   "rsi": 31.29672050893022,
+   "rvol": 1.4754619279811065,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 12.15,
+   "stop": 12.27274837440582,
+   "takeProfit": 11.843129063985451,
+   "stopDist": 0.12274837440581951,
+   "tpDist": 0.3068709360145488,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 61.10060549726045,
+   "unit": "LINK",
+   "notional": 742.3723567917145,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-18T00:09:08.672Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05702723179744043,
+   "mae": 0.19552193759122638
   }
  }
 ]
