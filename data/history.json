@@ -4494,7 +4494,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03968406912688473,
+   "mfe": 0.11905220738064537,
    "mae": 0.23810441476127314
   }
  },
@@ -4538,7 +4538,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05290635614773354,
+   "mfe": 0.12344816434470741,
    "mae": 0.28216723278790806
   }
  },
@@ -4581,8 +4581,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.018655683318971578,
+   "mfe": 0.15546402765808498,
    "mae": 0.2736166886782268
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1792231725228",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792231725228,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.010310844663224942,
+   "rsi": 34.8535319985033,
+   "rvol": 1.129430872290807,
+   "bbPct": 0.08771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9979,
+   "stop": 1.0133662669948373,
+   "takeProfit": 0.9592343325129065,
+   "stopDist": 0.015466266994837413,
+   "tpDist": 0.03866566748709353,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 484.92632401234727,
+   "unit": "SUI",
+   "notional": 483.90797873192133,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T22:08:45.228Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10345094912263705,
+   "mae": 0.34268126896873075
   }
  }
 ]
