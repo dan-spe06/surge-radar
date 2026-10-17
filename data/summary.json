@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-17T21:19:49.324Z",
- "total": 107,
- "open": 7,
- "closed": 100,
+ "generated": "2026-10-17T21:29:49.103Z",
+ "total": 109,
+ "open": 4,
+ "closed": 105,
  "wins": 22,
- "losses": 44,
- "timeouts": 34,
- "winRate": 0.22,
- "netR": 20.34,
- "avgR": 0.203,
+ "losses": 46,
+ "timeouts": 37,
+ "winRate": 0.21,
+ "netR": 22.28,
+ "avgR": 0.212,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 100,
+   "n": 105,
    "wins": 22,
-   "R": 20.34,
-   "winRate": 0.22
+   "R": 22.28,
+   "winRate": 0.21
   }
  },
  "bySymbol": {
@@ -32,10 +32,10 @@
    "winRate": 0.2
   },
   "XLM": {
-   "n": 5,
+   "n": 6,
    "wins": 1,
-   "R": 2.01,
-   "winRate": 0.2
+   "R": 3.36,
+   "winRate": 0.167
   },
   "UNI": {
    "n": 3,
@@ -98,10 +98,10 @@
    "winRate": 0.5
   },
   "SOL": {
-   "n": 4,
+   "n": 5,
    "wins": 1,
-   "R": 0.29,
-   "winRate": 0.25
+   "R": -0.71,
+   "winRate": 0.2
   },
   "ZEC": {
    "n": 6,
@@ -116,16 +116,16 @@
    "winRate": 0.333
   },
   "XRP": {
-   "n": 4,
+   "n": 5,
    "wins": 0,
-   "R": -1.26,
+   "R": -2.26,
    "winRate": 0
   },
   "LTC": {
-   "n": 2,
+   "n": 3,
    "wins": 1,
-   "R": 2.63,
-   "winRate": 0.5
+   "R": 3.95,
+   "winRate": 0.333
   },
   "RENDER": {
    "n": 1,
@@ -164,9 +164,9 @@
    "winRate": 0
   },
   "ICP": {
-   "n": 1,
+   "n": 2,
    "wins": 0,
-   "R": 0.21,
+   "R": 1.48,
    "winRate": 0
   },
   "SKY": {
@@ -244,10 +244,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 64,
+   "n": 69,
    "wins": 21,
-   "R": 39.75,
-   "winRate": 0.328
+   "R": 41.69,
+   "winRate": 0.304
   },
   "LONG": {
    "n": 36,

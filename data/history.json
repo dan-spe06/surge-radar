@@ -4496,8 +4496,10 @@
    "timeStop": "2026-10-17T21:28:45.661Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.27,
+   "closedAt": 1792272525661,
+   "exit": 2.93,
    "mfe": 2.1429397328515374,
    "mae": 0.23810441476127314
   }
@@ -4540,8 +4542,10 @@
    "timeStop": "2026-10-17T21:28:44.902Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.32,
+   "closedAt": 1792272524902,
+   "exit": 58.58,
    "mfe": 1.4990134241857294,
    "mae": 0.687782629920511
   }
@@ -4583,8 +4587,10 @@
    "timeStop": "2026-10-17T21:28:44.894Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.35,
+   "closedAt": 1792272524894,
+   "exit": 0.17696,
    "mfe": 1.9712838707045195,
    "mae": 0.6964788439082089
   }
@@ -4672,7 +4678,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.7695967664620866,
+   "mfe": 1.9287668459851355,
    "mae": 0.34642899660898485
   }
  },
@@ -4852,6 +4858,98 @@
    "exit": 0.1791214719286621,
    "mfe": 0.9143358562705072,
    "mae": 1.0051639214629662
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792272584587",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792272584587,
+  "factors": [
+   "Range tight (bottom 33% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008027744574198257,
+   "rsi": 35.472753021061266,
+   "rvol": 2.2598488934601124,
+   "bbPct": 0.3333333333333333,
+   "funding": 0.0000311226662533,
+   "oiChg6h": -0.00016788785793123606
+  },
+  "plan": {
+   "entry": 1.2864,
+   "stop": 1.2984416168612973,
+   "takeProfit": 1.2562959578467565,
+   "stopDist": 0.012041616861297386,
+   "tpDist": 0.030104042153243464,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 622.8399463618158,
+   "unit": "XRP",
+   "notional": 801.2213069998398,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-10-18T09:29:44.587Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792271700000,
+   "exit": 1.2984416168612973,
+   "mfe": 0.024913597854469886,
+   "mae": 1.4948158712683592
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1792272584614",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 53,
+  "at": 1792272584614,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Volume 1.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.6792817387503822,
+   "rsi": 35.278159924279336,
+   "rvol": 1.9139681301981164,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 102.77,
+   "stop": 103.78892260812557,
+   "takeProfit": 100.22269347968606,
+   "stopDist": 1.0189226081255733,
+   "tpDist": 2.547306520313933,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.360716054575649,
+   "unit": "SOL",
+   "notional": 756.4607889287394,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-18T09:29:44.614Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792271700000,
+   "exit": 103.78892260812557,
+   "mfe": 0.009814288072758606,
+   "mae": 1.423071770551295
   }
  }
 ]
