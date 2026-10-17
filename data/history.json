@@ -4361,5 +4361,49 @@
    "mfe": 0.2277860914297831,
    "mae": 0.9111443657191508
   }
+ },
+ {
+  "uid": "ALGO-SHORT-1792220325978",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792220325978,
+  "factors": [
+   "Range tight (bottom 23% of 5 days)",
+   "Volatility below average",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014234165708718446,
+   "rsi": 38.334836406602975,
+   "rvol": 2.58122512135367,
+   "bbPct": 0.23214285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.11321,
+   "stop": 0.11534512485630777,
+   "takeProfit": 0.10787218785923058,
+   "stopDist": 0.002135124856307767,
+   "tpDist": 0.005337812140769417,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3512.6751383380997,
+   "unit": "ALGO",
+   "notional": 397.6699524112563,
+   "note": "Spot OK",
+   "timeStop": "2026-10-17T18:58:45.978Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.028101401106706902,
+   "mae": 0.22012764200252005
+  }
  }
 ]
