@@ -4633,9 +4633,11 @@
    "timeStop": "2026-10-17T22:08:45.228Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.803925925325934,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792272600000,
+   "exit": 0.9592343325129065,
+   "mfe": 2.8966265754337583,
    "mae": 0.6659654849769554
   }
  },
@@ -4676,9 +4678,11 @@
    "timeStop": "2026-10-17T22:28:44.907Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.9287668459851355,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792272600000,
+   "exit": 1.2799990018429648,
+   "mfe": 3.4081122909640325,
    "mae": 0.34642899660898485
   }
  },
@@ -4719,9 +4723,11 @@
    "timeStop": "2026-10-17T23:19:05.404Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.0581799057320347,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792272600000,
+   "exit": 9.649542989381608,
+   "mfe": 3.1850920974636443,
    "mae": 0.26607648971441306
   }
  },
@@ -4765,7 +4771,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.003288664182527,
+   "mfe": 2.233387683820385,
    "mae": 0.35410188147618116
   }
  },
@@ -4950,6 +4956,231 @@
    "exit": 103.78892260812557,
    "mfe": 0.009814288072758606,
    "mae": 1.423071770551295
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792273185219",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792273185219,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Volume 6.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.6430979902500871,
+   "rsi": 33.12280922935361,
+   "rvol": 6.706431727961397,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 77.937,
+   "stop": 78.90164698537512,
+   "takeProfit": 75.52538253656218,
+   "stopDist": 0.9646469853751306,
+   "tpDist": 2.4116174634378265,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.774864912974781,
+   "unit": "HYPE",
+   "notional": 605.9496467225155,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-18T09:39:45.219Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.8148058428797585,
+   "mae": 0.5100311382911502
+  }
+ },
+ {
+  "uid": "WLFI-SHORT-1792273186573",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1792273186573,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 9.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00016929750203264503,
+   "rsi": 36.037000837916054,
+   "rvol": 9.212388950805883,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05672,
+   "stop": 0.05697394625304897,
+   "takeProfit": 0.05608513436737758,
+   "stopDist": 0.00025394625304896753,
+   "tpDist": 0.0006348656326224188,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 29533.80847306222,
+   "unit": "WLFI",
+   "notional": 1675.1576165920892,
+   "note": "Needs ~3.4x leverage",
+   "timeStop": "2026-10-18T09:39:46.573Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 1.3782443954095551,
+   "mae": 0.9057034598405789
+  }
+ },
+ {
+  "uid": "ASTER-SHORT-1792273186467",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1792273186467,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 15.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005550993060719281,
+   "rsi": 37.95575374811285,
+   "rvol": 15.80147130792571,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6959,
+   "stop": 0.7042264895910789,
+   "takeProfit": 0.6750837760223026,
+   "stopDist": 0.008326489591078921,
+   "tpDist": 0.020816223977697303,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 900.7397316674208,
+   "unit": "ASTER",
+   "notional": 626.824779267358,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-18T09:39:46.467Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792272600000,
+   "exit": 0.7042264895910789,
+   "mfe": 0.5884832913560502,
+   "mae": 1.0448580887342132
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1792273187088",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 70,
+  "at": 1792273187088,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 6.4x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007339400653849628,
+   "rsi": 39.511541895130755,
+   "rvol": 6.440834164097095,
+   "bbPct": 0.2631578947368421,
+   "funding": 0.0000212901080535,
+   "oiChg6h": 0.02237059642731276
+  },
+  "plan": {
+   "entry": 0.06977,
+   "stop": 0.07087091009807744,
+   "takeProfit": 0.06701772475480638,
+   "stopDist": 0.0011009100980774443,
+   "tpDist": 0.0027522752451936104,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6812.5453777719895,
+   "unit": "SKY",
+   "notional": 475.3112910071517,
+   "note": "Spot OK",
+   "timeStop": "2026-10-18T09:39:47.088Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1725844829035532,
+   "mae": 0.5359202363847363
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1792273185237",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792273185237,
+  "factors": [
+   "Range tight (bottom 33% of 5 days)",
+   "Volatility below average",
+   "Volume 3.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 19.98252665191362,
+   "rsi": 33.5669809855771,
+   "rvol": 3.2117867149899966,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1109.36,
+   "stop": 1139.3337899778703,
+   "takeProfit": 1034.4255250553238,
+   "stopDist": 29.97378997787043,
+   "tpDist": 74.93447494467608,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2502186078416253,
+   "unit": "ZEC",
+   "notional": 277.58251479518543,
+   "note": "Spot OK",
+   "timeStop": "2026-10-18T09:39:45.237Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.35797942161874496,
+   "mae": 0.6886016087801562
   }
  }
 ]
