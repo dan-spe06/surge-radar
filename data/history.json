@@ -5000,7 +5000,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.8148058428797585,
-   "mae": 0.5100311382911502
+   "mae": 0.7743765453322881
   }
  },
  {
@@ -5180,7 +5180,95 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.35797942161874496,
-   "mae": 0.6886016087801562
+   "mae": 0.7556601956817114
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1792273785147",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792273785147,
+  "factors": [
+   "Range tight (bottom 38% of 5 days)",
+   "Volatility below average",
+   "Volume 13.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0013953984748554975,
+   "rsi": 34.32829592741976,
+   "rvol": 13.9366857723754,
+   "bbPct": 0.375,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17583,
+   "stop": 0.17792309771228323,
+   "takeProfit": 0.17059725571929188,
+   "stopDist": 0.002093097712283246,
+   "tpDist": 0.005232744280708116,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3583.205865634748,
+   "unit": "XLM",
+   "notional": 630.0350873545577,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-18T09:49:45.147Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.5159816446514158
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1792273784374",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792273784374,
+  "factors": [
+   "Range moderately tight (41th percentile)",
+   "Volatility below average",
+   "Volume 6.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 15.17976424048194,
+   "rsi": 28.79854105567034,
+   "rvol": 5.98414233869357,
+   "bbPct": 0.4107142857142857,
+   "funding": 0.0000664056252817,
+   "oiChg6h": -0.011187067913108384
+  },
+  "plan": {
+   "entry": 2375.69,
+   "stop": 2398.459646360723,
+   "takeProfit": 2318.7658840981926,
+   "stopDist": 22.76964636072291,
+   "tpDist": 56.92411590180727,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.32938587983242984,
+   "unit": "ETH",
+   "notional": 782.5187408591053,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-10-18T09:49:44.374Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.030303500944585945,
+   "mae": 0.49276127622930627
   }
  }
 ]
