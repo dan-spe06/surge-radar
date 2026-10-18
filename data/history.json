@@ -5415,10 +5415,12 @@
    "timeStop": "2026-10-18T10:29:45.830Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792295100000,
+   "exit": 272.2482137831607,
    "mfe": 0.2062615315094602,
-   "mae": 0.9281768917925709
+   "mae": 1.010681504396362
   }
  },
  {
@@ -5504,8 +5506,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4205778592352413,
+   "mfe": 0.6999222625993307,
    "mae": 0.4602096963419304
+  }
+ },
+ {
+  "uid": "MORPHO-LONG-1792295406334",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 65,
+  "at": 1792295406334,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (46th percentile)",
+   "Volume 1.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.026218824617055568,
+   "rsi": 60.45100716116606,
+   "rvol": 1.7282876924875206,
+   "bbPct": 0.4642857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.4173,
+   "stop": 2.3767781175382945,
+   "takeProfit": 2.518604706154264,
+   "stopDist": 0.0405218824617056,
+   "tpDist": 0.101304706154264,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 185.0851822367267,
+   "unit": "MORPHO",
+   "notional": 447.4064110208394,
+   "note": "Spot OK",
+   "timeStop": "2026-10-18T15:50:06.334Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.14066473849991323
   }
  }
 ]
