@@ -5460,8 +5460,10 @@
    "timeStop": "2026-10-18T13:39:45.189Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.52,
+   "closedAt": 1792330785189,
+   "exit": 0.08727,
    "mfe": 2.078918639742512,
    "mae": 0.9917776996936806
   }
@@ -5777,7 +5779,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2097554618468597,
+   "mfe": 0.3758118691422837,
    "mae": 0.08739810910285921
   }
  },
@@ -5821,8 +5823,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12654648593913898,
-   "mae": 0.09490986445436322
+   "mfe": 0.25309297187827795,
+   "mae": 0.25309297187829594
   }
  },
  {
@@ -5864,7 +5866,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12380886062742118,
+   "mfe": 0.44761664996069117,
    "mae": 0.25714147976465374
   }
  },
@@ -5907,8 +5909,142 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06913965890589324,
+   "mfe": 0.32265174156083076,
    "mae": 0.16132587078040883
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792330846896",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1792330846896,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.008483397259707752,
+   "rsi": 35.892741820823744,
+   "rvol": 2.2241333691529945,
+   "bbPct": 0.2982456140350877,
+   "funding": 0.0000406648925197,
+   "oiChg6h": 0.01057199285483974
+  },
+  "plan": {
+   "entry": 1.2832,
+   "stop": 1.2959250958895616,
+   "takeProfit": 1.2513872602760958,
+   "stopDist": 0.012725095889561628,
+   "tpDist": 0.03181273972390407,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 589.3865213347615,
+   "unit": "XRP",
+   "notional": 756.3007841767659,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-19T01:40:46.896Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4950846779211975,
+   "mae": 0.08644335646243961
+  }
+ },
+ {
+  "uid": "POL-SHORT-1792330848506",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1792330848506,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007763644380655843,
+   "rsi": 36.0942249922076,
+   "rvol": 3.5382863340210324,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.09096,
+   "stop": 0.09212454665709838,
+   "takeProfit": 0.08804863335725406,
+   "stopDist": 0.0011645466570983764,
+   "tpDist": 0.002911366642745941,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6440.274379978259,
+   "unit": "POL",
+   "notional": 585.8073576028224,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-19T01:40:48.506Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24902394269249148,
+   "mae": 0.20608878015930782
+  }
+ },
+ {
+  "uid": "ENA-SHORT-1792330847706",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1792330847706,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 2.4x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002681913354694847,
+   "rsi": 35.4019695096371,
+   "rvol": 2.404737337991702,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1847,
+   "stop": 0.18872287003204227,
+   "takeProfit": 0.17464282491989433,
+   "stopDist": 0.00402287003204227,
+   "tpDist": 0.010057175080105675,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1864.340617584534,
+   "unit": "ENA",
+   "notional": 344.3437120678634,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T01:40:47.706Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.382811273477361,
+   "mae": 0.4101549358685937
   }
  }
 ]
