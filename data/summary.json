@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-18T13:20:51.510Z",
- "total": 126,
- "open": 5,
- "closed": 121,
+ "generated": "2026-10-18T13:30:49.016Z",
+ "total": 130,
+ "open": 6,
+ "closed": 124,
  "wins": 25,
- "losses": 58,
+ "losses": 61,
  "timeouts": 38,
- "winRate": 0.207,
- "netR": 19.12,
- "avgR": 0.158,
+ "winRate": 0.202,
+ "netR": 16.12,
+ "avgR": 0.13,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 121,
+   "n": 124,
    "wins": 25,
-   "R": 19.12,
-   "winRate": 0.207
+   "R": 16.12,
+   "winRate": 0.202
   }
  },
  "bySymbol": {
@@ -26,10 +26,10 @@
    "winRate": 0.25
   },
   "HYPE": {
-   "n": 7,
+   "n": 8,
    "wins": 1,
-   "R": 1.09,
-   "winRate": 0.143
+   "R": 0.09,
+   "winRate": 0.125
   },
   "XLM": {
    "n": 7,
@@ -56,10 +56,10 @@
    "winRate": 1
   },
   "BTC": {
-   "n": 9,
+   "n": 10,
    "wins": 1,
-   "R": 1.84,
-   "winRate": 0.111
+   "R": 0.84,
+   "winRate": 0.1
   },
   "LINK": {
    "n": 4,
@@ -218,9 +218,9 @@
    "winRate": 0
   },
   "HBAR": {
-   "n": 1,
+   "n": 2,
    "wins": 0,
-   "R": -1,
+   "R": -2,
    "winRate": 0
   },
   "ARB": {
@@ -250,10 +250,10 @@
    "winRate": 0.289
   },
   "LONG": {
-   "n": 38,
+   "n": 41,
    "wins": 1,
-   "R": -21.41,
-   "winRate": 0.026
+   "R": -24.41,
+   "winRate": 0.024
   }
  },
  "config": {

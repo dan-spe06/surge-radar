@@ -5504,10 +5504,12 @@
    "timeStop": "2026-10-18T13:49:44.244Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792330200000,
+   "exit": 81364.6680506235,
    "mfe": 1.2252242489771097,
-   "mae": 0.4602096963419304
+   "mae": 1.0131338722182759
   }
  },
  {
@@ -5680,10 +5682,12 @@
    "timeStop": "2026-10-18T23:20:26.813Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792329300000,
+   "exit": 0.08733555768579718,
    "mfe": 0.20156796553730183,
-   "mae": 0.7256446759342894
+   "mae": 1.128780607008893
   }
  },
  {
@@ -5724,10 +5728,187 @@
    "timeStop": "2026-10-19T00:10:25.825Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792329300000,
+   "exit": 78.59602081691038,
+   "mfe": 0.11435812722978062,
+   "mae": 1.585198295536328
+  }
+ },
+ {
+  "uid": "POL-SHORT-1792330247716",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 69,
+  "at": 1792330247716,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 1.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.000762793009494156,
+   "rsi": 36.97438659332534,
+   "rvol": 1.7084899732517878,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0911,
+   "stop": 0.09224418951424124,
+   "takeProfit": 0.08823952621439692,
+   "stopDist": 0.0011441895142412341,
+   "tpDist": 0.0028604737856030853,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6554.858182714253,
+   "unit": "POL",
+   "notional": 597.1475804452685,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-19T01:30:47.716Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11435812722978062,
-   "mae": 0.9306805035190184
+   "mfe": 0.2097554618468597,
+   "mae": 0.08739810910285921
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1792330246651",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1792330246651,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Volume 3.8x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.10726251849381,
+   "rsi": 39.225827415383755,
+   "rvol": 3.821000616828118,
+   "bbPct": 0.03508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 271.9,
+   "stop": 275.0608937777407,
+   "takeProfit": 263.9977655556482,
+   "stopDist": 3.160893777740715,
+   "tpDist": 7.902234444351787,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.3727466113589903,
+   "unit": "BCH",
+   "notional": 645.1498036285094,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-19T01:30:46.651Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12654648593913898,
+   "mae": 0.09490986445436322
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1792330247204",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792330247204,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 7% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.014000074990992947,
+   "rsi": 36.382859667423155,
+   "rvol": 0.8171057285112912,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.0889,
+   "stop": 1.1099001124864893,
+   "takeProfit": 1.0363997187837763,
+   "stopDist": 0.02100011248648942,
+   "tpDist": 0.05250028121622355,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 357.1409441175699,
+   "unit": "DOT",
+   "notional": 388.8907740496219,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T01:30:47.204Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12380886062742118,
+   "mae": 0.25714147976465374
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1792330246896",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1792330246896,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 2.5x normal"
+  ],
+  "stats": {
+   "atr1h": 2.892695786541698,
+   "rsi": 38.546970301633344,
+   "rvol": 2.5274631374888297,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 264.8,
+   "stop": 269.1390436798126,
+   "takeProfit": 253.95239080046863,
+   "stopDist": 4.339043679812547,
+   "tpDist": 10.847609199531368,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.7284914726472658,
+   "unit": "TAO",
+   "notional": 457.70454195699597,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T01:30:46.896Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06913965890589324,
+   "mae": 0.16132587078040883
   }
  }
 ]
