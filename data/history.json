@@ -5779,7 +5779,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7865829819257086,
+   "mfe": 0.8128024146565677,
    "mae": 0.08739810910285921
   }
  },
@@ -5866,7 +5866,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6714249749410315,
+   "mfe": 0.776186318548851,
    "mae": 0.25714147976465374
   }
  },
@@ -5909,7 +5909,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5531172712471328,
+   "mfe": 0.8527224598393152,
    "mae": 0.16132587078040883
   }
  },
@@ -5954,7 +5954,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6915468516994471,
+   "mfe": 0.77013172121074,
    "mae": 0.10216033036469818
   }
  },
@@ -5998,7 +5998,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6526144705044608,
+   "mfe": 0.6783755680243758,
    "mae": 0.20608878015930782
   }
  },
@@ -6086,8 +6086,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.23676200176726253,
-   "mae": 0
+   "mfe": 0.44465058868485463,
+   "mae": 0.11549365939865781
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1792333847686",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792333847686,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.026964376763257,
+   "rsi": 33.599555486869235,
+   "rvol": 1.1463448675075947,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 261.7,
+   "stop": 266.24044656514485,
+   "takeProfit": 250.34888358713778,
+   "stopDist": 4.540446565144886,
+   "tpDist": 11.351116412862215,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.651819901939684,
+   "unit": "TAO",
+   "notional": 432.2812683376153,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T02:30:47.686Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1321455921551672,
+   "mae": 0.24226691895115865
   }
  }
 ]
