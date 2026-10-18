@@ -5871,7 +5871,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 2.0333224418426963,
-   "mae": 0.25714147976465374
+   "mae": 0.46666416698029284
   }
  },
  {
@@ -5914,7 +5914,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 2.419888061706172,
-   "mae": 0.16132587078040883
+   "mae": 0.2996051885921953
   }
  },
  {
@@ -6097,7 +6097,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.703531476130277,
-   "mae": 0.3984531249253835
+   "mae": 0.47929868650444796
   }
  },
  {
@@ -6137,10 +6137,12 @@
    "timeStop": "2026-10-19T02:30:47.686Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792362600000,
+   "exit": 266.24044656514485,
    "mfe": 1.629795636580483,
-   "mae": 0.8148978182902415
+   "mae": 1.0351404718821995
   }
  },
  {
@@ -6183,8 +6185,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7214708341175474,
+   "mfe": 0.7630941514704798,
    "mae": 0.6520986385293114
+  }
+ },
+ {
+  "uid": "PEPE-LONG-1792363267016",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792363267016,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 3.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 5.1221858988059554e-8,
+   "rsi": 61.441165501644214,
+   "rvol": 3.5613193429385834,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.00000398,
+   "stop": 0.000003903167211517911,
+   "takeProfit": 0.0000041720819712052236,
+   "stopDist": 7.683278848208933e-8,
+   "tpDist": 1.920819712052233e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 97614575.08142298,
+   "unit": "PEPE",
+   "notional": 388.5060088240635,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T10:41:07.016Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1301527667752294,
+   "mae": 0.11713749009771088
   }
  }
 ]
