@@ -6640,7 +6640,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08470329443459035,
+   "mfe": 0.17710688836323002,
    "mae": 0.3080119797621436
   }
  },
@@ -6730,8 +6730,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.022691949582351056,
+   "mfe": 0.31768729415283736,
    "mae": 0.11345974791172948
+  }
+ },
+ {
+  "uid": "BNB-LONG-1792447371655",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1792447371655,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.8371453713850414,
+   "rsi": 64.17868692642648,
+   "rvol": 1.3563047928944179,
+   "bbPct": 0.10526315789473684,
+   "funding": 0.0001,
+   "oiChg6h": -0.025588404771357678
+  },
+  "plan": {
+   "entry": 731,
+   "stop": 726.7442819429224,
+   "takeProfit": 741.6392951426939,
+   "stopDist": 4.255718057077562,
+   "tpDist": 10.639295142693905,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.7623347927212814,
+   "unit": "BNB",
+   "notional": 1288.2667334792566,
+   "note": "Needs ~2.6x leverage",
+   "timeStop": "2026-10-20T10:02:51.655Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09399118894512967,
+   "mae": 0.14098678341770784
   }
  }
 ]
