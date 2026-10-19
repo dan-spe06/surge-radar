@@ -6643,5 +6643,51 @@
    "mfe": 0.053902096458372566,
    "mae": 0.3080119797621436
   }
+ },
+ {
+  "uid": "ARB-LONG-1792444975210",
+  "id": "ARB",
+  "name": "Arbitrum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1792444975210,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 3.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0036102095317415363,
+   "rsi": 68.24426390272572,
+   "rvol": 3.700811258582782,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.20221,
+   "stop": 0.1967946857023877,
+   "takeProfit": 0.21574828574403077,
+   "stopDist": 0.005415314297612305,
+   "tpDist": 0.013538285744030761,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1384.961165283955,
+   "unit": "ARB",
+   "notional": 280.05299723206855,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T09:22:55.210Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792444500000,
+   "exit": 0.1967946857023877,
+   "mfe": 0.09602397412635287,
+   "mae": 1.7764435213375511
+  }
  }
 ]
