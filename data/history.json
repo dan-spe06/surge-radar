@@ -6641,7 +6641,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.17710688836323002,
-   "mae": 0.4928191676194298
+   "mae": 0.6699260559826666
   }
  },
  {
@@ -6730,7 +6730,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.726142386635079,
+   "mfe": 0.7942182353821063,
    "mae": 0.11345974791172948
   }
  },
@@ -6774,7 +6774,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5169515391982532,
+   "mfe": 0.5874449309070938,
    "mae": 0.14098678341770784
   }
  },
@@ -6819,8 +6819,97 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13487464480960745,
+   "mfe": 0.2023119672143984,
    "mae": 0.4945403643018854
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1792448572895",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1792448572895,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 1.7x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006272043618718667,
+   "rsi": 57.83295333624707,
+   "rvol": 1.7381417432689161,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07991,
+   "stop": 0.0789691934571922,
+   "takeProfit": 0.08226201635701949,
+   "stopDist": 0.0009408065428078,
+   "tpDist": 0.0023520163570195,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7971.883334927227,
+   "unit": "DOGE",
+   "notional": 637.0331972940347,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-20T10:22:52.895Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.22321273337796435,
+   "mae": 0.010629177779898849
+  }
+ },
+ {
+  "uid": "BCH-LONG-1792448573313",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1792448573313,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volume 1.8x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.579103981952362,
+   "rsi": 58.94219437465801,
+   "rvol": 1.843425184822676,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 280.4,
+   "stop": 276.53134402707144,
+   "takeProfit": 290.0716399323213,
+   "stopDist": 3.868655972928543,
+   "tpDist": 9.671639932321357,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.9386577799841316,
+   "unit": "BCH",
+   "notional": 543.5996415075505,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-20T10:22:53.313Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12924385199894212,
+   "mae": 0.12924385199894212
   }
  }
 ]
