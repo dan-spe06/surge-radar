@@ -6865,7 +6865,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.22321273337796435,
-   "mae": 0.1488084889186429
+   "mae": 0.22321273337796435
   }
  },
  {
@@ -6910,6 +6910,94 @@
    "r": null,
    "mfe": 0.12924385199894212,
    "mae": 0.2326389335980899
+  }
+ },
+ {
+  "uid": "SUI-LONG-1792449773605",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1792449773605,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.011904686710474413,
+   "rsi": 55.570167108476646,
+   "rvol": 2.064785163699985,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1,
+   "stop": 0.9816095313289526,
+   "takeProfit": 1.0459761716776186,
+   "stopDist": 0.018390468671047433,
+   "tpDist": 0.04597617167761858,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 407.81994924400345,
+   "unit": "SUI",
+   "notional": 407.81994924400345,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T10:42:53.605Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08156398984880378,
+   "mae": 0.09243918849530934
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1792449774328",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1792449774328,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 4.4x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.004914704948325091,
+   "rsi": 59.344998238025056,
+   "rvol": 4.412670496873476,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7108,
+   "stop": 0.7034279425775124,
+   "takeProfit": 0.7292301435562191,
+   "stopDist": 0.0073720574224876365,
+   "tpDist": 0.01843014355621909,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1017.3550706648173,
+   "unit": "ASTER",
+   "notional": 723.1359842285522,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-20T10:42:54.328Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013564734275529403,
+   "mae": 0.12208260847977968
   }
  }
 ]
