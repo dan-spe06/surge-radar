@@ -6193,7 +6193,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.025668111176182,
+   "mfe": 2.1644125023526306,
    "mae": 0.6520986385293114
   }
  },
@@ -6237,7 +6237,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3145429444298347,
+   "mfe": 1.444695711205064,
    "mae": 0.2733208102279884
   }
  },
@@ -6279,7 +6279,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4389810191535152,
+   "mfe": 0.5440891505001353,
    "mae": 0.395701200363736
   }
  },
@@ -6322,7 +6322,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.42076087764420805,
+   "mfe": 0.7626413850521865,
    "mae": 0.2342806008762459
   }
  },
@@ -6364,7 +6364,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.49895565215340926,
+   "mfe": 0.801353017094858,
    "mae": 0.11339901185303926
   }
  },
@@ -6449,8 +6449,93 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.18994617033866623,
+   "mfe": 0.47961408010512363,
    "mae": 0.3703950321603767
+  }
+ },
+ {
+  "uid": "TAO-LONG-1792378286393",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792378286393,
+  "factors": [
+   "Volume 3.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 3.345637231666142,
+   "rsi": 60.76843276438129,
+   "rvol": 3.3175059594755663,
+   "bbPct": 0.8214285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 273,
+   "stop": 267.98154415250076,
+   "takeProfit": 285.54613961874804,
+   "stopDist": 5.0184558474992125,
+   "tpDist": 12.54613961874803,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.4944836076892827,
+   "unit": "TAO",
+   "notional": 407.9940248991742,
+   "note": "Spot OK",
+   "timeStop": "2026-10-19T14:51:26.393Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15941158482019244,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "ETH-LONG-1792378285158",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792378285158,
+  "factors": [
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 18.33686991303104,
+   "rsi": 61.85198727999528,
+   "rvol": 3.3827422086932635,
+   "bbPct": 1,
+   "funding": 0.0000983856536129,
+   "oiChg6h": 0.017130380162222993
+  },
+  "plan": {
+   "entry": 2431.92,
+   "stop": 2404.4146951304533,
+   "takeProfit": 2500.6832621738663,
+   "stopDist": 27.505304869546563,
+   "tpDist": 68.76326217386641,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.27267467259757155,
+   "unit": "ETH",
+   "notional": 663.1229897834862,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-19T14:51:25.158Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24395294041729534,
+   "mae": 0.2406808443461192
   }
  }
 ]
