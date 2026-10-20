@@ -8333,7 +8333,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6206995743556337,
-   "mae": 0.164092990921609
+   "mae": 0.26397568104780444
   }
  },
  {
@@ -8466,7 +8466,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.30574127536701967,
-   "mae": 0.05095687922784227
+   "mae": 0.22930595652526192
   }
  },
  {
@@ -8511,6 +8511,94 @@
    "r": null,
    "mfe": 0.08572759989859756,
    "mae": 0.46161015330010574
+  }
+ },
+ {
+  "uid": "ICP-LONG-1792508045127",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1792508045127,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 4.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.03217113252224917,
+   "rsi": 66.07911838929272,
+   "rvol": 4.369683110458676,
+   "bbPct": 0.39285714285714285,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.924,
+   "stop": 2.8757433012166262,
+   "takeProfit": 3.044641746958434,
+   "stopDist": 0.048256698783373755,
+   "tpDist": 0.12064174695843438,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 155.41883695086145,
+   "unit": "ICP",
+   "notional": 454.4446792443189,
+   "note": "Spot OK",
+   "timeStop": "2026-10-21T02:54:05.127Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.26939265071482443,
+   "mae": 0.22794762752793263
+  }
+ },
+ {
+  "uid": "BTC-LONG-1792508043432",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792508043432,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (52th percentile)",
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 441.2835624425301,
+   "rsi": 69.98617702109209,
+   "rvol": 3.384756915729574,
+   "bbPct": 0.5178571428571429,
+   "funding": 0.0000491978257344,
+   "oiChg6h": 0.02823065195377898
+  },
+  "plan": {
+   "entry": 83039.6,
+   "stop": 82377.67465633621,
+   "takeProfit": 84694.41335915949,
+   "stopDist": 661.9253436637952,
+   "tpDist": 1654.8133591594878,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.011330582930224525,
+   "unit": "BTC",
+   "notional": 940.8870742926725,
+   "note": "Needs ~1.9x leverage",
+   "timeStop": "2026-10-21T02:54:03.432Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16935444619707604,
+   "mae": 0.05997655231067274
   }
  }
 ]
