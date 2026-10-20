@@ -7053,7 +7053,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4871809013780988,
-   "mae": 0.8666007808508082
+   "mae": 0.9929537378588394
   }
  },
  {
@@ -7276,6 +7276,49 @@
    "r": null,
    "mfe": 0.3720827409070956,
    "mae": 0.8003289144039611
+  }
+ },
+ {
+  "uid": "VVV-LONG-1792465996144",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792465996144,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.4835397094147568,
+   "rsi": 65.14493924763536,
+   "rvol": 3.5530413954203715,
+   "bbPct": 0.5964912280701754,
+   "funding": 0.00005,
+   "oiChg6h": -0.0065583246210375165
+  },
+  "plan": {
+   "entry": 24.92,
+   "stop": 24.194690435877867,
+   "takeProfit": 26.73327391030534,
+   "stopDist": 0.7253095641221352,
+   "tpDist": 1.813273910305338,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.340412385265433,
+   "unit": "VVV",
+   "notional": 257.6830766408146,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T15:13:16.144Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19302103119161731,
+   "mae": 0.0275744330273788
   }
  }
 ]
