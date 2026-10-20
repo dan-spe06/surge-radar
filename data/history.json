@@ -7600,9 +7600,11 @@
    "timeStop": "2026-10-20T16:53:13.670Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.1454548743798814,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792504800000,
+   "exit": 1224.33147164416,
+   "mfe": 2.7378490707043546,
    "mae": 0.9048880151456606
   }
  },
@@ -7689,10 +7691,12 @@
    "timeStop": "2026-10-20T20:23:34.264Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 4.874661663160774,
    "mfe": 1.1163277809822378,
-   "mae": 0.4099016070794203
+   "mae": 1.5523933204284226
   }
  },
  {
@@ -7733,10 +7737,12 @@
    "timeStop": "2026-10-20T20:23:34.253Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 278.7499136447504,
    "mfe": 0.6582422386513546,
-   "mae": 0.7341932661880372
+   "mae": 1.7721906425228622
   }
  },
  {
@@ -7823,10 +7829,12 @@
    "timeStop": "2026-10-20T21:53:34.319Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 4.82114844899901,
    "mfe": 0.6426486908272396,
-   "mae": 0.8771286185614938
+   "mae": 2.0147904901610496
   }
  },
  {
@@ -8007,8 +8015,238 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1215023543537687,
+   "mfe": 1.1178216600546915,
    "mae": 0.510309888285848
+  }
+ },
+ {
+  "uid": "ETH-LONG-1792505638173",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792505638173,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 11.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 18.387413440677097,
+   "rsi": 70.37579820004146,
+   "rvol": 11.627581467933549,
+   "bbPct": 0.5614035087719298,
+   "funding": 0.0000350885392005,
+   "oiChg6h": 0.004398218824127253
+  },
+  "plan": {
+   "entry": 2454.5,
+   "stop": 2426.918879838984,
+   "takeProfit": 2523.452800402539,
+   "stopDist": 27.581120161015647,
+   "tpDist": 68.95280040253911,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.27192514140889845,
+   "unit": "ETH",
+   "notional": 667.4402595881412,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-21T02:13:58.173Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 2426.918879838984,
+   "mfe": 0.09571764977592764,
+   "mae": 1.6551176940421652
+  }
+ },
+ {
+  "uid": "ADA-LONG-1792505638527",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792505638527,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (58th percentile)",
+   "Volume 10.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0021684190268649937,
+   "rsi": 70.62526610590542,
+   "rvol": 10.226283335929132,
+   "bbPct": 0.5789473684210527,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2243,
+   "stop": 0.22104737145970252,
+   "takeProfit": 0.23243157135074372,
+   "stopDist": 0.0032526285402974904,
+   "tpDist": 0.008131571350743726,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2305.82739685179,
+   "unit": "ADA",
+   "notional": 517.1970851138565,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-21T02:13:58.527Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 0.22104737145970252,
+   "mfe": 0.061488730582716165,
+   "mae": 1.5679626298592153
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1792505638533",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792505638533,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 6.1x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006252722273526626,
+   "rsi": 73.07725804447163,
+   "rvol": 6.10498978624792,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08141,
+   "stop": 0.080472091658971,
+   "takeProfit": 0.08375477085257248,
+   "stopDist": 0.0009379083410289939,
+   "tpDist": 0.0023447708525724848,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7996.517006951482,
+   "unit": "DOGE",
+   "notional": 650.9964495359201,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-21T02:13:58.533Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 0.080472091658971,
+   "mfe": 0.1279442721112333,
+   "mae": 1.4073869932234626
+  }
+ },
+ {
+  "uid": "LINK-LONG-1792505638555",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792505638555,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (47th percentile)",
+   "Volume 7.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.1142090193660261,
+   "rsi": 70.84966330492522,
+   "rvol": 7.221062108389028,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 12.348,
+   "stop": 12.176686470950962,
+   "takeProfit": 12.776283822622599,
+   "stopDist": 0.17131352904903913,
+   "tpDist": 0.4282838226225978,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 43.77937948994733,
+   "unit": "LINK",
+   "notional": 540.5877779418697,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-21T02:13:58.555Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 12.176686470950962,
+   "mfe": 0.0758842577825748,
+   "mae": 1.4884989026582138
+  }
+ },
+ {
+  "uid": "XLM-LONG-1792505638846",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792505638846,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (40th percentile)",
+   "Volume 10.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0013745900409515444,
+   "rsi": 67.71542821034859,
+   "rvol": 10.198789612420274,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.18066,
+   "stop": 0.17859811493857267,
+   "takeProfit": 0.18581471265356828,
+   "stopDist": 0.0020618850614273166,
+   "tpDist": 0.005154712653568292,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3637.448148932322,
+   "unit": "XLM",
+   "notional": 657.1413825861133,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-21T02:13:58.846Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792504800000,
+   "exit": 0.17859811493857267,
+   "mfe": 0.05334923951767356,
+   "mae": 1.4404294669771998
   }
  }
 ]

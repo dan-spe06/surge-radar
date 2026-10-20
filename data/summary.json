@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-20T14:04:02.831Z",
- "total": 176,
- "open": 5,
- "closed": 171,
- "wins": 30,
- "losses": 95,
+ "generated": "2026-10-20T14:14:02.126Z",
+ "total": 181,
+ "open": 1,
+ "closed": 180,
+ "wins": 31,
+ "losses": 103,
  "timeouts": 46,
- "winRate": 0.175,
- "netR": 0.24,
- "avgR": 0.001,
+ "winRate": 0.172,
+ "netR": -5.26,
+ "avgR": -0.029,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 171,
-   "wins": 30,
-   "R": 0.24,
-   "winRate": 0.175
+   "n": 180,
+   "wins": 31,
+   "R": -5.26,
+   "winRate": 0.172
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 5,
+   "n": 6,
    "wins": 1,
-   "R": -1.5,
-   "winRate": 0.2
+   "R": -2.5,
+   "winRate": 0.167
   },
   "HYPE": {
    "n": 10,
@@ -32,10 +32,10 @@
    "winRate": 0.1
   },
   "XLM": {
-   "n": 8,
+   "n": 9,
    "wins": 1,
-   "R": 1.36,
-   "winRate": 0.125
+   "R": 0.36,
+   "winRate": 0.111
   },
   "UNI": {
    "n": 5,
@@ -62,22 +62,22 @@
    "winRate": 0.083
   },
   "LINK": {
-   "n": 4,
+   "n": 5,
    "wins": 2,
-   "R": 3,
-   "winRate": 0.5
+   "R": 2,
+   "winRate": 0.4
   },
   "ADA": {
-   "n": 3,
+   "n": 4,
    "wins": 1,
-   "R": 3.33,
-   "winRate": 0.333
+   "R": 2.33,
+   "winRate": 0.25
   },
   "BCH": {
-   "n": 8,
+   "n": 9,
    "wins": 1,
-   "R": -1.23,
-   "winRate": 0.125
+   "R": -2.23,
+   "winRate": 0.111
   },
   "AVAX": {
    "n": 6,
@@ -104,16 +104,16 @@
    "winRate": 0.143
   },
   "ZEC": {
-   "n": 9,
-   "wins": 1,
-   "R": 0.05,
-   "winRate": 0.111
+   "n": 10,
+   "wins": 2,
+   "R": 2.55,
+   "winRate": 0.2
   },
   "DOGE": {
-   "n": 5,
+   "n": 6,
    "wins": 1,
-   "R": -1.5,
-   "winRate": 0.2
+   "R": -2.5,
+   "winRate": 0.167
   },
   "XRP": {
    "n": 10,
@@ -194,9 +194,9 @@
    "winRate": 0
   },
   "NEAR": {
-   "n": 6,
+   "n": 8,
    "wins": 0,
-   "R": 2.15,
+   "R": 0.15,
    "winRate": 0
   },
   "ASTER": {
@@ -250,16 +250,16 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 104,
+   "n": 107,
    "wins": 27,
-   "R": 36.8,
-   "winRate": 0.26
+   "R": 33.8,
+   "winRate": 0.252
   },
   "LONG": {
-   "n": 67,
-   "wins": 3,
-   "R": -36.56,
-   "winRate": 0.045
+   "n": 73,
+   "wins": 4,
+   "R": -39.06,
+   "winRate": 0.055
   }
  },
  "config": {
