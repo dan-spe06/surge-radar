@@ -7234,7 +7234,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3388621556463367,
-   "mae": 0.8341222292832975
+   "mae": 0.9644538276088145
   }
  },
  {
@@ -7277,7 +7277,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3720827409070956,
-   "mae": 0.8915944923623063
+   "mae": 0.9688192121732089
   }
  },
  {
@@ -7365,6 +7365,94 @@
    "r": null,
    "mfe": 0.27984903171883685,
    "mae": 0.34981128964854447
+  }
+ },
+ {
+  "uid": "PEPE-LONG-1792468994996",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 68,
+  "at": 1792468994996,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (47th percentile)",
+   "Volume 10.2x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.9523625453616375e-8,
+   "rsi": 72.77722671109281,
+   "rvol": 10.230222909198561,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000004218,
+   "stop": 0.000004143714561819575,
+   "takeProfit": 0.000004403713595451061,
+   "stopDist": 7.428543818042456e-8,
+   "tpDist": 1.857135954510614e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 100961913.71697897,
+   "unit": "PEPE",
+   "notional": 425.8573520582173,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T16:03:14.996Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09423111946918175,
+   "mae": 0.21538541592955993
+  }
+ },
+ {
+  "uid": "ALGO-LONG-1792468995636",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1792468995636,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 2.0x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.001145973669927053,
+   "rsi": 60.85222814418498,
+   "rvol": 2.024414707833315,
+   "bbPct": 0.3157894736842105,
+   "funding": 0.0000042692770717,
+   "oiChg6h": 0.022919993668174425
+  },
+  "plan": {
+   "entry": 0.11186,
+   "stop": 0.11014103949510942,
+   "takeProfit": 0.11615740126222646,
+   "stopDist": 0.0017189605048905797,
+   "tpDist": 0.004297401262226449,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4363.101990221358,
+   "unit": "ALGO",
+   "notional": 488.05658862616116,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T16:03:15.636Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12798432504649201,
+   "mae": 0
   }
  }
 ]
