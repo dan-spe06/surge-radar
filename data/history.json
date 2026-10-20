@@ -8015,7 +8015,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3972770750683616,
+   "mfe": 1.5309296648575115,
    "mae": 0.510309888285848
   }
  },
@@ -8420,8 +8420,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.046949621135226015,
+   "mfe": 0.32864734794659045,
    "mae": 0.3638595637980037
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1792506839676",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792506839676,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 6.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.10466365707929493,
+   "rsi": 68.18489856389296,
+   "rvol": 6.5951049671495925,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 9.846,
+   "stop": 9.689004514381057,
+   "takeProfit": 10.238488714047357,
+   "stopDist": 0.1569954856189424,
+   "tpDist": 0.39248871404735597,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 47.77207427609678,
+   "unit": "AVAX",
+   "notional": 470.36384332244893,
+   "note": "Spot OK",
+   "timeStop": "2026-10-21T02:33:59.676Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14650102778002813,
+   "mae": 0.05095687922784227
   }
  }
 ]
