@@ -6640,7 +6640,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8701338428280514,
+   "mfe": 0.8855344418161637,
    "mae": 0.6699260559826666
   }
  },
@@ -6914,10 +6914,12 @@
    "timeStop": "2026-10-20T10:22:53.313Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792458000000,
+   "exit": 276.53134402707144,
    "mfe": 0.1809413927985307,
-   "mae": 0.9305557343923744
+   "mae": 1.163194667990479
   }
  },
  {
@@ -6958,10 +6960,12 @@
    "timeStop": "2026-10-20T10:42:53.605Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792458000000,
+   "exit": 0.9816095313289526,
    "mfe": 0.10875198646506769,
-   "mae": 0.9624550802158508
+   "mae": 1.2560854436715312
   }
  },
  {
@@ -7048,7 +7052,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3893476118090284,
+   "mfe": 0.4871809013780988,
    "mae": 0.5980104950965878
   }
  },
@@ -7092,8 +7096,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.30657001337108186,
-   "mae": 0.05647342351573108
+   "mfe": 0.3227052772327234,
+   "mae": 0.08874395123899984
   }
  },
  {
@@ -7137,7 +7141,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14824934824721886,
+   "mfe": 0.20754908754609983,
    "mae": 0.6967719367619336
   }
  },
@@ -7181,8 +7185,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13865883576723345,
-   "mae": 0.22837925891074853
+   "mfe": 0.15497163997514923,
+   "mae": 0.26100486732656564
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1792459373724",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1792459373724,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volume 2.0x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5115157607456063,
+   "rsi": 43.761710576211456,
+   "rvol": 2.0344417950783873,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 59.14,
+   "stop": 59.90727364111841,
+   "takeProfit": 57.221815897203975,
+   "stopDist": 0.7672736411184096,
+   "tpDist": 1.9181841027960238,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.774869874413634,
+   "unit": "LTC",
+   "notional": 578.0858043728223,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-20T13:22:53.724Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3388621556463367,
+   "mae": 0.07819895899531204
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1792459373750",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 54,
+  "at": 1792459373750,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 2.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09496095746659475,
+   "rsi": 38.41726337189174,
+   "rvol": 2.051872140755821,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 9.488,
+   "stop": 9.630441436199892,
+   "takeProfit": 9.13189640950027,
+   "stopDist": 0.14244143619989214,
+   "tpDist": 0.35610359049973034,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 52.65321805289183,
+   "unit": "AVAX",
+   "notional": 499.57373288583767,
+   "note": "Spot OK",
+   "timeStop": "2026-10-20T13:22:53.750Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3720827409070956,
+   "mae": 0.08424514888463011
   }
  }
 ]
