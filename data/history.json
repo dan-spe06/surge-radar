@@ -8015,7 +8015,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1178216600546915,
+   "mfe": 1.3972770750683616,
    "mae": 0.510309888285848
   }
  },
@@ -8247,6 +8247,181 @@
    "exit": 0.17859811493857267,
    "mfe": 0.05334923951767356,
    "mae": 1.4404294669771998
+  }
+ },
+ {
+  "uid": "BCH-LONG-1792506244488",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1792506244488,
+  "factors": [
+   "Volume 17.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 2.772124230794838,
+   "rsi": 62.070576398345736,
+   "rvol": 17.34470766988835,
+   "bbPct": 0.631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 281.8,
+   "stop": 277.64181365380773,
+   "takeProfit": 292.1954658654806,
+   "stopDist": 4.158186346192258,
+   "tpDist": 10.395465865480645,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.8036709698852036,
+   "unit": "BCH",
+   "notional": 508.2744793136504,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-21T02:24:04.488Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.40883208650731007,
+   "mae": 0.09619578506055239
+  }
+ },
+ {
+  "uid": "SOL-LONG-1792506243847",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792506243847,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Volume 6.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.9344295114139692,
+   "rsi": 72.1674918500243,
+   "rvol": 6.161871306737772,
+   "bbPct": 0.5964912280701754,
+   "funding": 0.0000585617812958,
+   "oiChg6h": 0.002931827434291515
+  },
+  "plan": {
+   "entry": 107.4,
+   "stop": 105.99835573287905,
+   "takeProfit": 110.90411066780239,
+   "stopDist": 1.401644267120954,
+   "tpDist": 3.504110667802385,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.350858399617592,
+   "unit": "SOL",
+   "notional": 574.6821921189294,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-21T02:24:03.847Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6206995743556337,
+   "mae": 0.164092990921609
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1792506244139",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792506244139,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Volume 9.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 22.33788034323814,
+   "rsi": 76.09334910302874,
+   "rvol": 9.678002087192759,
+   "bbPct": 0.5964912280701754,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1215.92,
+   "stop": 1182.4131794851428,
+   "takeProfit": 1299.687051287143,
+   "stopDist": 33.50682051485721,
+   "tpDist": 83.76705128714303,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2238350247727753,
+   "unit": "ZEC",
+   "notional": 272.165483321713,
+   "note": "Spot OK",
+   "timeStop": "2026-10-21T02:24:04.139Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5413823132504154,
+   "mae": 0.3044156336909758
+  }
+ },
+ {
+  "uid": "LTC-LONG-1792506244497",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1792506244497,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 14.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5679847040694916,
+   "rsi": 64.68599186685202,
+   "rvol": 14.433243139112875,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 60.69,
+   "stop": 59.83802294389576,
+   "takeProfit": 62.81994264026059,
+   "stopDist": 0.8519770561042375,
+   "tpDist": 2.1299426402605937,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8.803053962855065,
+   "unit": "LTC",
+   "notional": 534.2573450056739,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-21T02:24:04.497Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.046949621135226015,
+   "mae": 0.3638595637980037
   }
  }
 ]
