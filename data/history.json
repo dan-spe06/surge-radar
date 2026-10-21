@@ -8879,8 +8879,140 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2423013819604386,
+   "mfe": 0.4442192002607971,
    "mae": 0.6932511761645774
+  }
+ },
+ {
+  "uid": "XLM-LONG-1792568098557",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792568098557,
+  "factors": [
+   "Range moderately tight (53th percentile)",
+   "Volatility below average",
+   "Volume 16.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014316913145954895,
+   "rsi": 65.52236047209972,
+   "rvol": 16.819549328093316,
+   "bbPct": 0.5263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.18387,
+   "stop": 0.18172246302810677,
+   "takeProfit": 0.1892388424297331,
+   "stopDist": 0.0021475369718932345,
+   "tpDist": 0.005368842429733086,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3492.372936140009,
+   "unit": "XLM",
+   "notional": 642.1426117680635,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-21T19:34:58.557Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11175593395647575,
+   "mae": 0.027938983489122167
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1792568099219",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792568099219,
+  "factors": [
+   "Range moderately tight (42th percentile)",
+   "Volatility below average",
+   "Volume 4.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.003936852624220445,
+   "rsi": 64.76966691871104,
+   "rvol": 4.601520814664774,
+   "bbPct": 0.42105263157894735,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7236,
+   "stop": 0.7176947210636694,
+   "takeProfit": 0.7383631973408267,
+   "stopDist": 0.005905278936330667,
+   "tpDist": 0.014763197340826668,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1270.0500824538926,
+   "unit": "ASTER",
+   "notional": 919.0082396636367,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-10-21T19:34:59.219Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.2370760153914048
+  }
+ },
+ {
+  "uid": "ETC-LONG-1792568099491",
+  "id": "ETC",
+  "name": "Ethereum Classic",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792568099491,
+  "factors": [
+   "Range moderately tight (44th percentile)",
+   "Volatility below average",
+   "Volume 23.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0610554481869896,
+   "rsi": 72.45007122808197,
+   "rvol": 23.440970258356526,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.076,
+   "stop": 7.984416827719516,
+   "takeProfit": 8.304957930701212,
+   "stopDist": 0.0915831722804844,
+   "tpDist": 0.228957930701211,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 81.89277367495367,
+   "unit": "ETC",
+   "notional": 661.3660401989259,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-21T19:34:59.491Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1856236203298891,
+   "mae": 0.13102843787993085
   }
  }
 ]
