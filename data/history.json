@@ -8879,7 +8879,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4442192002607971,
+   "mfe": 0.531716921524287,
    "mae": 0.6932511761645774
   }
  },
@@ -8968,7 +8968,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.03386800219876674,
-   "mae": 0.2370760153914048
+   "mae": 0.2540100164907882
   }
  },
  {
@@ -9056,8 +9056,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.01423980797971264,
-   "mae": 0.008899879987324723
+   "mfe": 0.07653896789095606,
+   "mae": 0.10501858385038627
   }
  },
  {
@@ -9100,8 +9100,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
-   "mae": 0
+   "mfe": 0.017099781362341592,
+   "mae": 0.22229715771052375
+  }
+ },
+ {
+  "uid": "SHIB-LONG-1792569299525",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792569299525,
+  "factors": [
+   "Range moderately tight (43th percentile)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.677736706459093e-8,
+   "rsi": 67.88982294660713,
+   "rvol": 3.029294152416788,
+   "bbPct": 0.42857142857142855,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000005186,
+   "stop": 0.0000051308339494031134,
+   "takeProfit": 0.000005323915126492216,
+   "stopDist": 5.516605059688639e-8,
+   "tpDist": 1.37915126492216e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 135953179.8787732,
+   "unit": "SHIB",
+   "notional": 705.0531908513178,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-21T19:54:59.525Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09063545325251461,
+   "mae": 0.18127090650502922
   }
  }
 ]
