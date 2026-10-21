@@ -9526,5 +9526,48 @@
    "mfe": 0.40478820735574017,
    "mae": 0.11565377353020678
   }
+ },
+ {
+  "uid": "LTC-LONG-1792619763704",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 57,
+  "at": 1792619763704,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 34% of 5 days)",
+   "Volatility below average",
+   "Volume 5.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.4940172835737469,
+   "rsi": 60.11695414870213,
+   "rvol": 5.121595723422386,
+   "bbPct": 0.3392857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 61.95,
+   "stop": 61.208974074639386,
+   "takeProfit": 63.80256481340155,
+   "stopDist": 0.7410259253606204,
+   "tpDist": 1.852564813401551,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.121103382921621,
+   "unit": "LTC",
+   "notional": 627.0023545719945,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-22T09:56:03.704Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18892726314787103,
+   "mae": 0.02698960902112854
+  }
  }
 ]
