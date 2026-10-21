@@ -9105,7 +9105,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.22229715771052375,
-   "mae": 0.880638740160936
+   "mae": 0.9832374283350213
   }
  },
  {
@@ -9234,10 +9234,12 @@
    "timeStop": "2026-10-21T20:34:59.259Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1792589400000,
+   "exit": 284.7796457229531,
    "mfe": 0.5101579751885492,
-   "mae": 0.9182843553393798
+   "mae": 1.0203159503770984
   }
  },
  {
@@ -9282,7 +9284,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.2876758504940646,
-   "mae": 0.2661676339010122
+   "mae": 0.5228935105183722
+  }
+ },
+ {
+  "uid": "BTC-LONG-1792590317358",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1792590317358,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 32% of 5 days)",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Open interest +5.4% in 6h"
+  ],
+  "stats": {
+   "atr1h": 370.4302986002827,
+   "rsi": 69.3018513080314,
+   "rvol": 0.9398097968717458,
+   "bbPct": 0.32142857142857145,
+   "funding": 0.0000286036263507,
+   "oiChg6h": 0.054116367943738926
+  },
+  "plan": {
+   "entry": 83652.9,
+   "stop": 83097.25455209958,
+   "takeProfit": 85042.01361975106,
+   "stopDist": 555.6454479004241,
+   "tpDist": 1389.1136197510602,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.013497815969409431,
+   "unit": "BTC",
+   "notional": 1129.13144950741,
+   "note": "Needs ~2.3x leverage",
+   "timeStop": "2026-10-22T01:45:17.358Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05921041938582508,
+   "mae": 0.015297524765330688
   }
  }
 ]
