@@ -8881,7 +8881,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7538265216546886,
+   "mfe": 1.1442009703687221,
    "mae": 0.6932511761645774
   }
  },
@@ -9060,7 +9060,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8437086227980073,
+   "mfe": 1.1943638942984451,
    "mae": 0.7511498709298726
   }
  },
@@ -9287,7 +9287,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5124795953428898,
+   "mfe": 1.7503219573929452,
    "mae": 0.5228935105183722
   }
  },
@@ -9375,7 +9375,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2240887653193646,
+   "mfe": 1.3133452377905752,
    "mae": 0.3697768145235566
   }
  },
@@ -9420,8 +9420,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.20942827082997537,
+   "mfe": 0.4311758517087849,
    "mae": 0.29566344117174603
+  }
+ },
+ {
+  "uid": "ETH-LONG-1792595117724",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 68,
+  "at": 1792595117724,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (53th percentile)",
+   "Volume 3.7x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 17.919100538640162,
+   "rsi": 74.89704855248227,
+   "rvol": 3.7095134945821138,
+   "bbPct": 0.5263157894736842,
+   "funding": 0.0000530658032656,
+   "oiChg6h": -0.002923681548511835
+  },
+  "plan": {
+   "entry": 2501.64,
+   "stop": 2474.7613491920397,
+   "takeProfit": 2568.8366270199003,
+   "stopDist": 26.87865080796024,
+   "tpDist": 67.1966270199006,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2790318626327345,
+   "unit": "ETH",
+   "notional": 698.0372688365538,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-22T03:05:17.724Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2474082515343613,
+   "mae": 0.19681047377695404
   }
  }
 ]
