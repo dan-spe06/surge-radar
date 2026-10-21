@@ -8924,7 +8924,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.11175593395647575,
-   "mae": 0.027938983489122167
+   "mae": 0.17229039818291142
   }
  },
  {
@@ -8967,7 +8967,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.03386800219876674,
    "mae": 0.2370760153914048
   }
  },
@@ -9011,8 +9011,97 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1856236203298891,
+   "mfe": 0.49135664204972124,
    "mae": 0.13102843787993085
+  }
+ },
+ {
+  "uid": "ENA-LONG-1792568701203",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1792568701203,
+  "factors": [
+   "Range moderately tight (52th percentile)",
+   "Volatility below average",
+   "Volume 7.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.003745368856751075,
+   "rsi": 70.81635312358556,
+   "rvol": 7.493278873074807,
+   "bbPct": 0.5178571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.20602,
+   "stop": 0.2004019467148734,
+   "takeProfit": 0.22006513321281654,
+   "stopDist": 0.005618053285126612,
+   "tpDist": 0.01404513321281653,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1334.9819980981144,
+   "unit": "ENA",
+   "notional": 275.0329912481736,
+   "note": "Spot OK",
+   "timeStop": "2026-10-21T19:45:01.203Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.01423980797971264,
+   "mae": 0.008899879987324723
+  }
+ },
+ {
+  "uid": "POL-LONG-1792568701970",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1792568701970,
+  "factors": [
+   "Range tight (bottom 39% of 5 days)",
+   "Volatility below average",
+   "Volume 3.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007797370651002486,
+   "rsi": 68.2736399017029,
+   "rvol": 3.2642203443335056,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.09625,
+   "stop": 0.09508039440234962,
+   "takeProfit": 0.09917401399412594,
+   "stopDist": 0.001169605597650373,
+   "tpDist": 0.0029240139941259322,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6412.418010880583,
+   "unit": "POL",
+   "notional": 617.1952335472562,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-21T19:45:01.970Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0
   }
  }
 ]
