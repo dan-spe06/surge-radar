@@ -9237,5 +9237,50 @@
    "mfe": 0.5101579751885492,
    "mae": 0.8672685578205278
   }
+ },
+ {
+  "uid": "ETH-LONG-1792584317678",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 58,
+  "at": 1792584317678,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 2.7x normal",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 14.827748245808431,
+   "rsi": 64.8201400493192,
+   "rvol": 2.707793712842081,
+   "bbPct": 0.15789473684210525,
+   "funding": 0.0000710757643429,
+   "oiChg6h": 0.011801479827897504
+  },
+  "plan": {
+   "entry": 2469.36,
+   "stop": 2447.1183776312873,
+   "takeProfit": 2524.964055921782,
+   "stopDist": 22.241622368712648,
+   "tpDist": 55.60405592178162,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.3372056172732377,
+   "unit": "ETH",
+   "notional": 832.6820630698423,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-10-22T00:05:17.678Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0966656102849989,
+   "mae": 0.09216953538802648
+  }
  }
 ]
