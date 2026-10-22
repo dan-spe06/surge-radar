@@ -9756,7 +9756,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.5848826908945151,
-   "mae": 0.4905467730083126
+   "mae": 0.5754490991058974
   }
  },
  {
@@ -10018,6 +10018,92 @@
    "r": null,
    "mfe": 1.0745083077691133,
    "mae": 0.22688820841340288
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792661205379",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1792661205379,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.746182675730975,
+   "rsi": 30.053431985433548,
+   "rvol": 3.4317473277322934,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 78.006,
+   "stop": 79.12527401359647,
+   "takeProfit": 75.20781496600884,
+   "stopDist": 1.1192740135964625,
+   "tpDist": 2.7981850339911563,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.700772026235939,
+   "unit": "HYPE",
+   "notional": 522.7004226785607,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-22T21:26:45.379Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02769652437511383,
+   "mae": 0.27428493494059303
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1792661205674",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1792661205674,
+  "factors": [
+   "Volatility below average",
+   "Volume 5.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10931319143811777,
+   "rsi": 27.548913091935447,
+   "rvol": 5.938707134355496,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.044,
+   "stop": 7.207969787157176,
+   "takeProfit": 6.634075532107058,
+   "stopDist": 0.16396978715717664,
+   "tpDist": 0.40992446789294157,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 45.74013377727154,
+   "unit": "UNI",
+   "notional": 322.1935023271007,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T21:26:45.674Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.012197369007271067,
+   "mae": 0.18296053510908766
   }
  }
 ]
