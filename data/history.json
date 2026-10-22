@@ -9577,5 +9577,443 @@
    "mfe": 0.18892726314787103,
    "mae": 1.1740479924189142
   }
+ },
+ {
+  "uid": "BCH-SHORT-1792635964519",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792635964519,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (40th percentile)",
+   "Volume 14.9x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 2.500231270520047,
+   "rsi": 41.696459345901296,
+   "rvol": 14.916666024084613,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 282.7,
+   "stop": 286.45034690578007,
+   "takeProfit": 273.3241327355498,
+   "stopDist": 3.750346905780071,
+   "tpDist": 9.375867264450177,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.999815000697916,
+   "unit": "BCH",
+   "notional": 565.3477006973009,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-22T14:26:04.519Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.34663460012097513,
+   "mae": 0.02666420000931161
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1792635964493",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 59,
+  "at": 1792635964493,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 11.3x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.001424195234137169,
+   "rsi": 38.8185845804887,
+   "rvol": 11.346657485019394,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.18141,
+   "stop": 0.18354629285120574,
+   "takeProfit": 0.1760692678719856,
+   "stopDist": 0.002136292851205753,
+   "tpDist": 0.005340732128014383,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3510.7546213839064,
+   "unit": "XLM",
+   "notional": 636.8859958652545,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-22T14:26:04.493Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.23405030809226063,
+   "mae": 0.12170616020798021
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1792635964533",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1792635964533,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 2.9x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.4980038232051603,
+   "rsi": 43.21238963164668,
+   "rvol": 2.8767970838847607,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 61.09,
+   "stop": 61.83700573480775,
+   "takeProfit": 59.22248566298065,
+   "stopDist": 0.7470057348077405,
+   "tpDist": 1.8675143370193512,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.040083563656044,
+   "unit": "LTC",
+   "notional": 613.3487049037477,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-22T14:26:04.533Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3480562302067497,
+   "mae": 0.06693389042436981
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1792635965359",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1792635965359,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (40th percentile)",
+   "Volume 6.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007066944188435147,
+   "rsi": 39.77081386289134,
+   "rvol": 6.429359893087519,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07461,
+   "stop": 0.07567004162826527,
+   "takeProfit": 0.07195989592933681,
+   "stopDist": 0.0010600416282652721,
+   "tpDist": 0.0026501040706631805,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7075.193841465958,
+   "unit": "SKY",
+   "notional": 527.8802125117751,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-22T14:26:05.359Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1037695096748331,
+   "mae": 0.3584764879676136
+  }
+ },
+ {
+  "uid": "ALGO-SHORT-1792635965659",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1792635965659,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (44th percentile)",
+   "Volume 3.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0012157372837349558,
+   "rsi": 35.627211490746944,
+   "rvol": 3.326273877594279,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1111,
+   "stop": 0.11292360592560244,
+   "takeProfit": 0.10654098518599392,
+   "stopDist": 0.0018236059256024337,
+   "tpDist": 0.004559014814006084,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4112.730658912699,
+   "unit": "ALGO",
+   "notional": 456.92437620520093,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:05.659Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12064009932810474,
+   "mae": 0.323534811834462
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1792635964809",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1792635964809,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 2.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.283531695711209,
+   "rsi": 35.86921883529048,
+   "rvol": 2.880295345433676,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 266.1,
+   "stop": 271.0252975435668,
+   "takeProfit": 253.786756141083,
+   "stopDist": 4.925297543566813,
+   "tpDist": 12.313243858917033,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.5227506427091169,
+   "unit": "TAO",
+   "notional": 405.203946024896,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:04.809Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1421233933195268,
+   "mae": 0.40606683805576455
+  }
+ },
+ {
+  "uid": "ICP-SHORT-1792635965383",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1792635965383,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.03272771810624397,
+   "rsi": 32.480603958293415,
+   "rvol": 4.582317574641644,
+   "bbPct": 0.7543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.838,
+   "stop": 2.887091577159366,
+   "takeProfit": 2.7152710571015852,
+   "stopDist": 0.04909157715936595,
+   "tpDist": 0.12272894289841488,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 152.77569868355943,
+   "unit": "ICP",
+   "notional": 433.5774328639417,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:05.383Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12222055894685217,
+   "mae": 0.28518130420930665
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792635964456",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 70,
+  "at": 1792635964456,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (40th percentile)",
+   "Volume 3.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.8511132664854232,
+   "rsi": 38.554727922783016,
+   "rvol": 3.8370698060577317,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 79.606,
+   "stop": 80.88266989972813,
+   "takeProfit": 76.41432525067965,
+   "stopDist": 1.2766698997281347,
+   "tpDist": 3.191674749320337,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.874658752115262,
+   "unit": "HYPE",
+   "notional": 467.6580846208875,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:04.456Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07754549552791326,
+   "mae": 0.21070442724253832
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1792635964763",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792635964763,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.011781563914035712,
+   "rsi": 35.35029611224371,
+   "rvol": 2.9592665723567846,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.0083,
+   "stop": 1.0259723458710535,
+   "takeProfit": 0.964119135322366,
+   "stopDist": 0.01767234587105357,
+   "tpDist": 0.04418086467763392,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 424.3918750076429,
+   "unit": "SUI",
+   "notional": 427.91432757020635,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:04.763Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2037081000036713,
+   "mae": 0.33951350000611463
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1792635965161",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792635965161,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.015573014384667624,
+   "rsi": 36.193596299487304,
+   "rvol": 2.6624066662969756,
+   "bbPct": 0.6491228070175439,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.1274,
+   "stop": 1.1507595215770015,
+   "takeProfit": 1.0690011960574963,
+   "stopDist": 0.023359521577001434,
+   "tpDist": 0.05839880394250359,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 321.0682194529236,
+   "unit": "DOT",
+   "notional": 361.972310611226,
+   "note": "Spot OK",
+   "timeStop": "2026-10-22T14:26:05.161Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19264093167175195,
+   "mae": 0.22688820841340288
+  }
  }
 ]
