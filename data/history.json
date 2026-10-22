@@ -10262,5 +10262,49 @@
    "mfe": 0.10376935088377034,
    "mae": 1.032752111176572
   }
+ },
+ {
+  "uid": "ICP-SHORT-1792712855230",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792712855230,
+  "factors": [
+   "Range moderately tight (48th percentile)",
+   "Volatility below average",
+   "Volume 4.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.028548418735779253,
+   "rsi": 22.193629122444136,
+   "rvol": 4.722404773984949,
+   "bbPct": 0.48214285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.695,
+   "stop": 2.739854841873578,
+   "takeProfit": 2.582862895316054,
+   "stopDist": 0.04485484187357819,
+   "tpDist": 0.11213710468394547,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 167.20602919833024,
+   "unit": "ICP",
+   "notional": 450.6202486895,
+   "note": "Spot OK",
+   "timeStop": "2026-10-23T11:47:35.230Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11147068613221778,
+   "mae": 0.11147068613222767
+  }
  }
 ]
