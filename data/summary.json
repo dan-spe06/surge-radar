@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-22T01:36:06.308Z",
+ "generated": "2026-10-22T01:46:06.210Z",
  "total": 210,
- "open": 3,
- "closed": 207,
+ "open": 0,
+ "closed": 210,
  "wins": 35,
- "losses": 120,
- "timeouts": 52,
- "winRate": 0.169,
- "netR": -7.6,
- "avgR": -0.037,
+ "losses": 122,
+ "timeouts": 53,
+ "winRate": 0.167,
+ "netR": -9.52,
+ "avgR": -0.045,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 207,
+   "n": 210,
    "wins": 35,
-   "R": -7.6,
-   "winRate": 0.169
+   "R": -9.52,
+   "winRate": 0.167
   }
  },
  "bySymbol": {
@@ -56,10 +56,10 @@
    "winRate": 0.5
   },
   "BTC": {
-   "n": 14,
+   "n": 15,
    "wins": 2,
-   "R": 1.52,
-   "winRate": 0.143
+   "R": 1.6,
+   "winRate": 0.133
   },
   "LINK": {
    "n": 6,
@@ -74,10 +74,10 @@
    "winRate": 0.25
   },
   "BCH": {
-   "n": 11,
+   "n": 12,
    "wins": 1,
-   "R": -4.23,
-   "winRate": 0.091
+   "R": -5.23,
+   "winRate": 0.083
   },
   "AVAX": {
    "n": 7,
@@ -122,10 +122,10 @@
    "winRate": 0.091
   },
   "LTC": {
-   "n": 6,
+   "n": 7,
    "wins": 1,
-   "R": 2.08,
-   "winRate": 0.167
+   "R": 1.08,
+   "winRate": 0.143
   },
   "RENDER": {
    "n": 1,
@@ -262,10 +262,10 @@
    "winRate": 0.252
   },
   "LONG": {
-   "n": 100,
+   "n": 103,
    "wins": 8,
-   "R": -41.4,
-   "winRate": 0.08
+   "R": -43.32,
+   "winRate": 0.078
   }
  },
  "config": {
