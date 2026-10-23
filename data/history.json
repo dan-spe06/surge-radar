@@ -10574,5 +10574,49 @@
    "mfe": 0.7023180098956675,
    "mae": 0.23242902619755532
   }
+ },
+ {
+  "uid": "WLFI-SHORT-1792762112312",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792762112312,
+  "factors": [
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00042271414415413457,
+   "rsi": 30.032015052728852,
+   "rvol": 3.545910186226906,
+   "bbPct": 0.2982456140350877,
+   "funding": -0.000012572204124,
+   "oiChg6h": 0.00451419642116686
+  },
+  "plan": {
+   "entry": 0.05313,
+   "stop": 0.053764071216231196,
+   "takeProfit": 0.05154482195942199,
+   "stopDist": 0.0006340712162312018,
+   "tpDist": 0.0015851780405780045,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11828.32433962003,
+   "unit": "WLFI",
+   "notional": 628.4388721640122,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-24T01:28:32.312Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.20502428855341098,
+   "mae": 0.551988469182273
+  }
  }
 ]
