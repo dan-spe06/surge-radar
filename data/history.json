@@ -10762,5 +10762,93 @@
    "mfe": 0.9549918160052906,
    "mae": 0.7971419290622643
   }
+ },
+ {
+  "uid": "TAO-SHORT-1792786137946",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1792786137946,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 5.8x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 2.469237919743082,
+   "rsi": 39.138450507264714,
+   "rvol": 5.751965426908062,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 257.5,
+   "stop": 261.20385687961465,
+   "takeProfit": 248.24035780096344,
+   "stopDist": 3.703856879614623,
+   "tpDist": 9.259642199036557,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.0249162545342076,
+   "unit": "TAO",
+   "notional": 521.4159355425585,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-24T08:08:57.946Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13499441696894718,
+   "mae": 0.026998883393795574
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1792786137089",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1792786137089,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (46th percentile)",
+   "Volume 2.4x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07943598623789064,
+   "rsi": 35.59814881415285,
+   "rvol": 2.413212352779898,
+   "bbPct": 0.45614035087719296,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.754,
+   "stop": 4.873153979356836,
+   "takeProfit": 4.4561150516079095,
+   "stopDist": 0.11915397935683596,
+   "tpDist": 0.2978849483920899,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 62.94376436677286,
+   "unit": "NEAR",
+   "notional": 299.2346557996382,
+   "note": "Spot OK",
+   "timeStop": "2026-10-24T08:08:57.089Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1846350421425283,
+   "mae": 0
+  }
  }
 ]
