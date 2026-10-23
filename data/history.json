@@ -11023,7 +11023,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.006828792568706874,
    "mae": 0.7033656345770829
   }
  },
@@ -11069,6 +11069,50 @@
    "r": null,
    "mfe": 0.27602707300464285,
    "mae": 0.1955191767116067
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1792792760084",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 52,
+  "at": 1792792760084,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 16% of 5 days)",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0012998649873164347,
+   "rsi": 34.394364964982,
+   "rvol": 0.5853638620662123,
+   "bbPct": 0.16071428571428573,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17475,
+   "stop": 0.17669979748097464,
+   "takeProfit": 0.16987550629756337,
+   "stopDist": 0.0019497974809746521,
+   "tpDist": 0.00487449370243663,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3846.553333452328,
+   "unit": "XLM",
+   "notional": 672.1851950207943,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-24T09:59:20.084Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10770349333665902,
+   "mae": 0.07693106666905232
   }
  }
 ]
