@@ -143,7 +143,7 @@ function render() {
     return;
   }
   const list = scan.results.filter(r => filter === 'ALL' || r.status === filter);
-  v.innerHTML = list.length ? list.map(card).join('') : `<div class="empty"><b>${filter === 'ALERT' ? 'No trade signals right now' : 'Nothing building yet'}</b><p class="note">${filter === 'ALERT' ? 'Signals need a score of 50+ and no blockers. Expect roughly 10–20 a day across all 47 markets.' : 'Markets scoring 40–49 show here.'}</p></div>`;
+  v.innerHTML = list.length ? list.map(card).join('') : `<div class="empty"><b>${filter === 'ALERT' ? 'No trade signals right now' : 'Nothing building yet'}</b><p class="note">${filter === 'ALERT' ? 'Signals need a score of 47+ and no blockers. Expect roughly 10–20 a day across all 47 markets.' : 'Markets scoring 37–46 show here.'}</p></div>`;
   v.innerHTML += `<p class="disc">${scan.results.length} markets · tap a card for details · not financial advice</p>`;
 }
 async function loadHistory() {
