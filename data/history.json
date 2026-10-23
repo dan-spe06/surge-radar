@@ -10530,7 +10530,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.39830840199485146,
+   "mfe": 0.8675821526458221,
    "mae": 0.6842208182568706
   }
  },
@@ -10573,7 +10573,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7023180098956675,
+   "mfe": 0.7818067244827056,
    "mae": 0.49806219899476345
   }
  },
@@ -10619,6 +10619,138 @@
    "r": null,
    "mfe": 0.20502428855341098,
    "mae": 0.551988469182273
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1792765112197",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792765112197,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006604381256445896,
+   "rsi": 36.17223042970157,
+   "rvol": 0.6702483335317224,
+   "bbPct": 0.05263157894736842,
+   "funding": -0.0001024431637864,
+   "oiChg6h": -0.022082141739892
+  },
+  "plan": {
+   "entry": 0.07195,
+   "stop": 0.07294065718846689,
+   "takeProfit": 0.06947335702883278,
+   "stopDist": 0.0009906571884668845,
+   "tpDist": 0.002476642971167211,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7570.7319215104135,
+   "unit": "SKY",
+   "notional": 544.7141617526743,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-24T02:18:32.197Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2018861845736168,
+   "mae": 0.41386667837589625
+  }
+ },
+ {
+  "uid": "ARB-SHORT-1792765112504",
+  "id": "ARB",
+  "name": "Arbitrum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792765112504,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 18% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0028114297829597555,
+   "rsi": 35.77545966332103,
+   "rvol": 0.9394673529737255,
+   "bbPct": 0.17543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17754,
+   "stop": 0.18175714467443962,
+   "takeProfit": 0.16699713831390092,
+   "stopDist": 0.004217144674439633,
+   "tpDist": 0.010542861686099084,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1778.4545181620042,
+   "unit": "ARB",
+   "notional": 315.74681515448225,
+   "note": "Spot OK",
+   "timeStop": "2026-10-24T02:18:32.504Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3675472670868132,
+   "mae": 0.6283872630839047
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1792765110616",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792765110616,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08446843765017152,
+   "rsi": 40.43325697795591,
+   "rvol": 0.8275171855374668,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.846,
+   "stop": 4.972702656475257,
+   "takeProfit": 4.529243358811857,
+   "stopDist": 0.12670265647525727,
+   "tpDist": 0.3167566411881432,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 59.1937076036335,
+   "unit": "NEAR",
+   "notional": 286.85270704720796,
+   "note": "Spot OK",
+   "timeStop": "2026-10-24T02:18:30.616Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.268344807803137,
+   "mae": 0.4656571664819182
   }
  }
 ]
