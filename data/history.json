@@ -10354,5 +10354,92 @@
    "mfe": 0.09967525638436756,
    "mae": 1.0964278202282132
   }
+ },
+ {
+  "uid": "SOL-SHORT-1792721275880",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1792721275880,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.7605645298044906,
+   "rsi": 42.93389195507519,
+   "rvol": 2.149910942530113,
+   "bbPct": 0.10526315789473684,
+   "funding": 0.0001,
+   "oiChg6h": 0.0003991412502721647
+  },
+  "plan": {
+   "entry": 104.03,
+   "stop": 105.17084679470673,
+   "takeProfit": 101.17788301323316,
+   "stopDist": 1.140846794706736,
+   "tpDist": 2.85211698676684,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.574064137970372,
+   "unit": "SOL",
+   "notional": 683.8998922730578,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-23T14:07:55.880Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1402467016100316,
+   "mae": 0.017530837701250836
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1792721276553",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 57,
+  "at": 1792721276553,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 5.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.08007828657906978,
+   "rsi": 39.87368168208476,
+   "rvol": 5.09154585651804,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 9.184,
+   "stop": 9.304117429868604,
+   "takeProfit": 8.883706425328487,
+   "stopDist": 0.12011742986860466,
+   "tpDist": 0.30029357467151163,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 62.43889840303926,
+   "unit": "AVAX",
+   "notional": 573.4388429335125,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-23T14:07:56.553Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10822742389860056,
+   "mae": 0
+  }
  }
 ]
