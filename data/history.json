@@ -10804,8 +10804,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13499441696894718,
-   "mae": 0.026998883393795574
+   "mfe": 0.21599106715031854,
+   "mae": 0.1079955335751516
   }
  },
  {
@@ -10848,7 +10848,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.1846350421425283,
-   "mae": 0
+   "mae": 0.008392501915572517
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1792786738142",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 69,
+  "at": 1792786738142,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 1.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.004279634427818026,
+   "rsi": 31.996865629522517,
+   "rvol": 1.5083165910106469,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.4248,
+   "stop": 0.4316279634427818,
+   "takeProfit": 0.40773009139304545,
+   "stopDist": 0.006827963442781819,
+   "tpDist": 0.017069908606954547,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1098.4241586601674,
+   "unit": "ONDO",
+   "notional": 466.61058259883913,
+   "note": "Spot OK",
+   "timeStop": "2026-10-24T08:18:58.142Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07322827724401122,
+   "mae": 0.16110220993682306
   }
  }
 ]
