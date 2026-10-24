@@ -11170,9 +11170,11 @@
    "timeStop": "2026-10-24T10:29:20.261Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.43120419741258,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1792833300000,
+   "exit": 0.16959870188676648,
+   "mfe": 2.5464768102209345,
    "mae": 0.4296524659220583
   }
  },
@@ -11215,7 +11217,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8750330315169635,
+   "mfe": 0.8872427947474333,
    "mae": 0.23300298164812103
   }
  },
@@ -11258,7 +11260,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19394594752393168,
+   "mfe": 0.31200000253850235,
    "mae": 0.22767567752809795
   }
  },
@@ -11301,8 +11303,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.013123402373493869,
+   "mfe": 0.20997443797583198,
    "mae": 0.14435742610838595
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1792834202650",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 49,
+  "at": 1792834202650,
+  "factors": [
+   "Range moderately tight (49th percentile)",
+   "Volatility below average",
+   "Volume 2.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.08686837042984394,
+   "rsi": 32.47846430012507,
+   "rvol": 1.9659809832631463,
+   "bbPct": 0.49122807017543857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.846,
+   "stop": 8.976302555644766,
+   "takeProfit": 8.520243610888086,
+   "stopDist": 0.1303025556447659,
+   "tpDist": 0.32575638911191473,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 57.55834920419127,
+   "unit": "AVAX",
+   "notional": 509.161157060276,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-24T21:30:02.650Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02302333968167738,
+   "mae": 0
   }
  }
 ]
