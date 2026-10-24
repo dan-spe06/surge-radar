@@ -11217,7 +11217,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.9086098804007553,
+   "mfe": 0.9360818476693122,
    "mae": 0.23300298164812103
   }
  },
@@ -11260,7 +11260,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.522810815064521,
+   "mfe": 0.5987027075738819,
    "mae": 0.22767567752809795
   }
  },
@@ -11303,7 +11303,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.40026377239142896,
+   "mfe": 0.4330722783251578,
    "mae": 0.14435742610838595
   }
  },
@@ -11348,8 +11348,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14581448465061886,
+   "mfe": 0.2302333968167602,
    "mae": 0.0997678052872641
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1792835402307",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1792835402307,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (50th percentile)",
+   "Volume 4.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08731182239876356,
+   "rsi": 32.51927887888836,
+   "rvol": 4.6674687250910925,
+   "bbPct": 0.5,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.849,
+   "stop": 8.979967733598146,
+   "takeProfit": 8.521580666004636,
+   "stopDist": 0.13096773359814534,
+   "tpDist": 0.3274193339953634,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 57.26601349774147,
+   "unit": "AVAX",
+   "notional": 506.7469534415143,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-24T21:50:02.307Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18325124319277963,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1792835401879",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792835401879,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014086596756506932,
+   "rsi": 23.58660246640045,
+   "rvol": 2.4807400232039556,
+   "bbPct": 0.7857142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16889,
+   "stop": 0.17100298951347606,
+   "takeProfit": 0.16360752621630992,
+   "stopDist": 0.00211298951347604,
+   "tpDist": 0.0052824737836901,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3549.4733656590133,
+   "unit": "XLM",
+   "notional": 599.4705567261508,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-24T21:50:01.879Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04259368038791135,
+   "mae": 0.06625683615896882
   }
  }
 ]
