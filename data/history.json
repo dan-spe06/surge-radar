@@ -11217,7 +11217,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.9360818476693122,
+   "mfe": 1.4946785154632733,
    "mae": 0.23300298164812103
   }
  },
@@ -11260,7 +11260,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6998918975863733,
+   "mfe": 2.1334054227632784,
    "mae": 0.3372973000416252
   }
  },
@@ -11303,7 +11303,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4330722783251578,
+   "mfe": 1.6797955038066559,
    "mae": 0.42651057713840507
   }
  },
@@ -11348,7 +11348,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2302333968167602,
+   "mfe": 1.266283682492215,
    "mae": 0.8288402285403584
   }
  },
@@ -11392,7 +11392,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.18325124319277963,
+   "mfe": 1.282758702349417,
    "mae": 0.8017241889683838
   }
  },
@@ -11435,8 +11435,188 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.04259368038791135,
+   "mfe": 0.5489852138886046,
    "mae": 0.9891199112303025
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1792851622148",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792851622148,
+  "factors": [
+   "Range tight (bottom 35% of 5 days)",
+   "Volatility below average",
+   "Volume 6.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 3.355492067057853,
+   "rsi": 29.03311589109255,
+   "rvol": 6.731558782099565,
+   "bbPct": 0.3508771929824561,
+   "funding": -0.0003168000666848,
+   "oiChg6h": -0.029618792216640513
+  },
+  "plan": {
+   "entry": 728.5,
+   "stop": 733.5332381005868,
+   "takeProfit": 715.916904748533,
+   "stopDist": 5.03323810058678,
+   "tpDist": 12.583095251466949,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.4900944183676992,
+   "unit": "BNB",
+   "notional": 1085.5337837808688,
+   "note": "Needs ~2.2x leverage",
+   "timeStop": "2026-10-25T02:20:22.148Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6159056929253202,
+   "mae": 0.05960377673469893
+  }
+ },
+ {
+  "uid": "ETC-SHORT-1792851624024",
+  "id": "ETC",
+  "name": "Ethereum Classic",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792851624024,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Volume 3.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0594311856523607,
+   "rsi": 29.781538594814293,
+   "rvol": 3.9343399202035645,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.572,
+   "stop": 7.664943118565236,
+   "takeProfit": 7.33964220358691,
+   "stopDist": 0.09294311856523582,
+   "tpDist": 0.23235779641308957,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 80.69451634265776,
+   "unit": "ETC",
+   "notional": 611.0188777466046,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-25T02:20:24.024Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7639080880438239,
+   "mae": 0.3012595276792511
+  }
+ },
+ {
+  "uid": "ALGO-SHORT-1792851624394",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1792851624394,
+  "factors": [
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0009959651725579151,
+   "rsi": 31.463334645623064,
+   "rvol": 3.0182441870898185,
+   "bbPct": 0.2631578947368421,
+   "funding": -0.0000659180983459,
+   "oiChg6h": 0.01007909047099671
+  },
+  "plan": {
+   "entry": 0.10322,
+   "stop": 0.10471394775883688,
+   "takeProfit": 0.09948513060290783,
+   "stopDist": 0.0014939477588368727,
+   "tpDist": 0.0037348693970921817,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5020.2558661349685,
+   "unit": "ALGO",
+   "notional": 518.1908105024514,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-25T02:20:24.394Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6225117274007363,
+   "mae": 0.24097228157447798
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1792851622529",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1792851622529,
+  "factors": [
+   "Range moderately tight (44th percentile)",
+   "Volatility below average",
+   "Volume 5.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0020992740942109575,
+   "rsi": 30.108311071492636,
+   "rvol": 5.720203274574626,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2058,
+   "stop": 0.20894891114131645,
+   "takeProfit": 0.19792772214670892,
+   "stopDist": 0.0031489111413164363,
+   "tpDist": 0.007872277853291091,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2381.7756879810026,
+   "unit": "ADA",
+   "notional": 490.16943658649035,
+   "note": "Spot OK",
+   "timeStop": "2026-10-25T02:20:22.529Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.8574392476731636,
+   "mae": 0.15878504586540032
   }
  }
 ]
