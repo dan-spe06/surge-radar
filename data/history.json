@@ -10806,8 +10806,10 @@
    "timeStop": "2026-10-24T08:08:57.946Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.86,
+   "closedAt": 1792829337946,
+   "exit": 250.6,
    "mfe": 2.2679062050783143,
    "mae": 0.5399776678757887
   }
@@ -10849,8 +10851,10 @@
    "timeStop": "2026-10-24T08:08:57.089Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.59,
+   "closedAt": 1792829337089,
+   "exit": 4.564,
    "mfe": 1.6365378735360894,
    "mae": 0.6965776589922879
   }
@@ -10895,7 +10899,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.431178804501171,
+   "mfe": 2.445824459949972,
    "mae": 0.5565349070544804
   }
  },
@@ -11113,7 +11117,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.097653751175994,
+   "mfe": 2.2412584089582155,
    "mae": 0.27695184000857415
   }
  },
@@ -11156,8 +11160,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.943915425086345,
+   "mfe": 2.090626023206071,
    "mae": 0.4296524659220583
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1792829380620",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792829380620,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.6552133607338207,
+   "rsi": 35.10020436755376,
+   "rvol": 2.2176545595103967,
+   "bbPct": 0.7192982456140351,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 76.11,
+   "stop": 77.09282004110074,
+   "takeProfit": 73.65294989724818,
+   "stopDist": 0.9828200411007311,
+   "tpDist": 2.4570501027518277,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.631102019043292,
+   "unit": "HYPE",
+   "notional": 580.8031746693849,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-24T20:09:40.620Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2391078632633559,
+   "mae": 0.23300298164812103
   }
  }
 ]
