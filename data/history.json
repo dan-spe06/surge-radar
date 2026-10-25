@@ -11859,7 +11859,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.40055122238154783,
-   "mae": 0
+   "mae": 0.03814773546491058
+  }
+ },
+ {
+  "uid": "ICP-SHORT-1792918285346",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1792918285346,
+  "factors": [
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 2.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.022416290967930776,
+   "rsi": 31.133852555469076,
+   "rvol": 2.8512450422197224,
+   "bbPct": 0.21428571428571427,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.588,
+   "stop": 2.621624436451896,
+   "takeProfit": 2.5039389088702597,
+   "stopDist": 0.03362443645189617,
+   "tpDist": 0.08406109112974042,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 223.05206544441745,
+   "unit": "ICP",
+   "notional": 577.2587453701524,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-25T20:51:25.346Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.1487013769629418
   }
  }
 ]
