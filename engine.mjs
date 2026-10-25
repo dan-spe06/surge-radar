@@ -6,8 +6,8 @@ export const CONFIG = {
   accountSize: 500,
   riskPct: 1.5,           // % risked per trade. 30-day test: 1.5% gave the best profit-to-drawdown (1%, 1.25%, 1.75%, 2% all worse)
   rewardRisk: 2.5,        // take-profit = 2.5 x stop distance
-  alertScore: 47,         // minimum score to alert
-  watchScore: 37,         // shown in app as "building"
+  alertScore: 44,         // minimum score to alert
+  watchScore: 34,         // shown in app as "building"
   stopAtrMult: 1.5,       // base stop distance in 1h ATRs (30-day test: 1.5 beat 0.6 and 1.0)
   timeStopHours: 12,      // 30-day test: 12h beat 4h and 6h
   maxOpen: 10,            // never push a new trade while 10 signals are still open
