@@ -11953,7 +11953,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.32977470599341246,
+   "mfe": 0.6727404002265563,
    "mae": 0.804650282623925
   }
  },
@@ -11996,7 +11996,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3929957107056542,
+   "mfe": 1.3060134876418372,
    "mae": 0.9677836308151423
   }
  },
@@ -12039,8 +12039,271 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4510152185478497,
+   "mfe": 1.058151089669935,
    "mae": 0.4857086968976606
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1792971138862",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1792971138862,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 3.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.022759717958745714,
+   "rsi": 36.80714224956171,
+   "rvol": 3.729227328053844,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.0534,
+   "stop": 2.0875395769381186,
+   "takeProfit": 1.9680510576547035,
+   "stopDist": 0.034139576938118574,
+   "tpDist": 0.08534894234529644,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 219.68637788319717,
+   "unit": "MORPHO",
+   "notional": 451.10400834535704,
+   "note": "Spot OK",
+   "timeStop": "2026-10-26T11:32:18.862Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3485690529080003,
+   "mae": 0.1523158886656926
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1792971137057",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 61,
+  "at": 1792971137057,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 1.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 310.7186534549405,
+   "rsi": 37.528622429312954,
+   "rvol": 1.5858865674619,
+   "bbPct": 0.2631578947368421,
+   "funding": 0.000075011462086,
+   "oiChg6h": -0.009458812681319692
+  },
+  "plan": {
+   "entry": 80023.7,
+   "stop": 80489.7779801824,
+   "takeProfit": 78858.50504954396,
+   "stopDist": 466.0779801824108,
+   "tpDist": 1165.194950456027,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.016091727820019937,
+   "unit": "BTC",
+   "notional": 1287.7195995509294,
+   "note": "Needs ~2.6x leverage",
+   "timeStop": "2026-10-26T11:32:17.057Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3941400534050154,
+   "mae": 0.14396732489645753
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792971137091",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1792971137091,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volume 2.7x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.008509051218998765,
+   "rsi": 43.94402968225101,
+   "rvol": 2.742432026927944,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.291,
+   "stop": 1.3039509051218998,
+   "takeProfit": 1.2586227371952503,
+   "stopDist": 0.012950905121899876,
+   "tpDist": 0.03237726280474969,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 579.1101030705229,
+   "unit": "XRP",
+   "notional": 747.631143064045,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-26T11:32:17.091Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.44012367833358323,
+   "mae": 0.10810055257316951
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1792971137089",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1792971137089,
+  "factors": [
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 7.2x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 14.993464854048852,
+   "rsi": 38.023254302945055,
+   "rvol": 7.199968096759521,
+   "bbPct": 0.24561403508771928,
+   "funding": 0.0000355353940917,
+   "oiChg6h": -0.02141702050847206
+  },
+  "plan": {
+   "entry": 2320.8,
+   "stop": 2343.2901972810732,
+   "takeProfit": 2264.574506797317,
+   "stopDist": 22.49019728107328,
+   "tpDist": 56.2254932026832,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.33347862209779977,
+   "unit": "ETH",
+   "notional": 773.9371861645737,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-26T11:32:17.089Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4739842815416865,
+   "mae": 0.32414122067905976
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1792971137423",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 45,
+  "at": 1792971137423,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volume 1.9x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0017978882302236274,
+   "rsi": 39.0545938113864,
+   "rvol": 1.8861885482975955,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.203,
+   "stop": 0.20569683234533545,
+   "takeProfit": 0.1962579191366614,
+   "stopDist": 0.002696832345335441,
+   "tpDist": 0.006742080863338602,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2781.0405096083664,
+   "unit": "ADA",
+   "notional": 564.5512234504985,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-26T11:32:17.423Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.40788594140923357,
+   "mae": 0.33372486115299804
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1792971137403",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1792971137403,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 35% of 5 days)",
+   "Volume 4.8x normal"
+  ],
+  "stats": {
+   "atr1h": 18.656659469483664,
+   "rsi": 45.718082507986416,
+   "rvol": 4.779170819246063,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1193.85,
+   "stop": 1221.8349892042254,
+   "takeProfit": 1123.887526989436,
+   "stopDist": 27.984989204225496,
+   "tpDist": 69.96247301056374,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2680008180552581,
+   "unit": "ZEC",
+   "notional": 319.95277663526986,
+   "note": "Spot OK",
+   "timeStop": "2026-10-26T11:32:17.403Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.36233710601070446,
+   "mae": 0.46310541359948737
   }
  }
 ]
