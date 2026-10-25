@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T16:11:44.110Z",
+ "generated": "2026-10-25T16:12:03.347Z",
  "total": 261,
  "open": 1,
  "closed": 260,
@@ -272,8 +272,8 @@
   "accountSize": 500,
   "riskPct": 1.5,
   "rewardRisk": 2.5,
-  "alertScore": 47,
-  "watchScore": 37,
+  "alertScore": 44,
+  "watchScore": 34,
   "stopAtrMult": 1.5,
   "timeStopHours": 12,
   "maxOpen": 10,
