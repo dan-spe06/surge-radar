@@ -11679,8 +11679,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6422162923364363,
+   "mfe": 0.8858155756364492,
    "mae": 0.07381796463636257
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1792894264174",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 49,
+  "at": 1792894264174,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.2x normal",
+   "Broke 24h high",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 17.63028044062438,
+   "rsi": 63.768833273286724,
+   "rvol": 3.161146345142819,
+   "bbPct": 0.7192982456140351,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1221.8,
+   "stop": 1195.3545793390633,
+   "takeProfit": 1287.9135516523413,
+   "stopDist": 26.44542066093657,
+   "tpDist": 66.11355165234143,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.28360297596167583,
+   "unit": "ZEC",
+   "notional": 346.5061160299755,
+   "note": "Spot OK",
+   "timeStop": "2026-10-25T14:11:04.174Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13688570306417336,
+   "mae": 0.15238933241673946
+  }
+ },
+ {
+  "uid": "BNB-LONG-1792894263928",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1792894263928,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.588826617367359,
+   "rsi": 66.82614315265337,
+   "rvol": 3.4336691841936053,
+   "bbPct": 0.8771929824561403,
+   "funding": 0.0001,
+   "oiChg6h": -0.0018651181297963952
+  },
+  "plan": {
+   "entry": 744.8,
+   "stop": 739.4167600739489,
+   "takeProfit": 758.2580998151276,
+   "stopDist": 5.383239926051038,
+   "tpDist": 13.458099815127596,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.393213028404206,
+   "unit": "BNB",
+   "notional": 1037.6650635554524,
+   "note": "Needs ~2.1x leverage",
+   "timeStop": "2026-10-25T14:11:03.928Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.39009964795316077
   }
  }
 ]
