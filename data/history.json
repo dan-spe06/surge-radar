@@ -11768,7 +11768,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.7430469484822431,
-   "mae": 0.6130137324978421
+   "mae": 0.7801992959063426
   }
  },
  {
@@ -11815,6 +11815,51 @@
    "exit": 0.07773570615004838,
    "mfe": 0.08290952256019818,
    "mae": 1.0778237932825598
+  }
+ },
+ {
+  "uid": "WLD-SHORT-1792917685026",
+  "id": "WLD",
+  "name": "Worldcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1792917685026,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00699036688329671,
+   "rsi": 33.797756318312096,
+   "rvol": 2.611476662047059,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.4572,
+   "stop": 0.4676855503249451,
+   "takeProfit": 0.4309861241876373,
+   "stopDist": 0.010485550324945064,
+   "tpDist": 0.02621387581236266,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 715.2700399670529,
+   "unit": "WLD",
+   "notional": 327.02146227293656,
+   "note": "Spot OK",
+   "timeStop": "2026-10-25T20:41:25.026Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.40055122238154783,
+   "mae": 0
   }
  }
 ]
