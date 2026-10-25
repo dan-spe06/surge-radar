@@ -11768,5 +11768,49 @@
    "mfe": 0.35294730052908235,
    "mae": 0.39009964795316077
   }
+ },
+ {
+  "uid": "HBAR-LONG-1792900264430",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1792900264430,
+  "factors": [
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.000562862566634415,
+   "rsi": 61.58487884963597,
+   "rvol": 3.434137432581779,
+   "bbPct": 0.30357142857142855,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07858,
+   "stop": 0.07773570615004838,
+   "takeProfit": 0.08069073462487905,
+   "stopDist": 0.0008442938499516224,
+   "tpDist": 0.002110734624879056,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8883.163131449726,
+   "unit": "HBAR",
+   "notional": 698.0389588693195,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-25T15:51:04.430Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.18950748013758645
+  }
  }
 ]
