@@ -11953,8 +11953,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2836062471543252,
-   "mae": 0.35615668247289356
+   "mfe": 0.32977470599341246,
+   "mae": 0.4089206354318373
   }
  },
  {
@@ -11996,8 +11996,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13970363651537956,
-   "mae": 0.13539336097857838
+   "mfe": 0.3929957107056542,
+   "mae": 0.5545042705246802
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1792965737863",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1792965737863,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 2.8x normal"
+  ],
+  "stats": {
+   "atr1h": 0.007686362952071735,
+   "rsi": 49.2975549736169,
+   "rvol": 2.8399664691974498,
+   "bbPct": 0.017543859649122806,
+   "funding": 0.0000762128994031,
+   "oiChg6h": -0.004989542164839873
+  },
+  "plan": {
+   "entry": 1.2975,
+   "stop": 1.3090295444281077,
+   "takeProfit": 1.2686761389297312,
+   "stopDist": 0.011529544428107602,
+   "tpDist": 0.028823861070269005,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 650.502719059387,
+   "unit": "XRP",
+   "notional": 844.0272779795547,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-10-26T10:02:17.863Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4510152185478497,
+   "mae": 0.07806032628711784
   }
  }
 ]
