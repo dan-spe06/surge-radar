@@ -12676,7 +12676,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.1202814034587125,
-   "mae": 0.3664471880472739
+   "mae": 0.3978569470227844
   }
  },
  {
@@ -13040,6 +13040,178 @@
    "exit": 8.890569962003843,
    "mfe": 0.30366727759721157,
    "mae": 1.0745149822670637
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1793045026564",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1793045026564,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 18.7x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0013209265511275965,
+   "rsi": 43.82083386388403,
+   "rvol": 18.678139443653855,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16792,
+   "stop": 0.1699013898266914,
+   "takeProfit": 0.16296652543327153,
+   "stopDist": 0.0019813898266913947,
+   "tpDist": 0.004953474566728486,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3785.2218170130636,
+   "unit": "XLM",
+   "notional": 635.6144475128337,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-27T08:03:46.564Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09589228603100947,
+   "mae": 0.09589228603099545
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1793045026438",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 52,
+  "at": 1793045026438,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 2.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10768847917330497,
+   "rsi": 43.90453872833765,
+   "rvol": 2.078694850092417,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 11.366,
+   "stop": 11.527532718759957,
+   "takeProfit": 10.962168203100106,
+   "stopDist": 0.16153271875995745,
+   "tpDist": 0.4038317968998936,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 46.430222047740244,
+   "unit": "LINK",
+   "notional": 527.7259037946156,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-27T08:03:46.438Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0371441776381936,
+   "mae": 0.123813925460638
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1793045026936",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 45,
+  "at": 1793045026936,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volume 1.9x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.010231506828194898,
+   "rsi": 44.48510753276858,
+   "rvol": 1.8764606874933387,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9099,
+   "stop": 0.9252472602422924,
+   "takeProfit": 0.8715318493942692,
+   "stopDist": 0.015347260242292347,
+   "tpDist": 0.03836815060573087,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 488.6865721695588,
+   "unit": "SUI",
+   "notional": 444.65591201708156,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T08:03:46.936Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0912214934716554,
+   "mae": 0.0847056725093881
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793045026820",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793045026820,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07721267550675338,
+   "rsi": 44.263452527192825,
+   "rvol": 0.43461905627652037,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.467,
+   "stop": 4.58281901326013,
+   "takeProfit": 4.177452466849674,
+   "stopDist": 0.11581901326013008,
+   "tpDist": 0.2895475331503252,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 64.75620702410029,
+   "unit": "NEAR",
+   "notional": 289.265976776656,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T08:03:46.820Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04317080468273261,
+   "mae": 0.14678073592129698
   }
  }
 ]
