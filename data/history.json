@@ -12771,10 +12771,12 @@
    "timeStop": "2026-10-27T00:33:01.061Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793055600000,
+   "exit": 1212.1060802459804,
    "mfe": 0.8705647473514713,
-   "mae": 0.8835284835663304
+   "mae": 1.0201463190613458
   }
  },
  {
@@ -13089,7 +13091,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.27253597082494696,
+   "mfe": 0.28767685809300036,
    "mae": 0.36842825685592845
   }
  },
@@ -13132,7 +13134,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.402395257747079,
+   "mfe": 0.711930071398685,
    "mae": 0.2290557621021902
   }
  },
@@ -13175,7 +13177,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3127594061885194,
+   "mfe": 0.351854331962087,
    "mae": 0.3127594061885121
   }
  },
@@ -13218,7 +13220,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2676589890329452,
+   "mfe": 0.3540005983984104,
    "mae": 0.2417565062233118
   }
  },
@@ -13261,8 +13263,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.048882606461663765,
+   "mfe": 0.2077510774621558,
    "mae": 0.048882606461731606
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1793056020009",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1793056020009,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (49th percentile)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.7841030494258219,
+   "rsi": 39.21128268095622,
+   "rvol": 0.9419645891908571,
+   "bbPct": 0.49122807017543857,
+   "funding": 0.0001,
+   "oiChg6h": 0.004507525521938114
+  },
+  "plan": {
+   "entry": 99.99,
+   "stop": 101.16615457413873,
+   "takeProfit": 97.04961356465316,
+   "stopDist": 1.176154574138733,
+   "tpDist": 2.9403864353468325,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.376712861480859,
+   "unit": "SOL",
+   "notional": 637.607519019471,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-10-27T11:07:00.009Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05101370289183672,
+   "mae": 0.34009135261231727
   }
  }
 ]
