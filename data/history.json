@@ -12501,7 +12501,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7945192454392873,
+   "mfe": 1.0017851355538854,
    "mae": 0.8497901494698463
   }
  },
@@ -12633,7 +12633,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.627272210207402,
+   "mfe": 0.7961531898786152,
    "mae": 0.8765727040077663
   }
  },
@@ -12719,7 +12719,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.7736160357593997,
-   "mae": 0.8274328034644032
+   "mae": 0.9283392429112857
   }
  },
  {
@@ -12808,7 +12808,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2955658191734039,
+   "mfe": 1.5825032153661676,
    "mae": 0.9564579873092123
   }
  },
@@ -12938,10 +12938,12 @@
    "timeStop": "2026-10-27T02:13:24.266Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793027700000,
+   "exit": 80556.77136228382,
    "mfe": 0.578496379401951,
-   "mae": 0.9890212764439102
+   "mae": 1.475263048256243
   }
  },
  {
@@ -12985,8 +12987,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3643339716120513,
-   "mae": 0.14573358864482236
+   "mfe": 0.4580198500265727,
+   "mae": 0.18737175682905205
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1793028205812",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1793028205812,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 9.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.08562002533077193,
+   "rsi": 58.51762649129663,
+   "rvol": 9.780389525999412,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 9.019,
+   "stop": 8.890569962003843,
+   "takeProfit": 9.340075094990395,
+   "stopDist": 0.12843003799615788,
+   "tpDist": 0.32107509499039466,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 58.39755338407959,
+   "unit": "AVAX",
+   "notional": 526.6875339710139,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-27T03:23:25.812Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.30366727759721157,
+   "mae": 0.18687217082906177
   }
  }
 ]
