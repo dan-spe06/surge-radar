@@ -12501,7 +12501,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6148888073399719,
+   "mfe": 0.7945192454392873,
    "mae": 0.8497901494698463
   }
  },
@@ -12589,7 +12589,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8762901937213659,
+   "mfe": 1.254271585763984,
    "mae": 0.504641823238554
   }
  },
@@ -12633,7 +12633,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5227268418394897,
+   "mfe": 0.627272210207402,
    "mae": 0.8765727040077663
   }
  },
@@ -12719,7 +12719,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.7736160357593997,
-   "mae": 0.6928908842018983
+   "mae": 0.8274328034644032
   }
  },
  {
@@ -12763,7 +12763,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.49361918664258275,
+   "mfe": 0.8705647473514713,
    "mae": 0.8835284835663304
   }
  },
@@ -12808,7 +12808,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0955791490996507,
+   "mfe": 1.2955658191734039,
    "mae": 0.9564579873092123
   }
  },
@@ -12849,10 +12849,12 @@
    "timeStop": "2026-10-27T01:43:24.706Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793026800000,
+   "exit": 0.2071893460125653,
    "mfe": 0.4855396559333433,
-   "mae": 0.9710793118666866
+   "mae": 1.1329258638444677
   }
  },
  {
@@ -12939,7 +12941,52 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.578496379401951,
-   "mae": 0.8696901847287012
+   "mae": 0.9890212764439102
+  }
+ },
+ {
+  "uid": "ETC-LONG-1793027606822",
+  "id": "ETC",
+  "name": "Ethereum Classic",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1793027606822,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.06404380362910307,
+   "rsi": 60.65739608421323,
+   "rvol": 3.2796308479443503,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.628,
+   "stop": 7.531934294556345,
+   "takeProfit": 7.8681642636091365,
+   "stopDist": 0.09606570544365461,
+   "tpDist": 0.24016426360913654,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 78.07156534543925,
+   "unit": "ETC",
+   "notional": 595.5299004550106,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-27T03:13:26.822Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3643339716120513,
+   "mae": 0.14573358864482236
   }
  }
 ]
