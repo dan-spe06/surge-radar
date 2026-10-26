@@ -12408,10 +12408,12 @@
    "timeStop": "2026-10-26T16:42:41.331Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793016900000,
+   "exit": 0.282676712952114,
    "mfe": 0.5224331853207568,
-   "mae": 0.7635561939303335
+   "mae": 1.0046792025399212
   }
  },
  {
@@ -12452,10 +12454,12 @@
    "timeStop": "2026-10-26T18:32:40.118Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793016900000,
+   "exit": 0.05424843493177424,
    "mfe": 0.6742331394194191,
-   "mae": 0.985417665305291
+   "mae": 1.0199937237370664
   }
  },
  {
@@ -12583,7 +12587,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3083181548848477,
+   "mfe": 0.5776382296383122,
    "mae": 0.2979853302346546
   }
  },
@@ -12669,8 +12673,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.261747991462297,
-   "mae": 0.1465788752189328
+   "mfe": 0.40832686668122975,
+   "mae": 0.2093983931698957
   }
  },
  {
@@ -12713,7 +12717,97 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.0336354798156225,
-   "mae": 0.10090643944688245
+   "mae": 0.39017156586126583
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793017981061",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 76,
+  "at": 1793017981061,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (47th percentile)",
+   "Volatility below average",
+   "Volume 12.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 20.05594650267977,
+   "rsi": 61.32399619699054,
+   "rvol": 12.342707933194351,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1242.19,
+   "stop": 1212.1060802459804,
+   "takeProfit": 1317.3997993850492,
+   "stopDist": 30.083919754019654,
+   "tpDist": 75.20979938504914,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.24930261951645746,
+   "unit": "ZEC",
+   "notional": 309.6812209371483,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T00:33:01.061Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18946999083250918,
+   "mae": 0.016620174634430496
+  }
+ },
+ {
+  "uid": "POL-LONG-1793017982705",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 70,
+  "at": 1793017982705,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 8.0x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007667177681231995,
+   "rsi": 59.72620151214551,
+   "rvol": 7.999993282391911,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.09018,
+   "stop": 0.0890299233478152,
+   "takeProfit": 0.093055191630462,
+   "stopDist": 0.001150076652184799,
+   "tpDist": 0.0028751916304619977,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6521.304458926507,
+   "unit": "POL",
+   "notional": 588.0912361059924,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-27T00:33:02.705Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14781623440233718,
+   "mae": 0
   }
  }
 ]
