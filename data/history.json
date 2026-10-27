@@ -13627,5 +13627,51 @@
    "mfe": 0.064960845185415,
    "mae": 0.12992169037081797
   }
+ },
+ {
+  "uid": "AAVE-SHORT-1793071645686",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 63,
+  "at": 1793071645686,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (56th percentile)",
+   "Volatility below average",
+   "Volume 1.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 1.5082940670044702,
+   "rsi": 37.135823091831796,
+   "rvol": 1.8673335928674744,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 132.78,
+   "stop": 135.0424411005067,
+   "takeProfit": 127.12389724873324,
+   "stopDist": 2.262441100506705,
+   "tpDist": 5.656102751266763,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.3150034263081016,
+   "unit": "AAVE",
+   "notional": 440.16615494518976,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T15:27:25.686Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11492011877867685,
+   "mae": 0.10608010964186328
+  }
  }
 ]
