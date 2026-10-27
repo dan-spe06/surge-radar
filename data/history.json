@@ -13676,7 +13676,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7337207583561917,
+   "mfe": 0.8000208268823562,
    "mae": 0.3933804065885554
   }
  },
@@ -13719,8 +13719,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
+   "mfe": 0.02572939457390236,
+   "mae": 0.18010576201710227
+  }
+ },
+ {
+  "uid": "ALGO-SHORT-1793089643142",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1793089643142,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 4.5x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008542764530187886,
+   "rsi": 43.54565917842295,
+   "rvol": 4.48740426390804,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.10331,
+   "stop": 0.10459141467952818,
+   "takeProfit": 0.10010646330117955,
+   "stopDist": 0.0012814146795281829,
+   "tpDist": 0.003203536698820457,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5852.906260416418,
+   "unit": "ALGO",
+   "notional": 604.6637457636201,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-27T20:27:23.142Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
    "mfe": 0,
-   "mae": 0.03859409186078212
+   "mae": 0.24192012543054897
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1793089641833",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793089641833,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.001123176121205566,
+   "rsi": 44.55336714254561,
+   "rvol": 0.28068177154949303,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1678,
+   "stop": 0.16948476418180836,
+   "takeProfit": 0.16358808954547913,
+   "stopDist": 0.001684764181808349,
+   "tpDist": 0.0042119104545208725,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4451.661592158163,
+   "unit": "XLM",
+   "notional": 746.9888151641399,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-27T20:27:21.833Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.2077442076340412
   }
  }
 ]
