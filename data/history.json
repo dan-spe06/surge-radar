@@ -13773,7 +13773,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.0223076268194053,
-   "mae": 0.3667821256527608
+   "mae": 0.49164412587498346
   }
  },
  {
@@ -13816,7 +13816,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.7419435986930278,
-   "mae": 0.7834924402198294
+   "mae": 0.9081389648002673
   }
  },
  {
@@ -13859,7 +13859,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.9617814891417981,
-   "mae": 0.16775258531544254
+   "mae": 0.32432166494317854
   }
  },
  {
@@ -13902,7 +13902,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.9362690070752147,
-   "mae": 0.6631905466782761
+   "mae": 0.858246589818945
   }
  },
  {
@@ -13942,10 +13942,102 @@
    "timeStop": "2026-10-27T23:27:42.103Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793105100000,
+   "exit": 101.08809706037589,
+   "mfe": 0.0655371151151361,
+   "mae": 1.1141309569574203
+  }
+ },
+ {
+  "uid": "BCH-LONG-1793105862200",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1793105862200,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volume 6.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 3.213247204891741,
+   "rsi": 62.10401581190555,
+   "rvol": 6.779438915909346,
+   "bbPct": 0.07142857142857142,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 284.88,
+   "stop": 280.0601291926624,
+   "takeProfit": 296.929677018344,
+   "stopDist": 4.819870807337612,
+   "tpDist": 12.04967701834403,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.5560583052521342,
+   "unit": "BCH",
+   "notional": 443.28989000022796,
+   "note": "Spot OK",
+   "timeStop": "2026-10-28T00:57:42.200Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0655371151151361,
-   "mae": 0.8426200514804089
+   "mfe": 0.22614714036331676,
+   "mae": 0.08091503187310815
+  }
+ },
+ {
+  "uid": "XRP-LONG-1793105861431",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 70,
+  "at": 1793105861431,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (41th percentile)",
+   "Volume 5.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.010712880979386049,
+   "rsi": 63.73923485555241,
+   "rvol": 5.2928890902066135,
+   "bbPct": 0.4107142857142857,
+   "funding": 0.0001,
+   "oiChg6h": -0.014752362108307025
+  },
+  "plan": {
+   "entry": 1.3173,
+   "stop": 1.3002287119020612,
+   "takeProfit": 1.3599782202448465,
+   "stopDist": 0.01707128809793862,
+   "tpDist": 0.04267822024484655,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 439.33415902609215,
+   "unit": "XRP",
+   "notional": 578.7348876850712,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-28T00:57:41.431Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.27531607298969313,
+   "mae": 0.05857788787013917
   }
  }
 ]
