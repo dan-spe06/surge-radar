@@ -14091,7 +14091,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5757315334885568,
+   "mfe": 0.5960722789113437,
    "mae": 0.2449733253092474
   }
  },
@@ -14221,8 +14221,139 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13381323023541083,
+   "mfe": 0.2676264604708124,
    "mae": 0.13381323023541083
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1793116087937",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 54,
+  "at": 1793116087937,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0005792358792956672,
+   "rsi": 60.86792105358098,
+   "rvol": 0.43183547574680575,
+   "bbPct": 0.25,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07827,
+   "stop": 0.07740114618105651,
+   "takeProfit": 0.08044213454735875,
+   "stopDist": 0.0008688538189435008,
+   "tpDist": 0.002172134547358752,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8632.061960802297,
+   "unit": "DOGE",
+   "notional": 675.6314896719958,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-28T03:48:07.937Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11509415947735128,
+   "mae": 0.034528247843211776
+  }
+ },
+ {
+  "uid": "ETH-LONG-1793116087580",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793116087580,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (45th percentile)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 17.293975017299967,
+   "rsi": 62.697583070507626,
+   "rvol": 0.7282991106918132,
+   "bbPct": 0.44642857142857145,
+   "funding": 0.0000887099893111,
+   "oiChg6h": 0.018477560613481558
+  },
+  "plan": {
+   "entry": 2349.49,
+   "stop": 2323.54903747405,
+   "takeProfit": 2414.3424063148746,
+   "stopDist": 25.94096252594995,
+   "tpDist": 64.85240631487487,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.28911803070134356,
+   "unit": "ETH",
+   "notional": 679.2799219524996,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-28T03:48:07.580Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14031861756706468,
+   "mae": 0.04086201500578779
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793116087930",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793116087930,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.1x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 18.904738595643682,
+   "rsi": 74.00595432185256,
+   "rvol": 3.133393781050447,
+   "bbPct": 0.9642857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1295.92,
+   "stop": 1267.5628921065345,
+   "takeProfit": 1366.8127697336638,
+   "stopDist": 28.357107893465525,
+   "tpDist": 70.89276973366381,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2644839533064041,
+   "unit": "ZEC",
+   "notional": 342.75004476883527,
+   "note": "Spot OK",
+   "timeStop": "2026-10-28T03:48:07.930Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05959705081170364,
+   "mae": 0.19360225382028814
   }
  }
 ]
