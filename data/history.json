@@ -14443,8 +14443,49 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7721012833874406,
+   "mfe": 0.9651266042343288,
    "mae": 0.10159227412991748
+  }
+ },
+ {
+  "uid": "XLM-LONG-1793135316489",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 49,
+  "at": 1793135316489,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.9x normal"
+  ],
+  "stats": {
+   "atr1h": 0.001165700149854683,
+   "rsi": 60.25845285866631,
+   "rvol": 3.949871640427305,
+   "bbPct": 0.8070175438596491,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17011,
+   "stop": 0.168361449775218,
+   "takeProfit": 0.17448137556195506,
+   "stopDist": 0.0017485502247820243,
+   "tpDist": 0.004371375561955061,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4289.267699436518,
+   "unit": "XLM",
+   "notional": 729.6473283511461,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-28T09:08:36.489Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.10294242478648415
   }
  }
 ]
