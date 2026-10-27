@@ -13993,7 +13993,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22614714036331676,
+   "mfe": 0.23237137358431964,
    "mae": 0.38797720410953307
   }
  },
@@ -14083,8 +14083,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3404863907728014,
+   "mfe": 0.5085186355697641,
    "mae": 0.17952918786201022
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1793108862501",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1793108862501,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005605378645024435,
+   "rsi": 55.25145356193633,
+   "rvol": 0.7614373046836488,
+   "bbPct": 0.07142857142857142,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07773,
+   "stop": 0.07688919320324633,
+   "takeProfit": 0.07983201699188416,
+   "stopDist": 0.0008408067967536654,
+   "tpDist": 0.0021020169918841633,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8920.004011572359,
+   "unit": "DOGE",
+   "notional": 693.3519118195194,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-28T01:47:42.501Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14272006418516844,
+   "mae": 0.0356800160462756
   }
  }
 ]
