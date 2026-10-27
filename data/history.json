@@ -13726,7 +13726,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6303701670600365,
-   "mae": 0.4631291023297426
+   "mae": 0.5017231941905961
   }
  },
  {
@@ -13899,6 +13899,49 @@
    "r": null,
    "mfe": 0.9362690070752147,
    "mae": 0.4681345035376073
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1793100462103",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793100462103,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 1.7x normal"
+  ],
+  "stats": {
+   "atr1h": 0.71206470691726,
+   "rsi": 43.13018737099725,
+   "rvol": 1.7203415910951732,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 100.02,
+   "stop": 101.08809706037589,
+   "takeProfit": 97.34975734906027,
+   "stopDist": 1.06809706037589,
+   "tpDist": 2.670242650939725,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.021833762336696,
+   "unit": "SOL",
+   "notional": 702.3238129089164,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-27T23:27:42.103Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03744978006578826,
+   "mae": 0.12171178521384511
   }
  }
 ]
