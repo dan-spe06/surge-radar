@@ -13224,7 +13224,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3540005983984104,
+   "mfe": 0.6648303921140959,
    "mae": 0.6216595874313633
   }
  },
@@ -13267,7 +13267,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6721358388481312,
+   "mfe": 0.8798869163102869,
    "mae": 0.29329563877011827
   }
  },
@@ -13354,7 +13354,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3631943820010554,
+   "mfe": 0.5761014335189107,
    "mae": 0.6261972103466209
   }
  },
@@ -13485,10 +13485,12 @@
    "timeStop": "2026-10-27T13:07:00.675Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793070000000,
+   "exit": 0.07721927412334013,
    "mfe": 0,
-   "mae": 0.8667118964620943
+   "mae": 1.011163879205771
   }
  },
  {
@@ -13532,8 +13534,98 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.36433479942644825,
+   "mfe": 0.45817861139992244,
    "mae": 0.48577973256858953
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1793071020909",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1793071020909,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006240230747540351,
+   "rsi": 40.33810057750747,
+   "rvol": 2.5710087415031957,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07622,
+   "stop": 0.07715603461213105,
+   "takeProfit": 0.07387991346967236,
+   "stopDist": 0.0009360346121310527,
+   "tpDist": 0.002340086530327632,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8012.524219510311,
+   "unit": "HBAR",
+   "notional": 610.7145960110759,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-27T15:17:00.909Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04273346250405325,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1793071021637",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1793071021637,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 28% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.003078777676447457,
+   "rsi": 36.783137986482984,
+   "rvol": 1.2918987958572838,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2732,
+   "stop": 0.27781816651467117,
+   "takeProfit": 0.261654583713322,
+   "stopDist": 0.004618166514671186,
+   "tpDist": 0.011545416286677965,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1624.0211296352534,
+   "unit": "JUP",
+   "notional": 443.6825726163512,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T15:17:01.637Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0
   }
  }
 ]
