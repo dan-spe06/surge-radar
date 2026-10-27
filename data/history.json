@@ -13679,5 +13679,48 @@
    "mfe": 0.7337207583561917,
    "mae": 0.3933804065885554
   }
+ },
+ {
+  "uid": "TRX-SHORT-1793089041250",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793089041250,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005182140331770897,
+   "rsi": 23.176969501950524,
+   "rvol": 2.2765890771641764,
+   "bbPct": 1,
+   "funding": -0.000308758985577,
+   "oiChg6h": 0.009661573668461768
+  },
+  "plan": {
+   "entry": 0.32779,
+   "stop": 0.32856732104976566,
+   "takeProfit": 0.3258466973755859,
+   "stopDist": 0.0007773210497656345,
+   "tpDist": 0.0019433026244140862,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9648.522965203734,
+   "unit": "TRX",
+   "notional": 3162.689342764132,
+   "note": "Needs ~6.3x leverage",
+   "timeStop": "2026-10-27T20:17:21.250Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.03859409186078212
+  }
  }
 ]
