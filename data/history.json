@@ -13091,10 +13091,12 @@
    "timeStop": "2026-10-27T08:03:46.564Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793062800000,
+   "exit": 0.1699013898266914,
    "mfe": 0.28767685809300036,
-   "mae": 0.979110710000711
+   "mae": 1.0346272966502355
   }
  },
  {
@@ -13354,6 +13356,135 @@
    "r": null,
    "mfe": 0.3005746609664003,
    "mae": 0.21290705151785527
+  }
+ },
+ {
+  "uid": "XLM-LONG-1793063220734",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1793063220734,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0012579459345920135,
+   "rsi": 56.76569756338276,
+   "rvol": 2.2332489462791862,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16995,
+   "stop": 0.16806308109811197,
+   "takeProfit": 0.17466729725472005,
+   "stopDist": 0.0018869189018880202,
+   "tpDist": 0.00471729725472005,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3974.7336212995815,
+   "unit": "XLM",
+   "notional": 675.5059789398638,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-27T13:07:00.734Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.010599289656809483,
+   "mae": 0.31267904487555614
+  }
+ },
+ {
+  "uid": "BNB-LONG-1793063220435",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1793063220435,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.6964618847020105,
+   "rsi": 57.40869636765557,
+   "rvol": 0.5562679338380274,
+   "bbPct": 0.3157894736842105,
+   "funding": 0.0001,
+   "oiChg6h": 0.009306638836123995
+  },
+  "plan": {
+   "entry": 745.53,
+   "stop": 739.9853071729469,
+   "takeProfit": 759.3917320676325,
+   "stopDist": 5.544692827053016,
+   "tpDist": 13.86173206763254,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.3526448144082714,
+   "unit": "BNB",
+   "notional": 1008.4372884857986,
+   "note": "Needs ~2.0x leverage",
+   "timeStop": "2026-10-27T13:07:00.435Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02164231703053316,
+   "mae": 0.1875667475979404
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1793063220675",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1793063220675,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005538172511065697,
+   "rsi": 60.51379843374652,
+   "rvol": 0.5454808277883944,
+   "bbPct": 0.24561403508771928,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07805,
+   "stop": 0.07721927412334013,
+   "takeProfit": 0.08012681469164963,
+   "stopDist": 0.0008307258766598546,
+   "tpDist": 0.0020768146916496366,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9028.24892148017,
+   "unit": "DOGE",
+   "notional": 704.6548283215272,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-10-27T13:07:00.675Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.3490922916305648
   }
  }
 ]
