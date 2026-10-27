@@ -13268,7 +13268,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6110325807710345,
-   "mae": 0.048882606461731606
+   "mae": 0.15886847100049203
   }
  },
  {
@@ -13355,7 +13355,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3005746609664003,
-   "mae": 0.23795493993167563
+   "mae": 0.48843382407036573
   }
  },
  {
@@ -13398,7 +13398,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.010599289656809483,
-   "mae": 0.31267904487555614
+   "mae": 0.5140655483547452
   }
  },
  {
@@ -13441,7 +13441,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.19297732685558908,
-   "mae": 0.1875667475979404
+   "mae": 0.3570982310037869
   }
  },
  {
@@ -13484,7 +13484,52 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0,
-   "mae": 0.3490922916305648
+   "mae": 0.40928061777375935
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1793064421985",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1793064421985,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Volume 4.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.01207680410141086,
+   "rsi": 37.46349183996846,
+   "rvol": 4.848754240807376,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9979,
+   "stop": 1.0160152061521164,
+   "takeProfit": 0.9526119846197093,
+   "stopDist": 0.01811520615211629,
+   "tpDist": 0.04528801538029072,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 414.0168175300517,
+   "unit": "DOT",
+   "notional": 413.1473822132386,
+   "note": "Spot OK",
+   "timeStop": "2026-10-27T13:27:01.985Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03864156963614003,
+   "mae": 0.48577973256858953
   }
  }
 ]
