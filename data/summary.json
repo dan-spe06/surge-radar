@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-28T18:00:15.294Z",
+ "generated": "2026-10-28T18:10:15.935Z",
  "total": 342,
- "open": 9,
- "closed": 333,
+ "open": 4,
+ "closed": 338,
  "wins": 44,
- "losses": 180,
+ "losses": 185,
  "timeouts": 109,
- "winRate": 0.132,
- "netR": -11.8,
- "avgR": -0.035,
+ "winRate": 0.13,
+ "netR": -16.8,
+ "avgR": -0.05,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 333,
+   "n": 338,
    "wins": 44,
-   "R": -11.8,
-   "winRate": 0.132
+   "R": -16.8,
+   "winRate": 0.13
   }
  },
  "bySymbol": {
@@ -26,10 +26,10 @@
    "winRate": 0.167
   },
   "HYPE": {
-   "n": 18,
+   "n": 19,
    "wins": 2,
-   "R": -1.36,
-   "winRate": 0.111
+   "R": -2.36,
+   "winRate": 0.105
   },
   "XLM": {
    "n": 19,
@@ -38,10 +38,10 @@
    "winRate": 0.158
   },
   "UNI": {
-   "n": 9,
+   "n": 10,
    "wins": 1,
-   "R": -2.78,
-   "winRate": 0.111
+   "R": -3.78,
+   "winRate": 0.1
   },
   "TRX": {
    "n": 11,
@@ -116,10 +116,10 @@
    "winRate": 0.1
   },
   "XRP": {
-   "n": 16,
+   "n": 17,
    "wins": 1,
-   "R": -3.68,
-   "winRate": 0.063
+   "R": -4.68,
+   "winRate": 0.059
   },
   "LTC": {
    "n": 8,
@@ -194,9 +194,9 @@
    "winRate": 0
   },
   "NEAR": {
-   "n": 13,
+   "n": 14,
    "wins": 0,
-   "R": 4.62,
+   "R": 3.62,
    "winRate": 0
   },
   "ASTER": {
@@ -242,10 +242,10 @@
    "winRate": 0
   },
   "ENA": {
-   "n": 2,
+   "n": 3,
    "wins": 2,
-   "R": 5,
-   "winRate": 1
+   "R": 4,
+   "winRate": 0.667
   },
   "ETC": {
    "n": 5,
@@ -268,10 +268,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 188,
+   "n": 193,
    "wins": 34,
-   "R": 42.7,
-   "winRate": 0.181
+   "R": 37.7,
+   "winRate": 0.176
   },
   "LONG": {
    "n": 145,
