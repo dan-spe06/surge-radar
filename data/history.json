@@ -15554,7 +15554,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.307643555144518,
+   "mfe": 2.3708666662443663,
    "mae": 0.33192133327421264
   }
  },
@@ -15601,6 +15601,224 @@
    "exit": 0.33069013499762034,
    "mfe": 0.13335333598114896,
    "mae": 1.2668566918207917
+  }
+ },
+ {
+  "uid": "POL-LONG-1793217613623",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1793217613623,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 19% of 5 days)",
+   "Volume 3.8x normal",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006330101011416411,
+   "rsi": 60.15438968851076,
+   "rvol": 3.83908707549784,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.09273,
+   "stop": 0.09178048484828755,
+   "takeProfit": 0.09510378787928116,
+   "stopDist": 0.0009495151517124617,
+   "tpDist": 0.002373787879281154,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7898.768109675409,
+   "unit": "POL",
+   "notional": 732.4527668102007,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-29T08:00:13.623Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11584859894190493,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "ONDO-LONG-1793217612547",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1793217612547,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volume 3.0x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.004562285148275201,
+   "rsi": 62.902508656844844,
+   "rvol": 3.043302004685695,
+   "bbPct": 0.2807017543859649,
+   "funding": 0.0001,
+   "oiChg6h": -0.011851589267084111
+  },
+  "plan": {
+   "entry": 0.4256,
+   "stop": 0.41875657227758717,
+   "takeProfit": 0.442708569306032,
+   "stopDist": 0.006843427722412802,
+   "tpDist": 0.017108569306032006,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1095.9420197333081,
+   "unit": "ONDO",
+   "notional": 466.4329235984959,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T08:00:12.547Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07306280131555394,
+   "mae": 0.014612560263109167
+  }
+ },
+ {
+  "uid": "SUI-LONG-1793217611646",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793217611646,
+  "factors": [
+   "Volume 3.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.008859409975944066,
+   "rsi": 66.78466278435201,
+   "rvol": 3.8662512389315666,
+   "bbPct": 0.9122807017543859,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.952,
+   "stop": 0.9387108850360839,
+   "takeProfit": 0.9852227874097902,
+   "stopDist": 0.013289114963916097,
+   "tpDist": 0.03322278740979025,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 564.3716696232016,
+   "unit": "SUI",
+   "notional": 537.2818294812879,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-29T08:00:11.646Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06019964475980989,
+   "mae": 0.03762477797487596
+  }
+ },
+ {
+  "uid": "JUP-LONG-1793217613595",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793217613595,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0033487235990557395,
+   "rsi": 66.23728407880442,
+   "rvol": 3.982106249360094,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2896,
+   "stop": 0.28457691460141643,
+   "takeProfit": 0.30215771349645903,
+   "stopDist": 0.005023085398583609,
+   "tpDist": 0.012557713496459021,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1493.1062096047226,
+   "unit": "JUP",
+   "notional": 432.4035583015277,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T08:00:13.595Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.07963233117892082
+  }
+ },
+ {
+  "uid": "NEAR-LONG-1793217611179",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1793217611179,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 2.0x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06396448790638008,
+   "rsi": 63.38903798232199,
+   "rvol": 2.04456380566922,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.754,
+   "stop": 4.65805326814043,
+   "takeProfit": 4.993866829648925,
+   "stopDist": 0.09594673185957012,
+   "tpDist": 0.2398668296489253,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 78.16837379075272,
+   "unit": "NEAR",
+   "notional": 371.6124490012384,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T08:00:11.179Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.08337959871012705
   }
  }
 ]
