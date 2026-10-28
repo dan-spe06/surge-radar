@@ -14675,6 +14675,140 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.19371505411685966,
+   "mae": 0.3551442658809151
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1793159944762",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 70,
+  "at": 1793159944762,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 6.6x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0031115851188210407,
+   "rsi": 61.401143771246936,
+   "rvol": 6.634469458639617,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7143,
+   "stop": 0.7096326223217685,
+   "takeProfit": 0.7259684441955789,
+   "stopDist": 0.0046673776782315615,
+   "tpDist": 0.011668444195578904,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1606.898030767825,
+   "unit": "ASTER",
+   "notional": 1147.8072633774575,
+   "note": "Needs ~2.3x leverage",
+   "timeStop": "2026-10-28T15:59:04.762Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1714024566152158,
+   "mae": 0.4927820627688168
+  }
+ },
+ {
+  "uid": "ALGO-LONG-1793159945459",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1793159945459,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008655325636801802,
+   "rsi": 56.56232915178704,
+   "rvol": 2.456747061708449,
+   "bbPct": 0.14285714285714285,
+   "funding": 0.0000266205977726,
+   "oiChg6h": 0.04828156756615499
+  },
+  "plan": {
+   "entry": 0.10443,
+   "stop": 0.10313170115447973,
+   "takeProfit": 0.10767574711380067,
+   "stopDist": 0.0012982988455202704,
+   "tpDist": 0.0032457471138006757,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5776.7901634346035,
+   "unit": "ALGO",
+   "notional": 603.2701967674756,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-28T15:59:05.459Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.26958354096028386,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "ADA-LONG-1793159943783",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 54,
+  "at": 1793159943783,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (52th percentile)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0017178628395595266,
+   "rsi": 61.477287531733154,
+   "rvol": 2.2967772978295398,
+   "bbPct": 0.5178571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2073,
+   "stop": 0.20472320574066072,
+   "takeProfit": 0.21374198564834823,
+   "stopDist": 0.00257679425933929,
+   "tpDist": 0.006441985648348225,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2910.5932585875357,
+   "unit": "ADA",
+   "notional": 603.3659825051961,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-28T15:59:03.783Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.34927119103049814,
    "mae": 0
   }
  }
