@@ -15187,7 +15187,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2916941054395731,
+   "mfe": 0.3481510290730316,
    "mae": 0.4704743636122041
   }
  },
@@ -15317,7 +15317,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.031765624027658514,
+   "mfe": 0.1588281201383102,
    "mae": 0.6273710745463262
   }
  },
@@ -15360,8 +15360,142 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1435542304786353,
+   "mfe": 0.4204088178302859,
    "mae": 0.4614243122527479
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793197189214",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 67,
+  "at": 1793197189214,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 18% of 5 days)",
+   "Volatility below average",
+   "Volume 3.1x normal",
+   "High-impact news ≤4h: Federal Funds Rate",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.06501493142983991,
+   "rsi": 40.1987594334741,
+   "rvol": 3.063398091910347,
+   "bbPct": 0.17543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.568,
+   "stop": 4.66552239714476,
+   "takeProfit": 4.3241940071381,
+   "stopDist": 0.09752239714475987,
+   "tpDist": 0.24380599286189966,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 76.90541065010105,
+   "unit": "NEAR",
+   "notional": 351.30391584966156,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T02:19:49.214Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.215335149820282,
+   "mae": 0.030762164260041587
+  }
+ },
+ {
+  "uid": "ALGO-SHORT-1793197191296",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1793197191296,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.7x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Federal Funds Rate",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0009567860754761372,
+   "rsi": 31.23369523089275,
+   "rvol": 2.7471078857531297,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.10099,
+   "stop": 0.10242517911321421,
+   "takeProfit": 0.09740205221696448,
+   "stopDist": 0.0014351791132142058,
+   "tpDist": 0.0035879477830355142,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5225.828561010138,
+   "unit": "ALGO",
+   "notional": 527.7564263764139,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-29T02:19:51.296Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.20903314244040186,
+   "mae": 0.06967771414680385
+  }
+ },
+ {
+  "uid": "ENA-SHORT-1793197190063",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1793197190063,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Federal Funds Rate",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0036726460165958786,
+   "rsi": 28.061713637422557,
+   "rvol": 0.6455183523137697,
+   "bbPct": 0.9824561403508771,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.19484,
+   "stop": 0.20034896902489382,
+   "takeProfit": 0.18106757743776547,
+   "stopDist": 0.005508969024893818,
+   "tpDist": 0.013772422562234545,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1361.4162588515476,
+   "unit": "ENA",
+   "notional": 265.25834387463556,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T02:19:50.063Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13977206924209598,
+   "mae": 0.058087093710997004
   }
  }
 ]
