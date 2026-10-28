@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-28T12:09:53.583Z",
+ "generated": "2026-10-28T12:19:52.364Z",
  "total": 330,
- "open": 8,
- "closed": 322,
+ "open": 2,
+ "closed": 328,
  "wins": 44,
- "losses": 169,
+ "losses": 175,
  "timeouts": 109,
- "winRate": 0.137,
- "netR": -0.8,
- "avgR": -0.002,
+ "winRate": 0.134,
+ "netR": -6.8,
+ "avgR": -0.021,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 322,
+   "n": 328,
    "wins": 44,
-   "R": -0.8,
-   "winRate": 0.137
+   "R": -6.8,
+   "winRate": 0.134
   }
  },
  "bySymbol": {
@@ -38,10 +38,10 @@
    "winRate": 0.158
   },
   "UNI": {
-   "n": 8,
+   "n": 9,
    "wins": 1,
-   "R": -1.78,
-   "winRate": 0.125
+   "R": -2.78,
+   "winRate": 0.111
   },
   "TRX": {
    "n": 10,
@@ -62,22 +62,22 @@
    "winRate": 0.105
   },
   "LINK": {
-   "n": 8,
+   "n": 9,
    "wins": 3,
-   "R": 4.71,
-   "winRate": 0.375
+   "R": 3.71,
+   "winRate": 0.333
   },
   "ADA": {
-   "n": 9,
+   "n": 10,
    "wins": 1,
-   "R": -0.18,
-   "winRate": 0.111
+   "R": -1.18,
+   "winRate": 0.1
   },
   "BCH": {
-   "n": 15,
+   "n": 16,
    "wins": 3,
-   "R": -1.23,
-   "winRate": 0.2
+   "R": -2.23,
+   "winRate": 0.188
   },
   "AVAX": {
    "n": 12,
@@ -218,15 +218,15 @@
    "winRate": 0
   },
   "HBAR": {
-   "n": 8,
+   "n": 9,
    "wins": 0,
-   "R": -3.26,
+   "R": -4.26,
    "winRate": 0
   },
   "ARB": {
-   "n": 3,
+   "n": 4,
    "wins": 0,
-   "R": -3,
+   "R": -4,
    "winRate": 0
   },
   "PEPE": {
@@ -274,10 +274,10 @@
    "winRate": 0.182
   },
   "LONG": {
-   "n": 135,
+   "n": 141,
    "wins": 10,
-   "R": -44.5,
-   "winRate": 0.074
+   "R": -50.5,
+   "winRate": 0.071
   }
  },
  "config": {
