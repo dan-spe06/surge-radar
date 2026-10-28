@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-28T20:20:15.800Z",
- "total": 350,
- "open": 9,
- "closed": 341,
+ "generated": "2026-10-28T20:30:15.959Z",
+ "total": 351,
+ "open": 7,
+ "closed": 344,
  "wins": 45,
- "losses": 187,
+ "losses": 190,
  "timeouts": 109,
- "winRate": 0.132,
- "netR": -16.3,
- "avgR": -0.048,
+ "winRate": 0.131,
+ "netR": -19.3,
+ "avgR": -0.056,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 341,
+   "n": 344,
    "wins": 45,
-   "R": -16.3,
-   "winRate": 0.132
+   "R": -19.3,
+   "winRate": 0.131
   }
  },
  "bySymbol": {
@@ -86,10 +86,10 @@
    "winRate": 0.167
   },
   "SUI": {
-   "n": 7,
+   "n": 8,
    "wins": 2,
-   "R": 3.19,
-   "winRate": 0.286
+   "R": 2.19,
+   "winRate": 0.25
   },
   "TAO": {
    "n": 8,
@@ -158,10 +158,10 @@
    "winRate": 0
   },
   "POL": {
-   "n": 5,
+   "n": 6,
    "wins": 2,
-   "R": 4.03,
-   "winRate": 0.4
+   "R": 3.03,
+   "winRate": 0.333
   },
   "ICP": {
    "n": 6,
@@ -188,9 +188,9 @@
    "winRate": 0
   },
   "JUP": {
-   "n": 5,
+   "n": 6,
    "wins": 0,
-   "R": -1.1,
+   "R": -2.1,
    "winRate": 0
   },
   "NEAR": {
@@ -274,10 +274,10 @@
    "winRate": 0.174
   },
   "LONG": {
-   "n": 146,
+   "n": 149,
    "wins": 11,
-   "R": -52,
-   "winRate": 0.075
+   "R": -55,
+   "winRate": 0.074
   }
  },
  "config": {
