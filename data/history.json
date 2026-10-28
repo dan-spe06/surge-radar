@@ -14144,7 +14144,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.7958941409965816,
+   "mfe": 1.8434674957249657,
    "mae": 0.5352002406943321
   }
  },
@@ -14275,7 +14275,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.116413346930429,
+   "mfe": 1.1624510107213726,
    "mae": 0.29924481464115804
   }
  },
@@ -14488,7 +14488,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8063823274940622,
+   "mfe": 0.9836720590707744,
    "mae": 0.2630750855654489
   }
  },
@@ -14533,6 +14533,49 @@
    "r": null,
    "mfe": 0.10046247913601458,
    "mae": 0.3305816621142157
+  }
+ },
+ {
+  "uid": "ETC-LONG-1793151545318",
+  "id": "ETC",
+  "name": "Ethereum Classic",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1793151545318,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.04829935994855953,
+   "rsi": 65.82195169331668,
+   "rvol": 2.4569059237950652,
+   "bbPct": 0.8245614035087719,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.68,
+   "stop": 7.607550960077161,
+   "takeProfit": 7.861122599807098,
+   "stopDist": 0.0724490399228393,
+   "tpDist": 0.18112259980709824,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 103.52104055468169,
+   "unit": "ETC",
+   "notional": 795.0415914599554,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-10-28T13:39:05.318Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.3312673297749817
   }
  }
 ]
