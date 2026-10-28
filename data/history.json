@@ -15097,7 +15097,94 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.014344833633247105,
-   "mae": 0.9242171383709137
+   "mae": 0.9918427826419586
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1793194189090",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1793194189090,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0016619011634240936,
+   "rsi": 35.65546649395239,
+   "rvol": 2.601473556358255,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2027,
+   "stop": 0.20519285174513613,
+   "takeProfit": 0.19646787063715965,
+   "stopDist": 0.00249285174513614,
+   "tpDist": 0.006232129362840351,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3008.602502990168,
+   "unit": "ADA",
+   "notional": 609.843727356107,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T01:29:49.090Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.20057350019934472,
+   "mae": 0.20057350019934472
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1793194189506",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1793194189506,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.5x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07085047754229758,
+   "rsi": 39.157711051984286,
+   "rvol": 3.5138142620314126,
+   "bbPct": 0.6140350877192983,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.022,
+   "stop": 7.128275716313446,
+   "takeProfit": 6.756310709216384,
+   "stopDist": 0.10627571631344637,
+   "tpDist": 0.2656892907836159,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 70.57115454183086,
+   "unit": "UNI",
+   "notional": 495.55064719273634,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T01:29:49.506Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.009409487272247259,
+   "mae": 0.16937077090039215
   }
  }
 ]
