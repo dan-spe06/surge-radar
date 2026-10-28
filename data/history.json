@@ -15236,7 +15236,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3810996139321324,
-   "mae": 0.9255276338352016
+   "mae": 0.9981180364889335
   }
  },
  {
@@ -15552,9 +15552,11 @@
    "timeStop": "2026-10-29T03:09:49.091Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.3708666662443663,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1793217600000,
+   "exit": 59.68170008182716,
+   "mfe": 2.781816888393387,
    "mae": 0.33192133327421264
   }
  },
@@ -15643,8 +15645,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11584859894190493,
-   "mae": 0
+   "mfe": 0.6319014487740215,
+   "mae": 0.29488734276121786
   }
  },
  {
@@ -15688,8 +15690,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07306280131555394,
-   "mae": 0.014612560263109167
+   "mfe": 0.5991149707875488,
+   "mae": 0.058450241052436666
   }
  },
  {
@@ -15731,7 +15733,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06019964475980989,
+   "mfe": 1.2039928951961645,
    "mae": 0.03762477797487596
   }
  },
@@ -15774,8 +15776,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
-   "mae": 0.07963233117892082
+   "mfe": 0.5176101526629688,
+   "mae": 0.21898891074203503
   }
  },
  {
@@ -15817,8 +15819,98 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.6253469903260269,
    "mae": 0.08337959871012705
+  }
+ },
+ {
+  "uid": "XLM-LONG-1793218211921",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793218211921,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 20.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.001397544101479356,
+   "rsi": 67.85189926440071,
+   "rvol": 20.468587331691637,
+   "bbPct": 0.8596491228070176,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17379,
+   "stop": 0.17169368384778097,
+   "takeProfit": 0.1790307903805476,
+   "stopDist": 0.0020963161522190342,
+   "tpDist": 0.005240790380547585,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3577.7046282169563,
+   "unit": "XLM",
+   "notional": 621.7692873378248,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T08:10:11.921Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6916895614552815,
+   "mae": 0.2814460974197373
+  }
+ },
+ {
+  "uid": "MORPHO-LONG-1793218213351",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 67,
+  "at": 1793218213351,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 1.7x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Open interest +6.0% in 6h",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.02289438560036878,
+   "rsi": 65.87783506460089,
+   "rvol": 1.6795560286679039,
+   "bbPct": 0.2631578947368421,
+   "funding": -0.0000251447958302,
+   "oiChg6h": 0.06025706709137443
+  },
+  "plan": {
+   "entry": 2.2456,
+   "stop": 2.211258421599447,
+   "takeProfit": 2.331453946001383,
+   "stopDist": 0.03434157840055317,
+   "tpDist": 0.08585394600138294,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 218.39415511196162,
+   "unit": "MORPHO",
+   "notional": 490.42591471942103,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T08:10:13.351Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3319591157701839,
+   "mae": 0.18345109029404694
   }
  }
 ]
