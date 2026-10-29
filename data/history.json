@@ -16145,7 +16145,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8730618604660627,
+   "mfe": 1.0210384469857283,
    "mae": 0.4439297595590172
   }
  },
@@ -16187,7 +16187,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5066648780532933,
+   "mfe": 0.7862041211171813,
    "mae": 0.36689525652135535
   }
  },
@@ -16230,7 +16230,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2686838852476524,
+   "mfe": 0.661375717532694,
    "mae": 0.506365783735972
   }
  },
@@ -16273,7 +16273,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.10883532140697791,
+   "mfe": 0.2448794731656885,
    "mae": 0.47615453115551065
   }
  },
@@ -16317,7 +16317,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.256250438490289,
+   "mfe": 0.6235427336597096,
    "mae": 0.3843756577354454
   }
  },
@@ -16361,7 +16361,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1758799277976921,
+   "mfe": 0.6532683032485886,
    "mae": 0.4522626714797996
   }
  },
@@ -16405,8 +16405,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12991853812759382,
+   "mfe": 0.46963795877202186,
    "mae": 0.39502258214467334
+  }
+ },
+ {
+  "uid": "POL-SHORT-1793239232389",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1793239232389,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007615842639848386,
+   "rsi": 33.895964984573936,
+   "rvol": 3.468126422021431,
+   "bbPct": 0.5964912280701754,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08992,
+   "stop": 0.09106237639597725,
+   "takeProfit": 0.08706405901005686,
+   "stopDist": 0.001142376395977258,
+   "tpDist": 0.002855940989943145,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6565.261700443351,
+   "unit": "POL",
+   "notional": 590.3483321038661,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T14:00:32.389Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10504418720708934,
+   "mae": 0.1137978694743559
   }
  }
 ]
