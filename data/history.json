@@ -16051,5 +16051,48 @@
    "mfe": 0.3616712382468503,
    "mae": 0.18581626117554884
   }
+ },
+ {
+  "uid": "PEPE-LONG-1793233230999",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1793233230999,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Volume 3.9x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.1970852387387144e-7,
+   "rsi": 68.10209446737281,
+   "rvol": 3.9356216477437216,
+   "bbPct": 0.5964912280701754,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000005119,
+   "stop": 0.000004939437214189193,
+   "takeProfit": 0.000005567906964527018,
+   "stopDist": 1.7956278581080717e-7,
+   "tpDist": 4.4890696452701793e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 41768120.08197639,
+   "unit": "PEPE",
+   "notional": 213.81100669963712,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T12:20:30.999Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0835362401639567,
+   "mae": 0.23390147245906648
+  }
  }
 ]
