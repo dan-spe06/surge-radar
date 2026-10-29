@@ -16321,7 +16321,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8114597218859231,
+   "mfe": 0.8285430844519479,
    "mae": 0.3843756577354454
   }
  },
@@ -16453,8 +16453,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2976251970867592,
+   "mfe": 0.31513256162128017,
    "mae": 0.35014729069031
+  }
+ },
+ {
+  "uid": "VVV-SHORT-1793242231599",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793242231599,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (57th percentile)",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.4792138293742849,
+   "rsi": 28.792478064192508,
+   "rvol": 2.7289168709982548,
+   "bbPct": 0.5714285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 22.76,
+   "stop": 23.47882074406143,
+   "takeProfit": 20.962948139846432,
+   "stopDist": 0.7188207440614274,
+   "tpDist": 1.7970518601535685,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.433755650433875,
+   "unit": "VVV",
+   "notional": 237.47227860387503,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T14:50:31.599Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13911674200578697,
+   "mae": 0.055646696802312816
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1793242229217",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 52,
+  "at": 1793242229217,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.010500251519151316,
+   "rsi": 31.56382218429981,
+   "rvol": 1.2883451342662477,
+   "bbPct": 0.8928571428571429,
+   "funding": 0.0001,
+   "oiChg6h": -0.030918065816977168
+  },
+  "plan": {
+   "entry": 1.2944,
+   "stop": 1.310150377278727,
+   "takeProfit": 1.2550240568031825,
+   "stopDist": 0.015750377278726975,
+   "tpDist": 0.039375943196817434,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 476.17906969947757,
+   "unit": "XRP",
+   "notional": 616.3661878190038,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T14:50:29.217Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3301508216583104,
+   "mae": 0
   }
  }
 ]
