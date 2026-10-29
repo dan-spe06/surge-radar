@@ -16646,7 +16646,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.6942956762634587,
+   "mfe": 1.8075881745260016,
    "mae": 0.35515288781179316
   }
  },
@@ -16689,7 +16689,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2674032921846872,
+   "mfe": 1.384902139064307,
    "mae": 0.8581376457500466
   }
  },
@@ -16915,6 +16915,90 @@
    "exit": 1309.831995922466,
    "mfe": 1.6407090364787627,
    "mae": 1.0333052529849824
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1793304720403",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793304720403,
+  "factors": [
+   "Volume 8.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.9211610576732047,
+   "rsi": 36.17403343256936,
+   "rvol": 8.943828141523653,
+   "bbPct": 0.7017543859649122,
+   "funding": 0.0001,
+   "oiChg6h": -0.04080097143881087
+  },
+  "plan": {
+   "entry": 98.98,
+   "stop": 100.36174158650981,
+   "takeProfit": 95.52564603372548,
+   "stopDist": 1.381741586509807,
+   "tpDist": 3.4543539662745175,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.427932453668513,
+   "unit": "SOL",
+   "notional": 537.2567542641094,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-30T08:12:00.403Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.39804837993568887,
+   "mae": 0.7020125973411268
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1793304721203",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793304721203,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (51th percentile)",
+   "Volume 6.8x normal"
+  ],
+  "stats": {
+   "atr1h": 0.6778966457247552,
+   "rsi": 43.5211851436468,
+   "rvol": 6.7971035173770815,
+   "bbPct": 0.5087719298245614,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 57.36,
+   "stop": 58.37684496858713,
+   "takeProfit": 54.817887578532165,
+   "stopDist": 1.0168449685871328,
+   "tpDist": 2.542112421467832,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.375755628137653,
+   "unit": "LTC",
+   "notional": 423.0733428299758,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T08:12:01.203Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.45237967852577693,
+   "mae": 0.6687351769511469
   }
  }
 ]
