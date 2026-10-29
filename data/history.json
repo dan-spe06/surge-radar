@@ -15921,10 +15921,12 @@
    "timeStop": "2026-10-29T08:10:13.351Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793237400000,
+   "exit": 2.211258421599447,
    "mfe": 0.3319591157701839,
-   "mae": 0.8444573997662491
+   "mae": 1.1647688272637964
   }
  },
  {
@@ -16010,7 +16012,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.8275663244171345,
-   "mae": 0.5623207076167717
+   "mae": 0.8700056231051908
   }
  },
  {
@@ -16050,10 +16052,12 @@
    "timeStop": "2026-10-29T11:00:29.763Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793237400000,
+   "exit": 1283.8989474370173,
    "mfe": 0.3616712382468503,
-   "mae": 0.7467131815075292
+   "mae": 1.1593402192107654
   }
  },
  {
@@ -16096,7 +16100,93 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.13254416772680797,
-   "mae": 0.4733720275957279
+   "mae": 0.5518960933498459
+  }
+ },
+ {
+  "uid": "CRO-SHORT-1793238031160",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1793238031160,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (51th percentile)",
+   "Volume 3.0x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0004505217226226812,
+   "rsi": 42.15231597691496,
+   "rvol": 2.96427284907857,
+   "bbPct": 0.5087719298245614,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05304,
+   "stop": 0.053715782583934016,
+   "takeProfit": 0.05135054354016494,
+   "stopDist": 0.0006757825839340218,
+   "tpDist": 0.0016894564598350544,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11098.24398897537,
+   "unit": "CRO",
+   "notional": 588.6508611752536,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T13:40:31.160Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08878595191179933,
+   "mae": 0.4439297595590172
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1793238031123",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793238031123,
+  "factors": [
+   "Volume 2.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007631605888142762,
+   "rsi": 33.82737474254351,
+   "rvol": 2.1522638752676864,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07429,
+   "stop": 0.07543474088322141,
+   "takeProfit": 0.07142814779194646,
+   "stopDist": 0.0011447408832214144,
+   "tpDist": 0.002861852208053536,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6551.701009309859,
+   "unit": "HBAR",
+   "notional": 486.7258679816294,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T13:40:31.123Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11356281749469656,
+   "mae": 0.36689525652135535
   }
  }
 ]
