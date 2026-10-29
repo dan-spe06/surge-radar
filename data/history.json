@@ -17140,5 +17140,47 @@
    "mfe": 0.09967219195458964,
    "mae": 1.4003942969619505
   }
+ },
+ {
+  "uid": "LINK-SHORT-1793314921483",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793314921483,
+  "factors": [
+   "Volume 25.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.19877577279041905,
+   "rsi": 25.478409700385114,
+   "rvol": 25.891580154656573,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.7,
+   "stop": 10.998163659185629,
+   "takeProfit": 9.954590852035928,
+   "stopDist": 0.2981636591856286,
+   "tpDist": 0.7454091479640714,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 25.15397087788859,
+   "unit": "LINK",
+   "notional": 269.1474883934079,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T11:02:01.483Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07713884402552396,
+   "mae": 0.2180010809417054
+  }
  }
 ]
