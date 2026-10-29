@@ -16690,7 +16690,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.2674032921846872,
-   "mae": 0.6587856695834985
+   "mae": 0.6891505401254256
   }
  },
  {
@@ -16823,8 +16823,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1420323563002035,
+   "mfe": 0.32111663163524456,
    "mae": 0.16673363565676372
+  }
+ },
+ {
+  "uid": "PEPE-LONG-1793288499159",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793288499159,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (44th percentile)",
+   "Volume 5.8x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.4040741087051998e-7,
+   "rsi": 64.61627936625527,
+   "rvol": 5.8155171756966855,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000052031,
+   "stop": 0.00000499248888369422,
+   "takeProfit": 0.00000572962779076445,
+   "stopDist": 2.1061111630577998e-7,
+   "tpDist": 5.2652779076445e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 35610655.940453656,
+   "unit": "PEPE",
+   "notional": 185.28580392377444,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T03:41:39.159Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1642838260719578,
+   "mae": 0.8218939391056708
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793288498307",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1793288498307,
+  "factors": [
+   "Volume 2.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 22.25866938502273,
+   "rsi": 72.32136102601558,
+   "rvol": 2.3465943608010553,
+   "bbPct": 0.8947368421052632,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1343.22,
+   "stop": 1309.831995922466,
+   "takeProfit": 1426.6900101938352,
+   "stopDist": 33.3880040775341,
+   "tpDist": 83.47001019383525,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.22463157673586576,
+   "unit": "ZEC",
+   "notional": 301.72962650314963,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T03:41:38.307Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.32167241788576006,
+   "mae": 0.7209176069376366
   }
  }
 ]
