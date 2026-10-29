@@ -16871,10 +16871,12 @@
    "timeStop": "2026-10-30T03:41:39.159Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793305800000,
+   "exit": 0.00000499248888369422,
    "mfe": 2.283355258901888,
-   "mae": 0.8218939391056708
+   "mae": 1.5084673856376187
   }
  },
  {
@@ -16959,7 +16961,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.39804837993568887,
+   "mfe": 1.0711120041905893,
    "mae": 0.7020125973411268
   }
  },
@@ -17001,8 +17003,138 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.45237967852577693,
+   "mfe": 1.2194582638520939,
    "mae": 0.6687351769511469
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1793306521548",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793306521548,
+  "factors": [
+   "Volume 7.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.001872831734888011,
+   "rsi": 31.28771551892713,
+   "rvol": 7.636957463889281,
+   "bbPct": 0.7719298245614035,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16501,
+   "stop": 0.167819247602332,
+   "takeProfit": 0.15798688099416994,
+   "stopDist": 0.0028092476023320167,
+   "tpDist": 0.007023119005830042,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2669.753991700158,
+   "unit": "XLM",
+   "notional": 440.5361061704431,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T08:42:01.548Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793305800000,
+   "exit": 0.167819247602332,
+   "mfe": 0.20290130336920745,
+   "mae": 1.1212966765140713
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793306521861",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793306521861,
+  "factors": [
+   "Volume 7.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09742988914103681,
+   "rsi": 33.65066512167195,
+   "rvol": 7.6587306058185005,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.251,
+   "stop": 4.397144833711556,
+   "takeProfit": 3.8856379157211123,
+   "stopDist": 0.14614483371155523,
+   "tpDist": 0.36536208427888806,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 51.31895400970987,
+   "unit": "NEAR",
+   "notional": 218.15687349527667,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T08:42:01.861Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10263790801942363,
+   "mae": 0.8416308457592373
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1793306521862",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793306521862,
+  "factors": [
+   "Volume 29.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.13377184821427696,
+   "rsi": 32.07714395572751,
+   "rvol": 29.163303252477625,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.804,
+   "stop": 7.004657772321416,
+   "takeProfit": 6.302355569196462,
+   "stopDist": 0.20065777232141543,
+   "tpDist": 0.5016444308035386,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 37.37707198297025,
+   "unit": "UNI",
+   "notional": 254.31359777212958,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T08:42:01.862Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793305800000,
+   "exit": 7.004657772321416,
+   "mfe": 0.09967219195458964,
+   "mae": 1.4003942969619505
   }
  }
 ]
