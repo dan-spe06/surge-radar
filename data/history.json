@@ -16009,10 +16009,12 @@
    "timeStop": "2026-10-29T08:30:11.430Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793238300000,
+   "exit": 0.07877747735621146,
    "mfe": 0.8275663244171345,
-   "mae": 0.8700056231051908
+   "mae": 1.644522824162244
   }
  },
  {
@@ -16100,7 +16102,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.13254416772680797,
-   "mae": 0.5518960933498459
+   "mae": 0.900520668967409
   }
  },
  {
@@ -16143,7 +16145,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08878595191179933,
+   "mfe": 0.8730618604660627,
    "mae": 0.4439297595590172
   }
  },
@@ -16185,8 +16187,226 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11356281749469656,
+   "mfe": 0.5066648780532933,
    "mae": 0.36689525652135535
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1793238630171",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793238630171,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006451199452232328,
+   "rsi": 37.73228322053361,
+   "rvol": 3.0300358448955906,
+   "bbPct": 0.6964285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07843,
+   "stop": 0.07939767991783485,
+   "takeProfit": 0.07601080020541287,
+   "stopDist": 0.0009676799178348492,
+   "tpDist": 0.002419199794587123,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7750.496689836236,
+   "unit": "DOGE",
+   "notional": 607.871455383856,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T13:50:30.171Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2686838852476524,
+   "mae": 0.506365783735972
+  }
+ },
+ {
+  "uid": "CRO-SHORT-1793238630763",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793238630763,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 5.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0004900369902331758,
+   "rsi": 36.908041484992324,
+   "rvol": 5.250651710108674,
+   "bbPct": 0.6071428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05253,
+   "stop": 0.053265055485349766,
+   "takeProfit": 0.05069236128662559,
+   "stopDist": 0.0007350554853497637,
+   "tpDist": 0.0018376387133744094,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10203.31138190371,
+   "unit": "CRO",
+   "notional": 535.9799468914019,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-10-29T13:50:30.763Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10883532140697791,
+   "mae": 0.47615453115551065
+  }
+ },
+ {
+  "uid": "POL-SHORT-1793238631938",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1793238631938,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 34% of 5 days)",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007804864693239374,
+   "rsi": 37.69050366496672,
+   "rvol": 2.3066095182811996,
+   "bbPct": 0.3392857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.09053,
+   "stop": 0.0917007297039859,
+   "takeProfit": 0.08760317574003523,
+   "stopDist": 0.0011707297039859062,
+   "tpDist": 0.0029268242599647656,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6406.260962257338,
+   "unit": "POL",
+   "notional": 579.9588049131568,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-10-29T13:50:31.938Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.256250438490289,
+   "mae": 0.3843756577354454
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1793238631179",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793238631179,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (48th percentile)",
+   "Volume 2.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005306650650930912,
+   "rsi": 37.7675842264695,
+   "rvol": 2.7550587991285513,
+   "bbPct": 0.48214285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.41,
+   "stop": 0.41795997597639634,
+   "takeProfit": 0.39010006005900905,
+   "stopDist": 0.007959975976396368,
+   "tpDist": 0.01989993994099092,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 942.2138989162368,
+   "unit": "ONDO",
+   "notional": 386.30769855565705,
+   "note": "Spot OK",
+   "timeStop": "2026-10-29T13:50:31.179Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1758799277976921,
+   "mae": 0.4522626714797996
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1793238629964",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1793238629964,
+  "factors": [
+   "Range moderately tight (55th percentile)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.759450253125327,
+   "rsi": 37.66134333761311,
+   "rvol": 3.005948401163322,
+   "bbPct": 0.5535714285714286,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 79.266,
+   "stop": 80.40517537968799,
+   "takeProfit": 76.41806155078002,
+   "stopDist": 1.1391753796879904,
+   "tpDist": 2.847938449219976,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.583709702411388,
+   "unit": "HYPE",
+   "notional": 521.8643332713411,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-10-29T13:50:29.964Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12991853812759382,
+   "mae": 0.39502258214467334
   }
  }
 ]
