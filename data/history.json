@@ -16633,5 +16633,48 @@
    "mfe": 0.49645027328530583,
    "mae": 0.2902324674591001
   }
+ },
+ {
+  "uid": "BNB-SHORT-1793268074203",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1793268074203,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (44th percentile)",
+   "Volume 8.0x normal",
+   "High-impact news ≤4h: Advance GDP q/q"
+  ],
+  "stats": {
+   "atr1h": 5.049694946718981,
+   "rsi": 46.00439365375766,
+   "rvol": 7.964159207026014,
+   "bbPct": 0.43859649122807015,
+   "funding": -0.000192442861729,
+   "oiChg6h": 0.016895476017766017
+  },
+  "plan": {
+   "entry": 747.9,
+   "stop": 755.4745424200785,
+   "takeProfit": 728.9636439498038,
+   "stopDist": 7.574542420078472,
+   "tpDist": 18.936356050196178,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.9901588220192845,
+   "unit": "BNB",
+   "notional": 740.5397829882229,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-10-29T22:01:14.203Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.025084023491147404,
+   "mae": 0.22311578789501932
+  }
  }
 ]
