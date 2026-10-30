@@ -17093,7 +17093,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.27856155803112,
+   "mfe": 2.3606718844466554,
    "mae": 0.8416308457592373
   }
  },
@@ -17481,7 +17481,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.16255229793996256,
-   "mae": 0.09169616806869854
+   "mae": 0.5751850542491023
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1793320921129",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793320921129,
+  "factors": [
+   "Volume 12.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 5.558043653682483,
+   "rsi": 31.675124652635247,
+   "rvol": 12.629620397367095,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 266.42,
+   "stop": 274.75706548052375,
+   "takeProfit": 245.5773362986907,
+   "stopDist": 8.337065480523725,
+   "tpDist": 20.842663701309313,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.8995971085414647,
+   "unit": "BCH",
+   "notional": 239.67066165761705,
+   "note": "Spot OK",
+   "timeStop": "2026-10-30T12:42:01.129Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3670356202849179,
+   "mae": 0.22669847135244747
   }
  }
 ]
