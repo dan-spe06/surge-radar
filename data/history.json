@@ -17708,5 +17708,47 @@
    "mfe": 0.5011543411265119,
    "mae": 0.49293869619001257
   }
+ },
+ {
+  "uid": "SUI-SHORT-1793391208764",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793391208764,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 3.2x normal"
+  ],
+  "stats": {
+   "atr1h": 0.015257884443417255,
+   "rsi": 47.65628966288243,
+   "rvol": 3.1561557844505854,
+   "bbPct": 0.24561403508771928,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8889,
+   "stop": 0.9117868266651259,
+   "takeProfit": 0.8316829333371853,
+   "stopDist": 0.022886826665125884,
+   "tpDist": 0.05721706666281471,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 327.699427698652,
+   "unit": "SUI",
+   "notional": 291.2920212813318,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T08:13:28.764Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04806258272913518,
+   "mae": 0.3145914505907052
+  }
  }
 ]
