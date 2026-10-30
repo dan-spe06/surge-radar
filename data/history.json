@@ -17579,7 +17579,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12755022459860146,
+   "mfe": 0.21680950956112166,
    "mae": 0.13764040463785054
   }
  },
@@ -17621,8 +17621,92 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08723185023861409,
+   "mfe": 0.20130426978140567,
    "mae": 0.17446370047721887
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1793374985617",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1793374985617,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 4.0x normal"
+  ],
+  "stats": {
+   "atr1h": 0.002959704436332193,
+   "rsi": 43.657127515207115,
+   "rvol": 3.9807996580890808,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1923,
+   "stop": 0.1967395566544983,
+   "takeProfit": 0.18120110836375428,
+   "stopDist": 0.00443955665449829,
+   "tpDist": 0.011098891636245724,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1689.3578759493425,
+   "unit": "ADA",
+   "notional": 324.8635195450586,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T03:43:05.617Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.045049543358650426,
+   "mae": 0.24777248847256797
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1793374985977",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793374985977,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 7.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0162291986038691,
+   "rsi": 46.05099676884737,
+   "rvol": 7.143357693421509,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8873,
+   "stop": 0.9116437979058036,
+   "takeProfit": 0.8264405052354908,
+   "stopDist": 0.02434379790580365,
+   "tpDist": 0.06085949476450913,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 308.0866851187576,
+   "unit": "SUI",
+   "notional": 273.3653157058736,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T03:43:05.977Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03286257974600175,
+   "mae": 0.49293869619001257
   }
  }
 ]
