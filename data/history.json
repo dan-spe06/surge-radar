@@ -17540,5 +17540,89 @@
    "mfe": 0.3670356202849179,
    "mae": 1.0135460756233823
   }
+ },
+ {
+  "uid": "ETH-SHORT-1793374385816",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793374385816,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (42th percentile)",
+   "Volume 3.0x normal"
+  ],
+  "stats": {
+   "atr1h": 25.767627434680303,
+   "rsi": 41.7210465711422,
+   "rvol": 3.03568227773689,
+   "bbPct": 0.42105263157894735,
+   "funding": 0.0000152166298953,
+   "oiChg6h": -0.0059179199322580995
+  },
+  "plan": {
+   "entry": 2233.73,
+   "stop": 2272.3814411520207,
+   "takeProfit": 2137.101397119949,
+   "stopDist": 38.65144115202045,
+   "tpDist": 96.62860288005113,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.19404192383155025,
+   "unit": "ETH",
+   "notional": 433.4372665202487,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T03:33:05.816Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12755022459860146,
+   "mae": 0.13764040463785054
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1793374386187",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793374386187,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 4.5x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0009935209035415618,
+   "rsi": 44.8411854781628,
+   "rvol": 4.510947957608355,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07592,
+   "stop": 0.07741028135531235,
+   "takeProfit": 0.07219429661171914,
+   "stopDist": 0.0014902813553123427,
+   "tpDist": 0.0037257033882808566,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5032.60674453523,
+   "unit": "DOGE",
+   "notional": 382.07550404511466,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T03:33:06.187Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08723185023861409,
+   "mae": 0.17446370047721887
+  }
  }
 ]
