@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-30T00:12:03.612Z",
- "total": 378,
- "open": 3,
- "closed": 375,
+ "generated": "2026-10-30T00:22:05.487Z",
+ "total": 383,
+ "open": 5,
+ "closed": 378,
  "wins": 49,
- "losses": 213,
+ "losses": 216,
  "timeouts": 113,
- "winRate": 0.131,
- "netR": -34.22,
- "avgR": -0.091,
+ "winRate": 0.13,
+ "netR": -37.22,
+ "avgR": -0.098,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 375,
+   "n": 378,
    "wins": 49,
-   "R": -34.22,
-   "winRate": 0.131
+   "R": -37.22,
+   "winRate": 0.13
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 12,
+   "n": 13,
    "wins": 2,
-   "R": -1.48,
-   "winRate": 0.167
+   "R": -2.48,
+   "winRate": 0.154
   },
   "HYPE": {
    "n": 20,
@@ -98,10 +98,10 @@
    "winRate": 0.125
   },
   "SOL": {
-   "n": 12,
+   "n": 13,
    "wins": 2,
-   "R": -2.05,
-   "winRate": 0.167
+   "R": -3.05,
+   "winRate": 0.154
   },
   "ZEC": {
    "n": 20,
@@ -110,10 +110,10 @@
    "winRate": 0.1
   },
   "DOGE": {
-   "n": 12,
+   "n": 13,
    "wins": 1,
-   "R": 0.61,
-   "winRate": 0.083
+   "R": -0.39,
+   "winRate": 0.077
   },
   "XRP": {
    "n": 18,
@@ -268,10 +268,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 215,
+   "n": 218,
    "wins": 38,
-   "R": 31.78,
-   "winRate": 0.177
+   "R": 28.78,
+   "winRate": 0.174
   },
   "LONG": {
    "n": 160,
