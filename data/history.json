@@ -18341,7 +18341,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11285233585534919,
+   "mfe": 0.15563701263566618,
    "mae": 0.07502820131042935
   }
  },
@@ -18386,7 +18386,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.02761637262793847,
    "mae": 0.12552896649061385
   }
  },
@@ -18429,8 +18429,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.045247231028907264,
+   "mfe": 0.11141063489191931,
    "mae": 0.14940123452938642
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1793478908447",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1793478908447,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00801811963435922,
+   "rsi": 40.69728082490121,
+   "rvol": 0.11833971328997014,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9474,
+   "stop": 0.9594271794515389,
+   "takeProfit": 0.9173320513711529,
+   "stopDist": 0.01202717945153883,
+   "tpDist": 0.030067948628847076,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 623.5876025812856,
+   "unit": "DOT",
+   "notional": 590.78689468551,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-01T08:35:08.447Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05820150957425614,
+   "mae": 0.1080885177807535
   }
  }
 ]
