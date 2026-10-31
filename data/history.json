@@ -17800,7 +17800,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22886542010633726,
+   "mfe": 0.3480901196927191,
    "mae": 0.2875193719928888
   }
  },
@@ -17887,7 +17887,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.10873850461178675,
+   "mfe": 0.2526435043320633,
    "mae": 0.15315934053830568
   }
  },
@@ -17930,7 +17930,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05628155979539515,
+   "mfe": 0.16259117274226653,
    "mae": 0.41273143849961996
   }
  },
@@ -17973,8 +17973,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.01640672217463125,
+   "mfe": 0.1664799750072576,
    "mae": 0.08830676935167256
+  }
+ },
+ {
+  "uid": "ARB-SHORT-1793421847778",
+  "id": "ARB",
+  "name": "Arbitrum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793421847778,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 4.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002698487405978633,
+   "rsi": 43.17441711388075,
+   "rvol": 4.058344482017734,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16032,
+   "stop": 0.16436773110896793,
+   "takeProfit": 0.1502006722275801,
+   "stopDist": 0.00404773110896795,
+   "tpDist": 0.010119327772419875,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1852.889877833875,
+   "unit": "ARB",
+   "notional": 297.05530521432684,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T16:44:07.778Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.007411559511336055,
+   "mae": 0.23716990436274005
   }
  }
 ]
