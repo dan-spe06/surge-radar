@@ -17800,7 +17800,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5344026727441127,
+   "mfe": 0.5838560047268914,
    "mae": 0.2875193719928888
   }
  },
@@ -17887,7 +17887,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4775239862100588,
+   "mfe": 0.5372144844863186,
    "mae": 0.15315934053830568
   }
  },
@@ -17973,7 +17973,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4009995919740059,
+   "mfe": 0.463248626107157,
    "mae": 0.08830676935167256
   }
  },
@@ -18018,7 +18018,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.11858495218136317,
-   "mae": 0.6201004791150732
+   "mae": 0.639864637811967
   }
  },
  {
@@ -18146,7 +18146,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.10163120347384125,
+   "mfe": 0.10806355812408354,
    "mae": 0.1659547499762714
   }
  },
@@ -18191,6 +18191,50 @@
    "r": null,
    "mfe": 0.15739978824832762,
    "mae": 0.09181654314486011
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1793427846556",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 57,
+  "at": 1793427846556,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 444.8101554132501,
+   "rsi": 44.350881464377785,
+   "rvol": 3.0036172103796206,
+   "bbPct": 0.017543859649122806,
+   "funding": 0.0001,
+   "oiChg6h": -0.006231924099540539
+  },
+  "plan": {
+   "entry": 77252.4,
+   "stop": 77919.61523311987,
+   "takeProfit": 75584.36191720031,
+   "stopDist": 667.2152331198752,
+   "tpDist": 1668.0380827996878,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.011240750552007425,
+   "unit": "BTC",
+   "notional": 868.3749579438984,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-10-31T18:24:06.556Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07164105018477654,
+   "mae": 0.02772718469495165
   }
  }
 ]
