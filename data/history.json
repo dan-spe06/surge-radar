@@ -17800,7 +17800,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.457347481050021,
+   "mfe": 0.4818824674600781,
    "mae": 0.2875193719928888
   }
  },
@@ -17887,7 +17887,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3845178609889164,
+   "mfe": 0.41413175160659127,
    "mae": 0.15315934053830568
   }
  },
@@ -17973,7 +17973,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.30400691088282394,
+   "mfe": 0.3348901526232974,
    "mae": 0.08830676935167256
   }
  },
@@ -18018,7 +18018,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.11858495218136317,
-   "mae": 0.41504733263479165
+   "mae": 0.4422230508430216
   }
  },
  {
@@ -18104,7 +18104,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.0649416893550289,
-   "mae": 0.20564868295760036
+   "mae": 0.2814139872051381
+  }
+ },
+ {
+  "uid": "TRX-SHORT-1793426046365",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1793426046365,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (55th percentile)",
+   "Volume 2.2x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00518213549249403,
+   "rsi": 32.68214692911721,
+   "rvol": 2.239862082572782,
+   "bbPct": 0.5535714285714286,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.33021,
+   "stop": 0.33798320323874104,
+   "takeProfit": 0.3107769919031474,
+   "stopDist": 0.007773203238741045,
+   "tpDist": 0.019433008096852614,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 964.8531975364517,
+   "unit": "TRX",
+   "notional": 318.6041743585117,
+   "note": "Spot OK",
+   "timeStop": "2026-10-31T17:54:06.365Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.025729418600969212,
+   "mae": 0.14279827323539485
   }
  }
 ]
