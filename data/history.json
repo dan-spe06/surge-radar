@@ -18301,5 +18301,48 @@
    "mfe": 0.2602107658141478,
    "mae": 1.0956242771122202
   }
+ },
+ {
+  "uid": "HYPE-SHORT-1793477106896",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793477106896,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal"
+  ],
+  "stats": {
+   "atr1h": 1.0751512798889362,
+   "rsi": 47.0341151883421,
+   "rvol": 2.085135799198016,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 88.035,
+   "stop": 89.6477269198334,
+   "takeProfit": 84.00318270041649,
+   "stopDist": 1.6127269198334044,
+   "tpDist": 4.031817299583511,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.6505083456874114,
+   "unit": "HYPE",
+   "notional": 409.4075022125912,
+   "note": "Spot OK",
+   "timeStop": "2026-11-01T08:05:06.896Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07688840464869558,
+   "mae": 0.05146562569227303
+  }
  }
 ]
