@@ -19124,5 +19124,48 @@
    "mfe": 0.0878031328728247,
    "mae": 0.2926771095760485
   }
+ },
+ {
+  "uid": "CRO-LONG-1793540177790",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1793540177790,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00025152710596033467,
+   "rsi": 66.11621328710227,
+   "rvol": 0.28027172491371544,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05217,
+   "stop": 0.0517927093410595,
+   "takeProfit": 0.053113226647351255,
+   "stopDist": 0.000377290658940502,
+   "tpDist": 0.000943226647351255,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 19878.57324923259,
+   "unit": "CRO",
+   "notional": 1037.0651664124644,
+   "note": "Needs ~2.1x leverage",
+   "timeStop": "2026-11-02T01:36:17.790Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.5566000509785174
+  }
  }
 ]
