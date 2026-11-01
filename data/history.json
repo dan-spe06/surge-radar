@@ -18789,5 +18789,48 @@
    "mfe": 0,
    "mae": 1.0434214558799957
   }
+ },
+ {
+  "uid": "SUI-LONG-1793517948843",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1793517948843,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal"
+  ],
+  "stats": {
+   "atr1h": 0.005661088822272024,
+   "rsi": 56.45754053900448,
+   "rvol": 2.9937691323115247,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9035,
+   "stop": 0.8950083667665919,
+   "takeProfit": 0.9247290830835201,
+   "stopDist": 0.008491633233408036,
+   "tpDist": 0.02122908308352009,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 883.2223194112149,
+   "unit": "SUI",
+   "notional": 797.9913655880326,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-01T19:25:48.843Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07065778555290249,
+   "mae": 0.15309186869794014
+  }
  }
 ]
