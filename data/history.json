@@ -18743,5 +18743,49 @@
    "mfe": 0.26431573933944613,
    "mae": 0.6059578917834746
   }
+ },
+ {
+  "uid": "JUP-LONG-1793513753264",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1793513753264,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0020445557462052764,
+   "rsi": 67.8492869066012,
+   "rvol": 0.8503225934615875,
+   "bbPct": 0.2982456140350877,
+   "funding": 0.00005,
+   "oiChg6h": 0.013075353508592374
+  },
+  "plan": {
+   "entry": 0.2642,
+   "stop": 0.26113316638069206,
+   "takeProfit": 0.27186708404826976,
+   "stopDist": 0.0030668336193079146,
+   "tpDist": 0.007667084048269787,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2445.519037218755,
+   "unit": "JUP",
+   "notional": 646.106129633195,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-01T18:15:53.264Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0
+  }
  }
 ]
