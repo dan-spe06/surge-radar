@@ -18748,7 +18748,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.28048398935223173,
+   "mfe": 0.4393546199126176,
    "mae": 0.6059578917834746
   }
  },
@@ -18837,7 +18837,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5770385820153289,
+   "mfe": 0.6359200699760831,
    "mae": 0.15309186869794014
   }
  },
@@ -18883,7 +18883,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.04222524473938579,
-   "mae": 0.2111262236968962
+   "mae": 0.24567415121093616
   }
  },
  {
@@ -18925,7 +18925,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17337578100999748,
+   "mfe": 0.26594606408496024,
    "mae": 0.5582080949304116
   }
  },
@@ -18970,8 +18970,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03460305686322978,
+   "mfe": 0.44576879135554515,
    "mae": 0.15469601891790039
+  }
+ },
+ {
+  "uid": "BTC-LONG-1793523348830",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 76,
+  "at": 1793523348830,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 29% of 5 days)",
+   "Volume 2.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 221.77785751165092,
+   "rsi": 67.45708216935387,
+   "rvol": 2.5013401661694807,
+   "bbPct": 0.2857142857142857,
+   "funding": 0.0000630406631413,
+   "oiChg6h": 0.005563913516419262
+  },
+  "plan": {
+   "entry": 78158.4,
+   "stop": 77825.73321373251,
+   "takeProfit": 78990.06696566868,
+   "stopDist": 332.66678626747637,
+   "tpDist": 831.6669656686909,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.022545082074919627,
+   "unit": "BTC",
+   "notional": 1762.087542844398,
+   "note": "Needs ~3.5x leverage",
+   "timeStop": "2026-11-01T20:55:48.830Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19569131241031987,
+   "mae": 0.0565130057344302
   }
  }
 ]
