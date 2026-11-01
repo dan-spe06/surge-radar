@@ -18477,10 +18477,12 @@
    "timeStop": "2026-11-01T08:35:08.447Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": -0.6,
+   "closedAt": 1793522108447,
+   "exit": 0.9546,
    "mfe": 0.27437854513576315,
-   "mae": 0.5570715916392758
+   "mae": 0.6901036135232872
   }
  },
  {
@@ -18746,7 +18748,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.26431573933944613,
+   "mfe": 0.28048398935223173,
    "mae": 0.6059578917834746
   }
  },
@@ -18835,8 +18837,96 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3650652253566345,
+   "mfe": 0.5770385820153289,
    "mae": 0.15309186869794014
+  }
+ },
+ {
+  "uid": "TAO-LONG-1793522149340",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1793522149340,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.7367177807009944,
+   "rsi": 58.79845273676581,
+   "rvol": 2.1876126425602624,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 238.57,
+   "stop": 235.96492332894852,
+   "takeProfit": 245.08269167762873,
+   "stopDist": 2.6050766710514917,
+   "tpDist": 6.512691677628729,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.8789939595032195,
+   "unit": "TAO",
+   "notional": 686.8415889186831,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-11-01T20:35:49.340Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.030709268901372475,
+   "mae": 0.12283707560546808
+  }
+ },
+ {
+  "uid": "BTC-LONG-1793522148349",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1793522148349,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 28% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 215.33188266462983,
+   "rsi": 66.85425639051523,
+   "rvol": 0.7474656904320724,
+   "bbPct": 0.2807017543859649,
+   "funding": 0.0000699488134524,
+   "oiChg6h": 0.005563913516419262
+  },
+  "plan": {
+   "entry": 78137.6,
+   "stop": 77814.60217600306,
+   "takeProfit": 78945.09455999237,
+   "stopDist": 322.99782399694476,
+   "tpDist": 807.4945599923619,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.023219970670981804,
+   "unit": "BTC",
+   "notional": 1814.352780300908,
+   "note": "Needs ~3.6x leverage",
+   "timeStop": "2026-11-01T20:35:48.349Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.025077568324633318,
+   "mae": 0.5582080949304116
   }
  }
 ]
