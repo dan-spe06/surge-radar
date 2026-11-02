@@ -20119,7 +20119,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.16697795140369395,
-   "mae": 0.5920127367949106
+   "mae": 0.7589906881985979
   }
  },
  {
@@ -20162,7 +20162,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.2097243226942242,
-   "mae": 0.5719754255296976
+   "mae": 0.5910412730473559
   }
  },
  {
@@ -20205,8 +20205,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.019780056142291554,
-   "mae": 0
+   "mfe": 0.19780056142299085,
+   "mae": 0.062165890732948585
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1793629683373",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 63,
+  "at": 1793629683373,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (40th percentile)",
+   "Volatility below average",
+   "Volume 1.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 7.301211269371731e-8,
+   "rsi": 34.170276654455705,
+   "rvol": 1.6872394556032517,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000047579,
+   "stop": 0.000004867418169040576,
+   "takeProfit": 0.0000044841045773985595,
+   "stopDist": 1.0951816904057597e-7,
+   "tpDist": 2.737954226014399e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 68481787.68603486,
+   "unit": "PEPE",
+   "notional": 325.82949763138527,
+   "note": "Spot OK",
+   "timeStop": "2026-11-03T02:28:03.373Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13148503235718134,
+   "mae": 0.19266209602338288
   }
  }
 ]
