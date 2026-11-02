@@ -19854,7 +19854,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.003920056697617,
+   "mfe": 1.0434834086856846,
    "mae": 0.1681442459493554
   }
  },
@@ -19943,7 +19943,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.25775935984946813,
-   "mae": 0.5993927971102885
+   "mae": 0.8162379728566569
   }
  },
  {
@@ -19983,10 +19983,12 @@
    "timeStop": "2026-11-03T01:27:41.411Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793626200000,
+   "exit": 55.274419618095095,
    "mfe": 0.15072576022330608,
-   "mae": 0.5383062865118052
+   "mae": 1.0981448244840784
   }
  },
  {
@@ -20026,10 +20028,98 @@
    "timeStop": "2026-11-03T01:27:41.691Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793626200000,
+   "exit": 0.000004661665173315113,
+   "mfe": 0.14754640177005396,
+   "mae": 1.0820069463136457
+  }
+ },
+ {
+  "uid": "TRX-LONG-1793627260847",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 46,
+  "at": 1793627260847,
+  "factors": [
+   "Range tight (bottom 29% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0011198212391863324,
+   "rsi": 71.68282833453246,
+   "rvol": 0.5510567097463491,
+   "bbPct": 0.2857142857142857,
+   "funding": -0.0000707722433598,
+   "oiChg6h": -0.0031479908294156844
+  },
+  "plan": {
+   "entry": 0.31768,
+   "stop": 0.3160002681412205,
+   "takeProfit": 0.32187932964694876,
+   "stopDist": 0.0016797318587794987,
+   "tpDist": 0.004199329646948747,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4464.998363161092,
+   "unit": "TRX",
+   "notional": 1418.4406800090158,
+   "note": "Needs ~2.8x leverage",
+   "timeStop": "2026-11-03T01:47:40.847Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14754640177005396,
-   "mae": 0.5901856070801742
+   "mfe": 0.01190666230174177,
+   "mae": 0.07143997381058281
+  }
+ },
+ {
+  "uid": "UNI-LONG-1793627261356",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 45,
+  "at": 1793627261356,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volume 1.5x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08783594806004048,
+   "rsi": 61.87287561588245,
+   "rvol": 1.542672744105593,
+   "bbPct": 0.08928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.327,
+   "stop": 7.195246077909939,
+   "takeProfit": 7.6563848052251515,
+   "stopDist": 0.13175392209006073,
+   "tpDist": 0.32938480522515184,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 56.92430161489504,
+   "unit": "UNI",
+   "notional": 417.084357932336,
+   "note": "Spot OK",
+   "timeStop": "2026-11-03T01:47:41.356Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16697795140369395,
+   "mae": 0.09866878946581732
   }
  }
 ]
