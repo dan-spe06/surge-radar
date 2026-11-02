@@ -19440,7 +19440,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.030076696029701543,
+   "mfe": 0.08020452274587078,
    "mae": 0.9524287076073269
   }
  },
@@ -19659,8 +19659,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5758464445408916,
+   "mfe": 0.6127188255747325,
    "mae": 0.19073490929852568
+  }
+ },
+ {
+  "uid": "ETH-LONG-1793590615090",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793590615090,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 8.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 11.694876951406146,
+   "rsi": 76.32663199361679,
+   "rvol": 8.943156845805213,
+   "bbPct": 1,
+   "funding": -0.0000094430594291,
+   "oiChg6h": 0.02271865458011963
+  },
+  "plan": {
+   "entry": 2312.21,
+   "stop": 2294.6676845728907,
+   "takeProfit": 2356.065788567773,
+   "stopDist": 17.54231542710922,
+   "tpDist": 43.85578856777305,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.4275376321423219,
+   "unit": "ETH",
+   "notional": 988.5567884157981,
+   "note": "Needs ~2.0x leverage",
+   "timeStop": "2026-11-02T15:36:55.090Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04902431515232684,
+   "mae": 0.2964260916186662
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793590615407",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793590615407,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (47th percentile)",
+   "Volume 2.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 15.472850815162513,
+   "rsi": 62.704442057471404,
+   "rvol": 2.038326067157148,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1273.27,
+   "stop": 1250.0607237772563,
+   "takeProfit": 1331.2931905568594,
+   "stopDist": 23.209276222743767,
+   "tpDist": 58.02319055685942,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.3231466560189597,
+   "unit": "ZEC",
+   "notional": 411.4529427092608,
+   "note": "Spot OK",
+   "timeStop": "2026-11-02T15:36:55.407Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.018957937153114654,
+   "mae": 0.3494292507084974
   }
  }
 ]
