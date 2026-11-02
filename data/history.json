@@ -19942,8 +19942,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13501680754019205,
+   "mfe": 0.25775935984946813,
    "mae": 0.5993927971102885
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1793626061411",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793626061411,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.30961307873006166,
+   "rsi": 35.55619026319842,
+   "rvol": 2.810589209671693,
+   "bbPct": 0.8421052631578947,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 54.81,
+   "stop": 55.274419618095095,
+   "takeProfit": 53.64895095476227,
+   "stopDist": 0.46441961809509247,
+   "tpDist": 1.1610490452377311,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 16.149188595354158,
+   "unit": "LTC",
+   "notional": 885.1370269113614,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-11-03T01:27:41.411Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15072576022330608,
+   "mae": 0.086129005841887
+  }
+ },
+ {
+  "uid": "SHIB-SHORT-1793626061691",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793626061691,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.6651733151129296e-8,
+   "rsi": 35.28012504561316,
+   "rvol": 2.5921086920944303,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000004621,
+   "stop": 0.000004661665173315113,
+   "takeProfit": 0.00000451933706671222,
+   "stopDist": 4.0665173315112396e-8,
+   "tpDist": 1.0166293328778099e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 184433002.2125536,
+   "unit": "SHIB",
+   "notional": 852.2649032242102,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-03T01:27:41.691Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14754640177005396,
+   "mae": 0.24591066961673577
   }
  }
 ]
