@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-02T23:38:25.583Z",
+ "generated": "2026-11-02T23:48:25.677Z",
  "total": 447,
- "open": 6,
- "closed": 441,
+ "open": 5,
+ "closed": 442,
  "wins": 52,
  "losses": 255,
- "timeouts": 134,
+ "timeouts": 135,
  "winRate": 0.118,
- "netR": -65.15,
- "avgR": -0.148,
+ "netR": -64.06,
+ "avgR": -0.145,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 441,
+   "n": 442,
    "wins": 52,
-   "R": -65.15,
+   "R": -64.06,
    "winRate": 0.118
   }
  },
@@ -50,10 +50,10 @@
    "winRate": 0.357
   },
   "BNB": {
-   "n": 14,
+   "n": 15,
    "wins": 5,
-   "R": 3.5,
-   "winRate": 0.357
+   "R": 4.59,
+   "winRate": 0.333
   },
   "BTC": {
    "n": 25,
@@ -274,10 +274,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 254,
+   "n": 255,
    "wins": 39,
-   "R": 18.88,
-   "winRate": 0.154
+   "R": 19.97,
+   "winRate": 0.153
   },
   "LONG": {
    "n": 187,
