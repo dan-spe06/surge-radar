@@ -19215,7 +19215,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4069474802208402,
+   "mfe": 1.9791107909925945,
    "mae": 0.26051989180796237
   }
  },
@@ -19304,7 +19304,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8898219098676541,
+   "mfe": 1.2032421435202398,
    "mae": 0.5221726869504686
   }
  },
@@ -19348,7 +19348,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5644161359915844,
+   "mfe": 0.8599579509896089,
    "mae": 0.76703410590185
   }
  },
@@ -19392,8 +19392,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8771404832422758,
+   "mfe": 1.4698814053340574,
    "mae": 0.7211560300602557
+  }
+ },
+ {
+  "uid": "XRP-LONG-1793582814538",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1793582814538,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (53th percentile)",
+   "Volume 2.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006649666565851269,
+   "rsi": 61.67239798085084,
+   "rvol": 2.0262187903333424,
+   "bbPct": 0.5263157894736842,
+   "funding": 0.0000375182696723,
+   "oiChg6h": -0.00767560165286314
+  },
+  "plan": {
+   "entry": 1.2614,
+   "stop": 1.2514255001512231,
+   "takeProfit": 1.2863362496219424,
+   "stopDist": 0.009974499848776904,
+   "tpDist": 0.024936249621942262,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 751.9174007426215,
+   "unit": "XRP",
+   "notional": 948.4686092967428,
+   "note": "Needs ~1.9x leverage",
+   "timeStop": "2026-11-02T13:26:54.538Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.030076696029701543,
+   "mae": 0.6115594859373314
+  }
+ },
+ {
+  "uid": "DOGE-LONG-1793582814940",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793582814940,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (53th percentile)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00044037389572668345,
+   "rsi": 60.03239269389699,
+   "rvol": 1.4996010969434286,
+   "bbPct": 0.5263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07619,
+   "stop": 0.07552943915640997,
+   "takeProfit": 0.07784140210897506,
+   "stopDist": 0.0006605608435900252,
+   "tpDist": 0.001651402108975063,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11353.988164419337,
+   "unit": "DOGE",
+   "notional": 865.0603582471092,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-02T13:26:54.940Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.060554603543588346,
+   "mae": 0.6206846863215809
   }
  }
 ]
