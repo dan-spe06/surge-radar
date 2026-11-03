@@ -21202,7 +21202,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08847673428598817,
+   "mfe": 0.6888545740837637,
    "mae": 0.631976673471339
   }
  },
@@ -21246,7 +21246,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.18848152112839467,
-   "mae": 0.2924503602024392
+   "mae": 0.4079712925069369
+  }
+ },
+ {
+  "uid": "LIT-LONG-1793721578260",
+  "id": "LIT",
+  "name": "Lighter",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793721578260,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0795326330465308,
+   "rsi": 77.2693827505832,
+   "rvol": 4.6748923942966485,
+   "bbPct": 0.9642857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.4266,
+   "stop": 3.307301050430204,
+   "takeProfit": 3.7248473739244905,
+   "stopDist": 0.1192989495697962,
+   "tpDist": 0.2982473739244905,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 62.86727609124591,
+   "unit": "LIT",
+   "notional": 215.42100825426326,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T03:59:38.260Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2556602561043998,
+   "mae": 0.9078034667575933
   }
  }
 ]
