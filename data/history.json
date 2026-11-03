@@ -20302,7 +20302,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.742429518792274,
+   "mfe": 1.8152474688313542,
    "mae": 0.2132525679715872
   }
  },
@@ -20346,6 +20346,93 @@
    "r": null,
    "mfe": 0.28818189743332406,
    "mae": 0.8233768498095092
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1793671722579",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1793671722579,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10179236510231886,
+   "rsi": 32.9636155921644,
+   "rvol": 2.7700881380646973,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.92,
+   "stop": 7.072688547653478,
+   "takeProfit": 6.538278630866304,
+   "stopDist": 0.15268854765347828,
+   "tpDist": 0.3817213691336957,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 49.11959747643292,
+   "unit": "UNI",
+   "notional": 339.90761453691584,
+   "note": "Spot OK",
+   "timeStop": "2026-11-03T14:08:42.579Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013098559327047338,
+   "mae": 0.41260461880203475
+  }
+ },
+ {
+  "uid": "WLFI-SHORT-1793671723513",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793671723513,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00022446175245944533,
+   "rsi": 36.548272982534584,
+   "rvol": 3.614467152235212,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0498,
+   "stop": 0.05013669262868917,
+   "takeProfit": 0.04895826842827708,
+   "stopDist": 0.000336692628689168,
+   "tpDist": 0.00084173157172292,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 22275.509948642037,
+   "unit": "WLFI",
+   "notional": 1109.3203954423734,
+   "note": "Needs ~2.2x leverage",
+   "timeStop": "2026-11-03T14:08:43.513Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.23760543945219265
   }
  }
 ]
