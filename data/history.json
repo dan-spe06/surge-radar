@@ -21028,7 +21028,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3992342138518043,
+   "mfe": 0.5451082535284265,
    "mae": 0.6679495500982164
   }
  },
@@ -21116,7 +21116,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7527619266358428,
+   "mfe": 1.0005063581868903,
    "mae": 0.8004050865495188
   }
  },
@@ -21296,6 +21296,50 @@
    "exit": 3.307301050430204,
    "mfe": 0.2556602561043998,
    "mae": 1.0167734119824188
+  }
+ },
+ {
+  "uid": "ENA-LONG-1793740799045",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1793740799045,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002529997559026664,
+   "rsi": 60.96639201475962,
+   "rvol": 3.406220342060548,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17606,
+   "stop": 0.17226500366146,
+   "takeProfit": 0.18554749084634997,
+   "stopDist": 0.0037949963385399956,
+   "tpDist": 0.00948749084634999,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1976.28649172436,
+   "unit": "ENA",
+   "notional": 347.9449997329908,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T09:19:59.045Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03689068117885505,
+   "mae": 0.6192364340736305
   }
  }
 ]
