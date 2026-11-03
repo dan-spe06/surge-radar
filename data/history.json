@@ -20482,5 +20482,49 @@
    "mfe": 0.5500257476974542,
    "mae": 0.3117793008338509
   }
+ },
+ {
+  "uid": "DOT-SHORT-1793687352624",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793687352624,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 35% of 5 days)",
+   "Volatility below average",
+   "Volume 3.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00845884108947584,
+   "rsi": 42.474789221696845,
+   "rvol": 3.1423215977868186,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9327,
+   "stop": 0.9453882616342137,
+   "takeProfit": 0.9009793459144656,
+   "stopDist": 0.01268826163421376,
+   "tpDist": 0.0317206540855344,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 591.0975211747156,
+   "unit": "DOT",
+   "notional": 551.3166579996572,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-03T18:29:12.624Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11821950423493885,
+   "mae": 0.05516910197630946
+  }
  }
 ]
