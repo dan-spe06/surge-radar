@@ -20708,10 +20708,12 @@
    "timeStop": "2026-11-03T22:59:13.334Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793719800000,
+   "exit": 2.133681658609398,
    "mfe": 0.6415225416328204,
-   "mae": 0.9887686880212446
+   "mae": 1.3154154867425425
   }
  },
  {
@@ -21026,7 +21028,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.28407049831763376,
+   "mfe": 0.3992342138518043,
    "mae": 0.6679495500982164
   }
  },
@@ -21160,6 +21162,91 @@
    "r": null,
    "mfe": 0.8975979998237873,
    "mae": 0.6410718903296805
+  }
+ },
+ {
+  "uid": "POL-LONG-1793720978523",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 65,
+  "at": 1793720978523,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 23.8x normal",
+   "Broke 24h high"
+  ],
+  "stats": {
+   "atr1h": 0.0010548912557243326,
+   "rsi": 77.50455852548147,
+   "rvol": 23.837573694628112,
+   "bbPct": 1,
+   "funding": 0.0000371486900647,
+   "oiChg6h": 0.012937706927450849
+  },
+  "plan": {
+   "entry": 0.09286,
+   "stop": 0.0912776631164135,
+   "takeProfit": 0.09681584220896625,
+   "stopDist": 0.0015823368835864988,
+   "tpDist": 0.003955842208966247,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4739.825051035038,
+   "unit": "POL",
+   "notional": 440.14015423911366,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T03:49:38.523Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08847673428598817,
+   "mae": 0.631976673471339
+  }
+ },
+ {
+  "uid": "HYPE-LONG-1793720976584",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1793720976584,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.2x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.0964823789059177,
+   "rsi": 70.02042038374533,
+   "rvol": 2.158929674249102,
+   "bbPct": 0.8928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 87.63,
+   "stop": 85.98527643164113,
+   "takeProfit": 91.74180892089718,
+   "stopDist": 1.6447235683588766,
+   "tpDist": 4.111808920897191,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.560036801493386,
+   "unit": "HYPE",
+   "notional": 399.5960249148654,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T03:49:36.584Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18848152112839467,
+   "mae": 0.2924503602024392
   }
  }
 ]
