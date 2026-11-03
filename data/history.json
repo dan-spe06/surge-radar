@@ -20754,7 +20754,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07701366970824951,
+   "mfe": 0.23424991202925588,
    "mae": 0.773345599986966
   }
  },
@@ -20844,7 +20844,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.2926479676806913,
-   "mae": 0.5378395081699073
+   "mae": 0.7118464078719366
   }
  },
  {
@@ -20932,7 +20932,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.007162082794791193,
-   "mae": 0.7090461966847225
+   "mae": 0.9167465977337815
   }
  },
  {
@@ -20976,7 +20976,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.16491299309586202,
-   "mae": 0.31150232029219976
+   "mae": 0.45809164748852443
   }
  },
  {
@@ -21019,7 +21019,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.061420648284894935,
-   "mae": 0.568140996635259
+   "mae": 0.6679495500982164
   }
  },
  {
@@ -21107,7 +21107,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.38114527930928405,
-   "mae": 0.34303075137836636
+   "mae": 0.6098324468948727
+  }
+ },
+ {
+  "uid": "ETH-LONG-1793712575246",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1793712575246,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (47th percentile)",
+   "Volume 2.3x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 13.69581186204375,
+   "rsi": 64.5460475984863,
+   "rvol": 2.3343012407444688,
+   "bbPct": 0.47368421052631576,
+   "funding": 0.0001,
+   "oiChg6h": -0.0004057530037092745
+  },
+  "plan": {
+   "entry": 2290.46,
+   "stop": 2269.9162822069343,
+   "takeProfit": 2341.819294482664,
+   "stopDist": 20.543717793065625,
+   "tpDist": 51.35929448266406,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.36507510838819873,
+   "unit": "ETH",
+   "notional": 836.1899327588337,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-04T01:29:35.246Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10124749672632358,
+   "mae": 0.584120173421118
   }
  }
 ]
