@@ -20757,5 +20757,355 @@
    "mfe": 0.07701366970824951,
    "mae": 0.773345599986966
   }
+ },
+ {
+  "uid": "AVAX-LONG-1793709576543",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793709576543,
+  "factors": [
+   "Range moderately tight (46th percentile)",
+   "Volume 2.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.07904667942796495,
+   "rsi": 69.09005047887166,
+   "rvol": 2.8241213166269086,
+   "bbPct": 0.45614035087719296,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.669,
+   "stop": 8.550429980858054,
+   "takeProfit": 8.965425047854868,
+   "stopDist": 0.11857001914194742,
+   "tpDist": 0.29642504785486856,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 63.253763930165945,
+   "unit": "AVAX",
+   "notional": 548.3468795106086,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-04T00:39:36.543Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15180903343238905,
+   "mae": 0.11807369266965258
+  }
+ },
+ {
+  "uid": "XRP-LONG-1793709575789",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1793709575789,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 22.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.008428784543476056,
+   "rsi": 77.8419857120897,
+   "rvol": 22.781193689900505,
+   "bbPct": 1,
+   "funding": 0.0000543187161388,
+   "oiChg6h": -0.004715364968094283
+  },
+  "plan": {
+   "entry": 1.2846,
+   "stop": 1.271956823184786,
+   "takeProfit": 1.3162079420380353,
+   "stopDist": 0.012643176815214083,
+   "tpDist": 0.03160794203803521,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 593.2053398932874,
+   "unit": "XRP",
+   "notional": 762.0315796269169,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-11-04T00:39:35.789Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08700344985102346,
+   "mae": 0.4112890356593357
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1793709577259",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793709577259,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 33.8x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.004074535399001842,
+   "rsi": 60.405413013955986,
+   "rvol": 33.82085806210301,
+   "bbPct": 0.7543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7022,
+   "stop": 0.6960881969014973,
+   "takeProfit": 0.7174795077462569,
+   "stopDist": 0.006111803098502762,
+   "tpDist": 0.015279507746256905,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1227.1337736383084,
+   "unit": "ASTER",
+   "notional": 861.6933358488202,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-04T00:39:37.259Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06544713459403591,
+   "mae": 0.26178853837617994
+  }
+ },
+ {
+  "uid": "LINK-LONG-1793709576175",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 61,
+  "at": 1793709576175,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.09308279250152587,
+   "rsi": 57.579172249578775,
+   "rvol": 2.157228128498694,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 11.266,
+   "stop": 11.126375811247712,
+   "takeProfit": 11.615060471880723,
+   "stopDist": 0.13962418875228882,
+   "tpDist": 0.3490604718807221,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 53.71562096096372,
+   "unit": "LINK",
+   "notional": 605.1601857462173,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-04T00:39:36.175Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.007162082794791193,
+   "mae": 0.1718899870750777
+  }
+ },
+ {
+  "uid": "LTC-LONG-1793709576529",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 61,
+  "at": 1793709576529,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.36382821555558226,
+   "rsi": 58.235536831837784,
+   "rvol": 2.347801045587358,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 54.7,
+   "stop": 54.15425767666663,
+   "takeProfit": 56.06435580833344,
+   "stopDist": 0.5457423233333734,
+   "tpDist": 1.3643558083334333,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 13.742749424655733,
+   "unit": "LTC",
+   "notional": 751.7283935286686,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-11-04T00:39:36.529Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.036647331799074666,
+   "mae": 0.31150232029219976
+  }
+ },
+ {
+  "uid": "SUI-LONG-1793709576599",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793709576599,
+  "factors": [
+   "Volume 3.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.008683290525679949,
+   "rsi": 67.02365274072073,
+   "rvol": 3.2261842709796342,
+   "bbPct": 0.7368421052631579,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8963,
+   "stop": 0.88327506421148,
+   "takeProfit": 0.9288623394712998,
+   "stopDist": 0.013024935788519924,
+   "tpDist": 0.032562339471299814,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 575.8185776708735,
+   "unit": "SUI",
+   "notional": 516.106191166404,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-04T00:39:36.599Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03838790517806253,
+   "mae": 0.2303274310683496
+  }
+ },
+ {
+  "uid": "WLFI-LONG-1793709577224",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793709577224,
+  "factors": [
+   "Volume 19.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.0004369590258457786,
+   "rsi": 75.62625007227751,
+   "rvol": 18.998125990475145,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05202,
+   "stop": 0.05136456146123133,
+   "takeProfit": 0.05365859634692167,
+   "stopDist": 0.0006554385387686679,
+   "tpDist": 0.0016385963469216698,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11442.720493808298,
+   "unit": "WLFI",
+   "notional": 595.2503200879077,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-04T00:39:37.224Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.21359744921775678,
+   "mae": 0.16782656724252015
+  }
+ },
+ {
+  "uid": "PUMP-LONG-1793709577252",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793709577252,
+  "factors": [
+   "Volume 3.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Congressional Elections"
+  ],
+  "stats": {
+   "atr1h": 0.0000699645728657372,
+   "rsi": 72.13872381042351,
+   "rvol": 3.574381975431638,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.004257,
+   "stop": 0.004152053140701394,
+   "takeProfit": 0.004519367148246515,
+   "stopDist": 0.00010494685929860579,
+   "tpDist": 0.00026236714824651446,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 71464.73987049212,
+   "unit": "PUMP",
+   "notional": 304.22539762868496,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T00:39:37.252Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.34303075137836636
+  }
  }
 ]
