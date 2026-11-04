@@ -21441,7 +21441,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 2.189288962658897,
-   "mae": 0.40794204273146156
+   "mae": 0.5847169279151094
   }
  },
  {
@@ -21575,7 +21575,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.4686419039215322,
-   "mae": 0.6927556150573235
+   "mae": 0.9144374118756579
   }
  },
  {
@@ -21708,7 +21708,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.9979607921100955,
-   "mae": 0.15983686336881947
+   "mae": 0.4795105901064214
   }
  },
  {
@@ -21751,7 +21751,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.3777691088580022,
-   "mae": 0.615075495025889
+   "mae": 0.9103117326383033
   }
  },
  {
@@ -21969,10 +21969,142 @@
    "timeStop": "2026-11-04T16:40:43.407Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793770200000,
+   "exit": 273.0518694372228,
+   "mfe": 0.37787648381354416,
+   "mae": 1.1848256202153653
+  }
+ },
+ {
+  "uid": "ENA-LONG-1793770843388",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1793770843388,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.0x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0032783877552162834,
+   "rsi": 60.31785867537662,
+   "rvol": 3.0236314766330614,
+   "bbPct": 0.6491228070175439,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17741,
+   "stop": 0.17249241836717558,
+   "takeProfit": 0.1897039540820611,
+   "stopDist": 0.0049175816328244255,
+   "tpDist": 0.012293954082061064,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1525.139908189456,
+   "unit": "ENA",
+   "notional": 270.5750711118914,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T17:40:43.388Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.37787648381354416,
-   "mae": 0.5655957693209119
+   "mfe": 0.08540783485860465,
+   "mae": 0.5673520458464807
+  }
+ },
+ {
+  "uid": "ICP-LONG-1793770844077",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1793770844077,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (44th percentile)",
+   "Volume 3.5x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.026650252507532696,
+   "rsi": 59.37174441333849,
+   "rvol": 3.4756162787608385,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.516,
+   "stop": 2.476024621238701,
+   "takeProfit": 2.6159384469032476,
+   "stopDist": 0.039975378761299044,
+   "tpDist": 0.0999384469032476,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 187.61548313985955,
+   "unit": "ICP",
+   "notional": 472.04055557988664,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T17:40:44.077Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.4502771595356577
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793770842635",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793770842635,
+  "factors": [
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 8.9x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 25.06495929119963,
+   "rsi": 61.73316669160447,
+   "rvol": 8.912559292452325,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1240.85,
+   "stop": 1203.2525610632006,
+   "takeProfit": 1334.8435973419985,
+   "stopDist": 37.59743893679945,
+   "tpDist": 93.99359734199862,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.19948167247794063,
+   "unit": "ZEC",
+   "notional": 247.5268332942526,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T17:40:42.635Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04229011456532728,
+   "mae": 0.3593329860235968
   }
  }
 ]
