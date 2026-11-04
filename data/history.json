@@ -22162,7 +22162,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.0200229245146937,
+   "mfe": 2.090014094180265,
    "mae": 0.5404873657508039
   }
  },
@@ -22253,7 +22253,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.121135302077808,
+   "mfe": 2.338069594335763,
    "mae": 0.5543876357703388
   }
  },
@@ -22433,7 +22433,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.275005774989448,
+   "mfe": 2.388127609104947,
    "mae": 0.5530400778979891
   }
  },
@@ -22519,8 +22519,176 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.667331731991655,
+   "mfe": 0.8933634476662433,
    "mae": 0.5758427042185931
+  }
+ },
+ {
+  "uid": "SOL-LONG-1793805718982",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793805718982,
+  "factors": [
+   "Volume 9.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.124473261182866,
+   "rsi": 74.18180960472341,
+   "rvol": 9.474880583242214,
+   "bbPct": 1,
+   "funding": 0.0001,
+   "oiChg6h": 0.01777418002627303
+  },
+  "plan": {
+   "entry": 97.29,
+   "stop": 95.6032901082257,
+   "takeProfit": 101.50677472943575,
+   "stopDist": 1.686709891774299,
+   "tpDist": 4.216774729435747,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.446526362699238,
+   "unit": "SOL",
+   "notional": 432.6025498270089,
+   "note": "Spot OK",
+   "timeStop": "2026-11-05T03:21:58.982Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5157970580731059,
+   "mae": 0.14821754542330795
+  }
+ },
+ {
+  "uid": "BNB-LONG-1793805719011",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793805719011,
+  "factors": [
+   "Volume 5.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 5.380182212893325,
+   "rsi": 71.53105304454134,
+   "rvol": 5.18043214307689,
+   "bbPct": 1,
+   "funding": 0.0001,
+   "oiChg6h": 0.025632041658066578
+  },
+  "plan": {
+   "entry": 718.3,
+   "stop": 710.22972668066,
+   "takeProfit": 738.47568329835,
+   "stopDist": 8.070273319339988,
+   "tpDist": 20.17568329834997,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.9293365544419224,
+   "unit": "BNB",
+   "notional": 667.5424470556328,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-05T03:21:59.011Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.4299730458551328,
+   "mae": 0.05328196245466402
+  }
+ },
+ {
+  "uid": "ADA-LONG-1793805719273",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793805719273,
+  "factors": [
+   "Volume 31.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0024860907422226556,
+   "rsi": 73.8847727212178,
+   "rvol": 30.96898450035347,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2002,
+   "stop": 0.19647086388666601,
+   "takeProfit": 0.20952284028333495,
+   "stopDist": 0.0037291361133339833,
+   "tpDist": 0.009322840283334959,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2011.1896621801577,
+   "unit": "ADA",
+   "notional": 402.6401703684676,
+   "note": "Spot OK",
+   "timeStop": "2026-11-05T03:21:59.273Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.42905379459843845,
+   "mae": 0.08044758648720489
+  }
+ },
+ {
+  "uid": "LINK-LONG-1793805719281",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793805719281,
+  "factors": [
+   "Volume 8.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.15330031630757032,
+   "rsi": 74.8314827110445,
+   "rvol": 8.542154928341334,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 11.764,
+   "stop": 11.534049525538643,
+   "takeProfit": 12.338876186153389,
+   "stopDist": 0.22995047446135547,
+   "tpDist": 0.5748761861533886,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 32.615718743648074,
+   "unit": "LINK",
+   "notional": 383.6913153002759,
+   "note": "Spot OK",
+   "timeStop": "2026-11-05T03:21:59.281Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1565554499695167,
+   "mae": 0.2696232749474881
   }
  }
 ]
