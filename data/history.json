@@ -21835,7 +21835,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4896270482599709,
-   "mae": 0.3944217888760871
+   "mae": 0.6256345616655205
   }
  },
  {
@@ -21878,7 +21878,49 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.15754830337627726,
-   "mae": 0.12083801909444127
+   "mae": 0.4802928860209121
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793763022514",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1793763022514,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 37% of 5 days)",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06051324368539352,
+   "rsi": 33.62248878622546,
+   "rvol": 0.40673235864330826,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.743,
+   "stop": 3.8337698655280903,
+   "takeProfit": 3.516075336179774,
+   "stopDist": 0.09076986552809028,
+   "tpDist": 0.22692466382022572,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 82.62654082790282,
+   "unit": "NEAR",
+   "notional": 309.27114231884025,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T15:30:22.514Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0440674884415482,
+   "mae": 0
   }
  }
 ]
