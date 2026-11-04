@@ -20893,10 +20893,12 @@
    "timeStop": "2026-11-04T00:39:37.259Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793751300000,
+   "exit": 0.6960881969014973,
    "mfe": 0.5399388604008507,
-   "mae": 0.7526420478315037
+   "mae": 1.0471541535047015
   }
  },
  {
@@ -21028,10 +21030,12 @@
    "timeStop": "2026-11-04T00:39:36.599Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793751300000,
+   "exit": 0.88327506421148,
    "mfe": 0.6065289018133215,
-   "mae": 0.8905994001309467
+   "mae": 1.3589318433032567
   }
  },
  {
@@ -21385,10 +21389,12 @@
    "timeStop": "2026-11-04T12:10:20.849Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793751300000,
+   "exit": 694.3775011418655,
    "mfe": 0.009995004780191224,
-   "mae": 0.8935534273499136
+   "mae": 1.2513745984810776
   }
  },
  {
@@ -21432,7 +21438,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06119130640972286,
+   "mfe": 0.4419372129591015,
    "mae": 0.40794204273146156
   }
  },
@@ -21477,7 +21483,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2248646619050393,
+   "mfe": 0.48140040295162095,
    "mae": 0.2787054964456668
   }
  },
@@ -21520,7 +21526,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.018681615941377662,
+   "mfe": 0.353082541291955,
    "mae": 0.4745130449108779
   }
  },
@@ -21562,8 +21568,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13393275224442153,
+   "mfe": 0.5911514581822505,
    "mae": 0.6927556150573235
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1793752221425",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1793752221425,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (49th percentile)",
+   "Volatility below average",
+   "Volume 3.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.1324048723653513,
+   "rsi": 34.4600162603018,
+   "rvol": 3.182424931838908,
+   "bbPct": 0.49122807017543857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 272.41,
+   "stop": 275.6086073085481,
+   "takeProfit": 264.41348172862996,
+   "stopDist": 3.198607308548027,
+   "tpDist": 7.996518271370068,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.344770481814644,
+   "unit": "BCH",
+   "notional": 638.7389269511273,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-04T12:30:21.425Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.0062527212848333645
   }
  }
 ]
