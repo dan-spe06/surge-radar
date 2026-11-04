@@ -21120,8 +21120,10 @@
    "timeStop": "2026-11-04T00:39:37.252Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.07,
+   "closedAt": 1793752777252,
+   "exit": 0.004264,
    "mfe": 1.7056251249090737,
    "mae": 0.8004050865495188
   }
@@ -21438,7 +21440,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4419372129591015,
+   "mfe": 0.8022860173718938,
    "mae": 0.40794204273146156
   }
  },
@@ -21483,7 +21485,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.48140040295162095,
+   "mfe": 0.7347690360840322,
    "mae": 0.2787054964456668
   }
  },
@@ -21526,7 +21528,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.353082541291955,
+   "mfe": 0.3717641572333326,
    "mae": 0.4745130449108779
   }
  },
@@ -21613,8 +21615,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
-   "mae": 0.0062527212848333645
+   "mfe": 0.42831140801147644,
+   "mae": 0.043769048993869096
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1793752822096",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793752822096,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.412636958665862,
+   "rsi": 35.39931507990515,
+   "rvol": 3.564625224588411,
+   "bbPct": 0.03508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 125.69,
+   "stop": 127.80895543799879,
+   "takeProfit": 120.39261140500301,
+   "stopDist": 2.118955437998793,
+   "tpDist": 5.297388594996982,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.539479814206585,
+   "unit": "AAVE",
+   "notional": 444.8772178476256,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T12:40:22.096Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.25484254662287037,
+   "mae": 0.3209128364880669
   }
  }
 ]
