@@ -21031,7 +21031,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6065289018133215,
-   "mae": 0.6679495500982164
+   "mae": 0.8905994001309467
   }
  },
  {
@@ -21160,10 +21160,12 @@
    "timeStop": "2026-11-04T01:29:35.246Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793751300000,
+   "exit": 2269.9162822069343,
    "mfe": 0.8975979998237873,
-   "mae": 0.8202020768454821
+   "mae": 1.1531505756955265
   }
  },
  {
@@ -21338,10 +21340,12 @@
    "timeStop": "2026-11-04T09:19:59.045Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793751300000,
+   "exit": 0.17226500366146,
    "mfe": 0.5691705096166144,
-   "mae": 0.6192364340736305
+   "mae": 1.0856400461205777
   }
  },
  {
@@ -21384,7 +21388,182 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.009995004780191224,
-   "mae": 0.24787611854896963
+   "mae": 0.8935534273499136
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1793751621504",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1793751621504,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09805314434415915,
+   "rsi": 34.53214629035706,
+   "rvol": 2.680234098692253,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.948,
+   "stop": 11.095079716516238,
+   "takeProfit": 10.580300708709403,
+   "stopDist": 0.14707971651623875,
+   "tpDist": 0.36769929129059686,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 50.992755341433785,
+   "unit": "LINK",
+   "notional": 558.2686854780171,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-04T12:20:21.504Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06119130640972286,
+   "mae": 0.40794204273146156
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1793751621903",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1793751621903,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.0745477295082084,
+   "rsi": 37.17140763441406,
+   "rvol": 2.1737515822063687,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 273.36,
+   "stop": 276.5174547729508,
+   "takeProfit": 265.466363067623,
+   "stopDist": 3.1574547729508096,
+   "tpDist": 7.893636932377024,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.3753309356164904,
+   "unit": "BCH",
+   "notional": 649.3204645601238,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-04T12:20:21.903Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2248646619050393,
+   "mae": 0.2787054964456668
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1793751621122",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 57,
+  "at": 1793751621122,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 3.8x normal"
+  ],
+  "stats": {
+   "atr1h": 3.5685706673276973,
+   "rsi": 41.89898753492744,
+   "rvol": 3.8433496967990397,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 695.01,
+   "stop": 700.3628560009915,
+   "takeProfit": 681.6278599975211,
+   "stopDist": 5.352856000991546,
+   "tpDist": 13.382140002478863,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.401121195603006,
+   "unit": "BNB",
+   "notional": 973.7932421560453,
+   "note": "Needs ~1.9x leverage",
+   "timeStop": "2026-11-04T12:20:21.122Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.018681615941377662,
+   "mae": 0.4745130449108779
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1793751621491",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793751621491,
+  "factors": [
+   "Volume 2.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014435104938373597,
+   "rsi": 33.923106359486894,
+   "rvol": 2.6013163370895818,
+   "bbPct": 0.7192982456140351,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16042,
+   "stop": 0.16258526574075605,
+   "takeProfit": 0.1550068356481099,
+   "stopDist": 0.0021652657407560394,
+   "tpDist": 0.0054131643518900985,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3463.7780752866147,
+   "unit": "XLM",
+   "notional": 555.6592788374787,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-04T12:20:21.491Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13393275224442153,
+   "mae": 0.6927556150573235
   }
  }
 ]
