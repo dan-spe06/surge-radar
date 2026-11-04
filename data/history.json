@@ -21441,7 +21441,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 2.189288962658897,
-   "mae": 0.5847169279151094
+   "mae": 0.9790609025555295
   }
  },
  {
@@ -21572,10 +21572,12 @@
    "timeStop": "2026-11-04T12:20:21.491Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793771100000,
+   "exit": 0.16258526574075605,
    "mfe": 1.4686419039215322,
-   "mae": 0.9144374118756579
+   "mae": 1.422458196251036
   }
  },
  {
@@ -21620,7 +21622,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 2.207210613548186,
-   "mae": 0.4658277357204944
+   "mae": 0.7034311445443933
   }
  },
  {
@@ -21708,7 +21710,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.9979607921100955,
-   "mae": 0.4795105901064214
+   "mae": 0.9856606574409855
   }
  },
  {
@@ -21748,10 +21750,12 @@
    "timeStop": "2026-11-04T13:10:22.159Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793770200000,
+   "exit": 0.06953290834059152,
    "mfe": 1.3777691088580022,
-   "mae": 0.9103117326383033
+   "mae": 1.0087238118424586
   }
  },
  {
@@ -22016,7 +22020,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08540783485860465,
+   "mfe": 0.49414533025338125,
    "mae": 0.5673520458464807
   }
  },
@@ -22060,7 +22064,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.35021556852773256,
    "mae": 0.4502771595356577
   }
  },
@@ -22103,8 +22107,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.04229011456532728,
+   "mfe": 0.5024278390811091,
    "mae": 0.3593329860235968
+  }
+ },
+ {
+  "uid": "ENA-LONG-1793771444236",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1793771444236,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0034290039893140277,
+   "rsi": 63.60161768332644,
+   "rvol": 4.449068690338541,
+   "bbPct": 0.6964285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.17964,
+   "stop": 0.17449649401602896,
+   "takeProfit": 0.1924987649599276,
+   "stopDist": 0.005143505983971041,
+   "tpDist": 0.012858764959927604,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1458.149368032742,
+   "unit": "ENA",
+   "notional": 261.9419524734017,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T17:50:44.236Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013609394101641742,
+   "mae": 0.2352480980426135
+  }
+ },
+ {
+  "uid": "WLD-LONG-1793771444882",
+  "id": "WLD",
+  "name": "Worldcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 70,
+  "at": 1793771444882,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (57th percentile)",
+   "Volume 3.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006193296020311834,
+   "rsi": 64.96613150065807,
+   "rvol": 3.357785139070331,
+   "bbPct": 0.5714285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.386,
+   "stop": 0.3767100559695323,
+   "takeProfit": 0.40922486007616937,
+   "stopDist": 0.009289944030467751,
+   "tpDist": 0.023224860076169376,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 807.3245624949554,
+   "unit": "WLD",
+   "notional": 311.6272811230528,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T17:50:44.882Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04305730999973219,
+   "mae": 0.20452222249872343
   }
  }
 ]
