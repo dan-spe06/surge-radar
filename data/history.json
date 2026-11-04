@@ -21619,10 +21619,12 @@
    "timeStop": "2026-11-04T12:30:21.425Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793772900000,
+   "exit": 275.6086073085481,
    "mfe": 2.207210613548186,
-   "mae": 0.8691282585926197
+   "mae": 1.0754680609923162
   }
  },
  {
@@ -22022,7 +22024,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8357766696878168,
+   "mfe": 1.057430336344686,
    "mae": 0.5673520458464807
   }
  },
@@ -22066,7 +22068,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4002463640317007,
+   "mfe": 0.5253233527916044,
    "mae": 0.4502771595356577
   }
  },
@@ -22109,7 +22111,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5024278390811091,
+   "mfe": 0.9391597140261491,
    "mae": 0.3593329860235968
   }
  },
@@ -22152,7 +22154,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.36550944158687254,
+   "mfe": 0.5774271497409659,
    "mae": 0.2352480980426135
   }
  },
@@ -22196,8 +22198,141 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05382163749966374,
+   "mfe": 0.07535029249952685,
    "mae": 0.4305730999973099
+  }
+ },
+ {
+  "uid": "ICP-LONG-1793773844633",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1793773844633,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 4.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.027658144489509182,
+   "rsi": 62.71090010466204,
+   "rvol": 4.731254396219871,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.533,
+   "stop": 2.491512783265736,
+   "takeProfit": 2.6367180418356595,
+   "stopDist": 0.041487216734263775,
+   "tpDist": 0.10371804183565944,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 180.77857688163118,
+   "unit": "ICP",
+   "notional": 457.91213524117177,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T18:30:44.633Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "NEAR-LONG-1793773843588",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1793773843588,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (47th percentile)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.06948456242168097,
+   "rsi": 60.37442036858031,
+   "rvol": 0.875165389798923,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.951,
+   "stop": 3.8467731563674787,
+   "takeProfit": 4.211567109081304,
+   "stopDist": 0.10422684363252145,
+   "tpDist": 0.26056710908130365,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 71.95842969631873,
+   "unit": "NEAR",
+   "notional": 284.3077557301553,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T18:30:43.588Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.028783371878528582,
+   "mae": 0.028783371878528582
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1793773843240",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1793773843240,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 26.648473924291256,
+   "rsi": 67.54346770757311,
+   "rvol": 3.5177311540827336,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1271.3,
+   "stop": 1231.327289113563,
+   "takeProfit": 1371.2317772160923,
+   "stopDist": 39.972710886436886,
+   "tpDist": 99.93177721609221,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.1876280050484347,
+   "unit": "ZEC",
+   "notional": 238.531482818075,
+   "note": "Spot OK",
+   "timeStop": "2026-11-04T18:30:43.240Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1028201467665454,
+   "mae": 0
   }
  }
 ]
