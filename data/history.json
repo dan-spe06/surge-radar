@@ -22973,7 +22973,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 1.0083368354253195,
-   "mae": 0.42790764864687625
+   "mae": 0.8049747845832422
   }
  },
  {
@@ -23150,10 +23150,12 @@
    "timeStop": "2026-11-05T20:42:57.734Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793889900000,
+   "exit": 283.2509419355422,
    "mfe": 0.4802484847454014,
-   "mae": 0.8116596291771654
+   "mae": 1.051783871549866
   }
  },
  {
@@ -23287,7 +23289,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2568296326732494,
+   "mfe": 0.5926837677074884,
    "mae": 0.7013424584538602
   }
  },
@@ -23331,7 +23333,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3265925145521923,
+   "mfe": 0.5841492130201824,
    "mae": 0.5443208575869777
   }
  },
@@ -23373,7 +23375,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8013128605655534,
+   "mfe": 1.9436879455365907,
    "mae": 0.581639449362447
   }
  },
@@ -23416,7 +23418,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.34618887277977567,
+   "mfe": 0.6264370078872152,
    "mae": 0.5989617005237414
   }
  },
@@ -23460,7 +23462,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4685018935143443,
+   "mfe": 1.0434814901001281,
    "mae": 0.4897974341286303
   }
  },
@@ -23502,8 +23504,97 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7189528785228869,
+   "mfe": 1.978365879744553,
    "mae": 0.7785928025183646
+  }
+ },
+ {
+  "uid": "ALGO-SHORT-1793890998983",
+  "id": "ALGO",
+  "name": "Algorand",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793890998983,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 37% of 5 days)",
+   "Volume 4.9x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.001308086206594913,
+   "rsi": 39.76545367327981,
+   "rvol": 4.86363421525793,
+   "bbPct": 0.3684210526315789,
+   "funding": 0.0001,
+   "oiChg6h": -0.07700463081264321
+  },
+  "plan": {
+   "entry": 0.09643,
+   "stop": 0.09839212930989237,
+   "takeProfit": 0.09152467672526908,
+   "stopDist": 0.0019621293098923695,
+   "tpDist": 0.004905323274730923,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3822.378047250823,
+   "unit": "ALGO",
+   "notional": 368.59191509639686,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T03:03:18.983Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3414657722210755,
+   "mae": 0.12741260157502754
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1793890997437",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1793890997437,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 5.3x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0018858296585461483,
+   "rsi": 31.557261969645765,
+   "rvol": 5.250852507611033,
+   "bbPct": 0.8245614035087719,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16012,
+   "stop": 0.16294874448781924,
+   "takeProfit": 0.15304813878045195,
+   "stopDist": 0.0028287444878192223,
+   "tpDist": 0.0070718612195480555,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2651.3529349488936,
+   "unit": "XLM",
+   "notional": 424.5346319440169,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T03:03:17.437Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3535137246598528,
+   "mae": 0.15554603885033366
   }
  }
 ]
