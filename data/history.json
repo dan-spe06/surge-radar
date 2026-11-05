@@ -23335,7 +23335,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5088308649941662,
+   "mfe": 1.5918066054799866,
    "mae": 0.5443208575869777
   }
  },
@@ -23466,7 +23466,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.7781776412930808,
+   "mfe": 1.8207687225216576,
    "mae": 0.4897974341286303
   }
  },
@@ -23599,7 +23599,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2479034480492812,
+   "mfe": 1.2585088597890774,
    "mae": 0.15554603885033366
   }
  },
@@ -23647,6 +23647,179 @@
    "exit": 1269.266089093481,
    "mfe": 0.198549100075298,
    "mae": 1.0259638044759436
+  }
+ },
+ {
+  "uid": "VVV-SHORT-1793892198847",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1793892198847,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volume 3.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5046069760482752,
+   "rsi": 35.32932998776964,
+   "rvol": 3.328810819544672,
+   "bbPct": 0.15789473684210525,
+   "funding": -0.0000671281050953,
+   "oiChg6h": -0.018358097115592192
+  },
+  "plan": {
+   "entry": 20.6,
+   "stop": 21.356910464072413,
+   "takeProfit": 18.707723839818968,
+   "stopDist": 0.7569104640724128,
+   "tpDist": 1.892276160181032,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.908701697222781,
+   "unit": "VVV",
+   "notional": 204.1192549627893,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T03:23:18.847Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013211602262965774,
+   "mae": 0.5813104995704002
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1793892198198",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793892198198,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 12.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0007503191705316573,
+   "rsi": 27.471823288238042,
+   "rvol": 12.702512434172029,
+   "bbPct": 0.9122807017543859,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06383,
+   "stop": 0.06495547875579748,
+   "takeProfit": 0.061016303110506286,
+   "stopDist": 0.0011254787557974859,
+   "tpDist": 0.002813696889493715,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6663.8308021066905,
+   "unit": "SKY",
+   "notional": 425.35232009847005,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T03:23:18.198Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.7374639420998047
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1793892198208",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793892198208,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 8.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.012897771573091923,
+   "rsi": 31.953527893936837,
+   "rvol": 7.951539910523253,
+   "bbPct": 0.8070175438596491,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9104,
+   "stop": 0.9297466573596379,
+   "takeProfit": 0.8620333566009053,
+   "stopDist": 0.019346657359637885,
+   "tpDist": 0.048366643399094716,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 387.66386671254816,
+   "unit": "DOT",
+   "notional": 352.92918425510385,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T03:23:18.208Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02067540622466696,
+   "mae": 0.7184703663072571
+  }
+ },
+ {
+  "uid": "ASTER-SHORT-1793892198314",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1793892198314,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 5.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.004935760948312692,
+   "rsi": 32.376067855299866,
+   "rvol": 5.859597610099127,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.692,
+   "stop": 0.699403641422469,
+   "takeProfit": 0.6734908964438273,
+   "stopDist": 0.007403641422469038,
+   "tpDist": 0.018509103556172593,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1013.0150249090302,
+   "unit": "ASTER",
+   "notional": 701.0063972370489,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-11-06T03:23:18.314Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.8239188869260254
   }
  }
 ]
