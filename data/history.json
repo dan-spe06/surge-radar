@@ -22880,10 +22880,12 @@
    "timeStop": "2026-11-05T18:42:56.691Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1793889000000,
+   "exit": 1287.9516148772227,
    "mfe": 0.3540587733744302,
-   "mae": 0.9816052531053939
+   "mae": 1.0496934787543188
   }
  },
  {
@@ -23151,7 +23153,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4802484847454014,
-   "mae": 0.3770545954612787
+   "mae": 0.8116596291771654
   }
  },
  {
@@ -23243,6 +23245,265 @@
    "exit": 95.23991603117945,
    "mfe": 0.24636182122350128,
    "mae": 1.2318091061175476
+  }
+ },
+ {
+  "uid": "WLD-SHORT-1793889798573",
+  "id": "WLD",
+  "name": "Worldcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 70,
+  "at": 1793889798573,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (42th percentile)",
+   "Volume 3.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006748961618220245,
+   "rsi": 33.078222420555306,
+   "rvol": 3.5566763165214064,
+   "bbPct": 0.42105263157894735,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.3602,
+   "stop": 0.3703234424273304,
+   "takeProfit": 0.3348913939316741,
+   "stopDist": 0.010123442427330369,
+   "tpDist": 0.025308606068325922,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 740.8547096343599,
+   "unit": "WLD",
+   "notional": 266.85586641029647,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T02:43:18.573Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2469515698781202,
+   "mae": 0.7013424584538602
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1793889796971",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 69,
+  "at": 1793889796971,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 1.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.0043096071866209,
+   "rsi": 31.274192940753764,
+   "rvol": 1.8678303412649782,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 80.992,
+   "stop": 82.49846441077993,
+   "takeProfit": 77.22583897305017,
+   "stopDist": 1.5064644107799312,
+   "tpDist": 3.766161026949828,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.978544429149228,
+   "unit": "HYPE",
+   "notional": 403.2222704056543,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T02:43:16.971Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2821175176517971,
+   "mae": 0.5443208575869777
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1793889796617",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 59,
+  "at": 1793889796617,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 3.6x normal"
+  ],
+  "stats": {
+   "atr1h": 18.178501036892996,
+   "rsi": 41.62838396405256,
+   "rvol": 3.6405560674143858,
+   "bbPct": 0.24561403508771928,
+   "funding": 0.0001,
+   "oiChg6h": -0.010379960558336026
+  },
+  "plan": {
+   "entry": 2374.13,
+   "stop": 2401.3977515553397,
+   "takeProfit": 2305.9606211116516,
+   "stopDist": 27.267751555339494,
+   "tpDist": 68.16937888834873,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.27505018097215905,
+   "unit": "ETH",
+   "notional": 653.004886151432,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-06T02:43:16.617Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5181945409515517,
+   "mae": 0.581639449362447
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1793889797501",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 59,
+  "at": 1793889797501,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 1.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.1213210570945117,
+   "rsi": 35.04512349907125,
+   "rvol": 1.5311899109258225,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.223,
+   "stop": 7.404981585641767,
+   "takeProfit": 6.768046035895581,
+   "stopDist": 0.18198158564176756,
+   "tpDist": 0.4549539641044189,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 41.21296104521157,
+   "unit": "UNI",
+   "notional": 297.68121762956315,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T02:43:17.501Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2912382580528281,
+   "mae": 0.5989617005237414
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793889797356",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793889797356,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0626109173504018,
+   "rsi": 39.2757428157627,
+   "rvol": 0.5723340522972086,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.923,
+   "stop": 4.016916376025603,
+   "takeProfit": 3.688209059935993,
+   "stopDist": 0.09391637602560271,
+   "tpDist": 0.23479094006400678,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 79.85827730358135,
+   "unit": "NEAR",
+   "notional": 313.2840218619496,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T02:43:17.356Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.34072864982861406,
+   "mae": 0.4897974341286303
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1793889796586",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1793889796586,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 1.5x normal"
+  ],
+  "stats": {
+   "atr1h": 468.3663469366137,
+   "rsi": 37.98871358782818,
+   "rvol": 1.5003051513658061,
+   "bbPct": 0.3333333333333333,
+   "funding": 0.0001,
+   "oiChg6h": -0.0003545776515621228
+  },
+  "plan": {
+   "entry": 79062.9,
+   "stop": 79765.44952040492,
+   "takeProfit": 77306.52619898769,
+   "stopDist": 702.5495204049205,
+   "tpDist": 1756.373801012301,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.010675404056467521,
+   "unit": "BTC",
+   "notional": 844.0284033760859,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-06T02:43:16.586Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2932177647509746,
+   "mae": 0.7785928025183646
   }
  }
 ]
