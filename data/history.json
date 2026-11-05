@@ -23561,9 +23561,11 @@
    "timeStop": "2026-11-06T03:03:18.983Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.155821218649463,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1793919600000,
+   "exit": 0.09152467672526908,
+   "mfe": 2.6145065843195607,
    "mae": 0.2803077234650578
   }
  },
@@ -23874,7 +23876,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22421822507498765,
+   "mfe": 0.37369704179163976,
    "mae": 0.5763238822297684
   }
  },
@@ -23917,7 +23919,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.0724762231810508,
-   "mae": 0.3222404384511465
+   "mae": 0.39973424631396276
   }
  },
  {
@@ -23958,8 +23960,176 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08980466843001617,
-   "mae": 0.14652340638582828
+   "mfe": 0.4679295881353673,
+   "mae": 0.15597652937846102
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1793920234941",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793920234941,
+  "factors": [
+   "Volume 4.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.975812086853732,
+   "rsi": 26.344484216560417,
+   "rvol": 4.3953544376601545,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 684.07,
+   "stop": 692.0275812086853,
+   "takeProfit": 664.1760469782868,
+   "stopDist": 7.957581208685296,
+   "tpDist": 19.89395302171324,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.9424974503325371,
+   "unit": "BNB",
+   "notional": 644.7342308489787,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-06T11:10:34.941Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.6446682560274548
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1793920235295",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793920235295,
+  "factors": [
+   "Volume 8.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008996504318764887,
+   "rsi": 24.283033234496585,
+   "rvol": 8.42638328926635,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.07049,
+   "stop": 0.07183947564781473,
+   "takeProfit": 0.06711631088046316,
+   "stopDist": 0.001349475647814733,
+   "tpDist": 0.0033736891195368327,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5557.714221923967,
+   "unit": "DOGE",
+   "notional": 391.7632755034204,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T11:10:35.295Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16302628384310153,
+   "mae": 0.8744137042493711
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1793920235304",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793920235304,
+  "factors": [
+   "Volume 27.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002805747339036795,
+   "rsi": 27.215499596166566,
+   "rvol": 27.36657423008938,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1781,
+   "stop": 0.1823086210085552,
+   "takeProfit": 0.16757844747861203,
+   "stopDist": 0.004208621008555192,
+   "tpDist": 0.010521552521387981,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1782.0563991754461,
+   "unit": "ADA",
+   "notional": 317.38424469314697,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T11:10:35.304Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04752150397801325,
+   "mae": 0.7365833116591823
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1793920235660",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793920235660,
+  "factors": [
+   "Volume 3.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.6516354972436936,
+   "rsi": 25.60542860369337,
+   "rvol": 3.3465135469475005,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 51.15,
+   "stop": 52.12745324586554,
+   "takeProfit": 48.706366885336145,
+   "stopDist": 0.9774532458655405,
+   "tpDist": 2.443633114663851,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.673001273179779,
+   "unit": "LTC",
+   "notional": 392.4740151231457,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T11:10:35.660Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05115334182119562,
+   "mae": 0.644532106947104
   }
  }
 ]
