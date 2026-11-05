@@ -23877,5 +23877,89 @@
    "mfe": 0.22421822507498765,
    "mae": 0.5763238822297684
   }
+ },
+ {
+  "uid": "HYPE-SHORT-1793919034986",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1793919034986,
+  "factors": [
+   "Volume 3.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.1957944669683473,
+   "rsi": 22.644005542060015,
+   "rvol": 3.3582855744749383,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 76.545,
+   "stop": 78.33869170045253,
+   "takeProfit": 72.0607707488687,
+   "stopDist": 1.793691700452521,
+   "tpDist": 4.484229251131302,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.181320568137693,
+   "unit": "HYPE",
+   "notional": 320.0591828880997,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T10:50:34.986Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02007033872706169,
+   "mae": 0.3060726655876749
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1793919035392",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1793919035392,
+  "factors": [
+   "Volume 2.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.014104686190715143,
+   "rsi": 27.13096993774967,
+   "rvol": 2.1293191122050135,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8402,
+   "stop": 0.8613570292860726,
+   "takeProfit": 0.7873074267848181,
+   "stopDist": 0.021157029286072715,
+   "tpDist": 0.05289257321518179,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 354.49211222376636,
+   "unit": "SUI",
+   "notional": 297.84427269040845,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T10:50:35.392Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08980466843001617,
+   "mae": 0.14652340638582828
+  }
  }
 ]
