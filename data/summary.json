@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-05T12:33:20.522Z",
+ "generated": "2026-11-05T12:43:20.955Z",
  "total": 511,
- "open": 8,
- "closed": 503,
+ "open": 4,
+ "closed": 507,
  "wins": 60,
- "losses": 296,
+ "losses": 300,
  "timeouts": 147,
- "winRate": 0.119,
- "netR": -76.48,
- "avgR": -0.152,
+ "winRate": 0.118,
+ "netR": -80.48,
+ "avgR": -0.159,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 503,
+   "n": 507,
    "wins": 60,
-   "R": -76.48,
-   "winRate": 0.119
+   "R": -80.48,
+   "winRate": 0.118
   }
  },
  "bySymbol": {
@@ -98,10 +98,10 @@
    "winRate": 0.111
   },
   "SOL": {
-   "n": 15,
+   "n": 16,
    "wins": 2,
-   "R": -4.15,
-   "winRate": 0.133
+   "R": -5.15,
+   "winRate": 0.125
   },
   "ZEC": {
    "n": 27,
@@ -116,10 +116,10 @@
    "winRate": 0.063
   },
   "XRP": {
-   "n": 23,
+   "n": 24,
    "wins": 1,
-   "R": -9.82,
-   "winRate": 0.043
+   "R": -10.82,
+   "winRate": 0.042
   },
   "LTC": {
    "n": 15,
@@ -158,10 +158,10 @@
    "winRate": 0
   },
   "POL": {
-   "n": 9,
+   "n": 10,
    "wins": 2,
-   "R": 0.03,
-   "winRate": 0.222
+   "R": -0.97,
+   "winRate": 0.2
   },
   "ICP": {
    "n": 9,
@@ -182,9 +182,9 @@
    "winRate": 0
   },
   "MORPHO": {
-   "n": 9,
+   "n": 10,
    "wins": 0,
-   "R": -4.08,
+   "R": -5.08,
    "winRate": 0
   },
   "JUP": {
@@ -286,10 +286,10 @@
    "winRate": 0.146
   },
   "LONG": {
-   "n": 222,
+   "n": 226,
    "wins": 19,
-   "R": -85.77,
-   "winRate": 0.086
+   "R": -89.77,
+   "winRate": 0.084
   }
  },
  "config": {
