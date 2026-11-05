@@ -22966,7 +22966,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.016946837570170098,
+   "mfe": 0.646098182362866,
    "mae": 0.42790764864687625
   }
  },
@@ -23011,8 +23011,93 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.029962611273900045,
+   "mfe": 0.42546908008942885,
    "mae": 0.3475662907772771
+  }
+ },
+ {
+  "uid": "LINK-LONG-1793867576831",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 46,
+  "at": 1793867576831,
+  "factors": [
+   "Range moderately tight (47th percentile)",
+   "Volatility below average",
+   "Volume 3.8x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.13525524739357014,
+   "rsi": 63.781668698821896,
+   "rvol": 3.785531148480223,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 11.651,
+   "stop": 11.448117128909644,
+   "takeProfit": 12.158207177725888,
+   "stopDist": 0.20288287109035522,
+   "tpDist": 0.5072071777258881,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 36.967142468423695,
+   "unit": "LINK",
+   "notional": 430.7041768996045,
+   "note": "Spot OK",
+   "timeStop": "2026-11-05T20:32:56.831Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.014786856987370037,
+   "mae": 0.19715809316492217
+  }
+ },
+ {
+  "uid": "XLM-LONG-1793867576849",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 45,
+  "at": 1793867576849,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volume 2.9x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0018540977648241488,
+   "rsi": 55.777147385370185,
+   "rvol": 2.90640187432724,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.16795,
+   "stop": 0.16516885335276377,
+   "takeProfit": 0.17490286661809054,
+   "stopDist": 0.002781146647236223,
+   "tpDist": 0.006952866618090557,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2696.729425416369,
+   "unit": "XLM",
+   "notional": 452.9157069986791,
+   "note": "Spot OK",
+   "timeStop": "2026-11-05T20:32:56.849Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.007191278467784176,
+   "mae": 0.10786917701665286
   }
  }
 ]
