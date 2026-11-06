@@ -24234,7 +24234,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0,
-   "mae": 0.14485360953410517
+   "mae": 0.23797378709173597
   }
  },
  {
@@ -24276,7 +24276,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0033662127165996927,
+   "mfe": 0.0976201687814772,
    "mae": 0.27266323004482385
   }
  },
@@ -24321,6 +24321,92 @@
    "r": null,
    "mfe": 0.06275602279741493,
    "mae": 0.053790876683502076
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1793958671473",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793958671473,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 4.291869969455697,
+   "rsi": 44.26450346373731,
+   "rvol": 0.6822754954602139,
+   "bbPct": 0.10714285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 693.78,
+   "stop": 700.2178049541835,
+   "takeProfit": 677.6854876145411,
+   "stopDist": 6.437804954183546,
+   "tpDist": 16.094512385458867,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.1649933561789871,
+   "unit": "BNB",
+   "notional": 808.2490906498576,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-06T21:51:11.473Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.009319946849423421,
+   "mae": 0.09941276639393812
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1793958672214",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793958672214,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 0.06406212403001807,
+   "rsi": 43.44020022326901,
+   "rvol": 0.7956700051696407,
+   "bbPct": 0.21428571428571427,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.725,
+   "stop": 3.8210931860450272,
+   "takeProfit": 3.4847670348874322,
+   "stopDist": 0.0960931860450271,
+   "tpDist": 0.24023296511256775,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 78.04923854315402,
+   "unit": "NEAR",
+   "notional": 290.73341357324875,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T21:51:12.214Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.031219695417262792,
+   "mae": 0.13528534680813262
   }
  }
 ]
