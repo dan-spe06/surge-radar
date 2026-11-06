@@ -24235,7 +24235,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.12416023674352691,
    "mae": 0.558721065345828
   }
  },
@@ -24582,6 +24582,49 @@
    "r": null,
    "mfe": 0.10666338164282393,
    "mae": 0.8697168041644352
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1793973094704",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 57,
+  "at": 1793973094704,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 4.4x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0007112733528663282,
+   "rsi": 40.47136602035195,
+   "rvol": 4.448056006224569,
+   "bbPct": 0.017857142857142856,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06815,
+   "stop": 0.0692169100292995,
+   "takeProfit": 0.06548272492675127,
+   "stopDist": 0.0010669100292994922,
+   "tpDist": 0.0026672750732487306,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7029.646168875479,
+   "unit": "HBAR",
+   "notional": 479.0703864088639,
+   "note": "Spot OK",
+   "timeStop": "2026-11-07T01:51:34.704Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.018745723117007018,
+   "mae": 0.09372861558500907
   }
  }
 ]
