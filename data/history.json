@@ -24191,5 +24191,136 @@
    "mfe": 0.4710341064697796,
    "mae": 0.6324891932786191
   }
+ },
+ {
+  "uid": "PI-SHORT-1793958074206",
+  "id": "PI",
+  "name": "Pi Network",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 61,
+  "at": 1793958074206,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 1.7x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 0.0006443286683260677,
+   "rsi": 43.26653964491253,
+   "rvol": 1.7327942979175754,
+   "bbPct": 0.14035087719298245,
+   "funding": 0.00005,
+   "oiChg6h": 0.048117065305305705
+  },
+  "plan": {
+   "entry": 0.0752,
+   "stop": 0.07616649300248911,
+   "takeProfit": 0.07278376749377725,
+   "stopDist": 0.0009664930024891015,
+   "tpDist": 0.0024162325062227537,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7760.014796469851,
+   "unit": "PI",
+   "notional": 583.5531126945328,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-06T21:41:14.206Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.14485360953410517
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1793958072319",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793958072319,
+  "factors": [
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 0.9902325295406157,
+   "rsi": 40.44612726978641,
+   "rvol": 2.1337700162547732,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 78.03,
+   "stop": 79.51534879431092,
+   "takeProfit": 74.31662801422269,
+   "stopDist": 1.4853487943109236,
+   "tpDist": 3.713371985777309,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.0493190749041315,
+   "unit": "HYPE",
+   "notional": 393.9983674147694,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T21:41:12.319Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0033662127165996927,
+   "mae": 0.27266323004482385
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1793958073040",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793958073040,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 0.0007436205257511855,
+   "rsi": 42.10070085196312,
+   "rvol": 0.5416498824155,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06838,
+   "stop": 0.06949543078862677,
+   "takeProfit": 0.06559142302843306,
+   "stopDist": 0.0011154307886267782,
+   "tpDist": 0.0027885769715669455,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6723.859585437256,
+   "unit": "HBAR",
+   "notional": 459.77751845219956,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T21:41:13.040Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06275602279741493,
+   "mae": 0.053790876683502076
+  }
  }
 ]
