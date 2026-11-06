@@ -24189,7 +24189,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4710341064697796,
-   "mae": 0.6324891932786191
+   "mae": 0.6398953899212275
   }
  },
  {
@@ -24234,7 +24234,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0,
-   "mae": 0.23797378709173597
+   "mae": 0.31040059185878854
   }
  },
  {
@@ -24276,7 +24276,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.0976201687814772,
+   "mfe": 0.17033036346009944,
    "mae": 0.27266323004482385
   }
  },
@@ -24320,7 +24320,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.06275602279741493,
-   "mae": 0.053790876683502076
+   "mae": 0.17033777616441909
   }
  },
  {
@@ -24362,8 +24362,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.009319946849423421,
-   "mae": 0.09941276639393812
+   "mfe": 0.013979920274135131,
+   "mae": 0.1335859048418593
   }
  },
  {
@@ -24405,8 +24405,137 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.031219695417262792,
+   "mfe": 0.0832525211126977,
    "mae": 0.13528534680813262
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1793959271377",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793959271377,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 520.540468412643,
+   "rsi": 40.143712486952296,
+   "rvol": 0.5113602520932861,
+   "bbPct": 0.07017543859649122,
+   "funding": 0.0000262943107236,
+   "oiChg6h": 0.004575636513070216
+  },
+  "plan": {
+   "entry": 76199.4,
+   "stop": 76980.21070261896,
+   "takeProfit": 74247.37324345259,
+   "stopDist": 780.8107026189646,
+   "tpDist": 1952.0267565474114,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.009605401123273278,
+   "unit": "BTC",
+   "notional": 731.9258023527498,
+   "note": "Needs ~1.5x leverage",
+   "timeStop": "2026-11-06T22:01:11.377Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05481482241013127,
+   "mae": 0.0007684320898693171
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1793959271407",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793959271407,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 19.6895553793109,
+   "rsi": 35.613676465936265,
+   "rvol": 0.34124487763289485,
+   "bbPct": 0.10526315789473684,
+   "funding": -0.0000194318441827,
+   "oiChg6h": 0.016630051111990077
+  },
+  "plan": {
+   "entry": 2240.24,
+   "stop": 2269.774333068966,
+   "takeProfit": 2166.4041673275838,
+   "stopDist": 29.534333068966347,
+   "tpDist": 73.83583267241588,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.25394174239474326,
+   "unit": "ETH",
+   "notional": 568.8904489823996,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-06T22:01:11.407Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06433190807332265,
+   "mae": 0.004401656868179246
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1793959271435",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1793959271435,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Average Hourly Earnings m/m"
+  ],
+  "stats": {
+   "atr1h": 0.9069251353172938,
+   "rsi": 40.882951698363165,
+   "rvol": 1.1877964258036267,
+   "bbPct": 0.017543859649122806,
+   "funding": 0.0000409330381658,
+   "oiChg6h": -0.002246366870364363
+  },
+  "plan": {
+   "entry": 90.15,
+   "stop": 91.51038770297595,
+   "takeProfit": 86.74903074256015,
+   "stopDist": 1.3603877029759408,
+   "tpDist": 3.400969257439852,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.513134221658457,
+   "unit": "SOL",
+   "notional": 497.00905008250993,
+   "note": "Spot OK",
+   "timeStop": "2026-11-06T22:01:11.435Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09556099317542037,
+   "mae": 0
   }
  }
 ]
