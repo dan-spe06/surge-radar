@@ -24820,7 +24820,93 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.04476304227563317,
-   "mae": 0.05475148972556688
+   "mae": 0.11320240443258757
+  }
+ },
+ {
+  "uid": "SHIB-SHORT-1794004918822",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794004918822,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.022566995664306e-8,
+   "rsi": 40.99607576889804,
+   "rvol": 0.5204117937395745,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.00000455,
+   "stop": 0.000004610338504934964,
+   "takeProfit": 0.0000043991537376625885,
+   "stopDist": 6.03385049349646e-8,
+   "tpDist": 1.508462623374115e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 124298737.73113567,
+   "unit": "SHIB",
+   "notional": 565.5592566766672,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-07T10:41:58.822Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.08286582515408965
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1794004918830",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794004918830,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 1.8x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0007162983647892024,
+   "rsi": 38.592962732589974,
+   "rvol": 1.83367596166988,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06783,
+   "stop": 0.0689044475471838,
+   "takeProfit": 0.06514388113204049,
+   "stopDist": 0.0010744475471838036,
+   "tpDist": 0.002686118867959509,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6980.331445362768,
+   "unit": "HBAR",
+   "notional": 473.47588193895655,
+   "note": "Spot OK",
+   "timeStop": "2026-11-07T10:41:58.830Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0930710859381729,
+   "mae": 0
   }
  }
 ]
