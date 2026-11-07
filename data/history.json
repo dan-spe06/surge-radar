@@ -24820,7 +24820,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.19384986902834794,
-   "mae": 0.2075377414597523
+   "mae": 0.26524877117048223
   }
  },
  {
@@ -24949,7 +24949,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.45153544586080135,
+   "mfe": 0.5325802694768591,
    "mae": 0.011577831945160289
   }
  },
@@ -24995,6 +24995,92 @@
    "r": null,
    "mfe": 0.16862082942414722,
    "mae": 0.09918872319067563
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1794016935996",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794016935996,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 1.9x normal"
+  ],
+  "stats": {
+   "atr1h": 0.010241683138719216,
+   "rsi": 34.12953473154758,
+   "rvol": 1.9377635682135075,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.1784,
+   "stop": 1.1937625247080788,
+   "takeProfit": 1.1399936882298027,
+   "stopDist": 0.015362524708078824,
+   "tpDist": 0.03840631177019706,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 488.2010048814379,
+   "unit": "XRP",
+   "notional": 575.2960641522864,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-07T14:02:15.996Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.019528040195255364,
+   "mae": 0.04556542712227697
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1794016936683",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794016936683,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.38205730339798166,
+   "rsi": 40.47740826689393,
+   "rvol": 0.26276612686354667,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 52.43,
+   "stop": 53.00308595509697,
+   "takeProfit": 50.99728511225757,
+   "stopDist": 0.5730859550969725,
+   "tpDist": 1.4327148877424312,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 13.087042062880283,
+   "unit": "LTC",
+   "notional": 686.1536153568132,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-11-07T14:02:16.683Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.03489877883435288
   }
  }
 ]
