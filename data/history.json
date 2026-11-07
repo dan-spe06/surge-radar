@@ -25635,7 +25635,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6315870888113062,
-   "mae": 0.6890040968850715
+   "mae": 0.7464211049588209
   }
  },
  {
@@ -25680,7 +25680,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.38533233804210354,
-   "mae": 0.7933312842043412
+   "mae": 0.827331196384536
   }
  },
  {
@@ -25724,7 +25724,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.04890014080679206,
-   "mae": 0.6206556333168892
+   "mae": 0.8628994077751024
   }
  },
  {
@@ -25767,7 +25767,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.018014394497775723,
-   "mae": 0.6665325964179767
+   "mae": 0.7926333579024567
+  }
+ },
+ {
+  "uid": "UNI-LONG-1794095617812",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 58,
+  "at": 1794095617812,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (52th percentile)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07741427566783492,
+   "rsi": 64.23538132518198,
+   "rvol": 1.0969656507051848,
+   "bbPct": 0.5178571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.219,
+   "stop": 7.102878586498248,
+   "takeProfit": 7.509303533754381,
+   "stopDist": 0.11612141350175237,
+   "tpDist": 0.2903035337543809,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 64.58757066272551,
+   "unit": "UNI",
+   "notional": 466.2576726142155,
+   "note": "Spot OK",
+   "timeStop": "2026-11-08T11:53:37.812Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10334011306035709,
+   "mae": 0.12056346523708965
   }
  }
 ]
