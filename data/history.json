@@ -25264,7 +25264,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1437735264847018,
+   "mfe": 0.14484646324950287,
    "mae": 0.187763933841973
   }
  },
@@ -25310,6 +25310,95 @@
    "r": null,
    "mfe": 0.05964905577941873,
    "mae": 0.03976603718629755
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1794048777282",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794048777282,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.04551485356094219,
+   "rsi": 39.49080898387376,
+   "rvol": 0.9943587506847962,
+   "bbPct": 0.16071428571428573,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.69,
+   "stop": 3.758272280341413,
+   "takeProfit": 3.5193192991464666,
+   "stopDist": 0.06827228034141328,
+   "tpDist": 0.1706807008535332,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 109.85424776343051,
+   "unit": "NEAR",
+   "notional": 405.3621742470586,
+   "note": "Spot OK",
+   "timeStop": "2026-11-07T22:52:57.282Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07323616517561878,
+   "mae": 0.014647233035122454
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1794048777273",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1794048777273,
+  "factors": [
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Volume 4.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.703785918292945,
+   "rsi": 24.806698024520372,
+   "rvol": 4.278186779395136,
+   "bbPct": 0.32142857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 256.11,
+   "stop": 260.1656788774394,
+   "takeProfit": 245.97080280640148,
+   "stopDist": 4.0556788774394175,
+   "tpDist": 10.139197193598545,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.8492588359794353,
+   "unit": "BCH",
+   "notional": 473.6136804826932,
+   "note": "Spot OK",
+   "timeStop": "2026-11-07T22:52:57.273Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02712246292770175,
+   "mae": 0.3427293042681853
   }
  }
 ]
