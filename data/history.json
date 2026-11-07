@@ -25229,8 +25229,10 @@
    "timeStop": "2026-11-07T21:42:36.634Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.88,
+   "closedAt": 1794087756634,
+   "exit": 0.15662,
    "mfe": 2.0727705062102033,
    "mae": 0.21543756442500478
   }
@@ -25628,6 +25630,51 @@
    "r": null,
    "mfe": 0.6315870888113062,
    "mae": 0.057417008073765256
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1794087817691",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794087817691,
+  "factors": [
+   "Range tight (bottom 35% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.005882368134955158,
+   "rsi": 31.425979348278318,
+   "rvol": 2.348080032889806,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8503,
+   "stop": 0.8591235522024326,
+   "takeProfit": 0.8282411194939181,
+   "stopDist": 0.008823552202432737,
+   "tpDist": 0.022058880506081843,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 849.9978045046505,
+   "unit": "SUI",
+   "notional": 722.7531331703043,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-11-08T09:43:37.691Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.38533233804210354,
+   "mae": 0.04533321624025562
   }
  }
 ]
