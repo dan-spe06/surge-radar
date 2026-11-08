@@ -26685,7 +26685,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4990834064152839,
-   "mae": 0.22407826410482365
+   "mae": 0.2750051423104829
   }
  },
  {
@@ -26727,8 +26727,96 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11278276974989039,
+   "mfe": 0.2627681892436597,
    "mae": 0.295271556914631
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1794171897402",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794171897402,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 33% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 7.17084160664495,
+   "rsi": 36.88219117133012,
+   "rvol": 0.2765657516613982,
+   "bbPct": 0.3333333333333333,
+   "funding": -0.0000223785526772,
+   "oiChg6h": 0.023616683548630484
+  },
+  "plan": {
+   "entry": 2223.25,
+   "stop": 2234.0062624099673,
+   "takeProfit": 2196.3593439750816,
+   "stopDist": 10.756262409967425,
+   "tpDist": 26.890656024918563,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.6972682251643499,
+   "unit": "ETH",
+   "notional": 1550.201581596641,
+   "note": "Needs ~3.1x leverage",
+   "timeStop": "2026-11-09T09:04:57.402Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05857053091381555,
+   "mae": 0.48994713954881486
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1794171897636",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794171897636,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.47430251720020855,
+   "rsi": 33.65947520746926,
+   "rvol": 0.6714474998961704,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 76.352,
+   "stop": 77.06345377580031,
+   "takeProfit": 74.57336556049923,
+   "stopDist": 0.7114537758003128,
+   "tpDist": 1.7786344395007818,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.541795201751887,
+   "unit": "HYPE",
+   "notional": 804.8871472441601,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-09T09:04:57.636Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.12509596972745382
   }
  }
 ]
