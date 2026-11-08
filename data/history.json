@@ -26370,10 +26370,12 @@
    "timeStop": "2026-11-08T23:34:19.376Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794174300000,
+   "exit": 0.000004912380400628723,
    "mfe": 1.6683288065050483,
-   "mae": 0.9724682411152149
+   "mae": 2.7524324324421765
   }
  },
  {
@@ -26735,9 +26737,11 @@
    "timeStop": "2026-11-09T08:54:57.955Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.5311827420904731,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1794174300000,
+   "exit": 1181.870461248051,
+   "mfe": 2.5732485417586877,
    "mae": 0.295271556914631
   }
  },
@@ -26825,9 +26829,11 @@
    "timeStop": "2026-11-09T09:04:57.636Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.05916399607554,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1794174300000,
+   "exit": 74.57336556049923,
+   "mfe": 3.6052939589991424,
    "mae": 0.12509596972745382
   }
  },
@@ -26875,6 +26881,259 @@
    "exit": 75114.703668977,
    "mfe": 3.343221642512737,
    "mae": 0.17448387837885732
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1794175497366",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1794175497366,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 20.313339206288667,
+   "rsi": 35.11743581274463,
+   "rvol": 3.5659619910354006,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1220.71,
+   "stop": 1251.180008809433,
+   "takeProfit": 1144.5349779764176,
+   "stopDist": 30.470008809433,
+   "tpDist": 76.1750220235825,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.24614367678417365,
+   "unit": "ZEC",
+   "notional": 300.47004768720865,
+   "note": "Spot OK",
+   "timeStop": "2026-11-09T10:04:57.366Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.48867724630884934,
+   "mae": 0.13258939389440702
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1794175497600",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 59,
+  "at": 1794175497600,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 12.3x normal"
+  ],
+  "stats": {
+   "atr1h": 2.777715657644113,
+   "rsi": 38.10190482468474,
+   "rvol": 12.314981437103963,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 241.83,
+   "stop": 245.9965734864662,
+   "takeProfit": 231.4135662838346,
+   "stopDist": 4.16657348646617,
+   "tpDist": 10.416433716165425,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.8000402547468415,
+   "unit": "BCH",
+   "notional": 435.3037348054287,
+   "note": "Spot OK",
+   "timeStop": "2026-11-09T10:04:57.600Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7320163702637182,
+   "mae": 0.0384008587679318
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1794175497126",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794175497126,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 35.8x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 354.88668062012533,
+   "rsi": 31.910449651182716,
+   "rvol": 35.837678155106,
+   "bbPct": 1,
+   "funding": 0.0000413304147452,
+   "oiChg6h": -0.001145259850858159
+  },
+  "plan": {
+   "entry": 74671.6,
+   "stop": 75203.93002093019,
+   "takeProfit": 73340.77494767454,
+   "stopDist": 532.330020930188,
+   "tpDist": 1330.8250523254699,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.014089004386591945,
+   "unit": "BTC",
+   "notional": 1052.0484999538392,
+   "note": "Needs ~2.1x leverage",
+   "timeStop": "2026-11-09T10:04:57.126Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 1.2212349002298006,
+   "mae": 0.14746491257966235
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1794175497129",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794175497129,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 54.9x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.811471061747575,
+   "rsi": 31.50814523490571,
+   "rvol": 54.855132749671974,
+   "bbPct": 1,
+   "funding": 0.0000529661872656,
+   "oiChg6h": -0.013580192832236788
+  },
+  "plan": {
+   "entry": 86.71,
+   "stop": 87.92720659262136,
+   "takeProfit": 83.66698351844659,
+   "stopDist": 1.2172065926213624,
+   "tpDist": 3.043016481553406,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.16164917727572,
+   "unit": "SOL",
+   "notional": 534.2766001615777,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-09T10:04:57.129Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.788691094691287,
+   "mae": 0.2793280960365021
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1794175497168",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794175497168,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 25.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.3872709328619246,
+   "rsi": 32.31780287226459,
+   "rvol": 25.627866245310482,
+   "bbPct": 1,
+   "funding": -0.0000640610582625,
+   "oiChg6h": -0.023642211270210888
+  },
+  "plan": {
+   "entry": 684.66,
+   "stop": 689.7409063992928,
+   "takeProfit": 671.9577340017678,
+   "stopDist": 5.080906399292887,
+   "tpDist": 12.702265998232217,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.4761145769274118,
+   "unit": "BNB",
+   "notional": 1010.6366062391216,
+   "note": "Needs ~2.0x leverage",
+   "timeStop": "2026-11-09T10:04:57.168Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 1.0175349816952879,
+   "mae": 0.2617643183084691
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1794175497367",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794175497367,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 60.0x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006729143636392274,
+   "rsi": 32.77782678349348,
+   "rvol": 60.00133482146272,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06928,
+   "stop": 0.07028937154545883,
+   "takeProfit": 0.06675657113635289,
+   "stopDist": 0.001009371545458841,
+   "tpDist": 0.002523428863647103,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7430.365987373502,
+   "unit": "DOGE",
+   "notional": 514.7757556052362,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-09T10:04:57.367Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.9609940010336383,
+   "mae": 0.1882359383468049
   }
  }
 ]
