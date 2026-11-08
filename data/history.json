@@ -26600,5 +26600,92 @@
    "mfe": 0.8348462576257469,
    "mae": 0.8348462576257469
   }
+ },
+ {
+  "uid": "SHIB-SHORT-1794169498410",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794169498410,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 1.969742342372102e-8,
+   "rsi": 40.76265329735286,
+   "rvol": 0.3821137992966153,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000004447,
+   "stop": 0.000004476546135135582,
+   "takeProfit": 0.000004373134662161046,
+   "stopDist": 2.954613513558153e-8,
+   "tpDist": 7.386533783895383e-8,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 253840306.54378122,
+   "unit": "SHIB",
+   "notional": 1128.827843200195,
+   "note": "Needs ~2.3x leverage",
+   "timeStop": "2026-11-09T08:24:58.410Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06769074841168007,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1794169497711",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794169497711,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006545332152254391,
+   "rsi": 35.884347369615895,
+   "rvol": 0.42779626388163344,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.1516,
+   "stop": 1.1614179982283814,
+   "takeProfit": 1.127055004429046,
+   "stopDist": 0.009817998228381586,
+   "tpDist": 0.024544995570953965,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 763.9031730846332,
+   "unit": "XRP",
+   "notional": 879.7108941242635,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-11-09T08:24:57.711Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06111225384676392,
+   "mae": 0.1935221371814417
+  }
  }
 ]
