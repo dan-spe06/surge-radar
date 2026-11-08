@@ -26922,7 +26922,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5211682116443606,
+   "mfe": 0.8437805240161484,
    "mae": 0.13258939389440702
   }
  },
@@ -27048,7 +27048,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8297687558731228,
+   "mfe": 0.9201396104731662,
    "mae": 0.2793280960365021
   }
  },
@@ -27175,8 +27175,50 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3101478551163686,
+   "mfe": 0.8615218197676711,
    "mae": 0.14933044875971946
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1794177298128",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794177298128,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10378223010304458,
+   "rsi": 26.554488435098108,
+   "rvol": 4.123291422890336,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.309,
+   "stop": 10.464673345154566,
+   "takeProfit": 9.919816637113582,
+   "stopDist": 0.15567334515456688,
+   "tpDist": 0.3891833628864172,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 48.1778045724739,
+   "unit": "LINK",
+   "notional": 496.6649873376334,
+   "note": "Spot OK",
+   "timeStop": "2026-11-09T10:34:58.128Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.006423707276326293,
+   "mae": 0.4303883875141013
   }
  }
 ]
