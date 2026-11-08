@@ -26360,7 +26360,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4118105306763406,
+   "mfe": 0.43041642814665604,
    "mae": 0.21954959014974473
   }
  },
@@ -26406,6 +26406,49 @@
    "r": null,
    "mfe": 0.0724105757485905,
    "mae": 0.7603110453601963
+  }
+ },
+ {
+  "uid": "TAO-LONG-1794143679435",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 48,
+  "at": 1794143679435,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (53th percentile)",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.4219626359131359,
+   "rsi": 61.3455297564079,
+   "rvol": 0.8495868003122249,
+   "bbPct": 0.5263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 225.85,
+   "stop": 223.7170560461303,
+   "takeProfit": 231.18235988467424,
+   "stopDist": 2.1329439538697037,
+   "tpDist": 5.3323598846742595,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.516266794724301,
+   "unit": "TAO",
+   "notional": 794.1488555884833,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-09T01:14:39.435Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10783218170488709,
+   "mae": 0.42664037109321357
   }
  }
 ]
