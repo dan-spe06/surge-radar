@@ -25961,7 +25961,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5435889412875687,
+   "mfe": 0.6866386626790217,
    "mae": 0.4100758679888748
   }
  },
@@ -26140,7 +26140,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.6781874129743154,
-   "mae": 0.3926348180377678
+   "mae": 0.5532581526895782
   }
  },
  {
@@ -26226,7 +26226,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11141468753376116,
+   "mfe": 0.22282937506752232,
    "mae": 0.974878515920435
   }
  },
@@ -26404,10 +26404,12 @@
    "timeStop": "2026-11-08T23:34:18.840Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794145500000,
+   "exit": 3.6837594504166353,
    "mfe": 0.0724105757485905,
-   "mae": 0.8146189771716412
+   "mae": 1.122363924103149
   }
  },
  {
@@ -26450,7 +26452,96 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.11252053743118189,
-   "mae": 0.5297841970717925
+   "mae": 0.8720341650916197
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1794146079869",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 67,
+  "at": 1794146079869,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 1.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.2023479397586991,
+   "rsi": 38.41974427197034,
+   "rvol": 1.7540762859090957,
+   "bbPct": 0.21428571428571427,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 129.06,
+   "stop": 130.86352190963805,
+   "takeProfit": 124.55119522590488,
+   "stopDist": 1.8035219096380488,
+   "tpDist": 4.508804774095122,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.158530018360123,
+   "unit": "AAVE",
+   "notional": 536.6998841695574,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-09T01:54:39.869Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.016634120073441123,
+   "mae": 0.3604059349245472
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1794146078701",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794146078701,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 25% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06333265384521676,
+   "rsi": 40.099118545698076,
+   "rvol": 0.5655037464297898,
+   "bbPct": 0.25,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.712,
+   "stop": 10.806998980767824,
+   "takeProfit": 10.474502548080437,
+   "stopDist": 0.09499898076782515,
+   "tpDist": 0.23749745191956287,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 78.94821543748759,
+   "unit": "LINK",
+   "notional": 845.693283766367,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-09T01:54:38.701Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14737000214996995,
+   "mae": 0.21052857449996243
   }
  }
 ]
