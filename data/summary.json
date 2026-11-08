@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-08T21:45:00.501Z",
+ "generated": "2026-11-08T21:54:59.751Z",
  "total": 591,
- "open": 10,
- "closed": 581,
- "wins": 69,
+ "open": 3,
+ "closed": 588,
+ "wins": 76,
  "losses": 330,
  "timeouts": 182,
- "winRate": 0.119,
- "netR": -77.48,
- "avgR": -0.133,
+ "winRate": 0.129,
+ "netR": -59.98,
+ "avgR": -0.102,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 581,
-   "wins": 69,
-   "R": -77.48,
-   "winRate": 0.119
+   "n": 588,
+   "wins": 76,
+   "R": -59.98,
+   "winRate": 0.129
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 23,
-   "wins": 5,
-   "R": 0.88,
-   "winRate": 0.217
+   "n": 24,
+   "wins": 6,
+   "R": 3.38,
+   "winRate": 0.25
   },
   "HYPE": {
    "n": 30,
@@ -56,16 +56,16 @@
    "winRate": 0.261
   },
   "BTC": {
-   "n": 28,
-   "wins": 3,
-   "R": -2.65,
-   "winRate": 0.107
+   "n": 29,
+   "wins": 4,
+   "R": -0.15,
+   "winRate": 0.138
   },
   "LINK": {
-   "n": 17,
-   "wins": 3,
-   "R": -0.41,
-   "winRate": 0.176
+   "n": 18,
+   "wins": 4,
+   "R": 2.09,
+   "winRate": 0.222
   },
   "ADA": {
    "n": 16,
@@ -116,16 +116,16 @@
    "winRate": 0.053
   },
   "XRP": {
-   "n": 28,
-   "wins": 1,
-   "R": -9.77,
-   "winRate": 0.036
+   "n": 29,
+   "wins": 2,
+   "R": -7.27,
+   "winRate": 0.069
   },
   "LTC": {
-   "n": 17,
-   "wins": 4,
-   "R": 3.94,
-   "winRate": 0.235
+   "n": 18,
+   "wins": 5,
+   "R": 6.44,
+   "winRate": 0.278
   },
   "RENDER": {
    "n": 1,
@@ -146,10 +146,10 @@
    "winRate": 0
   },
   "SHIB": {
-   "n": 9,
-   "wins": 1,
-   "R": -0.07,
-   "winRate": 0.111
+   "n": 10,
+   "wins": 2,
+   "R": 2.43,
+   "winRate": 0.2
   },
   "DOT": {
    "n": 9,
@@ -182,10 +182,10 @@
    "winRate": 0
   },
   "MORPHO": {
-   "n": 10,
-   "wins": 0,
-   "R": -5.08,
-   "winRate": 0
+   "n": 11,
+   "wins": 1,
+   "R": -2.58,
+   "winRate": 0.091
   },
   "JUP": {
    "n": 7,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 345,
-   "wins": 50,
-   "R": 20.39,
-   "winRate": 0.145
+   "n": 352,
+   "wins": 57,
+   "R": 37.89,
+   "winRate": 0.162
   },
   "LONG": {
    "n": 236,
