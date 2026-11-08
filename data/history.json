@@ -26310,10 +26310,100 @@
    "timeStop": "2026-11-08T22:34:19.225Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794136500000,
+   "exit": 0.1511714333769983,
+   "mfe": 0.08584137261795918,
+   "mae": 1.0222927102684367
+  }
+ },
+ {
+  "uid": "PEPE-LONG-1794137659376",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 69,
+  "at": 1794137659376,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 14% of 5 days)",
+   "Volume 1.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 5.374639958085197e-8,
+   "rsi": 62.18331532111094,
+   "rvol": 1.5529016386065497,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000004993,
+   "stop": 0.000004912380400628723,
+   "takeProfit": 0.0000051945489984281955,
+   "stopDist": 8.061959937127796e-8,
+   "tpDist": 2.015489984281949e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 93029487.35158311,
+   "unit": "PEPE",
+   "notional": 464.49623034645447,
+   "note": "Spot OK",
+   "timeStop": "2026-11-08T23:34:19.376Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08584137261795918,
-   "mae": 0.9754701433859096
+   "mfe": 0.032250222281879314,
+   "mae": 0.21954959014974473
+  }
+ },
+ {
+  "uid": "NEAR-LONG-1794137658840",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 55,
+  "at": 1794137658840,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 1.6x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.036827033055576504,
+   "rsi": 56.52010496049803,
+   "rvol": 1.5809416524844604,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.739,
+   "stop": 3.6837594504166353,
+   "takeProfit": 3.877101373958412,
+   "stopDist": 0.05524054958336476,
+   "tpDist": 0.1381013739584119,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 135.7698295286071,
+   "unit": "NEAR",
+   "notional": 507.6433926074619,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-08T23:34:18.840Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.036205287874299275,
+   "mae": 0.1629237954343266
   }
  }
 ]
