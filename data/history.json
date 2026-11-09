@@ -26964,7 +26964,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2288274805738448,
+   "mfe": 1.2432278026118202,
    "mae": 0.3600080509493683
   }
  },
@@ -27271,7 +27271,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.9533064358876717,
+   "mfe": 2.152254313616963,
    "mae": 0.9103372587007432
   }
  },
@@ -27312,7 +27312,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5940472859200288,
+   "mfe": 1.842853608325527,
    "mae": 0.21506987190984925
   }
  },
@@ -27403,6 +27403,91 @@
    "r": null,
    "mfe": 1.968189646240468,
    "mae": 0.09262068923481077
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1794208535700",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794208535700,
+  "factors": [
+   "Volume 4.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 4.30760608057323,
+   "rsi": 27.49324763897289,
+   "rvol": 4.755455391812071,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 676.38,
+   "stop": 682.8414091208598,
+   "takeProfit": 660.2264771978504,
+   "stopDist": 6.4614091208598445,
+   "tpDist": 16.15352280214961,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.1607375202085866,
+   "unit": "BNB",
+   "notional": 785.0996439186838,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-09T19:15:35.700Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06809660118556127,
+   "mae": 0.01547650026945134
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1794208535955",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794208535955,
+  "factors": [
+   "Volume 10.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.7742691283005738,
+   "rsi": 24.17498903294944,
+   "rvol": 10.743456357853363,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 73.498,
+   "stop": 74.65940369245087,
+   "takeProfit": 70.59449076887286,
+   "stopDist": 1.1614036924508606,
+   "tpDist": 2.9035092311271518,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.457702906190241,
+   "unit": "HYPE",
+   "notional": 474.6282481991704,
+   "note": "Spot OK",
+   "timeStop": "2026-11-09T19:15:35.955Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06285497495359148,
+   "mae": 0.006888216433265773
   }
  }
 ]
