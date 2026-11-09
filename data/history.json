@@ -27501,5 +27501,89 @@
    "mfe": 0.8593050000503855,
    "mae": 1.551570751593969
   }
+ },
+ {
+  "uid": "LTC-LONG-1794239156046",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1794239156046,
+  "factors": [
+   "Volume 3.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5317331032495582,
+   "rsi": 61.96738191290078,
+   "rvol": 3.8803544511292305,
+   "bbPct": 0.8214285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 52.2,
+   "stop": 51.40240034512566,
+   "takeProfit": 54.19399913718585,
+   "stopDist": 0.7975996548743374,
+   "tpDist": 1.9939991371858434,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.403213697706066,
+   "unit": "LTC",
+   "notional": 490.84775502025667,
+   "note": "Spot OK",
+   "timeStop": "2026-11-10T03:45:56.046Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.07522570958165138
+  }
+ },
+ {
+  "uid": "SUI-LONG-1794239156053",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794239156053,
+  "factors": [
+   "Volume 2.1x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.012151264898315514,
+   "rsi": 65.14783665926198,
+   "rvol": 2.1268540664344595,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8662,
+   "stop": 0.8479731026525267,
+   "takeProfit": 0.9117672433686832,
+   "stopDist": 0.01822689734747327,
+   "tpDist": 0.045567243368683175,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 411.47979587648786,
+   "unit": "SUI",
+   "notional": 356.42379918821376,
+   "note": "Spot OK",
+   "timeStop": "2026-11-10T03:45:56.053Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.016459191835063794,
+   "mae": 0.0822959591752946
+  }
  }
 ]
