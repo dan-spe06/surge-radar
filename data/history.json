@@ -27680,5 +27680,89 @@
    "mfe": 0.17425009567242847,
    "mae": 1.0006934065759447
   }
+ },
+ {
+  "uid": "ETH-SHORT-1794254775510",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1794254775510,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (60th percentile)",
+   "Volume 5.3x normal"
+  ],
+  "stats": {
+   "atr1h": 20.381774882934387,
+   "rsi": 42.018157953631835,
+   "rvol": 5.255033512239975,
+   "bbPct": 0.5964912280701754,
+   "funding": 0.0000262420660075,
+   "oiChg6h": -0.02227784877236487
+  },
+  "plan": {
+   "entry": 2128.11,
+   "stop": 2158.682662324402,
+   "takeProfit": 2051.678344188996,
+   "stopDist": 30.57266232440158,
+   "tpDist": 76.43165581100395,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.24531720268319165,
+   "unit": "ETH",
+   "notional": 522.061992202127,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-10T08:06:15.510Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.053315605383150555,
+   "mae": 0.07294098159780292
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1794254775537",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1794254775537,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (60th percentile)",
+   "Volume 3.2x normal"
+  ],
+  "stats": {
+   "atr1h": 0.013944568061567023,
+   "rsi": 40.90889228672574,
+   "rvol": 3.205781003942442,
+   "bbPct": 0.5964912280701754,
+   "funding": -0.0000098469787411,
+   "oiChg6h": 0.004330266876599598
+  },
+  "plan": {
+   "entry": 1.0934,
+   "stop": 1.1143168520923505,
+   "takeProfit": 1.0411078697691236,
+   "stopDist": 0.020916852092350537,
+   "tpDist": 0.05229213023087634,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 358.5625584044174,
+   "unit": "XRP",
+   "notional": 392.05230135938996,
+   "note": "Spot OK",
+   "timeStop": "2026-11-10T08:06:15.537Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08127417990500295,
+   "mae": 0.0908358481291197
+  }
  }
 ]
