@@ -27540,8 +27540,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07522570958164247,
-   "mae": 0.07522570958165138
+   "mfe": 0.12537618263607375,
+   "mae": 0.10030094610887147
   }
  },
  {
@@ -27582,8 +27582,93 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07132316461859556,
+   "mfe": 0.19202390474236422,
    "mae": 0.0822959591752946
+  }
+ },
+ {
+  "uid": "ADA-LONG-1794239776089",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794239776089,
+  "factors": [
+   "Volume 2.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0022551245568669157,
+   "rsi": 64.26218277348526,
+   "rvol": 2.6640992036276137,
+   "bbPct": 0.9464285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1826,
+   "stop": 0.17921731316469963,
+   "takeProfit": 0.19105671708825095,
+   "stopDist": 0.0033826868353003733,
+   "tpDist": 0.008456717088250933,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2217.172432793064,
+   "unit": "ADA",
+   "notional": 404.85568622801355,
+   "note": "Spot OK",
+   "timeStop": "2026-11-10T03:56:16.089Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.29562299103907547,
+   "mae": 0.08868689731172921
+  }
+ },
+ {
+  "uid": "LINK-LONG-1794239776060",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794239776060,
+  "factors": [
+   "Volume 2.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.13390714790307834,
+   "rsi": 61.28005894096472,
+   "rvol": 2.210305913695027,
+   "bbPct": 0.8035714285714286,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.795,
+   "stop": 10.594139278145382,
+   "takeProfit": 11.297151804636544,
+   "stopDist": 0.2008607218546175,
+   "tpDist": 0.5021518046365437,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 37.33930621552023,
+   "unit": "LINK",
+   "notional": 403.07781059654087,
+   "note": "Spot OK",
+   "timeStop": "2026-11-10T03:56:16.060Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17425009567242847,
+   "mae": 0.1842072439965705
   }
  }
 ]
