@@ -28349,7 +28349,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.8970255751534921,
+   "mfe": 2.019466291681447,
    "mae": 0.36812768061365797
   }
  },
@@ -28618,7 +28618,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2566183521678806,
+   "mfe": 1.3713366641976226,
    "mae": 0.8656704203823262
   }
  },
@@ -28794,6 +28794,94 @@
    "r": null,
    "mfe": 1.0724883507040426,
    "mae": 0.9804793211003805
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1794326256514",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1794326256514,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (45th percentile)",
+   "Volume 12.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.0392507265156048,
+   "rsi": 29.396737505378212,
+   "rvol": 12.901247136048685,
+   "bbPct": 0.44642857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 71.771,
+   "stop": 73.3298760897734,
+   "takeProfit": 67.87380977556649,
+   "stopDist": 1.558876089773407,
+   "tpDist": 3.8971902244335177,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.811158532228289,
+   "unit": "HYPE",
+   "notional": 345.3016590165565,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T03:57:36.514Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.253387682697354,
+   "mae": 0.2623685119575199
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1794326257676",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1794326257676,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 4.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.024602060754943898,
+   "rsi": 38.26982494211062,
+   "rvol": 4.4378482376038075,
+   "bbPct": 0.32142857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.0004,
+   "stop": 2.037303091132416,
+   "takeProfit": 1.9081422721689603,
+   "stopDist": 0.03690309113241585,
+   "tpDist": 0.09225772783103962,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 203.23500741681676,
+   "unit": "MORPHO",
+   "notional": 406.55130883660024,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T03:57:37.676Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.5202816189870478,
+   "mae": 0.03793720138446829
   }
  }
 ]
