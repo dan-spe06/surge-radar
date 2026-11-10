@@ -27979,5 +27979,48 @@
    "mfe": 0.1941705611430797,
    "mae": 0.6688097106041075
   }
+ },
+ {
+  "uid": "LINK-SHORT-1794291414864",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1794291414864,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (42th percentile)",
+   "Volatility below average",
+   "Volume 3.3x normal"
+  ],
+  "stats": {
+   "atr1h": 0.10148353127939687,
+   "rsi": 47.199761680541435,
+   "rvol": 3.2542980869403553,
+   "bbPct": 0.42105263157894735,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 10.582,
+   "stop": 10.734225296919096,
+   "takeProfit": 10.201436757702263,
+   "stopDist": 0.1522252969190953,
+   "tpDist": 0.3805632422977383,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 49.269077819477666,
+   "unit": "LINK",
+   "notional": 521.3653814857126,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-10T18:16:54.864Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.01970763112779181,
+   "mae": 0.07226131413522886
+  }
  }
 ]
