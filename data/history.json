@@ -27936,7 +27936,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22155955515428327,
+   "mfe": 0.6573320135467372,
    "mae": 0.6499853616306245
   }
  },
@@ -28025,7 +28025,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.01970763112779181,
+   "mfe": 0.14452262827046938,
    "mae": 0.6766286687208249
   }
  },
@@ -28068,7 +28068,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2851002996473065,
+   "mfe": 0.5934133585560945,
    "mae": 0.5164838935677779
   }
  },
@@ -28111,7 +28111,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7769040002473182,
+   "mfe": 1.0483523858759056,
    "mae": 0.02808086747881985
   }
  },
@@ -28154,7 +28154,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7629665699666139,
+   "mfe": 1.0077991260006736,
    "mae": 0.2789952382713667
   }
  },
@@ -28242,8 +28242,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.150581709612363,
-   "mae": 0.2070498507170025
+   "mfe": 0.4235110582847827,
+   "mae": 0.263517991821642
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1794301635355",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1794301635355,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Volume 3.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.7078299495753828,
+   "rsi": 36.15554376089848,
+   "rvol": 3.587289687461335,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 85.47,
+   "stop": 86.58078299495754,
+   "takeProfit": 82.69304251260614,
+   "stopDist": 1.1107829949575445,
+   "tpDist": 2.776957487393861,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.751993894438994,
+   "unit": "SOL",
+   "notional": 577.0929181577008,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-10T21:07:15.355Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2340691216738897,
+   "mae": 0.39611697514041894
   }
  }
 ]
