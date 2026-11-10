@@ -28889,5 +28889,90 @@
    "mfe": 0.5202816189870478,
    "mae": 1.0324338376774298
   }
+ },
+ {
+  "uid": "DOT-SHORT-1794341288831",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794341288831,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 2.7x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.011064170002284476,
+   "rsi": 35.5204156657076,
+   "rvol": 2.6808399120371584,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8347,
+   "stop": 0.8512962550034268,
+   "takeProfit": 0.7932093624914333,
+   "stopDist": 0.016596255003426715,
+   "tpDist": 0.04149063750856678,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 451.9091806224619,
+   "unit": "DOT",
+   "notional": 377.20859306556895,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T08:08:08.831Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10243274760776012,
+   "mae": 0.12050911483265661
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1794341288047",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 47,
+  "at": 1794341288047,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (46th percentile)",
+   "Volume 4.4x normal"
+  ],
+  "stats": {
+   "atr1h": 0.07327491490609349,
+   "rsi": 45.7997730455323,
+   "rvol": 4.377699363463325,
+   "bbPct": 0.45614035087719296,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.557,
+   "stop": 3.6669123723591404,
+   "takeProfit": 3.2822190691021493,
+   "stopDist": 0.10991237235914023,
+   "tpDist": 0.27478093089785055,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 68.23617613760209,
+   "unit": "NEAR",
+   "notional": 242.7160785214506,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T08:08:08.047Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0545889409100797,
+   "mae": 0.191061293185285
+  }
  }
 ]
