@@ -28346,5 +28346,223 @@
    "mfe": 0.9505266151512172,
    "mae": 0.27146395703895365
   }
+ },
+ {
+  "uid": "XLM-SHORT-1794318457376",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 70,
+  "at": 1794318457376,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (46th percentile)",
+   "Volume 7.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.001436021675505604,
+   "rsi": 34.25374629225807,
+   "rvol": 7.668845516489067,
+   "bbPct": 0.4642857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.14455,
+   "stop": 0.14670403251325842,
+   "takeProfit": 0.139164918716854,
+   "stopDist": 0.002154032513258406,
+   "tpDist": 0.005385081283146015,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3481.8415942360807,
+   "unit": "XLM",
+   "notional": 503.3002024468255,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-11T01:47:37.376Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.22283786203111297,
+   "mae": 0.01392736637693248
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1794318457884",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1794318457884,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (41th percentile)",
+   "Volume 6.3x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.2966876950783175,
+   "rsi": 39.289842199840095,
+   "rvol": 6.301780429601704,
+   "bbPct": 0.4107142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 218.5,
+   "stop": 221.94503154261747,
+   "takeProfit": 209.88742114345632,
+   "stopDist": 3.4450315426174765,
+   "tpDist": 8.612578856543692,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.1770482816252033,
+   "unit": "TAO",
+   "notional": 475.6850495351069,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T01:47:37.884Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2554403317106892,
+   "mae": 0.020319117295166583
+  }
+ },
+ {
+  "uid": "VVV-SHORT-1794318458703",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 65,
+  "at": 1794318458703,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 19.5x normal",
+   "Broke 24h low"
+  ],
+  "stats": {
+   "atr1h": 0.37229036255914394,
+   "rsi": 23.01625197210842,
+   "rvol": 19.549257807998156,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 19.54,
+   "stop": 20.098435543838715,
+   "takeProfit": 18.14391114040321,
+   "stopDist": 0.5584355438387159,
+   "tpDist": 1.3960888595967895,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 13.430377207805574,
+   "unit": "VVV",
+   "notional": 262.4295706405209,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T01:47:38.703Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08953584805203843,
+   "mae": 0.3581433922081474
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1794318457607",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1794318457607,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volume 6.5x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.39576055230337,
+   "rsi": 33.56682904092965,
+   "rvol": 6.515817306175571,
+   "bbPct": 0.08928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 234.24,
+   "stop": 237.83364082845506,
+   "takeProfit": 225.25589792886237,
+   "stopDist": 3.5936408284550545,
+   "tpDist": 8.984102071137636,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.0870199215830736,
+   "unit": "BCH",
+   "notional": 488.86354643161917,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T01:47:37.607Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24765969736119553,
+   "mae": 0.030609625516547636
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1794318457638",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1794318457638,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 11.1x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00958986969636185,
+   "rsi": 37.79364588165115,
+   "rvol": 11.12487944688153,
+   "bbPct": 0.32142857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.83,
+   "stop": 0.8443848045445428,
+   "takeProfit": 0.794037988638643,
+   "stopDist": 0.014384804544542773,
+   "tpDist": 0.03596201136135693,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 521.3835180572759,
+   "unit": "SUI",
+   "notional": 432.74831998753893,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T01:47:37.638Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.21550518746367342,
+   "mae": 0.013903560481533541
+  }
  }
 ]
