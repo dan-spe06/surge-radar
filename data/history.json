@@ -29800,7 +29800,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.403594830308586,
-   "mae": 0.6102248395848442
+   "mae": 0.7962064921581001
   }
  },
  {
@@ -29844,7 +29844,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.5416282298582032,
-   "mae": 0.23212638422494794
+   "mae": 0.6190036912665279
   }
  },
  {
@@ -29884,10 +29884,328 @@
    "timeStop": "2026-11-12T09:20:08.047Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794437100000,
+   "exit": 8.472003509527722,
+   "mfe": 0.20139379720218373,
+   "mae": 1.1389166462468334
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1794437408322",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1794437408322,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0005372855126603197,
+   "rsi": 26.62005128912078,
+   "rvol": 2.2646319612928414,
+   "bbPct": 0.30357142857142855,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05808,
+   "stop": 0.05888592826899048,
+   "takeProfit": 0.0560651793275238,
+   "stopDist": 0.0008059282689904794,
+   "tpDist": 0.0020148206724761985,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9306.03912106798,
+   "unit": "SKY",
+   "notional": 540.4947521516283,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-12T10:50:08.322Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.20139379720218373,
-   "mae": 0.6597383011795614
+   "mfe": 0.33501740835844657,
+   "mae": 0.1240805216142433
+  }
+ },
+ {
+  "uid": "POL-SHORT-1794437408554",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1794437408554,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 20% of 5 days)",
+   "Volatility below average",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0009686399080020452,
+   "rsi": 37.79630331591002,
+   "rvol": 2.6811590327232437,
+   "bbPct": 0.19642857142857142,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08694,
+   "stop": 0.08839295986200307,
+   "takeProfit": 0.08330760034499234,
+   "stopDist": 0.0014529598620030676,
+   "tpDist": 0.0036323996550076693,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5161.876935581972,
+   "unit": "POL",
+   "notional": 448.7735807794967,
+   "note": "Spot OK",
+   "timeStop": "2026-11-12T10:50:08.554Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19271007226172865,
+   "mae": 0.08947253355008149
+  }
+ },
+ {
+  "uid": "SHIB-SHORT-1794437407827",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794437407827,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 36% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 3.521236491759831e-8,
+   "rsi": 34.58740876481477,
+   "rvol": 1.2973107470148757,
+   "bbPct": 0.35714285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000004374,
+   "stop": 0.000004426818547376397,
+   "takeProfit": 0.000004241953631559006,
+   "stopDist": 5.281854737639746e-8,
+   "tpDist": 1.3204636844099365e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 141995574.8982119,
+   "unit": "SHIB",
+   "notional": 621.0886446047788,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-12T10:50:07.827Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.35972212307547313,
+   "mae": 0.18932743319761405
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1794437407825",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 54,
+  "at": 1794437407825,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (52th percentile)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006514659290858992,
+   "rsi": 37.81651414996795,
+   "rvol": 2.15444221218886,
+   "bbPct": 0.5178571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.06533,
+   "stop": 0.06630719889362885,
+   "takeProfit": 0.06288700276592787,
+   "stopDist": 0.0009771988936288487,
+   "tpDist": 0.0024429972340721216,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7674.998456198196,
+   "unit": "HBAR",
+   "notional": 501.40764914342816,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-12T10:50:07.825Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2660666131482004,
+   "mae": 0.11256664402423919
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1794437407597",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1794437407597,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 36% of 5 days)",
+   "Volatility below average",
+   "Volume 4.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.46110681323925745,
+   "rsi": 33.7908624974754,
+   "rvol": 4.4853945314599475,
+   "bbPct": 0.35714285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 50.06,
+   "stop": 50.75166021985889,
+   "takeProfit": 48.33084945035279,
+   "stopDist": 0.6916602198588861,
+   "tpDist": 1.7291505496472155,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10.843474562596883,
+   "unit": "LTC",
+   "notional": 542.8243366036,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-12T10:50:07.597Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2168694912519459,
+   "mae": 0.27470135558578446
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1794437408068",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1794437408068,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 36% of 5 days)",
+   "Volatility below average",
+   "Volume 5.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.5680956795309857,
+   "rsi": 32.748229581132875,
+   "rvol": 5.591942806339969,
+   "bbPct": 0.35714285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 120.44,
+   "stop": 122.79214351929647,
+   "takeProfit": 114.55964120175881,
+   "stopDist": 2.3521435192964786,
+   "tpDist": 5.880358798241197,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.1885809426472562,
+   "unit": "AAVE",
+   "notional": 384.03268873243553,
+   "note": "Spot OK",
+   "timeStop": "2026-11-12T10:50:08.068Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17430909153138188,
+   "mae": 0.17856053278824707
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1794437408068",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1794437408068,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Volume 5.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005402277381580456,
+   "rsi": 36.37954026268348,
+   "rvol": 5.110301806896435,
+   "bbPct": 0.32142857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.359,
+   "stop": 0.3671034160723707,
+   "takeProfit": 0.3387414598190733,
+   "stopDist": 0.008103416072370685,
+   "tpDist": 0.02025854018092671,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 925.5355930163718,
+   "unit": "ONDO",
+   "notional": 332.2672778928775,
+   "note": "Spot OK",
+   "timeStop": "2026-11-12T10:50:08.068Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12340474573551635,
+   "mae": 0.17276664402972425
   }
  }
 ]
