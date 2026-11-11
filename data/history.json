@@ -29800,7 +29800,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.403594830308586,
-   "mae": 0.7962064921581001
+   "mae": 0.9430880650171404
   }
  },
  {
@@ -29934,7 +29934,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.33501740835844657,
-   "mae": 0.1240805216142433
+   "mae": 0.22334493890563104
   }
  },
  {
@@ -29980,7 +29980,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.19271007226172865,
-   "mae": 0.08947253355008149
+   "mae": 0.11700254387319377
   }
  },
  {
@@ -30070,7 +30070,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.2660666131482004,
-   "mae": 0.11256664402423919
+   "mae": 0.15349996912396124
   }
  },
  {
@@ -30206,6 +30206,51 @@
    "r": null,
    "mfe": 0.12340474573551635,
    "mae": 0.17276664402972425
+  }
+ },
+ {
+  "uid": "PUMP-SHORT-1794438011729",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1794438011729,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 2.5x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.000058402032773935917,
+   "rsi": 38.47836941559367,
+   "rvol": 2.5419839270577445,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.003454,
+   "stop": 0.003541603049160904,
+   "takeProfit": 0.0032349923770977405,
+   "stopDist": 0.00008760304916090387,
+   "tpDist": 0.00021900762290225968,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 85613.45834235134,
+   "unit": "PUMP",
+   "notional": 295.7088851144815,
+   "note": "Spot OK",
+   "timeStop": "2026-11-12T11:00:11.729Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03424538333694013,
+   "mae": 0
   }
  }
 ]
