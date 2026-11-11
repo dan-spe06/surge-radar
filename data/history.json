@@ -29296,7 +29296,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.4194973882141708,
-   "mae": 0.4627587754792635
+   "mae": 0.48024742139493903
   }
  },
  {
@@ -29339,7 +29339,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.24767946305684785,
-   "mae": 0.47807896357483537
+   "mae": 0.5011189136266321
   }
  },
  {
@@ -29383,7 +29383,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.22743451648593885,
-   "mae": 0.6202759540525667
+   "mae": 0.6754115944127964
   }
  },
  {
@@ -29427,6 +29427,50 @@
    "r": null,
    "mfe": 0.09070414604954098,
    "mae": 0.47052775763204424
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1794384529104",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1794384529104,
+  "factors": [
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 4.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10377338658247824,
+   "rsi": 64.94411919764266,
+   "rvol": 4.218300954645646,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.615,
+   "stop": 8.459339920126283,
+   "takeProfit": 9.004150199684293,
+   "stopDist": 0.15566007987371736,
+   "tpDist": 0.3891501996842934,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 48.18191026295592,
+   "unit": "AVAX",
+   "notional": 415.08715691536526,
+   "note": "Spot OK",
+   "timeStop": "2026-11-11T20:08:49.104Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.006424254701723895,
+   "mae": 0.23769742396392107
   }
  }
 ]
