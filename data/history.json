@@ -30299,7 +30299,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.21260416640436408,
+   "mfe": 0.37666092473214646,
    "mae": 0.7047744413876923
   }
  },
@@ -30345,6 +30345,49 @@
    "r": null,
    "mfe": 0.37711409678832786,
    "mae": 0.46501287122770435
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1794458431300",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1794458431300,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (58th percentile)",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005672574679213176,
+   "rsi": 34.23720328764729,
+   "rvol": 3.570571762474918,
+   "bbPct": 0.5789473684210527,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05813,
+   "stop": 0.05898088620188198,
+   "takeProfit": 0.05600278449529506,
+   "stopDist": 0.0008508862018819764,
+   "tpDist": 0.002127215504704941,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8814.33966541192,
+   "unit": "SKY",
+   "notional": 512.377564750395,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-12T16:40:31.300Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08226717021051198,
+   "mae": 0.15278188753380448
   }
  }
 ]
