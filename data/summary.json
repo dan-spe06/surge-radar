@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-12T10:40:57.887Z",
- "total": 669,
- "open": 9,
- "closed": 660,
+ "generated": "2026-11-12T10:50:57.868Z",
+ "total": 670,
+ "open": 5,
+ "closed": 665,
  "wins": 89,
  "losses": 369,
- "timeouts": 202,
- "winRate": 0.135,
- "netR": -59.13,
- "avgR": -0.09,
+ "timeouts": 207,
+ "winRate": 0.134,
+ "netR": -53.55,
+ "avgR": -0.081,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 660,
+   "n": 665,
    "wins": 89,
-   "R": -59.13,
-   "winRate": 0.135
+   "R": -53.55,
+   "winRate": 0.134
   }
  },
  "bySymbol": {
@@ -122,10 +122,10 @@
    "winRate": 0.091
   },
   "LTC": {
-   "n": 19,
+   "n": 20,
    "wins": 5,
-   "R": 5.44,
-   "winRate": 0.263
+   "R": 6.19,
+   "winRate": 0.25
   },
   "RENDER": {
    "n": 1,
@@ -134,9 +134,9 @@
    "winRate": 0
   },
   "AAVE": {
-   "n": 4,
+   "n": 5,
    "wins": 0,
-   "R": -2.87,
+   "R": -0.82,
    "winRate": 0
   },
   "VVV": {
@@ -146,10 +146,10 @@
    "winRate": 0
   },
   "SHIB": {
-   "n": 11,
+   "n": 12,
    "wins": 2,
-   "R": 1.43,
-   "winRate": 0.182
+   "R": 2.53,
+   "winRate": 0.167
   },
   "DOT": {
    "n": 11,
@@ -158,10 +158,10 @@
    "winRate": 0
   },
   "POL": {
-   "n": 10,
+   "n": 11,
    "wins": 2,
-   "R": -0.97,
-   "winRate": 0.2
+   "R": 0.07,
+   "winRate": 0.182
   },
   "ICP": {
    "n": 10,
@@ -176,9 +176,9 @@
    "winRate": 0.143
   },
   "ONDO": {
-   "n": 7,
+   "n": 8,
    "wins": 0,
-   "R": 0.52,
+   "R": 1.16,
    "winRate": 0
   },
   "MORPHO": {
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 413,
+   "n": 418,
    "wins": 70,
-   "R": 48.88,
-   "winRate": 0.169
+   "R": 54.46,
+   "winRate": 0.167
   },
   "LONG": {
    "n": 247,

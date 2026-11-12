@@ -29983,9 +29983,11 @@
    "timeStop": "2026-11-12T10:50:08.554Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.0048453767932926,
+   "result": "TIME",
+   "r": 1.04,
+   "closedAt": 1794480608554,
+   "exit": 0.08543,
+   "mfe": 1.066787900020281,
    "mae": 0.6676027503352675
   }
  },
@@ -30028,8 +30030,10 @@
    "timeStop": "2026-11-12T10:50:07.827Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.1,
+   "closedAt": 1794480607827,
+   "exit": 0.000004316,
    "mfe": 1.3631575190228404,
    "mae": 0.18932743319761405
   }
@@ -30120,8 +30124,10 @@
    "timeStop": "2026-11-12T10:50:07.597Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.75,
+   "closedAt": 1794480607597,
+   "exit": 49.54,
    "mfe": 0.9397677954250715,
    "mae": 0.6506084737558069
   }
@@ -30165,9 +30171,11 @@
    "timeStop": "2026-11-12T10:50:08.068Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.023686038266788,
+   "result": "TIME",
+   "r": 2.05,
+   "closedAt": 1794480608068,
+   "exit": 115.62,
+   "mfe": 2.168235041000132,
    "mae": 0.25933791666864325
   }
  },
@@ -30210,8 +30218,10 @@
    "timeStop": "2026-11-12T10:50:08.068Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.64,
+   "closedAt": 1794480608068,
+   "exit": 0.3538,
    "mfe": 1.1106427116196471,
    "mae": 0.4072356609272067
   }
@@ -30388,8 +30398,50 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.857929060766762,
+   "mfe": 0.8696815136539815,
    "mae": 0.28205886929317814
+  }
+ },
+ {
+  "uid": "TRX-SHORT-1794480653832",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1794480653832,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 21% of 5 days)",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00048302492167525253,
+   "rsi": 43.029085547054365,
+   "rvol": 0.6214626839641335,
+   "bbPct": 0.21428571428571427,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.31677,
+   "stop": 0.3174945373825129,
+   "takeProfit": 0.3149586565437178,
+   "stopDist": 0.0007245373825128788,
+   "tpDist": 0.0018113434562821971,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 10351.432763880455,
+   "unit": "TRX",
+   "notional": 3279.0233566144116,
+   "note": "Needs ~6.6x leverage",
+   "timeStop": "2026-11-12T22:50:53.832Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02760382070370882,
+   "mae": 0.04140573105556323
   }
  }
 ]
