@@ -30889,5 +30889,48 @@
    "mfe": 0.7990102346147946,
    "mae": 0.5041028207478802
   }
+ },
+ {
+  "uid": "ADA-SHORT-1794515494761",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794515494761,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0018363052279104669,
+   "rsi": 44.846132447673774,
+   "rvol": 2.0568581249371207,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1721,
+   "stop": 0.1748544578418657,
+   "takeProfit": 0.16521385539533576,
+   "stopDist": 0.0027544578418657005,
+   "tpDist": 0.006886144604664251,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2722.8588820658665,
+   "unit": "ADA",
+   "notional": 468.60401360353563,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T08:31:34.761Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.03630478509420755
+  }
  }
 ]
