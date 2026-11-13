@@ -30857,7 +30857,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.88262861754075,
+   "mfe": 1.2552940338357257,
    "mae": 0.3432444623769621
   }
  },
@@ -30988,7 +30988,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0132513027967316,
+   "mfe": 1.097129721902421,
    "mae": 0.12414006027641233
   }
  },
@@ -31031,7 +31031,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.21297378571513836,
+   "mfe": 0.27952809375112353,
    "mae": 0.37270412500149214
   }
  },
@@ -31074,7 +31074,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2703455625477986,
+   "mfe": 0.3244146750573583,
    "mae": 0.24331100629301575
   }
  },
@@ -31163,7 +31163,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03888892370739723,
+   "mfe": 0.35777809810800065,
    "mae": 0.09333341689773539
   }
  },
@@ -31206,8 +31206,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.02084747750690241,
+   "mfe": 0.5211869376724011,
    "mae": 0.0833899100275807
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1794537719381",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 69,
+  "at": 1794537719381,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 5% of 5 days)",
+   "Volume 1.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08864278040010451,
+   "rsi": 28.301462566436186,
+   "rvol": 1.8635538434438,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 5.892,
+   "stop": 6.024964170600157,
+   "takeProfit": 5.559589573499609,
+   "stopDist": 0.13296417060015675,
+   "tpDist": 0.3324104265003919,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 56.406172927243894,
+   "unit": "UNI",
+   "notional": 332.34517088732105,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T14:41:59.381Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04512493834179682,
+   "mae": 0.3910827989622213
   }
  }
 ]
