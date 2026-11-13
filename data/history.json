@@ -31501,5 +31501,92 @@
    "mfe": 0.5164868657399362,
    "mae": 1.1452534849015945
   }
+ },
+ {
+  "uid": "POL-SHORT-1794605007202",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794605007202,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0009993697478713436,
+   "rsi": 37.718306920087024,
+   "rvol": 1.167137977529034,
+   "bbPct": 0.22807017543859648,
+   "funding": -0.0000282012181024,
+   "oiChg6h": -0.020238458636097377
+  },
+  "plan": {
+   "entry": 0.08514,
+   "stop": 0.08666993697478713,
+   "takeProfit": 0.08131515756303216,
+   "stopDist": 0.001529936974787135,
+   "tpDist": 0.003824842436967838,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4902.16271885546,
+   "unit": "POL",
+   "notional": 417.37013388335384,
+   "note": "Spot OK",
+   "timeStop": "2026-11-14T09:23:27.202Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.026144867833894723,
+   "mae": 0.18301407483727214
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1794605005303",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794605005303,
+  "factors": [
+   "Range tight (bottom 39% of 5 days)",
+   "Volatility below average",
+   "Volume 2.0x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002059186499213517,
+   "rsi": 38.57091767101075,
+   "rvol": 2.00050934879044,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1687,
+   "stop": 0.17178877974882026,
+   "takeProfit": 0.1609780506279493,
+   "stopDist": 0.0030887797488202756,
+   "tpDist": 0.007721949372050689,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2428.1433478267722,
+   "unit": "ADA",
+   "notional": 409.62778277837646,
+   "note": "Spot OK",
+   "timeStop": "2026-11-14T09:23:25.303Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06475048927537345,
+   "mae": 0.09712573391307816
+  }
  }
 ]
