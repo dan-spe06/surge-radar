@@ -30764,8 +30764,10 @@
    "timeStop": "2026-11-13T00:10:53.380Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 1.2,
+   "closedAt": 1794528653380,
+   "exit": 0.31557,
    "mfe": 1.539281110813745,
    "mae": 0.36456657887691984
   }
@@ -30945,6 +30947,49 @@
    "exit": 0.1748544578418657,
    "mfe": 0.036304785094217626,
    "mae": 1.0165339826379223
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1794528719520",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1794528719520,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 35% of 5 days)",
+   "Volatility below average",
+   "Volume 2.4x normal"
+  ],
+  "stats": {
+   "atr1h": 1.9870029555118518,
+   "rsi": 42.42611418610486,
+   "rvol": 2.4230682873959966,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 225.77,
+   "stop": 228.7505044332678,
+   "takeProfit": 218.31873891683057,
+   "stopDist": 2.980504433267778,
+   "tpDist": 7.451261083169445,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.5163525731706824,
+   "unit": "BCH",
+   "notional": 568.116920444745,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-13T12:11:59.520Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14091574409756358,
+   "mae": 0.06374759852032319
   }
  }
 ]
