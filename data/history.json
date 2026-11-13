@@ -31347,5 +31347,94 @@
    "mfe": 0.7323608839397753,
    "mae": 0.36618044196989546
   }
+ },
+ {
+  "uid": "DOT-SHORT-1794541319610",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1794541319610,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 6.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.010083373410973867,
+   "rsi": 28.943289997062635,
+   "rvol": 6.838493329352262,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8109,
+   "stop": 0.8260250601164607,
+   "takeProfit": 0.773087349708848,
+   "stopDist": 0.015125060116460802,
+   "tpDist": 0.03781265029115201,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 495.8657977059973,
+   "unit": "DOT",
+   "notional": 402.0975753597932,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T15:41:59.610Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13223087938826605,
+   "mae": 0.21818095099064413
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1794541318848",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1794541318848,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 9% of 5 days)",
+   "Volume 5.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09107009842413472,
+   "rsi": 25.65143458863315,
+   "rvol": 5.617935382806677,
+   "bbPct": 0.08771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 5.837,
+   "stop": 5.973605147636202,
+   "takeProfit": 5.495487130909495,
+   "stopDist": 0.13660514763620207,
+   "tpDist": 0.34151286909050516,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 54.90276266875031,
+   "unit": "UNI",
+   "notional": 320.46742569749557,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T15:41:58.848Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08784442026999732,
+   "mae": 0.28549436587750593
+  }
  }
 ]
