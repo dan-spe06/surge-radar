@@ -31120,7 +31120,94 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.181043200945042,
-   "mae": 0.13578240070873965
+   "mae": 0.22630400118126065
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1794537119111",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794537119111,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.08571420897153312,
+   "rsi": 30.394807089948316,
+   "rvol": 0.9204555442049835,
+   "bbPct": 0.03508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 5.932,
+   "stop": 6.0605713134573005,
+   "takeProfit": 5.610571716356751,
+   "stopDist": 0.12857131345729966,
+   "tpDist": 0.32142828364324916,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 58.33338556108673,
+   "unit": "UNI",
+   "notional": 346.0336431483665,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T14:31:59.111Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03888892370739723,
+   "mae": 0.09333341689773539
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1794537119350",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1794537119350,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.1x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006395657857850127,
+   "rsi": 29.49094994299088,
+   "rvol": 3.1286889444678994,
+   "bbPct": 0.9824561403508771,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.063,
+   "stop": 0.06395934867867752,
+   "takeProfit": 0.060601628303306204,
+   "stopDist": 0.0009593486786775191,
+   "tpDist": 0.0023983716966937975,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7817.804065086008,
+   "unit": "HBAR",
+   "notional": 492.5216561004185,
+   "note": "Spot OK",
+   "timeStop": "2026-11-13T14:31:59.350Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02084747750690241,
+   "mae": 0.0833899100275807
   }
  }
 ]
