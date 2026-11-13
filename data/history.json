@@ -31542,7 +31542,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.026144867833894723,
+   "mfe": 0.08497082046015558,
    "mae": 0.18301407483727214
   }
  },
@@ -31586,7 +31586,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.06475048927537345,
-   "mae": 0.09712573391307816
+   "mae": 0.22662671246383406
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1794605606131",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794605606131,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 8.432883854562214e-8,
+   "rsi": 36.11215153671847,
+   "rvol": 0.8976024353568274,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000043789,
+   "stop": 0.0000045053932578184326,
+   "takeProfit": 0.000004062666855453916,
+   "stopDist": 1.2649325781843322e-7,
+   "tpDist": 3.162331445460831e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 59291697.671075895,
+   "unit": "PEPE",
+   "notional": 259.6324149318742,
+   "note": "Spot OK",
+   "timeStop": "2026-11-14T09:33:26.131Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03162223875790282,
+   "mae": 0.3533785181196171
   }
  }
 ]
