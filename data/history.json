@@ -31992,7 +31992,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2957708531406866,
+   "mfe": 1.465708014208317,
    "mae": 0.20180037876781076
   }
  },
@@ -32035,8 +32035,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.041062444033117984,
+   "mfe": 0.15603728732585273,
    "mae": 0.18067475374571768
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1794662048280",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794662048280,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 18.67604533970718,
+   "rsi": 32.54257289628346,
+   "rvol": 2.4861170019661882,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 883.56,
+   "stop": 911.5740680095607,
+   "takeProfit": 813.524829976098,
+   "stopDist": 28.01406800956077,
+   "tpDist": 70.03517002390193,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.267722631266561,
+   "unit": "ZEC",
+   "notional": 236.54900808188262,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T01:14:08.280Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24523393024016596,
+   "mae": 0.37266990272305484
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1794662048619",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794662048619,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5127611391247787,
+   "rsi": 35.03139927168117,
+   "rvol": 2.3377360699608722,
+   "bbPct": 0.7192982456140351,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 47.65,
+   "stop": 48.419141708687164,
+   "takeProfit": 45.72714572828208,
+   "stopDist": 0.7691417086871681,
+   "tpDist": 1.9228542717179202,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.751128973101189,
+   "unit": "LTC",
+   "notional": 464.64129556827163,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T01:14:08.619Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.026003010594931333,
+   "mae": 0.41604816951898443
   }
  }
 ]
