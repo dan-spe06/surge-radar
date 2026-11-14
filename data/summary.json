@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-14T10:14:11.034Z",
+ "generated": "2026-11-14T10:24:11.057Z",
  "total": 704,
- "open": 7,
- "closed": 697,
+ "open": 4,
+ "closed": 700,
  "wins": 93,
  "losses": 379,
- "timeouts": 225,
+ "timeouts": 228,
  "winRate": 0.133,
- "netR": -37.22,
- "avgR": -0.053,
+ "netR": -34.43,
+ "avgR": -0.049,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 697,
+   "n": 700,
    "wins": 93,
-   "R": -37.22,
+   "R": -34.43,
    "winRate": 0.133
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 27,
+   "n": 28,
    "wins": 7,
-   "R": 7.04,
-   "winRate": 0.259
+   "R": 7.57,
+   "winRate": 0.25
   },
   "HYPE": {
    "n": 36,
@@ -56,10 +56,10 @@
    "winRate": 0.222
   },
   "BTC": {
-   "n": 34,
+   "n": 35,
    "wins": 6,
-   "R": 3.42,
-   "winRate": 0.176
+   "R": 4.58,
+   "winRate": 0.171
   },
   "LINK": {
    "n": 25,
@@ -116,10 +116,10 @@
    "winRate": 0.095
   },
   "XRP": {
-   "n": 33,
+   "n": 34,
    "wins": 3,
-   "R": -3.52,
-   "winRate": 0.091
+   "R": -2.42,
+   "winRate": 0.088
   },
   "LTC": {
    "n": 20,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 450,
+   "n": 453,
    "wins": 74,
-   "R": 70.79,
-   "winRate": 0.164
+   "R": 73.58,
+   "winRate": 0.163
   },
   "LONG": {
    "n": 247,
