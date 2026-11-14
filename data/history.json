@@ -32213,9 +32213,11 @@
    "timeStop": "2026-11-15T02:04:28.667Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.1298488031966647,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1794686400000,
+   "exit": 0.05398064981076542,
+   "mfe": 2.5247084127780646,
    "mae": 0.5384449221564579
   }
  },
@@ -32346,7 +32348,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.1832897948299834,
+   "mfe": 2.3622479747340805,
    "mae": 0.35791635980819464
   }
  },
@@ -32437,6 +32439,49 @@
    "r": null,
    "mfe": 1.5217730006918222,
    "mae": 0.2721677995016489
+  }
+ },
+ {
+  "uid": "WLFI-SHORT-1794687287982",
+  "id": "WLFI",
+  "name": "World Liberty Financial",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1794687287982,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005221654919336471,
+   "rsi": 31.9874818454864,
+   "rvol": 2.708642476094518,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.04604,
+   "stop": 0.04682324823790047,
+   "takeProfit": 0.04408187940524882,
+   "stopDist": 0.0007832482379004707,
+   "tpDist": 0.0019581205947511765,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9575.508296200016,
+   "unit": "WLFI",
+   "notional": 440.8564019570487,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:14:47.982Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.012767344394928404,
+   "mae": 0.39578767624294
   }
  }
 ]
