@@ -32082,7 +32082,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5402975385536133,
+   "mfe": 1.9640132229714908,
    "mae": 0.4230017574011672
   }
  },
@@ -32439,7 +32439,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.7040070925320514,
+   "mfe": 1.943041420790018,
    "mae": 0.2721677995016489
   }
  },
@@ -32525,8 +32525,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2916945979204636,
-   "mae": 0.08227283531089892
+   "mfe": 0.5609511498470438,
+   "mae": 0.08975218397552327
   }
  },
  {
@@ -32568,8 +32568,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3357550227856173,
-   "mae": 0.019464059291917652
+   "mfe": 0.622849897341435,
+   "mae": 0.038928118583835304
   }
  },
  {
@@ -32610,8 +32610,134 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.23858274539527746,
+   "mfe": 0.49935923454825903,
    "mae": 0.18309838600102646
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1794688487407",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794688487407,
+  "factors": [
+   "Volume 5.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.1446953360897904,
+   "rsi": 22.394318749362,
+   "rvol": 5.003037778267127,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.946,
+   "stop": 9.163043004134686,
+   "takeProfit": 8.403392489663286,
+   "stopDist": 0.2170430041346856,
+   "tpDist": 0.5426075103367141,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 34.5553639468881,
+   "unit": "LINK",
+   "notional": 309.13228586886095,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:34:47.407Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19811741996215504,
+   "mae": 0.37780531248598
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1794688488163",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794688488163,
+  "factors": [
+   "Volume 9.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0008794433076230156,
+   "rsi": 24.42112493486711,
+   "rvol": 9.101592154905134,
+   "bbPct": 0.7894736842105263,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05709,
+   "stop": 0.05840916496143453,
+   "takeProfit": 0.05379208759641369,
+   "stopDist": 0.0013191649614345234,
+   "tpDist": 0.0032979124035863085,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5685.414803501254,
+   "unit": "HBAR",
+   "notional": 324.5803311318866,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:34:48.163Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14403050835536713,
+   "mae": 0.5154776088507804
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1794688487407",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794688487407,
+  "factors": [
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.2462262678515563,
+   "rsi": 23.02201155272313,
+   "rvol": 2.318233220826816,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 64.244,
+   "stop": 66.11333940177734,
+   "takeProfit": 59.57065149555666,
+   "stopDist": 1.8693394017773346,
+   "tpDist": 4.673348504443337,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.012112510370847,
+   "unit": "HYPE",
+   "notional": 257.7541561162647,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:34:47.407Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08291699188099812,
+   "mae": 0.2401918022875337
   }
  }
 ]
