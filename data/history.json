@@ -31992,7 +31992,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.465708014208317,
+   "mfe": 1.6144030301424952,
    "mae": 0.20180037876781076
   }
  },
@@ -32035,7 +32035,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5748742164636663,
+   "mfe": 1.4125480747392938,
    "mae": 0.18067475374571768
   }
  },
@@ -32121,7 +32121,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.338039137734172,
+   "mfe": 1.0921264449873285,
    "mae": 0.41604816951898443
   }
  },
@@ -32163,8 +32163,224 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2809448167000378,
+   "mfe": 0.5606941235417786,
    "mae": 0.3419158194732358
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1794665068667",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1794665068667,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 3.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005571600504625565,
+   "rsi": 36.51861696406877,
+   "rvol": 3.054264070956365,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05607,
+   "stop": 0.056905740075693836,
+   "takeProfit": 0.05398064981076542,
+   "stopDist": 0.0008357400756938346,
+   "tpDist": 0.0020893501892345866,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8974.082035940984,
+   "unit": "SKY",
+   "notional": 503.17677975521104,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-15T02:04:28.667Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2752051824355248,
+   "mae": 0.5384449221564579
+  }
+ },
+ {
+  "uid": "SHIB-SHORT-1794665067872",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794665067872,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.058620304832555e-8,
+   "rsi": 32.31002284925471,
+   "rvol": 3.508094091142141,
+   "bbPct": 0.8771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000041,
+   "stop": 0.000004160879304572488,
+   "takeProfit": 0.000003947801738568779,
+   "stopDist": 6.087930457248833e-8,
+   "tpDist": 1.521982614312208e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 123194574.12772892,
+   "unit": "SHIB",
+   "notional": 505.0977539236886,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-15T02:04:27.872Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.36137075077467085,
+   "mae": 0.41064858042577307
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1794665066730",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794665066730,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 19.66236394654217,
+   "rsi": 30.781038819454267,
+   "rvol": 2.6502695540721937,
+   "bbPct": 0.6140350877192983,
+   "funding": -0.0000082703904509,
+   "oiChg6h": -0.005414808210679247
+  },
+  "plan": {
+   "entry": 1871.44,
+   "stop": 1900.9335459198132,
+   "takeProfit": 1797.7061352004669,
+   "stopDist": 29.49354591981325,
+   "tpDist": 73.73386479953312,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.25429292294629213,
+   "unit": "ETH",
+   "notional": 475.89394771860896,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T02:04:26.730Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3878814718007461,
+   "mae": 0.7886471183641004
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1794665067161",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794665067161,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0018626325631606506,
+   "rsi": 26.055939087778412,
+   "rvol": 2.500522726438687,
+   "bbPct": 0.8947368421052632,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1596,
+   "stop": 0.16239394884474095,
+   "takeProfit": 0.15261512788814754,
+   "stopDist": 0.002793948844740976,
+   "tpDist": 0.00698487211185244,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2684.372698561457,
+   "unit": "ADA",
+   "notional": 428.4258826904085,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T02:04:27.161Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2505414518657283,
+   "mae": 0.35791635980819464
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1794665067545",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794665067545,
+  "factors": [
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09866255944960496,
+   "rsi": 29.84338981428492,
+   "rvol": 2.273821548969097,
+   "bbPct": 0.9473684210526315,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 7.85,
+   "stop": 7.997993839174407,
+   "takeProfit": 7.480015402063981,
+   "stopDist": 0.14799383917440745,
+   "tpDist": 0.3699845979360186,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 50.67778524997528,
+   "unit": "AVAX",
+   "notional": 397.82061421230594,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T02:04:27.545Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.22973929313321997,
+   "mae": 0.5135348905330863
   }
  }
 ]
