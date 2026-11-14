@@ -31631,8 +31631,10 @@
    "timeStop": "2026-11-14T09:33:26.131Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.77,
+   "closedAt": 1794648806131,
+   "exit": 0.0000042817,
    "mfe": 1.7771698181943811,
    "mae": 0.5225574954744163
   }
@@ -31935,6 +31937,49 @@
    "r": null,
    "mfe": 1.484422891202323,
    "mae": 0.08569048661469975
+  }
+ },
+ {
+  "uid": "PUMP-SHORT-1794648849425",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1794648849425,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (44th percentile)",
+   "Volume 3.3x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00006276829976241391,
+   "rsi": 39.59195378951298,
+   "rvol": 3.2838822412236297,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.003346,
+   "stop": 0.003440152449643621,
+   "takeProfit": 0.0031106188758909478,
+   "stopDist": 0.00009415244964362087,
+   "tpDist": 0.00023538112410905217,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 79658.04425045195,
+   "unit": "PUMP",
+   "notional": 266.5358160620122,
+   "note": "Spot OK",
+   "timeStop": "2026-11-14T21:34:09.425Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06372643540036081,
+   "mae": 0.021242145133452066
   }
  }
 ]
