@@ -31990,9 +31990,11 @@
    "timeStop": "2026-11-14T21:34:09.425Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.3578781098133774,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1794670200000,
+   "exit": 0.0031106188758909478,
+   "mfe": 2.5596784885811883,
    "mae": 0.20180037876781076
   }
  },
@@ -32080,7 +32082,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.42085997635103256,
+   "mfe": 0.7913880980239528,
    "mae": 0.4230017574011672
   }
  },
@@ -32252,7 +32254,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.6425943217030505,
+   "mfe": 1.8725575267414811,
    "mae": 0.41064858042577307
   }
  },
@@ -32295,7 +32297,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4871050133899208,
+   "mfe": 1.588144068107248,
    "mae": 0.7886471183641004
   }
  },
@@ -32338,7 +32340,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3242905312903122,
+   "mfe": 1.4316654392327786,
    "mae": 0.35791635980819464
   }
  },
@@ -32381,8 +32383,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.6149320899658781,
+   "mfe": 1.682502470299177,
    "mae": 0.5135348905330863
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1794670467198",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1794670467198,
+  "factors": [
+   "Range moderately tight (51th percentile)",
+   "Volume 3.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 2.8168896837556483,
+   "rsi": 31.360721646696007,
+   "rvol": 3.880751564135552,
+   "bbPct": 0.5087719298245614,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 211.82,
+   "stop": 216.04533452563348,
+   "takeProfit": 201.25666368591632,
+   "stopDist": 4.225334525633473,
+   "tpDist": 10.563336314083681,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.775007388054223,
+   "unit": "BCH",
+   "notional": 375.9820649376455,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T03:34:27.198Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.43073512616782317,
+   "mae": 0.04260017731330296
   }
  }
 ]
