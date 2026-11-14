@@ -32082,7 +32082,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3603879303424817,
+   "mfe": 1.5402975385536133,
    "mae": 0.4230017574011672
   }
  },
@@ -32346,9 +32346,11 @@
    "timeStop": "2026-11-15T02:04:27.161Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.3622479747340805,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1794687300000,
+   "exit": 0.15261512788814754,
+   "mfe": 2.7559559705230905,
    "mae": 0.35791635980819464
   }
  },
@@ -32437,7 +32439,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5217730006918222,
+   "mfe": 1.7040070925320514,
    "mae": 0.2721677995016489
   }
  },
@@ -32480,8 +32482,136 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.012767344394928404,
+   "mfe": 0.2042775103189342,
    "mae": 0.39578767624294
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1794687887070",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794687887070,
+  "factors": [
+   "Volume 7.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0008913432125708931,
+   "rsi": 22.556742769837015,
+   "rvol": 7.0788148835381515,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05936,
+   "stop": 0.060697014818856344,
+   "takeProfit": 0.05601746295285916,
+   "stopDist": 0.0013370148188563396,
+   "tpDist": 0.003342537047140849,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5609.511498470433,
+   "unit": "DOGE",
+   "notional": 332.98060254920495,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:24:47.070Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2916945979204636,
+   "mae": 0.08227283531089892
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1794687886725",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794687886725,
+  "factors": [
+   "Volume 2.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.013700465183918199,
+   "rsi": 23.280135595848577,
+   "rvol": 2.9295853283244626,
+   "bbPct": 1,
+   "funding": -0.0000205214380695,
+   "oiChg6h": -0.056940593982911555
+  },
+  "plan": {
+   "entry": 0.9452,
+   "stop": 0.9657506977758773,
+   "takeProfit": 0.8938232555603068,
+   "stopDist": 0.0205506977758773,
+   "tpDist": 0.05137674443969325,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 364.9511117234961,
+   "unit": "XRP",
+   "notional": 344.95179080104856,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:24:46.725Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3357550227856173,
+   "mae": 0.019464059291917652
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1794687887415",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794687887415,
+  "factors": [
+   "Volume 8.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.01201539810398791,
+   "rsi": 22.562249486994418,
+   "rvol": 8.353009218506738,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.7176,
+   "stop": 0.7356230971559818,
+   "takeProfit": 0.6725422571100453,
+   "stopDist": 0.018023097155981865,
+   "tpDist": 0.04505774288995466,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 416.1326954568821,
+   "unit": "SUI",
+   "notional": 298.6168222598586,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T08:24:47.415Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.23858274539527746,
+   "mae": 0.18309838600102646
   }
  }
 ]
