@@ -32529,7 +32529,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.6005806142302326,
+   "mfe": 1.90723390947995,
    "mae": 0.08975218397552327
   }
  },
@@ -32614,7 +32614,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3926574207956994,
+   "mfe": 1.6645307818275301,
    "mae": 0.18309838600102646
   }
  },
@@ -32656,7 +32656,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8938320807595013,
+   "mfe": 1.119593791879176,
    "mae": 0.37780531248598
   }
  },
@@ -32698,7 +32698,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0461163238442301,
+   "mfe": 1.1219218545575824,
    "mae": 0.5154776088507804
   }
  },
@@ -32740,8 +32740,93 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.083270377800128,
+   "mfe": 1.5566996540238869,
    "mae": 0.2401918022875337
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1794690889127",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1794690889127,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 16.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00638394353528697,
+   "rsi": 28.605711505176743,
+   "rvol": 16.27239958561251,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2373,
+   "stop": 0.24687591530293046,
+   "takeProfit": 0.2133602117426739,
+   "stopDist": 0.009575915302930454,
+   "tpDist": 0.023939788257326136,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 783.2149473695558,
+   "unit": "JUP",
+   "notional": 185.8569070107956,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T09:14:49.127Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02088573192985542,
+   "mae": 0.8249864112292645
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1794690886721",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794690886721,
+  "factors": [
+   "Volume 13.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 682.7545012199582,
+   "rsi": 22.437523294600467,
+   "rvol": 13.333460906582808,
+   "bbPct": 0.7543859649122807,
+   "funding": -0.0000121411541381,
+   "oiChg6h": -0.036676690714099874
+  },
+  "plan": {
+   "entry": 64268.2,
+   "stop": 65292.33175182994,
+   "takeProfit": 61707.87062042515,
+   "stopDist": 1024.1317518299375,
+   "tpDist": 2560.3293795748436,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.007323276508709804,
+   "unit": "BTC",
+   "notional": 470.65379931706343,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T09:14:46.721Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013865403523154388,
+   "mae": 0.6617312653270222
   }
  }
 ]
