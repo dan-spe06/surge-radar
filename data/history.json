@@ -32835,7 +32835,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.7213605542939294,
+   "mfe": 1.9297321818884206,
    "mae": 0.6980547168102199
   }
  },
@@ -32877,7 +32877,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.619928789582107,
+   "mfe": 0.8199058184795788,
    "mae": 0.6399264924718726
   }
  },
@@ -32919,8 +32919,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3048597932024021,
+   "mfe": 0.4848240528687729,
    "mae": 0.16604949732102683
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1794706507229",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1794706507229,
+  "factors": [
+   "Volume 3.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 30.392527608025407,
+   "rsi": 22.368217220823766,
+   "rvol": 3.713502227751793,
+   "bbPct": 1,
+   "funding": -0.0000698540682806,
+   "oiChg6h": -0.07590224061636283
+  },
+  "plan": {
+   "entry": 1724.79,
+   "stop": 1770.378791412038,
+   "takeProfit": 1610.8180214699046,
+   "stopDist": 45.58879141203811,
+   "tpDist": 113.97197853009529,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.16451412217125722,
+   "unit": "ETH",
+   "notional": 283.75231277976275,
+   "note": "Spot OK",
+   "timeStop": "2026-11-15T13:35:07.229Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1917137903702386,
+   "mae": 0.12108239391804491
   }
  }
 ]
