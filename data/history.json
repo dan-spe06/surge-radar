@@ -33516,7 +33516,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.053806412647916,
+   "mfe": 1.2010293673560775,
    "mae": 0.16272010783534138
   }
  },
@@ -33690,7 +33690,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.21583765712453742,
+   "mfe": 0.32558561837430156,
    "mae": 0.3146108222493292
   }
  },
@@ -33734,7 +33734,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2349878911597762,
+   "mfe": 0.3220626922529596,
    "mae": 0.24867650617878834
   }
  },
@@ -33823,8 +33823,97 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.24022631581540543,
+   "mfe": 0.27304411852243554,
    "mae": 0.12995849871980522
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1794835664461",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1794835664461,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 14% of 5 days)",
+   "Volume 2.2x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.020164079020107816,
+   "rsi": 37.16373511600419,
+   "rvol": 2.247744083771963,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.7116,
+   "stop": 1.7418461185301617,
+   "takeProfit": 1.6359847036745956,
+   "stopDist": 0.030246118530161722,
+   "tpDist": 0.07561529632540431,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 247.965701533601,
+   "unit": "MORPHO",
+   "notional": 424.41809474491146,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T01:27:44.461Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05620555901428404,
+   "mae": 0.26449674830250797
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1794835662962",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1794835662962,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.0015883937696265136,
+   "rsi": 39.53900019266921,
+   "rvol": 0.9145235003548731,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1364,
+   "stop": 0.13878259065443976,
+   "takeProfit": 0.13044352336390058,
+   "stopDist": 0.00238259065443977,
+   "tpDist": 0.005956476636099425,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3147.834054508835,
+   "unit": "XLM",
+   "notional": 429.36456503500506,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T01:27:42.962Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07554801730820605,
+   "mae": 0.35255741410499264
   }
  }
 ]
