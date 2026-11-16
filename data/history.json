@@ -33336,7 +33336,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.1061483890579416,
+   "mfe": 1.153276662503448,
    "mae": 0.5665638090296787
   }
  },
@@ -33686,6 +33686,94 @@
    "r": null,
    "mfe": 0.13169755349971896,
    "mae": 0.3146108222493292
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1794834439132",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1794834439132,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 3.6x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 17.532818306789753,
+   "rsi": 38.07251864920773,
+   "rvol": 3.5596097637095854,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 862.46,
+   "stop": 888.7592274601847,
+   "takeProfit": 796.7119313495384,
+   "stopDist": 26.299227460184632,
+   "tpDist": 65.74806865046158,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.28517947956283224,
+   "unit": "ZEC",
+   "notional": 245.95589394376032,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T01:07:19.132Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2349878911597762,
+   "mae": 0.14905380798483878
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1794834440503",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1794834440503,
+  "factors": [
+   "Volatility below average",
+   "Volume 20.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.0007498587960974125,
+   "rsi": 27.486014624514354,
+   "rvol": 20.836116954366233,
+   "bbPct": 0.7719298245614035,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0502,
+   "stop": 0.05132478819414612,
+   "takeProfit": 0.04738802951463471,
+   "stopDist": 0.0011247881941461187,
+   "tpDist": 0.002811970485365297,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6667.92204882059,
+   "unit": "SKY",
+   "notional": 334.72968685079366,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T01:07:20.503Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.5245432011738866
   }
  }
 ]
