@@ -33929,5 +33929,227 @@
    "mfe": 0.07554801730820605,
    "mae": 1.6158881479812104
   }
+ },
+ {
+  "uid": "ICP-LONG-1794840464653",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 88,
+  "at": 1794840464653,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (45th percentile)",
+   "Volume 8.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.04150864890824095,
+   "rsi": 73.99044772088249,
+   "rvol": 8.639159249210042,
+   "bbPct": 0.44642857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.418,
+   "stop": 2.3557370266376387,
+   "takeProfit": 2.573657433405904,
+   "stopDist": 0.062262973362361425,
+   "tpDist": 0.15565743340590357,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 120.45682361411001,
+   "unit": "ICP",
+   "notional": 291.264599498918,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T02:47:44.653Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14454818833693037,
+   "mae": 0.09636545889129165
+  }
+ },
+ {
+  "uid": "ETH-LONG-1794840463161",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1794840463161,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volume 2.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 21.799768381765215,
+   "rsi": 59.89786787999753,
+   "rvol": 2.710820044668542,
+   "bbPct": 0.21428571428571427,
+   "funding": -0.0000496670956753,
+   "oiChg6h": -0.010006237766765388
+  },
+  "plan": {
+   "entry": 1846.35,
+   "stop": 1813.650347427352,
+   "takeProfit": 1928.0991314316195,
+   "stopDist": 32.69965257264782,
+   "tpDist": 81.74913143161956,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.22936023504645742,
+   "unit": "ETH",
+   "notional": 423.47926997802665,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T02:47:43.161Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.20703583883526833,
+   "mae": 0.025382532678472396
+  }
+ },
+ {
+  "uid": "AAVE-LONG-1794840464293",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1794840464293,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volume 3.0x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 1.506322102196504,
+   "rsi": 59.34567231754297,
+   "rvol": 3.025862106599323,
+   "bbPct": 0.017857142857142856,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 110.18,
+   "stop": 107.92051684670525,
+   "takeProfit": 115.8287078832369,
+   "stopDist": 2.259483153294756,
+   "tpDist": 5.64870788323689,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.3193431821182533,
+   "unit": "AAVE",
+   "notional": 365.7252318057892,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T02:47:44.293Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15932847274167591,
+   "mae": 0.03983211818542055
+  }
+ },
+ {
+  "uid": "VVV-LONG-1794840465031",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 61,
+  "at": 1794840465031,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volume 6.2x normal",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.41197487149986844,
+   "rsi": 61.1713930167035,
+   "rvol": 6.234345395079991,
+   "bbPct": 0.07142857142857142,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 20.51,
+   "stop": 19.8920376927502,
+   "takeProfit": 22.05490576812451,
+   "stopDist": 0.6179623072498026,
+   "tpDist": 1.5449057681245066,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 12.136662563414616,
+   "unit": "VVV",
+   "notional": 248.9229491756338,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T02:47:45.031Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.226551034517068,
+   "mae": 0.06472886700488233
+  }
+ },
+ {
+  "uid": "XLM-LONG-1794840463685",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 54,
+  "at": 1794840463685,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Volume 2.0x normal",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 0.0017408956240755737,
+   "rsi": 51.768446944474654,
+   "rvol": 2.012911137074443,
+   "bbPct": 0.30357142857142855,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.13912,
+   "stop": 0.13650865656388664,
+   "takeProfit": 0.14564835859028338,
+   "stopDist": 0.0026113434361133606,
+   "tpDist": 0.006528358590283402,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2872.0848802495157,
+   "unit": "XLM",
+   "notional": 399.5644485403126,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T02:47:43.685Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.22593734391296466,
+   "mae": 0.04595335808398506
+  }
  }
 ]
