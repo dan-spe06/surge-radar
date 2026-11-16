@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-16T14:27:47.376Z",
+ "generated": "2026-11-16T14:37:47.583Z",
  "total": 747,
- "open": 10,
- "closed": 737,
+ "open": 3,
+ "closed": 744,
  "wins": 106,
- "losses": 390,
+ "losses": 397,
  "timeouts": 241,
- "winRate": 0.144,
- "netR": -2,
- "avgR": -0.003,
+ "winRate": 0.142,
+ "netR": -9,
+ "avgR": -0.012,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 737,
+   "n": 744,
    "wins": 106,
-   "R": -2,
-   "winRate": 0.144
+   "R": -9,
+   "winRate": 0.142
   }
  },
  "bySymbol": {
@@ -26,16 +26,16 @@
    "winRate": 0.267
   },
   "HYPE": {
-   "n": 38,
+   "n": 39,
    "wins": 5,
-   "R": 1.91,
-   "winRate": 0.132
+   "R": 0.91,
+   "winRate": 0.128
   },
   "XLM": {
-   "n": 32,
+   "n": 33,
    "wins": 4,
-   "R": -0.59,
-   "winRate": 0.125
+   "R": -1.59,
+   "winRate": 0.121
   },
   "UNI": {
    "n": 26,
@@ -98,16 +98,16 @@
    "winRate": 0.091
   },
   "SOL": {
-   "n": 24,
+   "n": 25,
    "wins": 5,
-   "R": 2.36,
-   "winRate": 0.208
+   "R": 1.36,
+   "winRate": 0.2
   },
   "ZEC": {
-   "n": 42,
+   "n": 43,
    "wins": 6,
-   "R": 8.67,
-   "winRate": 0.143
+   "R": 7.67,
+   "winRate": 0.14
   },
   "DOGE": {
    "n": 23,
@@ -170,10 +170,10 @@
    "winRate": 0.1
   },
   "SKY": {
-   "n": 9,
+   "n": 10,
    "wins": 2,
-   "R": -0.24,
-   "winRate": 0.222
+   "R": -1.24,
+   "winRate": 0.2
   },
   "ONDO": {
    "n": 10,
@@ -182,10 +182,10 @@
    "winRate": 0
   },
   "MORPHO": {
-   "n": 12,
+   "n": 13,
    "wins": 1,
-   "R": -3.58,
-   "winRate": 0.083
+   "R": -4.58,
+   "winRate": 0.077
   },
   "JUP": {
    "n": 8,
@@ -242,10 +242,10 @@
    "winRate": 0.2
   },
   "ENA": {
-   "n": 7,
+   "n": 8,
    "wins": 3,
-   "R": 8.06,
-   "winRate": 0.429
+   "R": 7.06,
+   "winRate": 0.375
   },
   "ETC": {
    "n": 5,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 490,
+   "n": 497,
    "wins": 87,
-   "R": 106.01,
-   "winRate": 0.178
+   "R": 99.01,
+   "winRate": 0.175
   },
   "LONG": {
    "n": 247,
