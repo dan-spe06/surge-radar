@@ -34298,7 +34298,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.32100613989640486,
-   "mae": 0.8006417730489902
+   "mae": 0.8256227956090268
   }
  },
  {
@@ -34433,8 +34433,94 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.033567677368573925,
+   "mfe": 0.08391919342143908,
    "mae": 0.3698438738644777
+  }
+ },
+ {
+  "uid": "BTC-LONG-1794860284085",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794860284085,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 2.9x normal"
+  ],
+  "stats": {
+   "atr1h": 574.9493360434542,
+   "rsi": 52.621506234918314,
+   "rvol": 2.8578826896797414,
+   "bbPct": 0.19298245614035087,
+   "funding": 0.0000627444083944,
+   "oiChg6h": -0.02758991401357745
+  },
+  "plan": {
+   "entry": 65048.1,
+   "stop": 64185.67599593482,
+   "takeProfit": 67204.16001016294,
+   "stopDist": 862.4240040651813,
+   "tpDist": 2156.0600101629534,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.008696418426026505,
+   "unit": "BTC",
+   "notional": 565.6854954180146,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-17T08:18:04.085Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05635279140065007,
+   "mae": 0.05229446280183769
+  }
+ },
+ {
+  "uid": "ADA-LONG-1794860284368",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794860284368,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0019782319688828047,
+   "rsi": 51.15858499415591,
+   "rvol": 2.9620406219243884,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1536,
+   "stop": 0.15063265204667578,
+   "takeProfit": 0.1610183698833105,
+   "stopDist": 0.0029673479533242073,
+   "tpDist": 0.007418369883310518,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2527.509452202272,
+   "unit": "ADA",
+   "notional": 388.2254518582689,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T08:18:04.368Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03370012602936927,
+   "mae": 0
   }
  }
 ]
