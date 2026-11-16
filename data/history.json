@@ -33198,8 +33198,10 @@
    "timeStop": "2026-11-16T12:56:39.441Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": 0.55,
+   "closedAt": 1794833799441,
+   "exit": 0.0000037534,
    "mfe": 0.9497443197411857,
    "mae": 0.7267530203342762
   }
@@ -33241,9 +33243,11 @@
    "timeStop": "2026-11-16T12:56:38.661Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.3386524407758436,
+   "result": "TIME",
+   "r": 1.31,
+   "closedAt": 1794833798661,
+   "exit": 861.41,
+   "mfe": 1.4420286793538903,
    "mae": 0.2685686738733667
   }
  },
@@ -33332,7 +33336,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0050616576096072,
+   "mfe": 1.1061483890579416,
    "mae": 0.5665638090296787
   }
  },
@@ -33506,7 +33510,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0228121063935667,
+   "mfe": 1.053806412647916,
    "mae": 0.16272010783534138
   }
  },
@@ -33550,7 +33554,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5037608005901817,
+   "mfe": 0.5173759573628867,
    "mae": 0.5037608005901913
   }
  },
@@ -33638,6 +33642,50 @@
    "r": null,
    "mfe": 0.870871278688787,
    "mae": 0.0483817377049292
+  }
+ },
+ {
+  "uid": "ENA-SHORT-1794833840148",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1794833840148,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 29% of 5 days)",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0018223573150925058,
+   "rsi": 36.08549606685558,
+   "rvol": 3.5073695899510056,
+   "bbPct": 0.2857142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1156,
+   "stop": 0.11833353597263875,
+   "takeProfit": 0.1087661600684031,
+   "stopDist": 0.0027335359726387586,
+   "tpDist": 0.006833839931596896,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2743.699031244151,
+   "unit": "ENA",
+   "notional": 317.1716080118238,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T00:57:20.148Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13169755349971896,
+   "mae": 0.3146108222493292
   }
  }
 ]
