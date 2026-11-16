@@ -33781,5 +33781,50 @@
    "mfe": 0.06223393912232606,
    "mae": 0.5245432011738866
   }
+ },
+ {
+  "uid": "HYPE-SHORT-1794835067245",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 69,
+  "at": 1794835067245,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 19% of 5 days)",
+   "Volume 1.7x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 1.0157088709111042,
+   "rsi": 39.88779835233239,
+   "rvol": 1.6973135084611812,
+   "bbPct": 0.19298245614035087,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 65.263,
+   "stop": 66.78656330636666,
+   "takeProfit": 61.45409173408336,
+   "stopDist": 1.5235633063666563,
+   "tpDist": 3.8089082659166404,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.922670406053395,
+   "unit": "HYPE",
+   "notional": 321.2682387102627,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T01:17:47.245Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24022631581540543,
+   "mae": 0.12995849871980522
+  }
  }
 ]
