@@ -33153,7 +33153,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13505520163346113,
+   "mfe": 0.23327716645778854,
    "mae": 0.28238814886994357
   }
  },
@@ -33196,7 +33196,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.18146255538781259,
+   "mfe": 0.1832681529538606,
    "mae": 0.14083661015173787
   }
  },
@@ -33239,7 +33239,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12188617318830422,
+   "mfe": 0.37578659699316586,
    "mae": 0.13795139945380863
   }
  },
@@ -33283,8 +33283,137 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19483920449655248,
+   "mfe": 0.21919410505862244,
    "mae": 0.03247320074942181
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1794791798865",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 57,
+  "at": 1794791798865,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volatility below average",
+   "Volume 3.2x normal"
+  ],
+  "stats": {
+   "atr1h": 18.717856269582846,
+   "rsi": 45.57718230504949,
+   "rvol": 3.210255624575842,
+   "bbPct": 0.08771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 890.05,
+   "stop": 919.3317856269583,
+   "takeProfit": 816.845535932604,
+   "stopDist": 29.281785626958367,
+   "tpDist": 73.20446406739592,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2561319208994926,
+   "unit": "ZEC",
+   "notional": 227.97021619659338,
+   "note": "Spot OK",
+   "timeStop": "2026-11-16T13:16:38.865Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03824903352099105,
+   "mae": 0.08640183465009846
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1794791798744",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794791798744,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.11646940010360571,
+   "rsi": 45.06276362328134,
+   "rvol": 2.094287887331937,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 9.155,
+   "stop": 9.329704100155407,
+   "takeProfit": 8.718239749611477,
+   "stopDist": 0.17470410015540855,
+   "tpDist": 0.4367602503885214,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 42.92973086108656,
+   "unit": "LINK",
+   "notional": 393.0216860332474,
+   "note": "Spot OK",
+   "timeStop": "2026-11-16T13:16:38.744Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.005723964114808369,
+   "mae": 0.14882306698509895
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1794791798754",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794791798754,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0007441358585514984,
+   "rsi": 48.32955529254245,
+   "rvol": 2.106195187807708,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05904,
+   "stop": 0.06019441358585515,
+   "takeProfit": 0.056153966035362136,
+   "stopDist": 0.0011544135858551476,
+   "tpDist": 0.002886033964637869,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6496.8050375501025,
+   "unit": "DOGE",
+   "notional": 383.5713694169581,
+   "note": "Spot OK",
+   "timeStop": "2026-11-16T13:16:38.754Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.025987220150202356,
+   "mae": 0.10394888060079739
   }
  }
 ]
