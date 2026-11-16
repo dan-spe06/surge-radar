@@ -33154,7 +33154,93 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.13505520163346113,
-   "mae": 0.024555491206077494
+   "mae": 0.28238814886994357
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1794790599441",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1794790599441,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 29% of 5 days)",
+   "Volume 2.1x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 7.384443568185302e-8,
+   "rsi": 34.266749602398136,
+   "rvol": 2.084706971703184,
+   "bbPct": 0.2857142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000038146,
+   "stop": 0.000003925366653522779,
+   "takeProfit": 0.000003537683366193051,
+   "stopDist": 1.1076665352277954e-7,
+   "tpDist": 2.7691663380694884e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 67709908.72679564,
+   "unit": "PEPE",
+   "notional": 258.28621782923466,
+   "note": "Spot OK",
+   "timeStop": "2026-11-16T12:56:39.441Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09569667100053739,
+   "mae": 0.14083661015173787
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1794790598661",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794790598661,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 2.0x normal"
+  ],
+  "stats": {
+   "atr1h": 19.0888482738084,
+   "rsi": 49.23371922255405,
+   "rvol": 2.0435883884130157,
+   "bbPct": 0.07142857142857142,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 898.95,
+   "stop": 927.5832724107127,
+   "takeProfit": 827.3668189732185,
+   "stopDist": 28.6332724107126,
+   "tpDist": 71.5831810267815,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2619330369376158,
+   "unit": "ZEC",
+   "notional": 235.46470355506975,
+   "note": "Spot OK",
+   "timeStop": "2026-11-16T12:56:38.661Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08661252421403894,
+   "mae": 0.13795139945380863
   }
  }
 ]
