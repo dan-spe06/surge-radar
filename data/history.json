@@ -33516,7 +33516,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2940122861191357,
+   "mfe": 1.3133837275281026,
    "mae": 0.36030881020682964
   }
  },
@@ -33604,7 +33604,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8252083593323485,
+   "mfe": 0.8664687772989673,
    "mae": 0.8114548866768023
   }
  },
@@ -33972,7 +33972,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3372791061195065,
-   "mae": 0.706680031869446
+   "mae": 0.947593679097668
   }
  },
  {
@@ -34203,7 +34203,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17500653955408746,
+   "mfe": 0.2763261150854026,
    "mae": 0.1381630575427077
   }
  },
@@ -34248,7 +34248,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17723866773516708,
+   "mfe": 0.21521838224983805,
    "mae": 0.16457876289694343
   }
  },
@@ -34293,8 +34293,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2835346060563498,
+   "mfe": 0.2947760662083677,
    "mae": 0.06245255640007755
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1794842863968",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 79,
+  "at": 1794842863968,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 1.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks"
+  ],
+  "stats": {
+   "atr1h": 2.9751733393965685,
+   "rsi": 39.65711795970937,
+   "rvol": 1.6089056128830088,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 186.11,
+   "stop": 190.57276000909488,
+   "takeProfit": 174.9530999772629,
+   "stopDist": 4.462760009094852,
+   "tpDist": 11.15690002273713,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.680574349665997,
+   "unit": "TAO",
+   "notional": 312.77169221633875,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T03:27:43.968Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0649822081870898,
+   "mae": 0.29354031974165495
   }
  }
 ]
