@@ -33516,7 +33516,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2010293673560775,
+   "mfe": 1.2940122861191357,
    "mae": 0.36030881020682964
   }
  },
@@ -33604,7 +33604,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7977014140212757,
+   "mfe": 0.8252083593323485,
    "mae": 0.8114548866768023
   }
  },
@@ -33972,7 +33972,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3372791061195065,
-   "mae": 0.4978882042716569
+   "mae": 0.706680031869446
   }
  },
  {
@@ -34106,10 +34106,12 @@
    "timeStop": "2026-11-17T02:47:45.031Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794841200000,
+   "exit": 19.8920376927502,
    "mfe": 0.226551034517068,
-   "mae": 0.9223863548195113
+   "mae": 1.0842085223317084
   }
  },
  {
@@ -34150,10 +34152,149 @@
    "timeStop": "2026-11-17T02:47:43.685Z"
   },
   "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794842100000,
+   "exit": 0.13650865656388664,
+   "mfe": 0.22593734391296466,
+   "mae": 1.2024462031977987
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1794842263852",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 77,
+  "at": 1794842263852,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volatility below average",
+   "Volume 1.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0007237824768686217,
+   "rsi": 41.34875755005317,
+   "rvol": 1.8353082554239761,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05744,
+   "stop": 0.05852567371530293,
+   "takeProfit": 0.05472581571174267,
+   "stopDist": 0.0010856737153029324,
+   "tpDist": 0.002714184288257331,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6908.152877135187,
+   "unit": "HBAR",
+   "notional": 396.80430126264514,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T03:17:43.852Z"
+  },
+  "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22593734391296466,
-   "mae": 0.8424782315398608
+   "mfe": 0.17500653955408746,
+   "mae": 0.1381630575427077
+  }
+ },
+ {
+  "uid": "SOL-SHORT-1794842262758",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1794842262758,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 1.0531938038802446,
+   "rsi": 41.124771123783205,
+   "rvol": 1.450702974549101,
+   "bbPct": 0.22807017543859648,
+   "funding": -8.102728406e-7,
+   "oiChg6h": -0.01059788065438296
+  },
+  "plan": {
+   "entry": 70.24,
+   "stop": 71.81979070582037,
+   "takeProfit": 66.29052323544907,
+   "stopDist": 1.579790705820367,
+   "tpDist": 3.9494767645509175,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.747464314334813,
+   "unit": "SOL",
+   "notional": 333.46189343887727,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T03:17:42.758Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17723866773516708,
+   "mae": 0.16457876289694343
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1794842262759",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 55,
+  "at": 1794842262759,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 1.5x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Fed Chairman Warsh Speaks",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 5.337384929416907,
+   "rsi": 42.25898093040841,
+   "rvol": 1.509289670092087,
+   "bbPct": 0.2631578947368421,
+   "funding": -0.000002207506272,
+   "oiChg6h": -0.007815072130495617
+  },
+  "plan": {
+   "entry": 586.38,
+   "stop": 594.3860773941253,
+   "takeProfit": 566.3648065146866,
+   "stopDist": 8.006077394125361,
+   "tpDist": 20.015193485313404,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.9367883460011632,
+   "unit": "BNB",
+   "notional": 549.313950328162,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-17T03:17:42.759Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2835346060563498,
+   "mae": 0.06245255640007755
   }
  }
 ]
