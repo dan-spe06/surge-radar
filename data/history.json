@@ -35087,7 +35087,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.843582678297865,
+   "mfe": 1.9372066262239633,
    "mae": 0.8160309535287131
   }
  },
@@ -35460,7 +35460,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.66981668856262,
-   "mae": 0.31207368444396716
+   "mae": 0.5175856229802217
   }
  },
  {
@@ -35503,7 +35503,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5386342201648333,
+   "mfe": 1.787080195719928,
    "mae": 0.6079534322001261
   }
  },
@@ -35547,7 +35547,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3538294033200023,
+   "mfe": 0.5110869159066722,
    "mae": 0.40188030994370594
   }
  },
@@ -35592,8 +35592,142 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07020695626070356,
+   "mfe": 0.35103478130349547,
    "mae": 0.6845178235418077
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1794931150952",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1794931150952,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 5.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 6.579700706323407e-8,
+   "rsi": 34.938518933756995,
+   "rvol": 5.894695724259744,
+   "bbPct": 0.32142857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000037254,
+   "stop": 0.000003824095510594851,
+   "takeProfit": 0.0000034786612235128724,
+   "stopDist": 9.86955105948511e-8,
+   "tpDist": 2.4673877648712775e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 75991298.43694502,
+   "unit": "PEPE",
+   "notional": 283.09798319699496,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T03:59:10.952Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.8044945461191251,
+   "mae": 0.2999123244978108
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1794931149833",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1794931149833,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volume 2.5x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006864078613180556,
+   "rsi": 41.01716109807331,
+   "rvol": 2.486336834688154,
+   "bbPct": 0.14285714285714285,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05824,
+   "stop": 0.05926961179197708,
+   "takeProfit": 0.05566597052005729,
+   "stopDist": 0.0010296117919770835,
+   "tpDist": 0.0025740294799427087,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7284.2988575318595,
+   "unit": "DOGE",
+   "notional": 424.2375654626555,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T03:59:09.833Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7769918781367338,
+   "mae": 0.21367276648759925
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1794931149826",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 48,
+  "at": 1794931149826,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (45th percentile)",
+   "Volume 2.6x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0019698803715521517,
+   "rsi": 42.52214222489096,
+   "rvol": 2.5894799549837786,
+   "bbPct": 0.44642857142857145,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1516,
+   "stop": 0.15455482055732825,
+   "takeProfit": 0.14421294860667944,
+   "stopDist": 0.0029548205573282273,
+   "tpDist": 0.007387051393320568,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2538.2251999700316,
+   "unit": "ADA",
+   "notional": 384.7949403154568,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T03:59:09.826Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.7783890613241512,
+   "mae": 0.06768600533252672
   }
  }
 ]
