@@ -34803,7 +34803,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3320151303557286,
-   "mae": 0.8414082070659032
+   "mae": 0.8596008169484055
   }
  },
  {
@@ -34977,6 +34977,52 @@
    "r": null,
    "mfe": 0.05644965565749136,
    "mae": 0.7595044579371539
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1794911953592",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1794911953592,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 2.7x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core Retail Sales m/m",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 17.16431736310717,
+   "rsi": 38.64924985533149,
+   "rvol": 2.7443474839797486,
+   "bbPct": 0.21052631578947367,
+   "funding": -0.0000165994246727,
+   "oiChg6h": 0.007755406074458628
+  },
+  "plan": {
+   "entry": 1794.7,
+   "stop": 1820.4464760446608,
+   "takeProfit": 1730.3338098883482,
+   "stopDist": 25.746476044660753,
+   "tpDist": 64.36619011165189,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2913020013686624,
+   "unit": "ETH",
+   "notional": 522.7997018563384,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-17T22:39:13.592Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.13322211529260408,
+   "mae": 0.10525712316121143
   }
  }
 ]
