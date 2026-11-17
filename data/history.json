@@ -34764,7 +34764,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.5182482325392728,
+   "mfe": 1.5380946146639651,
    "mae": 0.5259291263044547
   }
  },
@@ -35128,7 +35128,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3793267535096198,
-   "mae": 0.5282030595716792
+   "mae": 0.6220902789021664
   }
  },
  {
@@ -35173,7 +35173,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2179935410010425,
+   "mfe": 0.23502428639174275,
    "mae": 0.4359870820020753
   }
  },
@@ -35353,7 +35353,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.24296323331355552,
-   "mae": 0.07475791794263326
+   "mae": 0.24296323331354513
+  }
+ },
+ {
+  "uid": "ADA-LONG-1794920350482",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 47,
+  "at": 1794920350482,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volatility below average",
+   "High-impact news ≤4h: Core Retail Sales m/m",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.001661187903043335,
+   "rsi": 55.258648669570405,
+   "rvol": 0.12212466356939658,
+   "bbPct": 0.08928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1548,
+   "stop": 0.152308218145435,
+   "takeProfit": 0.1610294546364125,
+   "stopDist": 0.0024917818545650023,
+   "tpDist": 0.006229454636412506,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3009.8942996393625,
+   "unit": "ADA",
+   "notional": 465.9316375841733,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T00:59:10.482Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0802638479903853,
+   "mae": 0.0802638479903853
   }
  }
 ]
