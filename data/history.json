@@ -35505,10 +35505,12 @@
    "timeStop": "2026-11-18T03:19:09.860Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794956400000,
+   "exit": 1828.8323872306885,
    "mfe": 1.787080195719928,
-   "mae": 0.7262266977764239
+   "mae": 1.0915035820105377
   }
  },
  {
@@ -35781,10 +35783,12 @@
    "timeStop": "2026-11-18T09:09:33.372Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1794956400000,
+   "exit": 211.96883742179975,
    "mfe": 0.10482690702901362,
-   "mae": 0.7996795479070645
+   "mae": 1.314828919592511
   }
  },
  {
@@ -35826,7 +35830,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0,
-   "mae": 0.5689938059828668
+   "mae": 0.7283120716580707
   }
  },
  {
@@ -35868,7 +35872,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1606700030761414,
+   "mfe": 0.4820100092284194,
    "mae": 0.3213400061522828
   }
  },
@@ -35911,7 +35915,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2416485966409542,
+   "mfe": 1.2508868532002246,
    "mae": 0.2416485966409542
   }
  },
@@ -35953,7 +35957,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.10725715395959542,
+   "mfe": 0.28109902429165484,
    "mae": 0.23550653377060163
   }
  },
@@ -35996,7 +36000,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14463591003205814,
+   "mfe": 1.0627595128442695,
    "mae": 0.10690480306717706
   }
  },
@@ -36041,8 +36045,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1766520532958893,
+   "mfe": 0.5323760510287122,
    "mae": 0.05807738738495292
+  }
+ },
+ {
+  "uid": "TAO-LONG-1794956994829",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1794956994829,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 10.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.7075961014146652,
+   "rsi": 63.63140874486641,
+   "rvol": 10.873001299526464,
+   "bbPct": 0.7368421052631579,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 197.13,
+   "stop": 193.068605847878,
+   "takeProfit": 207.283485380305,
+   "stopDist": 4.061394152121998,
+   "tpDist": 10.153485380304994,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.8466565221406543,
+   "unit": "TAO",
+   "notional": 364.03140020958716,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T11:09:54.829Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.52691266098413
+  }
+ },
+ {
+  "uid": "POL-LONG-1794956995552",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1794956995552,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 2.5x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00095157249997781,
+   "rsi": 66.40185038580464,
+   "rvol": 2.532330051599085,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.08287,
+   "stop": 0.08144264125003328,
+   "takeProfit": 0.08643839687491679,
+   "stopDist": 0.0014273587499667151,
+   "tpDist": 0.003568396874916788,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5254.460380177649,
+   "unit": "POL",
+   "notional": 435.4371317053218,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T11:09:55.552Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02101784152071217,
+   "mae": 0.6445471399684612
   }
  }
 ]
