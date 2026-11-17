@@ -35780,5 +35780,47 @@
    "mfe": 0.10482690702901362,
    "mae": 0.3534164294121109
   }
+ },
+ {
+  "uid": "CRO-SHORT-1794950399382",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794950399382,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.8x normal"
+  ],
+  "stats": {
+   "atr1h": 0.0005858294586485723,
+   "rsi": 49.87380144926496,
+   "rvol": 3.820786875522989,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0438,
+   "stop": 0.04467874418797286,
+   "takeProfit": 0.041603139530067855,
+   "stopDist": 0.0008787441879728585,
+   "tpDist": 0.0021968604699321463,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8534.907089742994,
+   "unit": "CRO",
+   "notional": 373.8289305307431,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T09:19:59.382Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.14793838955554314
+  }
  }
 ]
