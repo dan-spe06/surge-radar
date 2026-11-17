@@ -34672,8 +34672,10 @@
    "timeStop": "2026-11-17T12:28:26.602Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "TIME",
+   "r": -0.19,
+   "closedAt": 1794918506602,
+   "exit": 0.00000387,
    "mfe": 0.7867976711222783,
    "mae": 0.6328589963374864
   }
@@ -34760,7 +34762,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.299938029167614,
+   "mfe": 1.478555468289881,
    "mae": 0.5259291263044547
   }
  },
@@ -35124,7 +35126,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3793267535096198,
-   "mae": 0.4842677587225362
+   "mae": 0.5282030595716792
   }
  },
  {
@@ -35214,7 +35216,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.014107445154432872,
+   "mfe": 0.47965313525069153,
    "mae": 0.13637196982616703
   }
  },
@@ -35258,8 +35260,54 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.3802496712980572,
    "mae": 0.17654449024552063
+  }
+ },
+ {
+  "uid": "LTC-LONG-1794918550289",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 77,
+  "at": 1794918550289,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volatility below average",
+   "Volume 1.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core Retail Sales m/m"
+  ],
+  "stats": {
+   "atr1h": 0.40594594491871644,
+   "rsi": 57.178532568074516,
+   "rvol": 1.8139208143497687,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 45.25,
+   "stop": 44.64108108262192,
+   "takeProfit": 46.772297293445185,
+   "stopDist": 0.6089189173780747,
+   "tpDist": 1.5222972934451868,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 12.31691081678661,
+   "unit": "LTC",
+   "notional": 557.3402144595941,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-18T00:29:10.289Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06569019102286051,
+   "mae": 0.4926764326714597
   }
  }
 ]
