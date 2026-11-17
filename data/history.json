@@ -35782,7 +35782,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.10482690702901362,
-   "mae": 0.7218081312569331
+   "mae": 0.7637388940685437
   }
  },
  {
@@ -35866,7 +35866,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.05355666769204555,
+   "mfe": 0.1606700030761414,
    "mae": 0.3213400061522828
   }
  },
@@ -35909,8 +35909,93 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.1634681683159408,
    "mae": 0.2416485966409542
+  }
+ },
+ {
+  "uid": "ZEC-LONG-1794955194913",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 51,
+  "at": 1794955194913,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volume 3.9x normal"
+  ],
+  "stats": {
+   "atr1h": 20.32498457698482,
+   "rsi": 60.724589427195816,
+   "rvol": 3.913116974664523,
+   "bbPct": 0.2982456140350877,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 949.92,
+   "stop": 919.4325231345227,
+   "takeProfit": 1026.1386921636931,
+   "stopDist": 30.487476865477234,
+   "tpDist": 76.21869216369308,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2460026466963126,
+   "unit": "ZEC",
+   "notional": 233.68283414976128,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T10:39:54.913Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.009840105867854741,
+   "mae": 0.23550653377060163
+  }
+ },
+ {
+  "uid": "XRP-LONG-1794955194684",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794955194684,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.010601332220977857,
+   "rsi": 58.090607984055794,
+   "rvol": 0.3464410693784188,
+   "bbPct": 0.3684210526315789,
+   "funding": 0.0000025976904204,
+   "oiChg6h": 0.010390128744248169
+  },
+  "plan": {
+   "entry": 0.9729,
+   "stop": 0.9569980016685332,
+   "takeProfit": 1.012654995828667,
+   "stopDist": 0.015901998331466785,
+   "tpDist": 0.03975499582866696,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 471.6388370610656,
+   "unit": "XRP",
+   "notional": 458.85742457671074,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T10:39:54.684Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07546221392976916,
+   "mae": 0.10690480306717706
   }
  }
 ]
