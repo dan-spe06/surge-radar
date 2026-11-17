@@ -34209,7 +34209,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5342304891651185,
+   "mfe": 0.5618631006736613,
    "mae": 0.6816044172106759
   }
  },
@@ -34395,7 +34395,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19464180070670287,
+   "mfe": 0.25188938914984815,
    "mae": 0.8472643089585828
   }
  },
@@ -34526,7 +34526,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.23590088220554747,
-   "mae": 0.5729021424991747
+   "mae": 0.6066022685285439
   }
  },
  {
@@ -34614,7 +34614,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.20248379049047566,
+   "mfe": 0.2344549153047644,
    "mae": 0.07459929123333547
   }
  },
@@ -34658,8 +34658,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.22235586357803186,
+   "mfe": 0.23946016077635093,
    "mae": 0.06841718879324726
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1794876507728",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1794876507728,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 11% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.013658065596596509,
+   "rsi": 62.00514359559775,
+   "rvol": 0.06539001446276835,
+   "bbPct": 0.10714285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.5773,
+   "stop": 0.5568129016051053,
+   "takeProfit": 0.628517745987237,
+   "stopDist": 0.020487098394894765,
+   "tpDist": 0.05121774598723691,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 366.0840522867282,
+   "unit": "ASTER",
+   "notional": 211.3403233851282,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T12:48:27.728Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.0488112069715638,
+   "mae": 0.09274129324597176
   }
  }
 ]
