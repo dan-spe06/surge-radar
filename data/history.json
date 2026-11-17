@@ -34529,7 +34529,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.23590088220554747,
+   "mfe": 0.3707013863230058,
    "mae": 0.6403023945579038
   }
  },
@@ -34574,7 +34574,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3890446830400476,
+   "mfe": 0.5511466343067374,
    "mae": 0.7456689758267641
   }
  },
@@ -34619,7 +34619,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.2877401233285765,
-   "mae": 0.3303682897476306
+   "mae": 0.5435091218428716
   }
  },
  {
@@ -34663,7 +34663,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3591902411645119,
-   "mae": 0.22235586357804635
+   "mae": 0.4618160243543828
   }
  },
  {
@@ -34748,8 +34748,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11411669721700606,
+   "mfe": 0.8633176224242892,
    "mae": 0.5259291263044547
+  }
+ },
+ {
+  "uid": "AAVE-LONG-1794886107340",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1794886107340,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (42th percentile)",
+   "Volume 3.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.4657966525357866,
+   "rsi": 68.93334602450408,
+   "rvol": 3.6193103959278425,
+   "bbPct": 0.42105263157894735,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 112.93,
+   "stop": 110.73130502119632,
+   "takeProfit": 118.4267374470092,
+   "stopDist": 2.19869497880368,
+   "tpDist": 5.4967374470092,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.411114352969862,
+   "unit": "AAVE",
+   "notional": 385.21714388088657,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T15:28:27.340Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.013644457411873503,
+   "mae": 0.8414082070659032
   }
  }
 ]
