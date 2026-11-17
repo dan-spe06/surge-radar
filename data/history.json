@@ -34629,7 +34629,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.7353358707285819,
-   "mae": 0.7673069955428781
+   "mae": 0.7886210787524014
   }
  },
  {
@@ -34936,7 +34936,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3746545252075726,
-   "mae": 0.5719706449362818
+   "mae": 0.8500662179361788
   }
  },
  {
@@ -35028,7 +35028,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.35228122032183323,
-   "mae": 0.8001094970925892
+   "mae": 0.9912036099904346
   }
  },
  {
@@ -35074,7 +35074,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.09362394792609821,
-   "mae": 0.6102894383330885
+   "mae": 0.7929139293494278
   }
  },
  {
@@ -35118,7 +35118,53 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3793267535096198,
-   "mae": 0.060306097662353925
+   "mae": 0.3290949923477018
+  }
+ },
+ {
+  "uid": "BCH-LONG-1794916150546",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 84,
+  "at": 1794916150546,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 2.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core Retail Sales m/m"
+  ],
+  "stats": {
+   "atr1h": 1.957244534436165,
+   "rsi": 59.934116163177116,
+   "rvol": 2.627087221583628,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 211.41,
+   "stop": 208.47413319834575,
+   "takeProfit": 218.7496670041356,
+   "stopDist": 2.9358668016542477,
+   "tpDist": 7.339667004135619,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.554611808605908,
+   "unit": "BCH",
+   "notional": 540.070482457375,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-17T23:49:10.546Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.017030745390709926,
+   "mae": 0.10899677050051641
   }
  }
 ]
