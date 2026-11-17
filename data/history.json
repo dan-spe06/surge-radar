@@ -35178,7 +35178,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.8345065241446024,
-   "mae": 0.4359870820020753
+   "mae": 0.4530178273927756
   }
  },
  {
@@ -35449,6 +35449,94 @@
    "r": null,
    "mfe": 0.1750657254197411,
    "mae": 0.1370079590241838
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1794928749860",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1794928749860,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 18.488258153792447,
+   "rsi": 43.13989529126918,
+   "rvol": 0.7369111957665168,
+   "bbPct": 0.3684210526315789,
+   "funding": -0.0000506693702638,
+   "oiChg6h": 0.0016689327959709403
+  },
+  "plan": {
+   "entry": 1801.1,
+   "stop": 1828.8323872306885,
+   "takeProfit": 1731.7690319232781,
+   "stopDist": 27.732387230688673,
+   "tpDist": 69.33096807672169,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2704419182384882,
+   "unit": "ETH",
+   "notional": 487.092938939341,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T03:19:09.860Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12260033626810973,
+   "mae": 0.06490606037724372
+  }
+ },
+ {
+  "uid": "ASTER-SHORT-1794928751411",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1794928751411,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 3.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.015261592025228757,
+   "rsi": 37.44347186881727,
+   "rvol": 3.1042449778177934,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.5462,
+   "stop": 0.5690923880378431,
+   "takeProfit": 0.48896902990539215,
+   "stopDist": 0.022892388037843138,
+   "tpDist": 0.05723097009460784,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 327.6198178888912,
+   "unit": "ASTER",
+   "notional": 178.94594453091239,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T03:19:11.411Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.23151800464148187,
+   "mae": 0.017473056954072273
   }
  }
 ]
