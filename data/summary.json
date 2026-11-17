@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-17T15:39:13.475Z",
- "total": 782,
- "open": 9,
- "closed": 773,
+ "generated": "2026-11-17T15:49:14.378Z",
+ "total": 783,
+ "open": 5,
+ "closed": 778,
  "wins": 106,
- "losses": 412,
+ "losses": 417,
  "timeouts": 255,
- "winRate": 0.137,
- "netR": -21.62,
- "avgR": -0.028,
+ "winRate": 0.136,
+ "netR": -26.62,
+ "avgR": -0.034,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 773,
+   "n": 778,
    "wins": 106,
-   "R": -21.62,
-   "winRate": 0.137
+   "R": -26.62,
+   "winRate": 0.136
   }
  },
  "bySymbol": {
@@ -32,10 +32,10 @@
    "winRate": 0.125
   },
   "XLM": {
-   "n": 36,
+   "n": 37,
    "wins": 4,
-   "R": -2.91,
-   "winRate": 0.111
+   "R": -3.91,
+   "winRate": 0.108
   },
   "UNI": {
    "n": 26,
@@ -68,16 +68,16 @@
    "winRate": 0.185
   },
   "ADA": {
-   "n": 24,
+   "n": 25,
    "wins": 2,
-   "R": -5.75,
-   "winRate": 0.083
+   "R": -6.75,
+   "winRate": 0.08
   },
   "BCH": {
-   "n": 35,
+   "n": 36,
    "wins": 7,
-   "R": 3.14,
-   "winRate": 0.2
+   "R": 2.14,
+   "winRate": 0.194
   },
   "AVAX": {
    "n": 21,
@@ -116,10 +116,10 @@
    "winRate": 0.13
   },
   "XRP": {
-   "n": 36,
+   "n": 37,
    "wins": 4,
-   "R": 1.05,
-   "winRate": 0.111
+   "R": 0.05,
+   "winRate": 0.108
   },
   "LTC": {
    "n": 24,
@@ -260,9 +260,9 @@
    "winRate": 0.25
   },
   "CRO": {
-   "n": 6,
+   "n": 7,
    "wins": 0,
-   "R": -3.98,
+   "R": -4.98,
    "winRate": 0
   },
   "PI": {
@@ -286,10 +286,10 @@
    "winRate": 0.17
   },
   "LONG": {
-   "n": 261,
+   "n": 266,
    "wins": 19,
-   "R": -113.12,
-   "winRate": 0.073
+   "R": -118.12,
+   "winRate": 0.071
   }
  },
  "config": {
