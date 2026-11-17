@@ -35826,5 +35826,91 @@
    "mfe": 0,
    "mae": 0.5689938059828668
   }
+ },
+ {
+  "uid": "NEAR-LONG-1794954595240",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1794954595240,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06223937143550741,
+   "rsi": 62.782642248924205,
+   "rvol": 2.5557975611032133,
+   "bbPct": 0.7017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.326,
+   "stop": 3.232640942846739,
+   "takeProfit": 3.5593976428831526,
+   "stopDist": 0.09335905715326112,
+   "tpDist": 0.2333976428831528,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 80.33500153807003,
+   "unit": "NEAR",
+   "notional": 267.1942151156209,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T10:29:55.240Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05355666769204555,
+   "mae": 0.3213400061522828
+  }
+ },
+ {
+  "uid": "SOL-LONG-1794954594772",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1794954594772,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.938001171194279,
+   "rsi": 61.465072589981354,
+   "rvol": 0.7448647013094608,
+   "bbPct": 0.3684210526315789,
+   "funding": -0.0000536828613052,
+   "oiChg6h": -0.014586154311324262
+  },
+  "plan": {
+   "entry": 73.86,
+   "stop": 72.45299824320858,
+   "takeProfit": 77.37750439197855,
+   "stopDist": 1.4070017567914184,
+   "tpDist": 3.517504391978546,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.33048374943276,
+   "unit": "SOL",
+   "notional": 393.7095297331037,
+   "note": "Spot OK",
+   "timeStop": "2026-11-18T10:29:54.772Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.2416485966409542
+  }
  }
 ]
