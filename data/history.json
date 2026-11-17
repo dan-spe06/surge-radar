@@ -34672,7 +34672,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7696933739239737,
+   "mfe": 0.7867976711222783,
    "mae": 0.6328589963374864
   }
  },
@@ -34933,7 +34933,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.25869692293118773,
+   "mfe": 0.37262780057352646,
    "mae": 0.26289513824456673
   }
  },
@@ -35023,8 +35023,54 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.13943655798847204,
+   "mfe": 0.35228122032183323,
    "mae": 0.10525712316121143
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1794913150505",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 61,
+  "at": 1794913150505,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 2.0x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: Core Retail Sales m/m",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 5.767755066537523e-8,
+   "rsi": 40.74533560209289,
+   "rvol": 1.9850493152741726,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000038136,
+   "stop": 0.000003900116325998062,
+   "takeProfit": 0.0000035973091850048425,
+   "stopDist": 8.651632599806285e-8,
+   "tpDist": 2.1629081499515712e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 86688840.67231345,
+   "unit": "PEPE",
+   "notional": 330.59656278793454,
+   "note": "Spot OK",
+   "timeStop": "2026-11-17T22:59:10.505Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09362394792609821,
+   "mae": 0.04854575077649918
   }
  }
 ]
