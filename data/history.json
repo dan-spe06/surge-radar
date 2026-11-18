@@ -36633,7 +36633,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07012889063825054,
+   "mfe": 0.42077334382947784,
    "mae": 0.4909022344677233
   }
  },
@@ -36726,6 +36726,95 @@
    "exit": 0.15422886047557252,
    "mfe": 0.042939455175146746,
    "mae": 1.07348637937849
+  }
+ },
+ {
+  "uid": "PUMP-SHORT-1795014667135",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1795014667135,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: FOMC Meeting Minutes"
+  ],
+  "stats": {
+   "atr1h": 0.00005619599260076769,
+   "rsi": 33.76843639435175,
+   "rvol": 3.6259144403429007,
+   "bbPct": 0.9649122807017544,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.002603,
+   "stop": 0.0026872939889011514,
+   "takeProfit": 0.0023922650277471208,
+   "stopDist": 0.00008429398890115155,
+   "tpDist": 0.00021073497225287886,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 88974.31593603874,
+   "unit": "PUMP",
+   "notional": 231.6001443815088,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T03:11:07.135Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.011863242124801594,
+   "mae": 0.7473842538627268
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1795014666092",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1795014666092,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Volume 7.6x normal",
+   "Trend, momentum, VWAP aligned",
+   "High-impact news ≤4h: FOMC Meeting Minutes"
+  ],
+  "stats": {
+   "atr1h": 1.8276523365891635,
+   "rsi": 42.55028228845927,
+   "rvol": 7.5609631770695085,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 207.27,
+   "stop": 210.01147850488377,
+   "takeProfit": 200.41630373779066,
+   "stopDist": 2.7414785048837453,
+   "tpDist": 6.853696262209363,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.735750065754407,
+   "unit": "BCH",
+   "notional": 567.038916128916,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-19T03:11:06.092Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04377200105207217,
+   "mae": 0.3173470076275025
   }
  }
 ]
