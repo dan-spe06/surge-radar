@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-18T16:31:09.360Z",
+ "generated": "2026-11-18T16:41:09.164Z",
  "total": 810,
- "open": 9,
- "closed": 801,
- "wins": 107,
+ "open": 8,
+ "closed": 802,
+ "wins": 108,
  "losses": 429,
  "timeouts": 265,
- "winRate": 0.134,
- "netR": -36.06,
- "avgR": -0.045,
+ "winRate": 0.135,
+ "netR": -33.56,
+ "avgR": -0.042,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 801,
-   "wins": 107,
-   "R": -36.06,
-   "winRate": 0.134
+   "n": 802,
+   "wins": 108,
+   "R": -33.56,
+   "winRate": 0.135
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 33,
-   "wins": 8,
-   "R": 6.07,
-   "winRate": 0.242
+   "n": 34,
+   "wins": 9,
+   "R": 8.57,
+   "winRate": 0.265
   },
   "HYPE": {
    "n": 42,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 524,
-   "wins": 88,
-   "R": 85.06,
-   "winRate": 0.168
+   "n": 525,
+   "wins": 89,
+   "R": 87.56,
+   "winRate": 0.17
   },
   "LONG": {
    "n": 277,
