@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-18T10:20:47.216Z",
+ "generated": "2026-11-18T10:30:47.281Z",
  "total": 798,
- "open": 9,
- "closed": 789,
+ "open": 7,
+ "closed": 791,
  "wins": 106,
  "losses": 426,
- "timeouts": 257,
+ "timeouts": 259,
  "winRate": 0.134,
- "netR": -35.56,
- "avgR": -0.045,
+ "netR": -35.04,
+ "avgR": -0.044,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 789,
+   "n": 791,
    "wins": 106,
-   "R": -35.56,
+   "R": -35.04,
    "winRate": 0.134
   }
  },
@@ -98,10 +98,10 @@
    "winRate": 0.083
   },
   "SOL": {
-   "n": 26,
+   "n": 27,
    "wins": 5,
-   "R": 0.36,
-   "winRate": 0.192
+   "R": 0.93,
+   "winRate": 0.185
   },
   "ZEC": {
    "n": 43,
@@ -194,10 +194,10 @@
    "winRate": 0
   },
   "NEAR": {
-   "n": 29,
+   "n": 30,
    "wins": 3,
-   "R": 0.87,
-   "winRate": 0.103
+   "R": 0.82,
+   "winRate": 0.1
   },
   "ASTER": {
    "n": 13,
@@ -286,10 +286,10 @@
    "winRate": 0.167
   },
   "LONG": {
-   "n": 268,
+   "n": 270,
    "wins": 19,
-   "R": -120.12,
-   "winRate": 0.071
+   "R": -119.6,
+   "winRate": 0.07
   }
  },
  "config": {
