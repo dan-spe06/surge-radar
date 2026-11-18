@@ -36328,7 +36328,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4566517033143884,
+   "mfe": 1.831657339008511,
    "mae": 0.2453713760666243
   }
  },
@@ -36371,7 +36371,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.18097065702066814,
+   "mfe": 0.5103372527982829,
    "mae": 0.66959143097647
   }
  },
@@ -36415,7 +36415,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2787933526578767,
+   "mfe": 1.546732386142279,
    "mae": 0.19811058767106893
   }
  },
@@ -36458,7 +36458,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12517220634855308,
+   "mfe": 0.9095846994661178,
    "mae": 0.4339303153416309
   }
  },
@@ -36501,8 +36501,231 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14757002938200603,
-   "mae": 0.23057817090938748
+   "mfe": 0.9130895568011551,
+   "mae": 0.25824755141851463
+  }
+ },
+ {
+  "uid": "HYPE-SHORT-1795012865919",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 68,
+  "at": 1795012865919,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 14% of 5 days)",
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.8823244301925974,
+   "rsi": 34.76403255451106,
+   "rvol": 2.7176396247971844,
+   "bbPct": 0.14035087719298245,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 66.902,
+   "stop": 68.2254866452889,
+   "takeProfit": 63.59328338677776,
+   "stopDist": 1.323486645288896,
+   "tpDist": 3.30871661322224,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.6668497764576005,
+   "unit": "HYPE",
+   "notional": 379.1235837445664,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T02:41:05.919Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04609037818186047,
+   "mae": 0.9422082228323503
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1795012866629",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 67,
+  "at": 1795012866629,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 33% of 5 days)",
+   "Volatility below average",
+   "Volume 1.8x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.458397597975076,
+   "rsi": 38.47878071267444,
+   "rvol": 1.7951682676049627,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 108.68,
+   "stop": 110.86759639696263,
+   "takeProfit": 103.21100900759347,
+   "stopDist": 2.187596396962614,
+   "tpDist": 5.468990992406535,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.4284203477448747,
+   "unit": "AAVE",
+   "notional": 372.600723392913,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T02:41:06.629Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05942595269424891,
+   "mae": 0.6993977509399485
+  }
+ },
+ {
+  "uid": "PUMP-SHORT-1795012867263",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1795012867263,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 2.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00005556750511718305,
+   "rsi": 37.54635056668818,
+   "rvol": 2.105875876240351,
+   "bbPct": 0.8070175438596491,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.002638,
+   "stop": 0.002723556750511718,
+   "takeProfit": 0.002424108123720705,
+   "stopDist": 0.00008555675051171809,
+   "tpDist": 0.0002138918762792952,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 87661.11329780787,
+   "unit": "PUMP",
+   "notional": 231.25001687961716,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T02:41:07.263Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07012889063825054,
+   "mae": 0.4909022344677233
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1795012866266",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 58,
+  "at": 1795012866266,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 21% of 5 days)",
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.8902658640932368,
+   "rsi": 39.273532486917645,
+   "rvol": 2.538539291832938,
+   "bbPct": 0.21052631578947367,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 206.31,
+   "stop": 209.14539879613986,
+   "takeProfit": 199.22150300965038,
+   "stopDist": 2.835398796139855,
+   "tpDist": 7.088496990349638,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.6451305580754947,
+   "unit": "BCH",
+   "notional": 545.7168854365553,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-19T02:41:06.266Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795012200000,
+   "exit": 209.14539879613986,
+   "mfe": 0.02468788520870221,
+   "mae": 1.1250621973681096
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1795012865976",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795012865976,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0015525736503816737,
+   "rsi": 42.07091435825765,
+   "rvol": 1.1310476411571802,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1519,
+   "stop": 0.15422886047557252,
+   "takeProfit": 0.14607784881106872,
+   "stopDist": 0.0023288604755725105,
+   "tpDist": 0.005822151188931276,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3220.4591381354667,
+   "unit": "ADA",
+   "notional": 489.1877430827774,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T02:41:05.976Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795012200000,
+   "exit": 0.15422886047557252,
+   "mfe": 0.042939455175146746,
+   "mae": 1.07348637937849
   }
  }
 ]
