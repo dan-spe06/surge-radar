@@ -37100,7 +37100,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3724087036058442,
-   "mae": 0.844126394839909
+   "mae": 0.9930898762822398
   }
  },
  {
@@ -37459,10 +37459,12 @@
    "timeStop": "2026-11-20T01:12:34.706Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795102200000,
+   "exit": 0.15308268392235425,
    "mfe": 0.33060722836353,
-   "mae": 0.8973624769867224
+   "mae": 1.0390512891425172
   }
  },
  {
@@ -37504,8 +37506,185 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.11383706578854003,
+   "mfe": 0.2656198201732542,
    "mae": 0.3162140716348344
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1795102361200",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1795102361200,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 30% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.018485184730181042,
+   "rsi": 31.016300204336616,
+   "rvol": 1.4902616923863907,
+   "bbPct": 0.2982456140350877,
+   "funding": 0.00005,
+   "oiChg6h": -0.011082813343217602
+  },
+  "plan": {
+   "entry": 1.6546,
+   "stop": 1.6823277770952716,
+   "takeProfit": 1.5852805572618212,
+   "stopDist": 0.027727777095271564,
+   "tpDist": 0.06931944273817892,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 270.48688303538694,
+   "unit": "MORPHO",
+   "notional": 447.54759667035125,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:32:41.200Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14065317917840173,
+   "mae": 0.09016229434512706
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795102357298",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1795102357298,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 3.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014223860349714013,
+   "rsi": 35.11688615349556,
+   "rvol": 3.523332708972136,
+   "bbPct": 0.19298245614035087,
+   "funding": -0.0000200414434533,
+   "oiChg6h": 0.00023535946996806328
+  },
+  "plan": {
+   "entry": 0.13513,
+   "stop": 0.1372635790524571,
+   "takeProfit": 0.12979605236885725,
+   "stopDist": 0.002133579052457102,
+   "tpDist": 0.005333947631142755,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3515.220113997063,
+   "unit": "XLM",
+   "notional": 475.01169400442313,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:32:37.298Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.21091320683982656,
+   "mae": 0.16873056547185866
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1795102360388",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1795102360388,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.5577385487797353,
+   "rsi": 34.09978212554688,
+   "rvol": 1.0325365101239505,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 105.67,
+   "stop": 108.0066078231696,
+   "takeProfit": 99.828480442076,
+   "stopDist": 2.336607823169603,
+   "tpDist": 5.841519557924007,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3.2097812588105894,
+   "unit": "AAVE",
+   "notional": 339.17758561851497,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:32:40.388Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.07703475021145707,
+   "mae": 0.2910201674654903
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1795102358405",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 59,
+  "at": 1795102358405,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 1.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06765253844850445,
+   "rsi": 29.04476148447108,
+   "rvol": 1.5276577707465377,
+   "bbPct": 0.6140350877192983,
+   "funding": -0.0000733776456542,
+   "oiChg6h": -0.027659509643497268
+  },
+  "plan": {
+   "entry": 4.971,
+   "stop": 5.0724788076727565,
+   "takeProfit": 4.717302980818109,
+   "stopDist": 0.10147880767275669,
+   "tpDist": 0.2536970191818917,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 73.90705677372156,
+   "unit": "UNI",
+   "notional": 367.3919792221699,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:32:38.405Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.039417096945989244,
+   "mae": 0.2759196786218897
   }
  }
 ]
