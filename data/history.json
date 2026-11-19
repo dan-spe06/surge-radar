@@ -37821,5 +37821,47 @@
    "mfe": 0.4285538687756706,
    "mae": 0.6285456742043191
   }
+ },
+ {
+  "uid": "ETH-SHORT-1795118577163",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795118577163,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 37% of 5 days)",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 18.8020289343208,
+   "rsi": 39.74133424390136,
+   "rvol": 0.8627965724956915,
+   "bbPct": 0.3684210526315789,
+   "funding": 0.0000224566653952,
+   "oiChg6h": -0.05352768417523353
+  },
+  "plan": {
+   "entry": 1767.57,
+   "stop": 1795.7730434014811,
+   "takeProfit": 1697.0623914962969,
+   "stopDist": 28.203043401481196,
+   "tpDist": 70.50760850370298,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.26592874723605564,
+   "unit": "ETH",
+   "notional": 470.0476757520349,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T08:02:57.163Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10176206727566009,
+   "mae": 0.1116900738391466
+  }
  }
 ]
