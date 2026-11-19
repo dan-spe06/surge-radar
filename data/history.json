@@ -36922,5 +36922,48 @@
    "mfe": 0.2545964373391839,
    "mae": 1.1350757831371698
   }
+ },
+ {
+  "uid": "UNI-SHORT-1795057310713",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795057310713,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.06877146379103663,
+   "rsi": 43.71038769947813,
+   "rvol": 0.10000336657425349,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 5.131,
+   "stop": 5.234157195686556,
+   "takeProfit": 4.873107010783613,
+   "stopDist": 0.10315719568655494,
+   "tpDist": 0.25789298921638737,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 72.70457431577424,
+   "unit": "UNI",
+   "notional": 373.04717081423763,
+   "note": "Spot OK",
+   "timeStop": "2026-11-19T15:01:50.713Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03877577296841727,
+   "mae": 0.04846971621051513
+  }
  }
 ]
