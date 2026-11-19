@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-19T02:31:53.054Z",
+ "generated": "2026-11-19T02:41:52.966Z",
  "total": 812,
- "open": 5,
- "closed": 807,
+ "open": 2,
+ "closed": 810,
  "wins": 108,
  "losses": 431,
- "timeouts": 268,
- "winRate": 0.134,
- "netR": -33.51,
- "avgR": -0.042,
+ "timeouts": 271,
+ "winRate": 0.133,
+ "netR": -32.83,
+ "avgR": -0.041,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 807,
+   "n": 810,
    "wins": 108,
-   "R": -33.51,
-   "winRate": 0.134
+   "R": -32.83,
+   "winRate": 0.133
   }
  },
  "bySymbol": {
@@ -26,10 +26,10 @@
    "winRate": 0.265
   },
   "HYPE": {
-   "n": 42,
+   "n": 43,
    "wins": 5,
-   "R": -0.41,
-   "winRate": 0.119
+   "R": -0.34,
+   "winRate": 0.116
   },
   "XLM": {
    "n": 37,
@@ -134,9 +134,9 @@
    "winRate": 0
   },
   "AAVE": {
-   "n": 8,
+   "n": 9,
    "wins": 0,
-   "R": -2.12,
+   "R": -2.11,
    "winRate": 0
   },
   "VVV": {
@@ -236,10 +236,10 @@
    "winRate": 0.125
   },
   "PUMP": {
-   "n": 6,
+   "n": 7,
    "wins": 1,
-   "R": 0.95,
-   "winRate": 0.167
+   "R": 1.55,
+   "winRate": 0.143
   },
   "ENA": {
    "n": 8,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 530,
+   "n": 533,
    "wins": 89,
-   "R": 87.61,
-   "winRate": 0.168
+   "R": 88.29,
+   "winRate": 0.167
   },
   "LONG": {
    "n": 277,
