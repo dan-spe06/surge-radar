@@ -37404,8 +37404,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.009677731578725922,
-   "mae": 0.06774412105112443
+   "mfe": 0.07742185262985034,
+   "mae": 0.2129100947320906
+  }
+ },
+ {
+  "uid": "ADA-LONG-1795093954706",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 56,
+  "at": 1795093954706,
+  "factors": [
+   "Volatility below average",
+   "Volume 5.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0014115440517638415,
+   "rsi": 62.35745592448358,
+   "rvol": 5.322847696152447,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1552,
+   "stop": 0.15308268392235425,
+   "takeProfit": 0.1604932901941144,
+   "stopDist": 0.0021173160776457624,
+   "tpDist": 0.005293290194114406,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3542.220303894933,
+   "unit": "ADA",
+   "notional": 549.7525911644935,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-20T01:12:34.706Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.23614802025966242,
+   "mae": 0.23614802025966242
   }
  }
 ]
