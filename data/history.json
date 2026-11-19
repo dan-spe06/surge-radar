@@ -37141,7 +37141,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03903182211104143,
+   "mfe": 0.1419338985855896,
    "mae": 0.25548101745405727
   }
  },
@@ -37184,8 +37184,51 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.132547110297988,
-   "mae": 0.0994103327234966
+   "mfe": 0.39631585979098116,
+   "mae": 0.20677349206486753
+  }
+ },
+ {
+  "uid": "BCH-LONG-1795087955277",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 58,
+  "at": 1795087955277,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (54th percentile)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.821793274239299,
+   "rsi": 58.848581513720625,
+   "rvol": 0.5301316932395356,
+   "bbPct": 0.543859649122807,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 209.79,
+   "stop": 207.05731008864103,
+   "takeProfit": 216.62172477839735,
+   "stopDist": 2.7326899113589485,
+   "tpDist": 6.831724778397371,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.744548501029998,
+   "unit": "BCH",
+   "notional": 575.7788300310832,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-19T23:32:35.277Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.23420147208788816
   }
  }
 ]
