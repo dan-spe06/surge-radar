@@ -37097,10 +37097,12 @@
    "timeStop": "2026-11-19T21:42:15.038Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795102200000,
+   "exit": 0.05876443343537556,
    "mfe": 0.3724087036058442,
-   "mae": 0.9930898762822398
+   "mae": 1.651011919319231
   }
  },
  {
@@ -37506,7 +37508,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2656198201732542,
+   "mfe": 0.5944824546734858,
    "mae": 0.3162140716348344
   }
  },
@@ -37551,7 +37553,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.14065317917840173,
+   "mfe": 0.48326989768989415,
    "mae": 0.09016229434512706
   }
  },
@@ -37596,7 +37598,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.21091320683982656,
+   "mfe": 0.5764960986955225,
    "mae": 0.16873056547185866
   }
  },
@@ -37640,7 +37642,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.07703475021145707,
+   "mfe": 0.5264041264449384,
    "mae": 0.2910201674654903
   }
  },
@@ -37683,8 +37685,97 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.039417096945989244,
+   "mfe": 0.6799449223182379,
    "mae": 0.2759196786218897
+  }
+ },
+ {
+  "uid": "MORPHO-SHORT-1795102956032",
+  "id": "MORPHO",
+  "name": "Morpho",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1795102956032,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.019163756158752477,
+   "rsi": 28.225979643848902,
+   "rvol": 3.0688751833374956,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 1.643,
+   "stop": 1.6717456342381287,
+   "takeProfit": 1.5711359144046781,
+   "stopDist": 0.028745634238128717,
+   "tpDist": 0.07186408559532179,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 260.90918495205324,
+   "unit": "MORPHO",
+   "notional": 428.67379087622345,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:42:36.032Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06261820438849361,
+   "mae": 0.4905092677098602
+  }
+ },
+ {
+  "uid": "ENA-SHORT-1795102955699",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1795102955699,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (44th percentile)",
+   "Volatility below average",
+   "Volume 3.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0019730991880635143,
+   "rsi": 33.479647821221704,
+   "rvol": 3.0629445820264953,
+   "bbPct": 0.43859649122807015,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.10706,
+   "stop": 0.11001964878209528,
+   "takeProfit": 0.09966087804476183,
+   "stopDist": 0.0029596487820952714,
+   "tpDist": 0.007399121955238178,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2534.0844648095053,
+   "unit": "ENA",
+   "notional": 271.29908280250567,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T03:42:35.699Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18583286075270003,
+   "mae": 0.5304683479667904
   }
  }
 ]
