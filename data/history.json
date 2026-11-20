@@ -37967,7 +37967,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4346030593442192,
+   "mfe": 0.4395417304731404,
    "mae": 0.9704488768311326
   }
  },
@@ -38009,7 +38009,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5957693183608606,
+   "mfe": 0.6301406251893733,
    "mae": 0.8134542616081114
   }
  },
@@ -38227,7 +38227,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0033434334765443,
+   "mfe": 1.156026129875149,
    "mae": 0.9597198059340984
   }
  },
@@ -38403,7 +38403,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.923115145085616,
+   "mfe": 0.9310730342673913,
    "mae": 0.7559994722683927
   }
  },
@@ -38541,8 +38541,139 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1963034197066973,
+   "mfe": 0.26841488000711905,
    "mae": 0.23636534209582447
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1795182267759",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1795182267759,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 5.0x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.003932815391418205,
+   "rsi": 38.98184863883878,
+   "rvol": 5.009902833151105,
+   "bbPct": 0.22807017543859648,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2893,
+   "stop": 0.2951992230871273,
+   "takeProfit": 0.2745519422821817,
+   "stopDist": 0.005899223087127307,
+   "tpDist": 0.014748057717818269,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1271.3538527413461,
+   "unit": "ONDO",
+   "notional": 367.8026695980714,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T01:44:27.759Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18646523173539573,
+   "mae": 0.08475692351608982
+  }
+ },
+ {
+  "uid": "TRX-SHORT-1795182266725",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795182266725,
+  "factors": [
+   "Volume 3.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0009465691472979541,
+   "rsi": 22.405809570340537,
+   "rvol": 3.0450961529225125,
+   "bbPct": 0.9122807017543859,
+   "funding": -0.0004614562153697,
+   "oiChg6h": -0.012822510300456095
+  },
+  "plan": {
+   "entry": 0.30554,
+   "stop": 0.3069598537209469,
+   "takeProfit": 0.30199036569763266,
+   "stopDist": 0.001419853720946931,
+   "tpDist": 0.0035496343023673277,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5282.234281851294,
+   "unit": "TRX",
+   "notional": 1613.9338624768443,
+   "note": "Needs ~3.2x leverage",
+   "timeStop": "2026-11-21T01:44:26.725Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.39440682637823343,
+   "mae": 0.14085958084939143
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1795182266717",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1795182266717,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 3.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.011374871308158813,
+   "rsi": 32.809208755062684,
+   "rvol": 3.6036553636115096,
+   "bbPct": 0.22807017543859648,
+   "funding": -0.0000632783783508,
+   "oiChg6h": -0.0052120011760606565
+  },
+  "plan": {
+   "entry": 0.9359,
+   "stop": 0.9529623069622382,
+   "takeProfit": 0.8932442325944044,
+   "stopDist": 0.01706230696223822,
+   "tpDist": 0.04265576740559555,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 439.5654126138261,
+   "unit": "XRP",
+   "notional": 411.3892696652798,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T01:44:26.717Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16410442070915668,
+   "mae": 0.15824354854097947
   }
  }
 ]
