@@ -37924,5 +37924,89 @@
    "mfe": 2.4346246640583744,
    "mae": 0.42036684847051314
   }
+ },
+ {
+  "uid": "BNB-SHORT-1795149220134",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795149220134,
+  "factors": [
+   "Volume 5.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 5.399563155877421,
+   "rsi": 30.077529772103304,
+   "rvol": 4.958339387971215,
+   "bbPct": 1,
+   "funding": 0.000026236192275,
+   "oiChg6h": 0.03608256272301803
+  },
+  "plan": {
+   "entry": 568.23,
+   "stop": 576.3293447338161,
+   "takeProfit": 547.9816381654597,
+   "stopDist": 8.099344733816132,
+   "tpDist": 20.24836183454033,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.9260008366709265,
+   "unit": "BNB",
+   "notional": 526.1814554215206,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-20T16:33:40.134Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06667206024030221,
+   "mae": 0.13828279160952558
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1795149220524",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795149220524,
+  "factors": [
+   "Volume 6.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.11564209325404881,
+   "rsi": 34.35711586199223,
+   "rvol": 6.319111683999097,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.786,
+   "stop": 8.960564209325405,
+   "takeProfit": 8.349589476686488,
+   "stopDist": 0.17456420932540515,
+   "tpDist": 0.4364105233135129,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 42.96413353563931,
+   "unit": "LINK",
+   "notional": 377.482877244127,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T16:33:40.524Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12029957389978446,
+   "mae": 0.11457102276170239
+  }
  }
 ]
