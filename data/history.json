@@ -37963,7 +37963,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.20742418741429539,
+   "mfe": 0.24076021753444649,
    "mae": 0.13828279160952558
   }
  },
@@ -38049,7 +38049,134 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.281068781973731,
-   "mae": 0.041333644407900966
+   "mae": 0.07440055993422615
+  }
+ },
+ {
+  "uid": "LTC-SHORT-1795150422177",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795150422177,
+  "factors": [
+   "Volume 3.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.5076866944426294,
+   "rsi": 30.322910682290782,
+   "rvol": 3.0895124764654316,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 41.39,
+   "stop": 42.151530041663946,
+   "takeProfit": 39.48617489584014,
+   "stopDist": 0.7615300416639441,
+   "tpDist": 1.9038251041598602,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.84859373848534,
+   "unit": "LTC",
+   "notional": 407.6332948359082,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T16:53:42.177Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06565729158989854,
+   "mae": 0.10505166654384139
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1795150421451",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795150421451,
+  "factors": [
+   "Volume 4.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 22.2251769671406,
+   "rsi": 33.06860620306769,
+   "rvol": 4.026211799471737,
+   "bbPct": 1,
+   "funding": 0.000044755965869,
+   "oiChg6h": 0.013446781187795288
+  },
+  "plan": {
+   "entry": 1723.23,
+   "stop": 1758.182517696714,
+   "takeProfit": 1635.848705758215,
+   "stopDist": 34.952517696714075,
+   "tpDist": 87.38129424178518,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.21457681718605018,
+   "unit": "ETH",
+   "notional": 369.76520867951723,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T16:53:41.451Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04062654405389425,
+   "mae": 0.09012226321814368
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1795150421818",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795150421818,
+  "factors": [
+   "Volume 5.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0019381675307137615,
+   "rsi": 34.22367577304341,
+   "rvol": 5.3588753987494,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1475,
+   "stop": 0.15040725129607063,
+   "takeProfit": 0.14023187175982338,
+   "stopDist": 0.0029072512960706424,
+   "tpDist": 0.0072681282401766065,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2579.756352722857,
+   "unit": "ADA",
+   "notional": 380.5140620266214,
+   "note": "Spot OK",
+   "timeStop": "2026-11-20T16:53:41.818Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.034396751369634306,
+   "mae": 0.13758700547855632
   }
  }
 ]
