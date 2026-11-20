@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-20T15:14:30.236Z",
+ "generated": "2026-11-20T15:24:30.138Z",
  "total": 852,
- "open": 10,
- "closed": 842,
- "wins": 113,
+ "open": 6,
+ "closed": 846,
+ "wins": 117,
  "losses": 445,
  "timeouts": 284,
- "winRate": 0.134,
- "netR": -21.37,
- "avgR": -0.025,
+ "winRate": 0.138,
+ "netR": -11.37,
+ "avgR": -0.013,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 842,
-   "wins": 113,
-   "R": -21.37,
-   "winRate": 0.134
+   "n": 846,
+   "wins": 117,
+   "R": -11.37,
+   "winRate": 0.138
   }
  },
  "bySymbol": {
@@ -74,22 +74,22 @@
    "winRate": 0.069
   },
   "BCH": {
-   "n": 44,
-   "wins": 7,
-   "R": -2.58,
-   "winRate": 0.159
+   "n": 45,
+   "wins": 8,
+   "R": -0.08,
+   "winRate": 0.178
   },
   "AVAX": {
-   "n": 23,
-   "wins": 4,
-   "R": 0.5,
-   "winRate": 0.174
+   "n": 24,
+   "wins": 5,
+   "R": 3,
+   "winRate": 0.208
   },
   "SUI": {
-   "n": 18,
-   "wins": 2,
-   "R": -5.46,
-   "winRate": 0.111
+   "n": 19,
+   "wins": 3,
+   "R": -2.96,
+   "winRate": 0.158
   },
   "TAO": {
    "n": 14,
@@ -182,10 +182,10 @@
    "winRate": 0
   },
   "MORPHO": {
-   "n": 15,
-   "wins": 1,
-   "R": -2.93,
-   "winRate": 0.067
+   "n": 16,
+   "wins": 2,
+   "R": -0.43,
+   "winRate": 0.125
   },
   "JUP": {
    "n": 8,
@@ -280,10 +280,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 555,
-   "wins": 93,
-   "R": 106.25,
-   "winRate": 0.168
+   "n": 559,
+   "wins": 97,
+   "R": 116.25,
+   "winRate": 0.174
   },
   "LONG": {
    "n": 287,
