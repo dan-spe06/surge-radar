@@ -37967,7 +37967,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.016212488378169,
+   "mfe": 2.0409058440227184,
    "mae": 0.9704488768311326
   }
  },
@@ -38636,7 +38636,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7676847156290405,
+   "mfe": 1.063489835412696,
    "mae": 0.41553576350565974
   }
  },
@@ -38725,8 +38725,139 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.6614506778986518,
+   "mfe": 1.6689685542692378,
    "mae": 0.6766088733523983
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795188867489",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 78,
+  "at": 1795188867489,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (49th percentile)",
+   "Volume 4.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0018076907303325263,
+   "rsi": 26.569364563137313,
+   "rvol": 4.380518252966039,
+   "bbPct": 0.49122807017543857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12757,
+   "stop": 0.13028153609549878,
+   "takeProfit": 0.12079115976125301,
+   "stopDist": 0.0027115360954987895,
+   "tpDist": 0.006778840238746974,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2765.959860335316,
+   "unit": "XLM",
+   "notional": 352.8534993829762,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T03:34:27.489Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1290781268156441,
+   "mae": 0.1917732169832561
+  }
+ },
+ {
+  "uid": "CRO-SHORT-1795188868071",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1795188868071,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 32% of 5 days)",
+   "Volume 3.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0005529032858753567,
+   "rsi": 29.767094452504267,
+   "rvol": 3.21599710603441,
+   "bbPct": 0.3157894736842105,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.03972,
+   "stop": 0.040549354928813036,
+   "takeProfit": 0.037646612677967414,
+   "stopDist": 0.000829354928813035,
+   "tpDist": 0.0020733873220325875,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9043.172879835573,
+   "unit": "CRO",
+   "notional": 359.1948267870689,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T03:34:28.071Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.024115127679560543,
+   "mae": 0.24115127679561382
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1795188867743",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 72,
+  "at": 1795188867743,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10693011193908629,
+   "rsi": 23.021377335381203,
+   "rvol": 3.9864427331555126,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.525,
+   "stop": 6.68539516790863,
+   "takeProfit": 6.124012080228427,
+   "stopDist": 0.16039516790862943,
+   "tpDist": 0.40098791977157355,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 46.759513380555475,
+   "unit": "AVAX",
+   "notional": 305.1058248081245,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T03:34:27.743Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.08728442497703835,
+   "mae": 0.286791682067403
   }
  }
 ]
