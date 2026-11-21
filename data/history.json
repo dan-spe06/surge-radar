@@ -39187,7 +39187,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.8728536220490756,
-   "mae": 0.7622102051696171
+   "mae": 0.9834970389285373
   }
  },
  {
@@ -39458,6 +39458,176 @@
    "exit": 4.551960851711216,
    "mfe": 0.22922898557309337,
    "mae": 1.007218269942366
+  }
+ },
+ {
+  "uid": "UNI-LONG-1795269343966",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 55,
+  "at": 1795269343966,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (52th percentile)",
+   "Volume 16.4x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.11697952893964837,
+   "rsi": 61.092593006203515,
+   "rvol": 16.421099916824836,
+   "bbPct": 0.5178571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.719,
+   "stop": 4.543530706590528,
+   "takeProfit": 5.157673233523682,
+   "stopDist": 0.17546929340947257,
+   "tpDist": 0.4386732335236814,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 42.742521237024135,
+   "unit": "UNI",
+   "notional": 201.7019577175169,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T01:55:43.966Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14817407362168253,
+   "mae": 0.06268903114763609
+  }
+ },
+ {
+  "uid": "CRO-LONG-1795269344278",
+  "id": "CRO",
+  "name": "Cronos",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1795269344278,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 3.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006623056897908766,
+   "rsi": 62.08801018138451,
+   "rvol": 3.6108590335741293,
+   "bbPct": 0.8035714285714286,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.04125,
+   "stop": 0.04025654146531369,
+   "takeProfit": 0.04373364633671579,
+   "stopDist": 0.000993458534686315,
+   "tpDist": 0.0024836463367157876,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7549.384033796769,
+   "unit": "CRO",
+   "notional": 311.4120913941167,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T01:55:44.278Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10065845378395281,
+   "mae": 0.12079014454075036
+  }
+ },
+ {
+  "uid": "TRX-LONG-1795269343278",
+  "id": "TRX",
+  "name": "TRON",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1795269343278,
+  "factors": [
+   "Volume 4.8x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0012816527211087596,
+   "rsi": 63.12527599495952,
+   "rvol": 4.783182148855599,
+   "bbPct": 0.6428571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.30644,
+   "stop": 0.30451752091833684,
+   "takeProfit": 0.31124619770415785,
+   "stopDist": 0.0019224790816631393,
+   "tpDist": 0.004806197704157848,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3901.2127994192474,
+   "unit": "TRX",
+   "notional": 1195.4876502540342,
+   "note": "Needs ~2.4x leverage",
+   "timeStop": "2026-11-22T01:55:43.278Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.015604851197692596,
+   "mae": 0.2548792362287192
+  }
+ },
+ {
+  "uid": "TAO-LONG-1795269344264",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1795269344264,
+  "factors": [
+   "Volume 3.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.191720752106864,
+   "rsi": 62.07442852266521,
+   "rvol": 3.877068796996421,
+   "bbPct": 0.8214285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 188.2,
+   "stop": 181.9124188718397,
+   "takeProfit": 203.91895282040073,
+   "stopDist": 6.287581128160296,
+   "tpDist": 15.718952820400741,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.1928275511881068,
+   "unit": "TAO",
+   "notional": 224.4901451336017,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T01:55:44.264Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06838877960145254,
+   "mae": 0.14950105308224237
   }
  }
 ]
