@@ -39049,7 +39049,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2674032503994657,
+   "mfe": 1.395460047182036,
    "mae": 0.0017951887399426522
   }
  },
@@ -39228,6 +39228,178 @@
    "exit": 0.4949484902550746,
    "mfe": 0.2406940569818353,
    "mae": 1.1951704898408337
+  }
+ },
+ {
+  "uid": "ADA-SHORT-1795232706359",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795232706359,
+  "factors": [
+   "Volume 25.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.002491897669102016,
+   "rsi": 25.96748207788673,
+   "rvol": 25.151664785677585,
+   "bbPct": 0.8571428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.136,
+   "stop": 0.13973784650365303,
+   "takeProfit": 0.12665538374086746,
+   "stopDist": 0.0037378465036530238,
+   "tpDist": 0.00934461625913256,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2006.5029403080616,
+   "unit": "ADA",
+   "notional": 272.8843998818964,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:45:06.359Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.026753372537437876
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795232706383",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795232706383,
+  "factors": [
+   "Volume 8.6x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.002016205722975635,
+   "rsi": 26.140742365094056,
+   "rvol": 8.574682628768581,
+   "bbPct": 1,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12213,
+   "stop": 0.12515430858446344,
+   "takeProfit": 0.11456922853884137,
+   "stopDist": 0.0030243085844634528,
+   "tpDist": 0.007560771461158632,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2479.9056678703923,
+   "unit": "XLM",
+   "notional": 302.870879217011,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:45:06.383Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.01653270445247205,
+   "mae": 0.02975886801444235
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1795232706395",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795232706395,
+  "factors": [
+   "Volume 16.4x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0009260901852544059,
+   "rsi": 26.045224822098874,
+   "rvol": 16.436645573540734,
+   "bbPct": 0.8928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05203,
+   "stop": 0.053419135277881606,
+   "takeProfit": 0.04855716180529598,
+   "stopDist": 0.001389135277881609,
+   "tpDist": 0.0034728381947040222,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5399.0422095084095,
+   "unit": "DOGE",
+   "notional": 280.91216616072256,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:45:06.395Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.028794891784043677,
+   "mae": 0.021596168838035255
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1795232706476",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795232706476,
+  "factors": [
+   "Volume 15.9x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.14584338460846175,
+   "rsi": 28.565245825098117,
+   "rvol": 15.934782447183435,
+   "bbPct": 0.8928571428571429,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.177,
+   "stop": 8.395765076912692,
+   "takeProfit": 7.630087307718268,
+   "stopDist": 0.21876507691269262,
+   "tpDist": 0.5469126922817316,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 34.283351373277874,
+   "unit": "LINK",
+   "notional": 280.33496417929314,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:45:06.476Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.03656890813150049
   }
  }
 ]
