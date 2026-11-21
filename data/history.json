@@ -38779,9 +38779,11 @@
    "timeStop": "2026-11-21T03:34:27.489Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.0031214426816029,
+   "result": "TIME",
+   "r": 2.03,
+   "closedAt": 1795232067489,
+   "exit": 0.12206,
+   "mfe": 2.3049665502794268,
    "mae": 0.6748942059218165
   }
  },
@@ -38823,9 +38825,11 @@
    "timeStop": "2026-11-21T03:34:28.071Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 0.9887202348620242,
+   "result": "TIME",
+   "r": 1.59,
+   "closedAt": 1795232068071,
+   "exit": 0.0384,
+   "mfe": 1.8206921398068923,
    "mae": 0.5064176812707966
   }
  },
@@ -38866,9 +38870,11 @@
    "timeStop": "2026-11-21T03:34:27.743Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 0.9913016836677805,
+   "result": "TIME",
+   "r": 2.21,
+   "closedAt": 1795232067743,
+   "exit": 6.171,
+   "mfe": 2.443963899357035,
    "mae": 0.5860525677029583
   }
  },
@@ -38910,9 +38916,11 @@
    "timeStop": "2026-11-21T03:54:27.023Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 1.9436501724489816,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1795231800000,
+   "exit": 1558.3875791967034,
+   "mfe": 2.5936095802827905,
    "mae": 0.13726624519602504
   }
  },
@@ -38998,7 +39006,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.29544815373297667,
+   "mfe": 1.019811799640931,
    "mae": 0.2326578376932153
   }
  },
@@ -39041,7 +39049,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.34467623806897646,
+   "mfe": 1.2674032503994657,
    "mae": 0.0017951887399426522
   }
  },
@@ -39086,7 +39094,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.02733018800825442,
+   "mfe": 1.0795424263261673,
    "mae": 0.31429716209496
   }
  },
@@ -39128,8 +39136,98 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17910799491767476,
+   "mfe": 1.6695423811968697,
    "mae": 0.13433099618825323
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1795232108130",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1795232108130,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 8.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005422826020039362,
+   "rsi": 29.455266873167204,
+   "rvol": 8.491734919594236,
+   "bbPct": 0.24561403508771928,
+   "funding": -0.0001118829525959,
+   "oiChg6h": 0.011898218755819078
+  },
+  "plan": {
+   "entry": 0.2137,
+   "stop": 0.22183423903005905,
+   "takeProfit": 0.1933644024248524,
+   "stopDist": 0.008134239030059044,
+   "tpDist": 0.020335597575147607,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 922.028473995503,
+   "unit": "JUP",
+   "notional": 197.037484892839,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:35:08.130Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18440569479910077,
+   "mae": 0.7622102051696171
+  }
+ },
+ {
+  "uid": "ASTER-SHORT-1795232107412",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 74,
+  "at": 1795232107412,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volume 4.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008032326836716402,
+   "rsi": 32.171616542626225,
+   "rvol": 4.0519359461405955,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.4829,
+   "stop": 0.4949484902550746,
+   "takeProfit": 0.4527787743623135,
+   "stopDist": 0.012048490255074602,
+   "tpDist": 0.030121225637686506,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 622.4846301254332,
+   "unit": "ASTER",
+   "notional": 300.5978278875717,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:35:07.412Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795231800000,
+   "exit": 0.4949484902550746,
+   "mfe": 0.2406940569818353,
+   "mae": 1.1951704898408337
   }
  }
 ]
