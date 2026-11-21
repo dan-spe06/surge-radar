@@ -38868,7 +38868,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.9414248693951879,
+   "mfe": 0.9913016836677805,
    "mae": 0.5860525677029583
   }
  },
@@ -39041,8 +39041,95 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.002991981233239171,
+   "mfe": 0.34467623806897646,
    "mae": 0.0017951887399426522
+  }
+ },
+ {
+  "uid": "JUP-SHORT-1795231508245",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1795231508245,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.004878610176155706,
+   "rsi": 34.37289599578595,
+   "rvol": 2.062979975321622,
+   "bbPct": 0.10526315789473684,
+   "funding": -0.0001275934436332,
+   "oiChg6h": 0.011898218755819078
+  },
+  "plan": {
+   "entry": 0.2201,
+   "stop": 0.22741791526423355,
+   "takeProfit": 0.2018052118394161,
+   "stopDist": 0.007317915264233558,
+   "tpDist": 0.018294788160583896,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1024.8820503096536,
+   "unit": "JUP",
+   "notional": 225.57653927315474,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:25:08.245Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02733018800825442,
+   "mae": 0.31429716209496
+  }
+ },
+ {
+  "uid": "AVAX-SHORT-1795231506777",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795231506777,
+  "factors": [
+   "Volume 7.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.10422017551615678,
+   "rsi": 29.634844097756982,
+   "rvol": 7.231640475998576,
+   "bbPct": 0.8771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.394,
+   "stop": 6.550330263274235,
+   "takeProfit": 6.003174341814412,
+   "stopDist": 0.15633026327423516,
+   "tpDist": 0.3908256581855879,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 47.97535578151922,
+   "unit": "AVAX",
+   "notional": 306.7544248670339,
+   "note": "Spot OK",
+   "timeStop": "2026-11-21T15:25:06.777Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17910799491767476,
+   "mae": 0.13433099618825323
   }
  }
 ]
