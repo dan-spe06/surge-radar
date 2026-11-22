@@ -39683,7 +39683,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.1443773424653888,
+   "mfe": 0.6090098809449058,
    "mae": 0.05775093698615402
   }
  },
@@ -39726,7 +39726,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0,
+   "mfe": 0.3111717058180024,
    "mae": 0.5667770355970702
   }
  },
@@ -39770,8 +39770,228 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.041499115391454226,
+   "mfe": 0.4315908000710742,
    "mae": 0.348592569288175
+  }
+ },
+ {
+  "uid": "ENA-LONG-1795341081232",
+  "id": "ENA",
+  "name": "Ethena",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1795341081232,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0015037029014701904,
+   "rsi": 64.87138108109914,
+   "rvol": 2.311928673690421,
+   "bbPct": 0.03571428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.10082,
+   "stop": 0.09856444564779472,
+   "takeProfit": 0.10645888588051322,
+   "stopDist": 0.0022555543522052857,
+   "tpDist": 0.005638885880513214,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3325.1249266802856,
+   "unit": "ENA",
+   "notional": 335.2390951079064,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:51:21.232Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.004433499902238662,
+   "mae": 0.5187194885621266
+  }
+ },
+ {
+  "uid": "HYPE-LONG-1795341080183",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795341080183,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.7962882390893548,
+   "rsi": 60.340612357500994,
+   "rvol": 0.7349301845497641,
+   "bbPct": 0.03571428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 61.975,
+   "stop": 60.78056764136597,
+   "takeProfit": 64.96108089658509,
+   "stopDist": 1.1944323586340322,
+   "tpDist": 2.9860808965850802,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 6.279133301928536,
+   "unit": "HYPE",
+   "notional": 389.14928638702105,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:51:20.183Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06865185743441928,
+   "mae": 0.4169344512480587
+  }
+ },
+ {
+  "uid": "LINK-LONG-1795341080206",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795341080206,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.09154751745162591,
+   "rsi": 62.80278641846172,
+   "rvol": 1.0756342755014785,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.738,
+   "stop": 8.600678723822561,
+   "takeProfit": 9.081303190443597,
+   "stopDist": 0.13732127617743886,
+   "tpDist": 0.34330319044359714,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 54.61644552668532,
+   "unit": "LINK",
+   "notional": 477.2385010121763,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:51:20.206Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.014564385473787616,
+   "mae": 0.5388822625299606
+  }
+ },
+ {
+  "uid": "SUI-LONG-1795341080541",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795341080541,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008285953963776809,
+   "rsi": 60.68655843444114,
+   "rvol": 1.0436805976913364,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6573,
+   "stop": 0.6448710690543348,
+   "takeProfit": 0.688372327364163,
+   "stopDist": 0.012428930945665214,
+   "tpDist": 0.031072327364163037,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 603.430820622247,
+   "unit": "SUI",
+   "notional": 396.63507839500295,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:51:20.541Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09654893129955781,
+   "mae": 0.3701042366483154
+  }
+ },
+ {
+  "uid": "ETH-LONG-1795341079850",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 57,
+  "at": 1795341079850,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 13% of 5 days)",
+   "Volatility below average",
+   "Volume 4.4x normal"
+  ],
+  "stats": {
+   "atr1h": 18.984090887251757,
+   "rsi": 64.45938397329377,
+   "rvol": 4.439136141075903,
+   "bbPct": 0.125,
+   "funding": -0.000024966293363,
+   "oiChg6h": 0.0010505446045163793
+  },
+  "plan": {
+   "entry": 1710.5,
+   "stop": 1682.0238636691224,
+   "takeProfit": 1781.6903408271942,
+   "stopDist": 28.476136330877637,
+   "tpDist": 71.19034082719409,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.26337842721547505,
+   "unit": "ETH",
+   "notional": 450.5087997520701,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:51:19.850Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09446506256128563,
+   "mae": 0.5892653344900886
   }
  }
 ]
