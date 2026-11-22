@@ -39641,5 +39641,137 @@
    "mfe": 0.24333682044237398,
    "mae": 0.5884615919194642
   }
+ },
+ {
+  "uid": "TAO-LONG-1795340486517",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 80,
+  "at": 1795340486517,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 6.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.539641334335921,
+   "rsi": 66.71805504143123,
+   "rvol": 5.982910873939343,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 190.95,
+   "stop": 187.14053799849611,
+   "takeProfit": 200.4736550037597,
+   "stopDist": 3.809462001503882,
+   "tpDist": 9.523655003759705,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.9687819427098063,
+   "unit": "TAO",
+   "notional": 375.9389119604375,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:41:26.517Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1443773424653888,
+   "mae": 0.05775093698615402
+  }
+ },
+ {
+  "uid": "ASTER-LONG-1795340486906",
+  "id": "ASTER",
+  "name": "Aster",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1795340486906,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 25% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005998831615360478,
+   "rsi": 67.64625657636674,
+   "rvol": 0.663838169701465,
+   "bbPct": 0.24561403508771928,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.5068,
+   "stop": 0.4978017525769593,
+   "takeProfit": 0.5292956185576019,
+   "stopDist": 0.008998247423040718,
+   "tpDist": 0.022495618557601793,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 833.4956405839278,
+   "unit": "ASTER",
+   "notional": 422.4155906479346,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:41:26.906Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.5667770355970702
+  }
+ },
+ {
+  "uid": "SUI-LONG-1795340486469",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1795340486469,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008032299729502495,
+   "rsi": 58.003563391741885,
+   "rvol": 0.5167051738870095,
+   "bbPct": 0.03508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6533,
+   "stop": 0.6412515504057462,
+   "takeProfit": 0.6834211239856344,
+   "stopDist": 0.012048449594253743,
+   "tpDist": 0.03012112398563436,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 622.4867308717438,
+   "unit": "SUI",
+   "notional": 406.6705812785102,
+   "note": "Spot OK",
+   "timeStop": "2026-11-22T21:41:26.469Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.041499115391454226,
+   "mae": 0.348592569288175
+  }
  }
 ]
