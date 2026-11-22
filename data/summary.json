@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-22T21:42:03.144Z",
+ "generated": "2026-11-22T21:52:02.620Z",
  "total": 883,
- "open": 8,
- "closed": 875,
+ "open": 3,
+ "closed": 880,
  "wins": 123,
  "losses": 457,
- "timeouts": 295,
- "winRate": 0.141,
- "netR": -0.4,
- "avgR": 0,
+ "timeouts": 300,
+ "winRate": 0.14,
+ "netR": 1.9,
+ "avgR": 0.002,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 875,
+   "n": 880,
    "wins": 123,
-   "R": -0.4,
-   "winRate": 0.141
+   "R": 1.9,
+   "winRate": 0.14
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 37,
+   "n": 38,
    "wins": 10,
-   "R": 10.72,
-   "winRate": 0.27
+   "R": 11.19,
+   "winRate": 0.263
   },
   "HYPE": {
-   "n": 44,
+   "n": 45,
    "wins": 5,
-   "R": -1.34,
-   "winRate": 0.114
+   "R": -0.64,
+   "winRate": 0.111
   },
   "XLM": {
    "n": 41,
@@ -62,10 +62,10 @@
    "winRate": 0.171
   },
   "LINK": {
-   "n": 30,
+   "n": 31,
    "wins": 6,
-   "R": 0.47,
-   "winRate": 0.2
+   "R": 1.06,
+   "winRate": 0.194
   },
   "ADA": {
    "n": 30,
@@ -86,10 +86,10 @@
    "winRate": 0.192
   },
   "SUI": {
-   "n": 20,
+   "n": 21,
    "wins": 3,
-   "R": -2.56,
-   "winRate": 0.15
+   "R": -2.45,
+   "winRate": 0.143
   },
   "TAO": {
    "n": 16,
@@ -242,10 +242,10 @@
    "winRate": 0.125
   },
   "ENA": {
-   "n": 9,
+   "n": 10,
    "wins": 3,
-   "R": 8.49,
-   "winRate": 0.333
+   "R": 8.92,
+   "winRate": 0.3
   },
   "ETC": {
    "n": 5,
@@ -286,10 +286,10 @@
    "winRate": 0.177
   },
   "LONG": {
-   "n": 294,
+   "n": 299,
    "wins": 20,
-   "R": -128.54,
-   "winRate": 0.068
+   "R": -126.24,
+   "winRate": 0.067
   }
  },
  "config": {
