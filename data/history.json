@@ -40083,5 +40083,50 @@
    "mfe": 0.7068898439941378,
    "mae": 0.3004281836975046
   }
+ },
+ {
+  "uid": "NIGHT-LONG-1795351881661",
+  "id": "NIGHT",
+  "name": "Midnight",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 66,
+  "at": 1795351881661,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volume 4.6x normal",
+   "Trend, momentum, VWAP aligned",
+   "Open interest +7.3% in 6h",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.00102194623932222,
+   "rsi": 73.1744905883132,
+   "rvol": 4.558593172628426,
+   "bbPct": 0.23214285714285715,
+   "funding": 0.00005,
+   "oiChg6h": 0.07301583760777998
+  },
+  "plan": {
+   "entry": 0.046948,
+   "stop": 0.04541508064101667,
+   "takeProfit": 0.05078029839745832,
+   "stopDist": 0.0015329193589833298,
+   "tpDist": 0.0038322983974583245,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4892.625274805184,
+   "unit": "NIGHT",
+   "notional": 229.69897140155376,
+   "note": "Spot OK",
+   "timeStop": "2026-11-23T00:51:21.661Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.45534032557520515,
+   "mae": 0.14743110828079425
+  }
  }
 ]
