@@ -40280,7 +40280,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.355152485681957,
+   "mfe": 1.5791446320756732,
    "mae": 0.6831760465008242
   }
  },
@@ -40416,7 +40416,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4000892623819838,
+   "mfe": 0.6052632430907036,
    "mae": 0.8309546218703054
   }
  },
@@ -40504,7 +40504,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.508522080051753,
+   "mfe": 0.561127812470902,
    "mae": 0.7540154980077735
   }
  },
@@ -40548,7 +40548,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4396376447235648,
+   "mfe": 0.47345592508691753,
    "mae": 0.8341842489626661
   }
  },
@@ -40592,7 +40592,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3376062373109308,
+   "mfe": 1.4125121866003434,
    "mae": 0.7918628924880603
   }
  },
@@ -40636,7 +40636,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4978643455528199,
+   "mfe": 0.6180384979276332,
    "mae": 0.7897158584631004
   }
  },
@@ -40679,8 +40679,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.776941919491096,
+   "mfe": 0.9783713060258302,
    "mae": 0.20142938653473427
+  }
+ },
+ {
+  "uid": "DOT-LONG-1795413138916",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795413138916,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.006890552751400825,
+   "rsi": 61.958679473104546,
+   "rvol": 0.3262741292713172,
+   "bbPct": 0.05357142857142857,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.671,
+   "stop": 0.6606641708728989,
+   "takeProfit": 0.6968395728177531,
+   "stopDist": 0.010335829127101237,
+   "tpDist": 0.025839572817753093,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 725.6311910511849,
+   "unit": "DOT",
+   "notional": 486.89852919534513,
+   "note": "Spot OK",
+   "timeStop": "2026-11-23T17:52:18.916Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.19350165094698282,
+   "mae": 0.07740066037879528
   }
  }
 ]
