@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-23T13:53:03.468Z",
+ "generated": "2026-11-23T14:03:04.447Z",
  "total": 897,
- "open": 10,
- "closed": 887,
- "wins": 123,
+ "open": 2,
+ "closed": 895,
+ "wins": 131,
  "losses": 461,
  "timeouts": 303,
- "winRate": 0.139,
- "netR": -1.32,
- "avgR": -0.001,
+ "winRate": 0.146,
+ "netR": 18.68,
+ "avgR": 0.021,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 887,
-   "wins": 123,
-   "R": -1.32,
-   "winRate": 0.139
+   "n": 895,
+   "wins": 131,
+   "R": 18.68,
+   "winRate": 0.146
   }
  },
  "bySymbol": {
@@ -62,10 +62,10 @@
    "winRate": 0.171
   },
   "LINK": {
-   "n": 31,
-   "wins": 6,
-   "R": 1.06,
-   "winRate": 0.194
+   "n": 32,
+   "wins": 7,
+   "R": 3.56,
+   "winRate": 0.219
   },
   "ADA": {
    "n": 30,
@@ -98,10 +98,10 @@
    "winRate": 0.063
   },
   "SOL": {
-   "n": 28,
-   "wins": 6,
-   "R": 3.43,
-   "winRate": 0.214
+   "n": 30,
+   "wins": 8,
+   "R": 8.43,
+   "winRate": 0.267
   },
   "ZEC": {
    "n": 46,
@@ -122,10 +122,10 @@
    "winRate": 0.103
   },
   "LTC": {
-   "n": 27,
-   "wins": 6,
-   "R": 8.65,
-   "winRate": 0.222
+   "n": 28,
+   "wins": 7,
+   "R": 11.15,
+   "winRate": 0.25
   },
   "RENDER": {
    "n": 1,
@@ -152,22 +152,22 @@
    "winRate": 0.188
   },
   "DOT": {
-   "n": 12,
-   "wins": 0,
-   "R": -7.09,
-   "winRate": 0
+   "n": 13,
+   "wins": 1,
+   "R": -4.59,
+   "winRate": 0.077
   },
   "POL": {
-   "n": 13,
-   "wins": 2,
-   "R": 0.53,
-   "winRate": 0.154
+   "n": 14,
+   "wins": 3,
+   "R": 3.03,
+   "winRate": 0.214
   },
   "ICP": {
-   "n": 11,
-   "wins": 1,
-   "R": 2.58,
-   "winRate": 0.091
+   "n": 12,
+   "wins": 2,
+   "R": 5.08,
+   "winRate": 0.167
   },
   "SKY": {
    "n": 10,
@@ -218,10 +218,10 @@
    "winRate": 0.091
   },
   "HBAR": {
-   "n": 31,
-   "wins": 1,
-   "R": -10.7,
-   "winRate": 0.032
+   "n": 32,
+   "wins": 2,
+   "R": -8.2,
+   "winRate": 0.063
   },
   "ARB": {
    "n": 5,
@@ -292,10 +292,10 @@
    "winRate": 0.177
   },
   "LONG": {
-   "n": 306,
-   "wins": 20,
-   "R": -129.46,
-   "winRate": 0.065
+   "n": 314,
+   "wins": 28,
+   "R": -109.46,
+   "winRate": 0.089
   }
  },
  "config": {
