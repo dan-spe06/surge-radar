@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-23T16:33:02.835Z",
+ "generated": "2026-11-23T16:43:02.650Z",
  "total": 910,
- "open": 7,
- "closed": 903,
+ "open": 3,
+ "closed": 907,
  "wins": 134,
- "losses": 466,
+ "losses": 470,
  "timeouts": 303,
  "winRate": 0.148,
- "netR": 21.18,
- "avgR": 0.023,
+ "netR": 17.18,
+ "avgR": 0.019,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 903,
+   "n": 907,
    "wins": 134,
-   "R": 21.18,
+   "R": 17.18,
    "winRate": 0.148
   }
  },
@@ -56,10 +56,10 @@
    "winRate": 0.25
   },
   "BTC": {
-   "n": 42,
+   "n": 43,
    "wins": 8,
-   "R": 5.02,
-   "winRate": 0.19
+   "R": 4.02,
+   "winRate": 0.186
   },
   "LINK": {
    "n": 32,
@@ -74,10 +74,10 @@
    "winRate": 0.067
   },
   "BCH": {
-   "n": 45,
+   "n": 46,
    "wins": 8,
-   "R": -0.08,
-   "winRate": 0.178
+   "R": -1.08,
+   "winRate": 0.174
   },
   "AVAX": {
    "n": 26,
@@ -92,10 +92,10 @@
    "winRate": 0.143
   },
   "TAO": {
-   "n": 16,
+   "n": 17,
    "wins": 1,
-   "R": -3.57,
-   "winRate": 0.063
+   "R": -4.57,
+   "winRate": 0.059
   },
   "SOL": {
    "n": 30,
@@ -146,10 +146,10 @@
    "winRate": 0
   },
   "SHIB": {
-   "n": 16,
+   "n": 17,
    "wins": 3,
-   "R": 4.1,
-   "winRate": 0.188
+   "R": 3.1,
+   "winRate": 0.176
   },
   "DOT": {
    "n": 13,
@@ -292,10 +292,10 @@
    "winRate": 0.177
   },
   "LONG": {
-   "n": 322,
+   "n": 326,
    "wins": 31,
-   "R": -106.96,
-   "winRate": 0.096
+   "R": -110.96,
+   "winRate": 0.095
   }
  },
  "config": {
