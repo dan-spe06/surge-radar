@@ -40554,9 +40554,11 @@
    "timeStop": "2026-11-23T15:22:18.669Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.310915824829013,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1795442400000,
+   "exit": 5.009773547306908,
+   "mfe": 2.852008310642636,
    "mae": 0.845457009083787
   }
  },
@@ -40787,6 +40789,359 @@
    "exit": 0.0539011632689301,
    "mfe": 4.065249125443348,
    "mae": 0.5617435155158051
+  }
+ },
+ {
+  "uid": "PUMP-LONG-1795443181977",
+  "id": "PUMP",
+  "name": "Pump.fun",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1795443181977,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 26% of 5 days)",
+   "Volume 5.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.00005059247986948049,
+   "rsi": 71.06671270209509,
+   "rvol": 5.476274578321886,
+   "bbPct": 0.2631578947368421,
+   "funding": 0.0000633542066413,
+   "oiChg6h": -0.005343345626444102
+  },
+  "plan": {
+   "entry": 0.002702,
+   "stop": 0.0026261112801957793,
+   "takeProfit": 0.002891721799510552,
+   "stopDist": 0.00007588871980422073,
+   "tpDist": 0.00018972179951055185,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 98828.91712165724,
+   "unit": "PUMP",
+   "notional": 267.0357340627179,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:01.977Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02635437789910638,
+   "mae": 0.9092260375192474
+  }
+ },
+ {
+  "uid": "ARB-LONG-1795443182104",
+  "id": "ARB",
+  "name": "Arbitrum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 82,
+  "at": 1795443182104,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Volume 12.4x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0017788180806596937,
+   "rsi": 66.1207364703427,
+   "rvol": 12.434817513527141,
+   "bbPct": 0.3333333333333333,
+   "funding": 0.0000659229084389,
+   "oiChg6h": -0.014107042635429265
+  },
+  "plan": {
+   "entry": 0.11893,
+   "stop": 0.11626177287901045,
+   "takeProfit": 0.12560056780247383,
+   "stopDist": 0.0026682271209895404,
+   "tpDist": 0.006670567802473851,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2810.855170836636,
+   "unit": "ARB",
+   "notional": 334.2950054676011,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:02.104Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795442400000,
+   "exit": 0.11626177287901045,
+   "mfe": 0.06371271720563172,
+   "mae": 1.0718727718123657
+  }
+ },
+ {
+  "uid": "NEAR-LONG-1795443180636",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1795443180636,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (46th percentile)",
+   "Volume 4.7x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.05138601251538407,
+   "rsi": 73.08798895232535,
+   "rvol": 4.66130990633352,
+   "bbPct": 0.45614035087719296,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 3.184,
+   "stop": 3.1069209812269243,
+   "takeProfit": 3.3766975469326903,
+   "stopDist": 0.0770790187730761,
+   "tpDist": 0.19269754693269026,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 97.30274359200547,
+   "unit": "NEAR",
+   "notional": 309.81193559694543,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:00.636Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09081589401920087,
+   "mae": 0.9860011350656563
+  }
+ },
+ {
+  "uid": "WLD-LONG-1795443181743",
+  "id": "WLD",
+  "name": "Worldcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 78,
+  "at": 1795443181743,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (56th percentile)",
+   "Volume 8.2x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.003978802240485796,
+   "rsi": 77.47853515712322,
+   "rvol": 8.185353548436964,
+   "bbPct": 0.5614035087719298,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.253,
+   "stop": 0.2470317966392713,
+   "takeProfit": 0.26792050840182174,
+   "stopDist": 0.005968203360728694,
+   "tpDist": 0.014920508401821736,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1256.6595919553718,
+   "unit": "WLD",
+   "notional": 317.93487676470903,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:01.743Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795442400000,
+   "exit": 0.2470317966392713,
+   "mfe": 0.03351092245213956,
+   "mae": 1.206393208277159
+  }
+ },
+ {
+  "uid": "NIGHT-LONG-1795443181987",
+  "id": "NIGHT",
+  "name": "Midnight",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1795443181987,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volume 3.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0010995780371209974,
+   "rsi": 64.87139772686145,
+   "rvol": 3.9458809683852425,
+   "bbPct": 0.12280701754385964,
+   "funding": 0.0000200889933655,
+   "oiChg6h": -0.01642491306566472
+  },
+  "plan": {
+   "entry": 0.051009,
+   "stop": 0.049359632944318506,
+   "takeProfit": 0.05513241763920374,
+   "stopDist": 0.001649367055681496,
+   "tpDist": 0.00412341763920374,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4547.198862839601,
+   "unit": "NIGHT",
+   "notional": 231.9480667945852,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:01.987Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14793553633771572,
+   "mae": 0.83183424530879
+  }
+ },
+ {
+  "uid": "UNI-LONG-1795443180686",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1795443180686,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 9.3x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07394660846285621,
+   "rsi": 76.4699828886985,
+   "rvol": 9.335267161230115,
+   "bbPct": 0.631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 5.018,
+   "stop": 4.907080087305715,
+   "takeProfit": 5.295299781735711,
+   "stopDist": 0.1109199126942843,
+   "tpDist": 0.2772997817357108,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 67.61635325724949,
+   "unit": "UNI",
+   "notional": 339.2988606448779,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:13:00.686Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2073568166555703,
+   "mae": 0.8204117528546289
+  }
+ },
+ {
+  "uid": "SHIB-LONG-1795443181010",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 72,
+  "at": 1795443181010,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Volume 4.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.671717436080554e-8,
+   "rsi": 76.75379468594143,
+   "rvol": 4.5741417387923535,
+   "bbPct": 0.7192982456140351,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000003784,
+   "stop": 0.0000037289242384587916,
+   "takeProfit": 0.0000039216894038530205,
+   "stopDist": 5.5075761541208316e-8,
+   "tpDist": 1.376894038530208e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 136176056.22009265,
+   "unit": "SHIB",
+   "notional": 515.2901967368306,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-24T02:13:01.010Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.036313614992019745,
+   "mae": 0.7444291073365086
+  }
+ },
+ {
+  "uid": "BTC-LONG-1795443179993",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1795443179993,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (46th percentile)",
+   "Volume 9.6x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 690.674648653173,
+   "rsi": 69.1235375817281,
+   "rvol": 9.611673665628038,
+   "bbPct": 0.45614035087719296,
+   "funding": 0.0000285072352817,
+   "oiChg6h": -0.004917259309930324
+  },
+  "plan": {
+   "entry": 63256.5,
+   "stop": 62220.48802702024,
+   "takeProfit": 65846.5299324494,
+   "stopDist": 1036.0119729797595,
+   "tpDist": 2590.029932449399,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.007239298575313402,
+   "unit": "BTC",
+   "notional": 457.9326903293122,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T02:12:59.993Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.6275024005081643,
+   "mae": 0.4005745211673416
   }
  }
 ]
