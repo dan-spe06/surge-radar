@@ -40235,7 +40235,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.29582365859426607,
+   "mfe": 0.37299504779276843,
    "mae": 0.707404400986288
   }
  },
@@ -40278,8 +40278,364 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.15679450247559978,
+   "mfe": 1.030363873411082,
    "mae": 0.6831760465008242
+  }
+ },
+ {
+  "uid": "ETH-LONG-1795404137988",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 74,
+  "at": 1795404137988,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 2.9x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 16.827179248757844,
+   "rsi": 67.79388332493149,
+   "rvol": 2.881951479321365,
+   "bbPct": 0.017543859649122806,
+   "funding": -0.0000550503873754,
+   "oiChg6h": 0.009716014260185552
+  },
+  "plan": {
+   "entry": 1745.67,
+   "stop": 1720.4292311268632,
+   "takeProfit": 1808.771922182842,
+   "stopDist": 25.240768873136766,
+   "tpDist": 63.10192218284192,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.2971383335308021,
+   "unit": "ETH",
+   "notional": 518.7054746947153,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-23T15:22:17.988Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795403700000,
+   "exit": 1720.4292311268632,
+   "mfe": 0.2658397623988924,
+   "mae": 1.0641514184849843
+  }
+ },
+ {
+  "uid": "BTC-LONG-1795404137985",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 68,
+  "at": 1795404137985,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volume 2.1x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 583.1658673967438,
+   "rsi": 63.94427624953577,
+   "rvol": 2.0910881201426017,
+   "bbPct": 0.017543859649122806,
+   "funding": 0.0000197556426645,
+   "oiChg6h": -0.010243526708717482
+  },
+  "plan": {
+   "entry": 61811.9,
+   "stop": 60937.15119890489,
+   "takeProfit": 63998.772002737795,
+   "stopDist": 874.7488010951157,
+   "tpDist": 2186.8720027377894,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.008573890002033268,
+   "unit": "BTC",
+   "notional": 529.9684314166802,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-23T15:22:17.985Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1747930375081199,
+   "mae": 0.8684778979392948
+  }
+ },
+ {
+  "uid": "SOL-LONG-1795404138009",
+  "id": "SOL",
+  "name": "Solana",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 67,
+  "at": 1795404138009,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 4% of 5 days)",
+   "Volatility below average",
+   "Volume 1.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.649854980991109,
+   "rsi": 64.8997497610292,
+   "rvol": 1.6207205810529666,
+   "bbPct": 0.03508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 71.68,
+   "stop": 70.70521752851334,
+   "takeProfit": 74.11695617871666,
+   "stopDist": 0.9747824714866635,
+   "tpDist": 2.4369561787166587,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7.69402427657688,
+   "unit": "SOL",
+   "notional": 551.5076601450309,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-23T15:22:18.009Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10258699035435258,
+   "mae": 0.8309546218703054
+  }
+ },
+ {
+  "uid": "BNB-LONG-1795404138005",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795404138005,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.685405606249445,
+   "rsi": 61.8407531924376,
+   "rvol": 0.8821796327898228,
+   "bbPct": 0.017543859649122806,
+   "funding": 2.747619132e-7,
+   "oiChg6h": 0.002910686174838954
+  },
+  "plan": {
+   "entry": 562.8,
+   "stop": 555.7718915906258,
+   "takeProfit": 580.3702710234354,
+   "stopDist": 7.028108409374167,
+   "tpDist": 17.570271023435417,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.067143470638048,
+   "unit": "BNB",
+   "notional": 600.5883452750934,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-23T15:22:18.005Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1280572164765787,
+   "mae": 0.808183321763208
+  }
+ },
+ {
+  "uid": "LTC-LONG-1795404138662",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795404138662,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.3801867036209262,
+   "rsi": 61.12394432044257,
+   "rvol": 1.217530099699927,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 40.51,
+   "stop": 39.93971994456861,
+   "takeProfit": 41.93570013857847,
+   "stopDist": 0.5702800554313894,
+   "tpDist": 1.4257001385784736,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 13.151433104786754,
+   "unit": "LTC",
+   "notional": 532.7645550749114,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-23T15:22:18.662Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10521146483829803,
+   "mae": 0.7540154980077735
+  }
+ },
+ {
+  "uid": "UNI-LONG-1795404138669",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795404138669,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.05913961261517555,
+   "rsi": 63.124909799524374,
+   "rvol": 0.6464269631685615,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.788,
+   "stop": 4.6992905810772365,
+   "takeProfit": 5.009773547306908,
+   "stopDist": 0.08870941892276332,
+   "tpDist": 0.2217735473069083,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 84.5457009083785,
+   "unit": "UNI",
+   "notional": 404.8048159493163,
+   "note": "Spot OK",
+   "timeStop": "2026-11-23T15:22:18.669Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.10145484109004803,
+   "mae": 0.8341842489626661
+  }
+ },
+ {
+  "uid": "POL-LONG-1795404140033",
+  "id": "POL",
+  "name": "POL (ex-MATIC)",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795404140033,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0006230034744818726,
+   "rsi": 63.30835106184675,
+   "rvol": 0.8000825735919029,
+   "bbPct": 0.017543859649122806,
+   "funding": -0.0000093274151002,
+   "oiChg6h": -0.003586783884242211
+  },
+  "plan": {
+   "entry": 0.0768,
+   "stop": 0.07586549478827719,
+   "takeProfit": 0.07913626302930701,
+   "stopDist": 0.000934505211722809,
+   "tpDist": 0.0023362630293070224,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8025.637423865577,
+   "unit": "POL",
+   "notional": 616.3689541528763,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-23T15:22:20.033Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.21401699796975485,
+   "mae": 0.7918628924880603
+  }
+ },
+ {
+  "uid": "LINK-LONG-1795404138346",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1795404138346,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.07766506481546044,
+   "rsi": 64.83069108651145,
+   "rvol": 0.8938030393197959,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.91,
+   "stop": 8.79350240277681,
+   "takeProfit": 9.201243993057977,
+   "stopDist": 0.11649759722319067,
+   "tpDist": 0.29124399305797666,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 64.37901020079586,
+   "unit": "LINK",
+   "notional": 573.6169808890911,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-23T15:22:18.346Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.18884509658900328,
+   "mae": 0.7897158584631004
   }
  }
 ]
