@@ -40590,7 +40590,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7918628924880751,
+   "mfe": 0.8453671419805212,
    "mae": 0.7918628924880603
   }
  },
@@ -40636,6 +40636,49 @@
    "r": null,
    "mfe": 0.20601283264253933,
    "mae": 0.7897158584631004
+  }
+ },
+ {
+  "uid": "ICP-LONG-1795410139333",
+  "id": "ICP",
+  "name": "Internet Computer",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1795410139333,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 16% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.02316775494851656,
+   "rsi": 65.21284199013107,
+   "rvol": 0.12697975003372242,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.011,
+   "stop": 1.9762483675772253,
+   "takeProfit": 2.0978790810569374,
+   "stopDist": 0.03475163242277484,
+   "tpDist": 0.0868790810569371,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 215.81719985864024,
+   "unit": "ICP",
+   "notional": 434.00838891572556,
+   "note": "Spot OK",
+   "timeStop": "2026-11-23T17:02:19.333Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05755125329563106,
+   "mae": 0.20142938653473427
   }
  }
 ]
