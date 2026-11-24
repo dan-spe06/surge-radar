@@ -41818,7 +41818,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5351822353584663,
+   "mfe": 0.5521721475920617,
    "mae": 0.16565164427761966
   }
  },
@@ -41950,6 +41950,50 @@
    "r": null,
    "mfe": 0.4078091342018716,
    "mae": 0.2429501225032405
+  }
+ },
+ {
+  "uid": "DOGE-SHORT-1795525464966",
+  "id": "DOGE",
+  "name": "Dogecoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795525464966,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 26% of 5 days)",
+   "Volatility below average",
+   "Volume 2.4x normal",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006263585891610168,
+   "rsi": 43.07537577213621,
+   "rvol": 2.423281886244588,
+   "bbPct": 0.2631578947368421,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0556,
+   "stop": 0.056539537883741525,
+   "takeProfit": 0.05325115529064618,
+   "stopDist": 0.0009395378837415251,
+   "tpDist": 0.0023488447093538128,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 7982.647778004142,
+   "unit": "DOGE",
+   "notional": 443.8352164570303,
+   "note": "Spot OK",
+   "timeStop": "2026-11-25T01:04:24.966Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05321765185335509,
+   "mae": 0.08514824296538144
   }
  }
 ]
