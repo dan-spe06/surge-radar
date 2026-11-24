@@ -41508,7 +41508,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.7373520759344154,
+   "mfe": 0.8054935781242162,
    "mae": 0.552251278941223
   }
  },
@@ -41551,7 +41551,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.36135528498089764,
+   "mfe": 0.5146575270940085,
    "mae": 0.7446108902636717
   }
  },
@@ -41772,7 +41772,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3032356122323743,
+   "mfe": 0.38638753318558927,
    "mae": 0.17375028258880545
   }
  },
@@ -41816,7 +41816,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3695305910808466,
+   "mfe": 0.5351822353584663,
    "mae": 0.16565164427761966
   }
  },
@@ -41859,8 +41859,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2838963452078651,
+   "mfe": 0.461005991759562,
    "mae": 0.29691911333666177
+  }
+ },
+ {
+  "uid": "LINK-SHORT-1795519464957",
+  "id": "LINK",
+  "name": "Chainlink",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 51,
+  "at": 1795519464957,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 28% of 5 days)",
+   "Volatility below average",
+   "Volume 3.0x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.10310937802444041,
+   "rsi": 44.156589574163554,
+   "rvol": 2.991534330244184,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 8.936,
+   "stop": 9.090664067036661,
+   "takeProfit": 8.549339832408348,
+   "stopDist": 0.1546640670366606,
+   "tpDist": 0.3866601675916515,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 48.49219436485041,
+   "unit": "LINK",
+   "notional": 433.3262488443033,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T23:24:24.957Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.21336565520533843,
+   "mae": 0.025862503661250705
   }
  }
 ]
