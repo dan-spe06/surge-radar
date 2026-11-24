@@ -41551,7 +41551,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.27375400377341,
+   "mfe": 0.36135528498089764,
    "mae": 0.7446108902636717
   }
  },
@@ -41641,6 +41641,51 @@
    "exit": 190.66938691706753,
    "mfe": 0.28647628988036844,
    "mae": 1.0529260128059277
+  }
+ },
+ {
+  "uid": "NIGHT-SHORT-1795511645690",
+  "id": "NIGHT",
+  "name": "Midnight",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 70,
+  "at": 1795511645690,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Volume 3.3x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0009718253563624398,
+   "rsi": 43.15985372492735,
+   "rvol": 3.3195289440962585,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.047883,
+   "stop": 0.04934073803454366,
+   "takeProfit": 0.04423865491364085,
+   "stopDist": 0.0014577380345436597,
+   "tpDist": 0.0036443450863591492,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5144.957339572917,
+   "unit": "NIGHT",
+   "notional": 246.35599229077,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T21:14:05.690Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.12690894770946845,
+   "mae": 0.4911719273512287
   }
  }
 ]
