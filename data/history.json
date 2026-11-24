@@ -41730,7 +41730,50 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.06574556807613521,
-   "mae": 0.41616266802832275
+   "mae": 0.48529718291250484
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1795514664883",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795514664883,
+  "factors": [
+   "Volatility below average",
+   "Volume 4.1x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 16.115081703932464,
+   "rsi": 32.39310489906039,
+   "rvol": 4.108635547549693,
+   "bbPct": 0.9122807017543859,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 741.32,
+   "stop": 765.4926225558987,
+   "takeProfit": 680.8884436102533,
+   "stopDist": 24.1726225558987,
+   "tpDist": 60.431556389746746,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.3102683617657291,
+   "unit": "ZEC",
+   "notional": 230.0081419441703,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T22:04:24.883Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05460723167077039,
+   "mae": 0.08315192095321501
   }
  }
 ]
