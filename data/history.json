@@ -41824,7 +41824,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.2954808078121478,
+   "mfe": 1.631031574425786,
    "mae": 0.16565164427761966
   }
  },
@@ -41867,7 +41867,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.8959664472615159,
+   "mfe": 1.0652624329359317,
    "mae": 0.29691911333666177
   }
  },
@@ -41911,7 +41911,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.9181188799744977,
+   "mfe": 1.273728305316732,
    "mae": 0.5948375842088351
   }
  },
@@ -41954,7 +41954,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.856833079131941,
+   "mfe": 2.0563992511881746,
    "mae": 0.2429501225032405
   }
  },
@@ -41998,7 +41998,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.9259871422484761,
+   "mfe": 1.2133624622566246,
    "mae": 0.10643530370672495
   }
  },
@@ -42042,7 +42042,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03580034225942613,
+   "mfe": 0.36397014630415153,
    "mae": 0.6981066740587777
   }
  },
@@ -42086,8 +42086,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.12450800904522984,
+   "mfe": 0.32683352374372887,
    "mae": 0.7159210520100748
+  }
+ },
+ {
+  "uid": "ONDO-SHORT-1795533888236",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 65,
+  "at": 1795533888236,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (58th percentile)",
+   "Volume 1.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.004324408210985649,
+   "rsi": 34.558479815061574,
+   "rvol": 1.52445318624433,
+   "bbPct": 0.5789473684210527,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2771,
+   "stop": 0.28358661231647847,
+   "takeProfit": 0.26088346920880384,
+   "stopDist": 0.006486612316478474,
+   "tpDist": 0.016216530791196185,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1156.2275705836673,
+   "unit": "ONDO",
+   "notional": 320.39065980873426,
+   "note": "Spot OK",
+   "timeStop": "2026-11-25T03:24:48.236Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2620782493323033,
+   "mae": 0.1387473084700419
   }
  }
 ]
