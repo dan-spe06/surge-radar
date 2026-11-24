@@ -41425,5 +41425,89 @@
    "mfe": 0.2142039189468238,
    "mae": 0.7518742745741517
   }
+ },
+ {
+  "uid": "ETH-SHORT-1795488221160",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795488221160,
+  "factors": [
+   "Volume 5.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 22.379500525462287,
+   "rsi": 35.65001699345564,
+   "rvol": 5.673960738619117,
+   "bbPct": 0.8771929824561403,
+   "funding": -0.0000437935894886,
+   "oiChg6h": 0.002024555834159711
+  },
+  "plan": {
+   "entry": 1686.73,
+   "stop": 1720.2992507881934,
+   "takeProfit": 1602.8068730295165,
+   "stopDist": 33.56925078819343,
+   "tpDist": 83.92312697048357,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.22341874852440285,
+   "unit": "ETH",
+   "notional": 376.84710569856605,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T14:43:41.160Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03574699976390581,
+   "mae": 0.4060263389850113
+  }
+ },
+ {
+  "uid": "ZEC-SHORT-1795488221568",
+  "id": "ZEC",
+  "name": "Zcash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795488221568,
+  "factors": [
+   "Volume 2.7x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 19.664961248837276,
+   "rsi": 34.09870344338144,
+   "rvol": 2.7417658061084733,
+   "bbPct": 0.8771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 755.74,
+   "stop": 785.2374418732559,
+   "takeProfit": 681.9963953168602,
+   "stopDist": 29.497441873255916,
+   "tpDist": 73.7436046831398,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.25425933652910876,
+   "unit": "ZEC",
+   "notional": 192.15395098850865,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T14:43:41.568Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15153856457134973,
+   "mae": 0.2796852701820196
+  }
  }
 ]
