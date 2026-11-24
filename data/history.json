@@ -41730,7 +41730,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.06574556807613521,
-   "mae": 0.48529718291250484
+   "mae": 0.5368091743948374
   }
  },
  {
@@ -41774,6 +41774,93 @@
    "r": null,
    "mfe": 0.3032356122323743,
    "mae": 0.17375028258880545
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795517665349",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1795517665349,
+  "factors": [
+   "Volatility below average",
+   "Volume 6.1x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0015695588240842366,
+   "rsi": 38.4504761102563,
+   "rvol": 6.107191779980215,
+   "bbPct": 0.6071428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12711,
+   "stop": 0.12946433823612635,
+   "takeProfit": 0.12122415440968412,
+   "stopDist": 0.0023543382361263547,
+   "tpDist": 0.005885845590315887,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3185.6085438003665,
+   "unit": "XLM",
+   "notional": 404.9227020024646,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T22:54:25.349Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.16565164427761966,
+   "mae": 0.07220712699280979
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1795517665978",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1795517665978,
+  "factors": [
+   "Volatility below average",
+   "Volume 5.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.494294903723366,
+   "rsi": 33.29210763482334,
+   "rvol": 5.012738299770597,
+   "bbPct": 0.9285714285714286,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 184.09,
+   "stop": 187.92942949037234,
+   "takeProfit": 174.49142627406914,
+   "stopDist": 3.83942949037234,
+   "tpDist": 9.59857372593085,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.9534152193201666,
+   "unit": "TAO",
+   "notional": 359.6042077246495,
+   "note": "Spot OK",
+   "timeStop": "2026-11-24T22:54:25.978Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1640868784228928,
+   "mae": 0.29691911333666177
   }
  }
 ]
