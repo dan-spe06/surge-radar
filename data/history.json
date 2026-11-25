@@ -42408,7 +42408,51 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.15560594907125994,
-   "mae": 0.13516408474263983
+   "mae": 0.22386938692020444
+  }
+ },
+ {
+  "uid": "TAO-SHORT-1795571111763",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795571111763,
+  "factors": [
+   "Volatility below average",
+   "Volume 3.5x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 2.11285250677625,
+   "rsi": 32.334835383200485,
+   "rvol": 3.45432231814701,
+   "bbPct": 0.7321428571428571,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 179.4,
+   "stop": 182.5692787601644,
+   "takeProfit": 171.47680309958906,
+   "stopDist": 3.1692787601643753,
+   "tpDist": 7.923196900410938,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.3664690194721185,
+   "unit": "TAO",
+   "notional": 424.54454209329805,
+   "note": "Spot OK",
+   "timeStop": "2026-11-25T13:45:11.763Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0
   }
  }
 ]
