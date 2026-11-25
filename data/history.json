@@ -43296,7 +43296,7 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.200744621485413,
-   "mae": 0.30111693222811714
+   "mae": 0.4349466798850576
   }
  },
  {
@@ -43599,6 +43599,49 @@
    "r": null,
    "mfe": 0.14500020585533707,
    "mae": 0.32544490647531576
+  }
+ },
+ {
+  "uid": "BTC-LONG-1795641396331",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 48,
+  "at": 1795641396331,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (60th percentile)",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 666.3342678775288,
+   "rsi": 61.00516861051003,
+   "rvol": 1.0681940927164786,
+   "bbPct": 0.5964912280701754,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 60256.8,
+   "stop": 59257.29859818371,
+   "takeProfit": 62755.55350454074,
+   "stopDist": 999.5014018162931,
+   "tpDist": 2498.7535045407326,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.007503741351809018,
+   "unit": "BTC",
+   "notional": 452.1514418876857,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T09:16:36.331Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.00970483881500342,
+   "mae": 0.03081536448476528
   }
  }
 ]
