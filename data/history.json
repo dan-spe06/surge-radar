@@ -43061,8 +43061,8 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06129547234836609,
-   "mae": 0.10726707660963428
+   "mfe": 0.19154835108864296,
+   "mae": 0.18388641704508976
   }
  },
  {
@@ -43103,7 +43103,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.03133014912574605,
+   "mfe": 0.18171486492930758,
    "mae": 0.11278853685267463
   }
  },
@@ -43145,8 +43145,96 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.014087022055359924,
+   "mfe": 0.3240015072733158,
    "mae": 0.11269617644289191
+  }
+ },
+ {
+  "uid": "SUI-SHORT-1795620378070",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1795620378070,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 3.1x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.008851023304008608,
+   "rsi": 33.011812467344726,
+   "rvol": 3.0570728613603224,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6216,
+   "stop": 0.6351851023304008,
+   "takeProfit": 0.5876372441739981,
+   "stopDist": 0.013585102330400795,
+   "tpDist": 0.033962755826001986,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 552.0753408839969,
+   "unit": "SUI",
+   "notional": 343.1700318934925,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T03:26:18.070Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.25027415453408375,
+   "mae": 0.1104150681767954
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1795620377128",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 48,
+  "at": 1795620377128,
+  "factors": [
+   "Volatility squeeze active",
+   "Range moderately tight (58th percentile)",
+   "Volume 2.5x normal",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 20.906525258153067,
+   "rsi": 38.62972905931436,
+   "rvol": 2.4854718657604464,
+   "bbPct": 0.5789473684210527,
+   "funding": 0.0000399309171101,
+   "oiChg6h": -0.012283551688674793
+  },
+  "plan": {
+   "entry": 1634.88,
+   "stop": 1666.2397878872298,
+   "takeProfit": 1556.4805302819261,
+   "stopDist": 31.3597878872296,
+   "tpDist": 78.399469718074,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.23915978089425044,
+   "unit": "ETH",
+   "notional": 390.9975425883922,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T03:26:17.128Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.33259153529693963,
+   "mae": 0.10523030359346874
   }
  }
 ]
