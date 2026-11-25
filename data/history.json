@@ -43021,5 +43021,132 @@
    "mfe": 0.5780790699174344,
    "mae": 1.10275375250052
   }
+ },
+ {
+  "uid": "SUI-SHORT-1795619777645",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1795619777645,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (40th percentile)",
+   "Volume 2.5x normal",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.008701023304008609,
+   "rsi": 32.53967427238776,
+   "rvol": 2.4503716079756463,
+   "bbPct": 0.40350877192982454,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6207,
+   "stop": 0.633751534956013,
+   "takeProfit": 0.5880711626099677,
+   "stopDist": 0.013051534956012913,
+   "tpDist": 0.032628837390032285,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 574.6450532659156,
+   "unit": "SUI",
+   "notional": 356.68218456215385,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T03:16:17.645Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06129547234836609,
+   "mae": 0.10726707660963428
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1795619776823",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795619776823,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.01063937908483968,
+   "rsi": 35.78898411377142,
+   "rvol": 0.9010880940060505,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.8961,
+   "stop": 0.9120590686272595,
+   "takeProfit": 0.8562023284318512,
+   "stopDist": 0.01595906862725952,
+   "tpDist": 0.039897671568148795,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 469.9522368861381,
+   "unit": "XRP",
+   "notional": 421.12419947366834,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T03:16:16.823Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03133014912574605,
+   "mae": 0.11278853685267463
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1795619777366",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795619777366,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.04732488272160655,
+   "rsi": 30.143287697683505,
+   "rvol": 0.800977355174169,
+   "bbPct": 0.3333333333333333,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.746,
+   "stop": 2.81698732408241,
+   "takeProfit": 2.5685316897939754,
+   "stopDist": 0.07098732408240982,
+   "tpDist": 0.17746831020602455,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 105.65266541521108,
+   "unit": "NEAR",
+   "notional": 290.1222192301696,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T03:16:17.366Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.014087022055359924,
+   "mae": 0.11269617644289191
+  }
  }
 ]
