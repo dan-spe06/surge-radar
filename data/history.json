@@ -42465,9 +42465,11 @@
    "timeStop": "2026-11-25T13:45:11.763Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.3380713912384516,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1795614300000,
+   "exit": 171.47680309958906,
+   "mfe": 2.555786541029886,
    "mae": 0.09781405280484827
   }
  },
@@ -42557,7 +42559,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.70547641120387,
+   "mfe": 0.8943699788137548,
    "mae": 0.5100126325466896
   }
  },
@@ -42602,7 +42604,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.691369059087013,
+   "mfe": 1.8260521508291296,
    "mae": 0.2818948431811718
   }
  },
@@ -42646,7 +42648,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3230839086534223,
+   "mfe": 1.5120958956039037,
    "mae": 0.43771196978008436
   }
  },
@@ -42691,7 +42693,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.039852749625535,
+   "mfe": 1.3100105718321706,
    "mae": 0.19369806120475216
   }
  },
@@ -42737,6 +42739,139 @@
    "r": null,
    "mfe": 1.4328405502115285,
    "mae": 0.03494733049296291
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795614377096",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 82,
+  "at": 1795614377096,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 25% of 5 days)",
+   "Volume 9.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0013111638384883855,
+   "rsi": 31.105602763058997,
+   "rvol": 8.955389551137372,
+   "bbPct": 0.25,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12046,
+   "stop": 0.12250111638384885,
+   "takeProfit": 0.11535720904037788,
+   "stopDist": 0.0020411163838488476,
+   "tpDist": 0.005102790959622119,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3674.459751215932,
+   "unit": "XLM",
+   "notional": 442.62542163147117,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T01:46:17.096Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02449639834143685,
+   "mae": 0.20087046639980802
+  }
+ },
+ {
+  "uid": "PEPE-SHORT-1795614377854",
+  "id": "PEPE",
+  "name": "Pepe",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 80,
+  "at": 1795614377854,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 34% of 5 days)",
+   "Volatility below average",
+   "Volume 8.0x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 6.103396370464948e-8,
+   "rsi": 33.659680651545386,
+   "rvol": 7.975792716336985,
+   "bbPct": 0.3392857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0000033124,
+   "stop": 0.000003403950945556974,
+   "takeProfit": 0.0000030835226361075644,
+   "stopDist": 9.155094555697421e-8,
+   "tpDist": 2.2887736389243554e-7,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 81921600.63854918,
+   "unit": "PEPE",
+   "notional": 271.3571099551303,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T01:46:17.854Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.02621491220433308,
+   "mae": 0.1496434571664162
+  }
+ },
+ {
+  "uid": "AAVE-SHORT-1795614377851",
+  "id": "AAVE",
+  "name": "Aave",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 76,
+  "at": 1795614377851,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 34% of 5 days)",
+   "Volume 2.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.0851478353580517,
+   "rsi": 30.356258258706305,
+   "rvol": 2.2005524507656866,
+   "bbPct": 0.3392857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 90.65,
+   "stop": 92.28851478353582,
+   "takeProfit": 86.55371304116049,
+   "stopDist": 1.6385147835358063,
+   "tpDist": 4.096286958839515,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4.57731603972196,
+   "unit": "AAVE",
+   "notional": 414.9336990007957,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T01:46:17.851Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.03051544026482,
+   "mae": 0.19529881769479943
   }
  }
 ]
