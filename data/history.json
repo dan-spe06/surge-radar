@@ -42189,7 +42189,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6327597307640785,
+   "mfe": 0.6703345366289264,
    "mae": 0.6913764279132361
   }
  },
@@ -42232,7 +42232,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6834662672120588,
+   "mfe": 0.7393735283336965,
    "mae": 0.15374496808451582
   }
  },
@@ -42277,6 +42277,94 @@
    "r": null,
    "mfe": 0.3849337994674532,
    "mae": 0.11507916713245135
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1795569910823",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 64,
+  "at": 1795569910823,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Volume 2.2x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 16.208054116671757,
+   "rsi": 38.44861428097486,
+   "rvol": 2.206169999438434,
+   "bbPct": 0.19298245614035087,
+   "funding": 0.000087307549635,
+   "oiChg6h": -0.00541153227764673
+  },
+  "plan": {
+   "entry": 1667.38,
+   "stop": 1691.6920811750078,
+   "takeProfit": 1606.599797062481,
+   "stopDist": 24.312081175007634,
+   "tpDist": 60.780202937519086,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.3084886047398468,
+   "unit": "ETH",
+   "notional": 514.3677297711258,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-25T13:25:10.823Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09624844467883818,
+   "mae": 0.31794892195186014
+  }
+ },
+ {
+  "uid": "BNB-SHORT-1795569910820",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795569910820,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 18% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 4.216444994767221,
+   "rsi": 39.67249156334414,
+   "rvol": 0.6807961478260439,
+   "bbPct": 0.17543859649122806,
+   "funding": 0.0001,
+   "oiChg6h": -0.004384992036247568
+  },
+  "plan": {
+   "entry": 544.88,
+   "stop": 551.2046674921509,
+   "takeProfit": 529.068331269623,
+   "stopDist": 6.324667492150831,
+   "tpDist": 15.811668730377077,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.1858330907210228,
+   "unit": "BNB",
+   "notional": 646.1367344720709,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-25T13:25:10.820Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.044271102053580536,
+   "mae": 0.33519548697714313
   }
  }
 ]
