@@ -43254,5 +43254,92 @@
    "mfe": 0.33259153529693963,
    "mae": 1.085147645844178
   }
+ },
+ {
+  "uid": "JUP-LONG-1795637799247",
+  "id": "JUP",
+  "name": "Jupiter",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795637799247,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 33% of 5 days)",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Open interest +10.1% in 6h"
+  ],
+  "stats": {
+   "atr1h": 0.003985162810741288,
+   "rsi": 64.45317487472911,
+   "rvol": 0.6517045282461977,
+   "bbPct": 0.3333333333333333,
+   "funding": 0.00005,
+   "oiChg6h": 0.10082417401565723
+  },
+  "plan": {
+   "entry": 0.2297,
+   "stop": 0.22372225578388805,
+   "takeProfit": 0.24464436054027983,
+   "stopDist": 0.005977744216111932,
+   "tpDist": 0.014944360540279832,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1254.6538842838243,
+   "unit": "JUP",
+   "notional": 288.1939972199944,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T08:16:39.247Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.050186155371352084
+  }
+ },
+ {
+  "uid": "NEAR-LONG-1795637797722",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 50,
+  "at": 1795637797722,
+  "factors": [
+   "Range moderately tight (47th percentile)",
+   "Volume 2.6x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.05621440236296003,
+   "rsi": 64.77447817594438,
+   "rvol": 2.622483219865633,
+   "bbPct": 0.47368421052631576,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.976,
+   "stop": 2.89167839645556,
+   "takeProfit": 3.1868040088611003,
+   "stopDist": 0.08432160354444004,
+   "tpDist": 0.21080400886110012,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 88.94517756706645,
+   "unit": "NEAR",
+   "notional": 264.7008484395898,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T08:16:37.722Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.011859357008940889,
+   "mae": 0.27276521120567204
+  }
  }
 ]
