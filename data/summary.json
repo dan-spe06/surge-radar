@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-25T14:56:21.498Z",
+ "generated": "2026-11-25T15:06:20.751Z",
  "total": 946,
- "open": 10,
- "closed": 936,
+ "open": 4,
+ "closed": 942,
  "wins": 136,
- "losses": 478,
+ "losses": 484,
  "timeouts": 322,
- "winRate": 0.145,
- "netR": 26.8,
- "avgR": 0.029,
+ "winRate": 0.144,
+ "netR": 20.8,
+ "avgR": 0.022,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 936,
+   "n": 942,
    "wins": 136,
-   "R": 26.8,
-   "winRate": 0.145
+   "R": 20.8,
+   "winRate": 0.144
   }
  },
  "bySymbol": {
@@ -32,10 +32,10 @@
    "winRate": 0.109
   },
   "XLM": {
-   "n": 42,
+   "n": 43,
    "wins": 4,
-   "R": -1.58,
-   "winRate": 0.095
+   "R": -2.58,
+   "winRate": 0.093
   },
   "UNI": {
    "n": 33,
@@ -104,10 +104,10 @@
    "winRate": 0.267
   },
   "ZEC": {
-   "n": 49,
+   "n": 51,
    "wins": 6,
-   "R": 5.8,
-   "winRate": 0.122
+   "R": 3.8,
+   "winRate": 0.118
   },
   "DOGE": {
    "n": 28,
@@ -134,9 +134,9 @@
    "winRate": 0
   },
   "AAVE": {
-   "n": 10,
+   "n": 11,
    "wins": 0,
-   "R": -1.19,
+   "R": -2.19,
    "winRate": 0
   },
   "VVV": {
@@ -218,10 +218,10 @@
    "winRate": 0.091
   },
   "HBAR": {
-   "n": 32,
+   "n": 33,
    "wins": 2,
-   "R": -8.2,
-   "winRate": 0.063
+   "R": -9.2,
+   "winRate": 0.061
   },
   "ARB": {
    "n": 6,
@@ -230,10 +230,10 @@
    "winRate": 0
   },
   "PEPE": {
-   "n": 17,
+   "n": 18,
    "wins": 3,
-   "R": 4.55,
-   "winRate": 0.176
+   "R": 3.55,
+   "winRate": 0.167
   },
   "PUMP": {
    "n": 9,
@@ -286,10 +286,10 @@
  },
  "byDirection": {
   "SHORT": {
-   "n": 607,
+   "n": 613,
    "wins": 105,
-   "R": 140.76,
-   "winRate": 0.173
+   "R": 134.76,
+   "winRate": 0.171
   },
   "LONG": {
    "n": 329,
