@@ -42549,7 +42549,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.25623823084471203,
+   "mfe": 0.3400084216977893,
    "mae": 0.5100126325466896
   }
  },
@@ -42638,8 +42638,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.2685959814559504,
+   "mfe": 0.35812797527460644,
    "mae": 0.43771196978008436
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795599357552",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 54,
+  "at": 1795599357552,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Volume 1.7x normal",
+   "High-impact news ≤4h: Core PCE Price Index m/m",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0013078774860092012,
+   "rsi": 40.42513720476462,
+   "rvol": 1.729310816641137,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12298,
+   "stop": 0.1249418162290138,
+   "takeProfit": 0.1180754594274655,
+   "stopDist": 0.0019618162290138018,
+   "tpDist": 0.004904540572534505,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3822.9880500938784,
+   "unit": "XLM",
+   "notional": 470.15107040054517,
+   "note": "Spot OK",
+   "timeStop": "2026-11-25T21:35:57.552Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04587585660112998,
+   "mae": 0.06626512620162277
   }
  }
 ]
