@@ -42561,7 +42561,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.949395496334893,
+   "mfe": 1.1013316268037108,
    "mae": 0.5100126325466896
   }
  },
@@ -42606,7 +42606,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.9701317373439524,
+   "mfe": 2.0421715306013595,
    "mae": 0.2818948431811718
   }
  },
@@ -42695,7 +42695,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.3762756980338005,
+   "mfe": 1.4017622850344233,
    "mae": 0.19369806120475216
   }
  },
@@ -42739,7 +42739,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.4328405502115285,
+   "mfe": 1.9710294398031756,
    "mae": 0.03494733049296291
   }
  },
@@ -42783,7 +42783,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.08818703402918218,
+   "mfe": 0.11268343237061904,
    "mae": 0.2743596614241254
   }
  },
@@ -42874,6 +42874,51 @@
    "r": null,
    "mfe": 0.10985558495333118,
    "mae": 0.3661852831777533
+  }
+ },
+ {
+  "uid": "HBAR-SHORT-1795615577499",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 66,
+  "at": 1795615577499,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 28% of 5 days)",
+   "Volume 2.1x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0005366524759001296,
+   "rsi": 30.638654865960817,
+   "rvol": 2.0608042886301776,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.0489,
+   "stop": 0.04970497871385019,
+   "takeProfit": 0.046887553215374515,
+   "stopDist": 0.0008049787138501945,
+   "tpDist": 0.0020124467846254863,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9317.016550819926,
+   "unit": "HBAR",
+   "notional": 455.6021093350944,
+   "note": "Spot OK",
+   "timeStop": "2026-11-26T02:06:17.499Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.136649576078691,
+   "mae": 0.12422688734426925
   }
  }
 ]
