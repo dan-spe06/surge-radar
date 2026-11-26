@@ -43881,7 +43881,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.41948288281346313,
+   "mfe": 0.48939669661569835,
    "mae": 0.2796552552089668
   }
  },
@@ -43967,7 +43967,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.6973042900247859,
+   "mfe": 0.7245731728749145,
    "mae": 0.0631079860245862
   }
  },
@@ -44055,7 +44055,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.06754915970050825,
+   "mfe": 0.09352960573916243,
    "mae": 0.3941604813293338
   }
  },
@@ -44100,6 +44100,94 @@
    "r": null,
    "mfe": 0.12040379720470912,
    "mae": 0.16783559610353047
+  }
+ },
+ {
+  "uid": "BCH-LONG-1795727297814",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 57,
+  "at": 1795727297814,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 7% of 5 days)",
+   "Volatility below average",
+   "Volume 9.1x normal",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 1.7438254861968923,
+   "rsi": 68.75280334739108,
+   "rvol": 9.130885074123087,
+   "bbPct": 0.07017543859649122,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 210.05,
+   "stop": 207.43426177070467,
+   "takeProfit": 216.58934557323835,
+   "stopDist": 2.6157382292953386,
+   "tpDist": 6.5393455732383465,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.867259390103591,
+   "unit": "BCH",
+   "notional": 602.2678348912593,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-27T09:08:17.814Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11469037560413713,
+   "mae": 0.03823012520138991
+  }
+ },
+ {
+  "uid": "SUI-LONG-1795727297847",
+  "id": "SUI",
+  "name": "Sui",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1795727297847,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 11% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.006369884997047028,
+   "rsi": 63.3649473622833,
+   "rvol": 0.40753738310935755,
+   "bbPct": 0.10526315789473684,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6753,
+   "stop": 0.6657451725044294,
+   "takeProfit": 0.6991870687389263,
+   "stopDist": 0.009554827495570543,
+   "tpDist": 0.02388706873892636,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 784.9435276018195,
+   "unit": "SUI",
+   "notional": 530.0723641895087,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-27T09:08:17.847Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.14652279181900177,
+   "mae": 0.04186365480542576
   }
  }
 ]
