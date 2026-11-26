@@ -43796,5 +43796,136 @@
    "mfe": 0.10803876644828186,
    "mae": 1.6402249088055771
   }
+ },
+ {
+  "uid": "ADA-LONG-1795723678450",
+  "id": "ADA",
+  "name": "Cardano",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1795723678450,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0013605216024980484,
+   "rsi": 67.93289802556379,
+   "rvol": 0.1815138295783559,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.1507,
+   "stop": 0.14865921759625292,
+   "takeProfit": 0.1558019560093677,
+   "stopDist": 0.0020407824037470728,
+   "tpDist": 0.0051019560093676815,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 3675.0610874678646,
+   "unit": "ADA",
+   "notional": 553.8317058814072,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-27T08:07:58.450Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.09800162899914587,
+   "mae": 0.09800162899914587
+  }
+ },
+ {
+  "uid": "ONDO-LONG-1795723679513",
+  "id": "ONDO",
+  "name": "Ondo",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795723679513,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002860664997702982,
+   "rsi": 63.97592867297752,
+   "rvol": 0.3355176718390224,
+   "bbPct": 0.017543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2899,
+   "stop": 0.2856090025034455,
+   "takeProfit": 0.3006274937413862,
+   "stopDist": 0.004290997496554473,
+   "tpDist": 0.010727493741386183,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1747.8453450560733,
+   "unit": "ONDO",
+   "notional": 506.7003655317556,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-27T08:07:59.513Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.2796552552089668
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1795723678783",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 57,
+  "at": 1795723678783,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volatility below average",
+   "Volume 4.3x normal"
+  ],
+  "stats": {
+   "atr1h": 0.05126646921611485,
+   "rsi": 57.32397628176374,
+   "rvol": 4.261986051083477,
+   "bbPct": 0.08771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.668,
+   "stop": 6.591100296175828,
+   "takeProfit": 6.8602492595604305,
+   "stopDist": 0.07689970382417227,
+   "tpDist": 0.19224925956043068,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 97.52963440728476,
+   "unit": "AVAX",
+   "notional": 650.3276022277748,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-27T08:07:58.783Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.05201580501721281,
+   "mae": 0
+  }
  }
 ]
