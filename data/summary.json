@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-26T08:17:19.987Z",
+ "generated": "2026-11-26T08:27:19.083Z",
  "total": 961,
- "open": 8,
- "closed": 953,
+ "open": 5,
+ "closed": 956,
  "wins": 136,
  "losses": 492,
- "timeouts": 325,
- "winRate": 0.143,
- "netR": 14.63,
- "avgR": 0.015,
+ "timeouts": 328,
+ "winRate": 0.142,
+ "netR": 17.85,
+ "avgR": 0.019,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 953,
+   "n": 956,
    "wins": 136,
-   "R": 14.63,
-   "winRate": 0.143
+   "R": 17.85,
+   "winRate": 0.142
   }
  },
  "bySymbol": {
@@ -74,10 +74,10 @@
    "winRate": 0.067
   },
   "BCH": {
-   "n": 46,
+   "n": 47,
    "wins": 8,
-   "R": -1.08,
-   "winRate": 0.174
+   "R": -0.46,
+   "winRate": 0.17
   },
   "AVAX": {
    "n": 28,
@@ -122,10 +122,10 @@
    "winRate": 0.1
   },
   "LTC": {
-   "n": 28,
+   "n": 29,
    "wins": 7,
-   "R": 11.15,
-   "winRate": 0.25
+   "R": 12.05,
+   "winRate": 0.241
   },
   "RENDER": {
    "n": 1,
@@ -218,10 +218,10 @@
    "winRate": 0.091
   },
   "HBAR": {
-   "n": 33,
+   "n": 34,
    "wins": 2,
-   "R": -9.2,
-   "winRate": 0.061
+   "R": -7.5,
+   "winRate": 0.059
   },
   "ARB": {
    "n": 6,
@@ -292,10 +292,10 @@
    "winRate": 0.169
   },
   "LONG": {
-   "n": 331,
+   "n": 334,
    "wins": 31,
-   "R": -112.56,
-   "winRate": 0.094
+   "R": -109.34,
+   "winRate": 0.093
   }
  },
  "config": {
