@@ -43837,7 +43837,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.09800162899914587,
+   "mfe": 0.147002443498712,
    "mae": 0.09800162899914587
   }
  },
@@ -43881,7 +43881,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.16313223220524142,
+   "mfe": 0.30295985980972484,
    "mae": 0.2796552552089668
   }
  },
@@ -43967,8 +43967,139 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.19477773464379428,
+   "mfe": 0.6973042900247859,
    "mae": 0.0631079860245862
+  }
+ },
+ {
+  "uid": "HBAR-LONG-1795725498414",
+  "id": "HBAR",
+  "name": "Hedera",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 60,
+  "at": 1795725498414,
+  "factors": [
+   "Range tight (bottom 28% of 5 days)",
+   "Volatility below average",
+   "Volume 2.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.0006060593317349817,
+   "rsi": 72.27654971705533,
+   "rvol": 2.4802389770372493,
+   "bbPct": 0.2807017543859649,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.05509,
+   "stop": 0.054180911002397525,
+   "takeProfit": 0.05736272249400618,
+   "stopDist": 0.0009090889976024725,
+   "tpDist": 0.002272722494006181,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 8250.017346794037,
+   "unit": "HBAR",
+   "notional": 454.4934556348835,
+   "note": "Spot OK",
+   "timeStop": "2026-11-27T08:38:18.414Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.1760003700649399,
+   "mae": 0.04400009251623307
+  }
+ },
+ {
+  "uid": "HYPE-LONG-1795725497755",
+  "id": "HYPE",
+  "name": "Hyperliquid",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1795725497755,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 18% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.8981113449174546,
+   "rsi": 69.22128244722074,
+   "rvol": 1.0512210371028479,
+   "bbPct": 0.17543859649122806,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 63.411,
+   "stop": 62.06383298262382,
+   "takeProfit": 66.77891754344046,
+   "stopDist": 1.3471670173761818,
+   "tpDist": 3.3679175434404547,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5.56723843685501,
+   "unit": "HYPE",
+   "notional": 353.024156519413,
+   "note": "Spot OK",
+   "timeStop": "2026-11-27T08:38:17.755Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.06754915970050825,
+   "mae": 0.3941604813293338
+  }
+ },
+ {
+  "uid": "TAO-LONG-1795725498424",
+  "id": "TAO",
+  "name": "Bittensor",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1795725498424,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 1.8271848987118484,
+   "rsi": 61.10513958326282,
+   "rvol": 0.2944756516470765,
+   "bbPct": 0.05263157894736842,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 185.22,
+   "stop": 182.47922265193222,
+   "takeProfit": 192.07194337016944,
+   "stopDist": 2.7407773480677724,
+   "tpDist": 6.8519433701694314,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.736449936470558,
+   "unit": "TAO",
+   "notional": 506.8452572330767,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-27T08:38:18.424Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04013459906823983,
+   "mae": 0.16783559610353047
   }
  }
 ]
