@@ -44604,8 +44604,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.4100239722553081,
+   "mfe": 0.4224489411115226,
    "mae": 0.12424968856221058
+  }
+ },
+ {
+  "uid": "WLD-LONG-1795750120901",
+  "id": "WLD",
+  "name": "Worldcoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 69,
+  "at": 1795750120901,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 35% of 5 days)",
+   "Volume 1.5x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.002750078689360457,
+   "rsi": 70.32822635825869,
+   "rvol": 1.5395579579654626,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.2508,
+   "stop": 0.24667488196595933,
+   "takeProfit": 0.2611127950851017,
+   "stopDist": 0.004125118034040686,
+   "tpDist": 0.010312795085101713,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1818.1297936470216,
+   "unit": "WLD",
+   "notional": 455.98695224667307,
+   "note": "Spot OK",
+   "timeStop": "2026-11-27T15:28:40.901Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.04848346116391524,
+   "mae": 0.2181755752376455
   }
  }
 ]
