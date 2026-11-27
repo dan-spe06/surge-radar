@@ -44892,8 +44892,139 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17137711955725674,
+   "mfe": 0.5653135972221809,
    "mae": 0.9652790603805173
+  }
+ },
+ {
+  "uid": "NEAR-SHORT-1795791556811",
+  "id": "NEAR",
+  "name": "NEAR Protocol",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 55,
+  "at": 1795791556811,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range moderately tight (59th percentile)",
+   "Volume 1.8x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.04887735135760173,
+   "rsi": 33.38185910521965,
+   "rvol": 1.8381933693696606,
+   "bbPct": 0.5892857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 2.967,
+   "stop": 3.0403160270364027,
+   "takeProfit": 2.7837099324089936,
+   "stopDist": 0.0733160270364026,
+   "tpDist": 0.1832900675910065,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 102.2968688180025,
+   "unit": "NEAR",
+   "notional": 303.5148097830134,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T02:59:16.811Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.20459373763600666,
+   "mae": 0.695618707962413
+  }
+ },
+ {
+  "uid": "ETH-SHORT-1795791556093",
+  "id": "ETH",
+  "name": "Ethereum",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 50,
+  "at": 1795791556093,
+  "factors": [
+   "Volume 4.5x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 17.47513821414219,
+   "rsi": 27.750088567149447,
+   "rvol": 4.4596047075207474,
+   "bbPct": 0.8392857142857143,
+   "funding": 0.0000550606589483,
+   "oiChg6h": 0.009437347855797933
+  },
+  "plan": {
+   "entry": 1657.95,
+   "stop": 1684.1627073212132,
+   "takeProfit": 1592.4182316969668,
+   "stopDist": 26.212707321213287,
+   "tpDist": 65.53176830303322,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.28612076990347496,
+   "unit": "ETH",
+   "notional": 474.37393046146633,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T02:59:16.093Z"
+  },
+  "outcome": {
+   "result": "LOSS",
+   "r": -1,
+   "closedAt": 1795790700000,
+   "exit": 1684.1627073212132,
+   "mfe": 0.22317420052471565,
+   "mae": 1.308144159998686
+  }
+ },
+ {
+  "uid": "BCH-SHORT-1795791556778",
+  "id": "BCH",
+  "name": "Bitcoin Cash",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 46,
+  "at": 1795791556778,
+  "factors": [
+   "Range moderately tight (57th percentile)",
+   "Volume 5.8x normal",
+   "Pressing 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.4111238334440164,
+   "rsi": 34.50780293332268,
+   "rvol": 5.778536370282046,
+   "bbPct": 0.5714285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 204.54,
+   "stop": 208.15668575016602,
+   "takeProfit": 195.49828562458492,
+   "stopDist": 3.616685750166025,
+   "tpDist": 9.041714375415062,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 2.073721776810637,
+   "unit": "BCH",
+   "notional": 424.1590522288477,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T02:59:16.778Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.17142766688301392,
+   "mae": 0.7686595386044763
   }
  }
 ]
