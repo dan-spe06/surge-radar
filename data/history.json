@@ -44699,5 +44699,48 @@
    "mfe": 0.5880185100523291,
    "mae": 0.09800308500872604
   }
+ },
+ {
+  "uid": "SHIB-LONG-1795767538459",
+  "id": "SHIB",
+  "name": "Shiba Inu",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 62,
+  "at": 1795767538459,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 35% of 5 days)",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 2.4027672038785883e-8,
+   "rsi": 74.76654624570826,
+   "rvol": 0.4742298825856353,
+   "bbPct": 0.3508771929824561,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.000003727,
+   "stop": 0.0000036909584919418212,
+   "takeProfit": 0.000003817103770145447,
+   "stopDist": 3.6041508058178823e-8,
+   "tpDist": 9.010377014544706e-8,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 208093401.30533302,
+   "unit": "SHIB",
+   "notional": 775.5641066649762,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-27T20:18:58.459Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.3606952289292475
+  }
  }
 ]
