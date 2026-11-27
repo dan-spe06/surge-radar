@@ -44245,5 +44245,93 @@
    "mfe": 0.3870900427880896,
    "mae": 0.48807005395020514
   }
+ },
+ {
+  "uid": "DOT-LONG-1795741699486",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1795741699486,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 12% of 5 days)",
+   "Volatility below average",
+   "Volume 2.3x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.005695040962880035,
+   "rsi": 61.89241628817114,
+   "rvol": 2.340440012978313,
+   "bbPct": 0.12280701754385964,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6784,
+   "stop": 0.6698574385556799,
+   "takeProfit": 0.6997564036108002,
+   "stopDist": 0.008542561444320054,
+   "tpDist": 0.021356403610800136,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 877.956810598857,
+   "unit": "DOT",
+   "notional": 595.6059003102646,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-27T13:08:19.486Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.199003543735745,
+   "mae": 0.21070963454372849
+  }
+ },
+ {
+  "uid": "BNB-LONG-1795741698107",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 44,
+  "at": 1795741698107,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 2% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.057683700710729,
+   "rsi": 58.18087337883044,
+   "rvol": 0.7594175350021016,
+   "bbPct": 0.017543859649122806,
+   "funding": 0.0000913912563505,
+   "oiChg6h": 0.006197914514760937
+  },
+  "plan": {
+   "entry": 556.34,
+   "stop": 551.753474448934,
+   "takeProfit": 567.8063138776653,
+   "stopDist": 4.586525551066093,
+   "tpDist": 11.466313877665232,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.6352247287179504,
+   "unit": "BNB",
+   "notional": 909.7409255749446,
+   "note": "Needs ~1.8x leverage",
+   "timeStop": "2026-11-27T13:08:18.107Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.11337558119110726,
+   "mae": 0.12209677974428651
+  }
  }
 ]
