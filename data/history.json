@@ -44557,7 +44557,53 @@
    "result": "OPEN",
    "r": null,
    "mfe": 0.3754592899600656,
-   "mae": 0.4225081588012258
+   "mae": 0.46303540225844886
+  }
+ },
+ {
+  "uid": "AVAX-LONG-1795748320585",
+  "id": "AVAX",
+  "name": "Avalanche",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 64,
+  "at": 1795748320585,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 23% of 5 days)",
+   "Volatility below average",
+   "Volume 2.1x normal",
+   "Pressing 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.05365539941235821,
+   "rsi": 62.07551556988419,
+   "rvol": 2.100517422974574,
+   "bbPct": 0.23214285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 6.713,
+   "stop": 6.632516900881463,
+   "takeProfit": 6.914207747796343,
+   "stopDist": 0.08048309911853732,
+   "tpDist": 0.20120774779634332,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 93.18726642165991,
+   "unit": "AVAX",
+   "notional": 625.566119488603,
+   "note": "Needs ~1.3x leverage",
+   "timeStop": "2026-11-27T14:58:40.585Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.2733493148368721,
+   "mae": 0.024849937712439908
   }
  }
 ]
