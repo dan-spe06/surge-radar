@@ -44892,7 +44892,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5653135972221809,
+   "mfe": 0.9393672503875728,
    "mae": 0.9652790603805173
   }
  },
@@ -44936,7 +44936,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.20459373763600666,
+   "mfe": 0.4773853878173469,
    "mae": 0.695618707962413
   }
  },
@@ -45023,8 +45023,52 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.17142766688301392,
+   "mfe": 0.7437748772827478,
    "mae": 0.7686595386044763
+  }
+ },
+ {
+  "uid": "SKY-SHORT-1795792158901",
+  "id": "SKY",
+  "name": "Sky",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1795792158901,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 9% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.0009764366008157832,
+   "rsi": 43.63830041047341,
+   "rvol": 0.47473730921007323,
+   "bbPct": 0.08771929824561403,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.04511,
+   "stop": 0.04657465490122367,
+   "takeProfit": 0.04144836274694081,
+   "stopDist": 0.0014646549012236748,
+   "tpDist": 0.003661637253059187,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 5120.660159423204,
+   "unit": "SKY",
+   "notional": 230.99297979158072,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T03:09:18.901Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.15020603134307928,
+   "mae": 0.1365509375846227
   }
  }
 ]
