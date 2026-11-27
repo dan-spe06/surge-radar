@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-27T14:29:20.892Z",
+ "generated": "2026-11-27T14:39:21.022Z",
  "total": 986,
- "open": 6,
- "closed": 980,
+ "open": 1,
+ "closed": 985,
  "wins": 141,
- "losses": 500,
+ "losses": 505,
  "timeouts": 339,
- "winRate": 0.144,
- "netR": 30.49,
- "avgR": 0.031,
+ "winRate": 0.143,
+ "netR": 25.49,
+ "avgR": 0.026,
  "breakevenWinRate": 0.286,
  "byClass": {
   "crypto": {
-   "n": 980,
+   "n": 985,
    "wins": 141,
-   "R": 30.49,
-   "winRate": 0.144
+   "R": 25.49,
+   "winRate": 0.143
   }
  },
  "bySymbol": {
   "ETH": {
-   "n": 46,
+   "n": 47,
    "wins": 10,
-   "R": 9.8,
-   "winRate": 0.217
+   "R": 8.8,
+   "winRate": 0.213
   },
   "HYPE": {
    "n": 48,
@@ -68,10 +68,10 @@
    "winRate": 0.206
   },
   "ADA": {
-   "n": 31,
+   "n": 32,
    "wins": 2,
-   "R": -12.75,
-   "winRate": 0.065
+   "R": -13.75,
+   "winRate": 0.063
   },
   "BCH": {
    "n": 50,
@@ -80,10 +80,10 @@
    "winRate": 0.22
   },
   "AVAX": {
-   "n": 29,
+   "n": 30,
    "wins": 5,
-   "R": 3.64,
-   "winRate": 0.172
+   "R": 2.64,
+   "winRate": 0.167
   },
   "SUI": {
    "n": 26,
@@ -146,10 +146,10 @@
    "winRate": 0
   },
   "SHIB": {
-   "n": 17,
+   "n": 18,
    "wins": 3,
-   "R": 3.1,
-   "winRate": 0.176
+   "R": 2.1,
+   "winRate": 0.167
   },
   "DOT": {
    "n": 14,
@@ -254,10 +254,10 @@
    "winRate": 0
   },
   "WLD": {
-   "n": 8,
+   "n": 9,
    "wins": 1,
-   "R": -1.11,
-   "winRate": 0.125
+   "R": -2.11,
+   "winRate": 0.111
   },
   "CRO": {
    "n": 12,
@@ -292,10 +292,10 @@
    "winRate": 0.169
   },
   "LONG": {
-   "n": 358,
+   "n": 363,
    "wins": 36,
-   "R": -96.7,
-   "winRate": 0.101
+   "R": -101.7,
+   "winRate": 0.099
   }
  },
  "config": {
