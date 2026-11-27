@@ -45118,5 +45118,49 @@
    "mfe": 0.6980704618666227,
    "mae": 0.1368765611503003
   }
+ },
+ {
+  "uid": "VVV-SHORT-1795814374816",
+  "id": "VVV",
+  "name": "Venice Token",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 60,
+  "at": 1795814374816,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 37% of 5 days)",
+   "Volatility below average",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.5442868334403735,
+   "rsi": 38.36246226411414,
+   "rvol": 0.050286074621620346,
+   "bbPct": 0.3684210526315789,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 26.03,
+   "stop": 26.846430250160562,
+   "takeProfit": 23.9889243745986,
+   "stopDist": 0.8164302501605603,
+   "tpDist": 2.0410756254014006,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 9.18633281719417,
+   "unit": "VVV",
+   "notional": 239.12024323156427,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T09:19:34.816Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.012248443756260807,
+   "mae": 0.03674533126877372
+  }
  }
 ]
