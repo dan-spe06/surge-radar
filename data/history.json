@@ -43883,7 +43883,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.745747347223933,
+   "mfe": 1.421580880645605,
    "mae": 0.8156611610261683
   }
  },
@@ -43971,7 +43971,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.055695321769368,
+   "mfe": 1.835585371283113,
    "mae": 0.5695300960984557
   }
  },
@@ -44106,7 +44106,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.3502655918682343,
+   "mfe": 0.9595817777223407,
    "mae": 0.9632303776376314
   }
  },
@@ -44244,7 +44244,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.992970109760759,
+   "mfe": 1.2622501395263963,
    "mae": 0.48807005395020514
   }
  },
@@ -44289,7 +44289,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.0067238094866955,
+   "mfe": 1.5803222590779376,
    "mae": 0.21070963454372849
   }
  },
@@ -44332,7 +44332,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 1.190443602506651,
+   "mfe": 1.9557287755466497,
    "mae": 0.12209677974428651
   }
  },
@@ -44373,9 +44373,11 @@
    "timeStop": "2026-11-27T13:18:17.775Z"
   },
   "outcome": {
-   "result": "OPEN",
-   "r": null,
-   "mfe": 2.3223791611975306,
+   "result": "WIN",
+   "r": 2.5,
+   "closedAt": 1795745700000,
+   "exit": 217.37130271964799,
+   "mfe": 2.7651204224310253,
    "mae": 0.07244857002002957
   }
  },
@@ -44418,7 +44420,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 2.0616341592176375,
+   "mfe": 2.4985893760075006,
    "mae": 0.2542284897686549
   }
  },
@@ -44461,8 +44463,53 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.5540426042990101,
+   "mfe": 0.8310639064485214,
    "mae": 0.3462766276868736
+  }
+ },
+ {
+  "uid": "LTC-LONG-1795746520050",
+  "id": "LTC",
+  "name": "Litecoin",
+  "cls": "crypto",
+  "dir": "LONG",
+  "score": 76,
+  "at": 1795746520050,
+  "factors": [
+   "Squeeze just fired (energy releasing)",
+   "Range tight (bottom 39% of 5 days)",
+   "Volume 2.0x normal",
+   "Broke 24h high",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.3975233445581294,
+   "rsi": 69.1685254033004,
+   "rvol": 2.0368188092322024,
+   "bbPct": 0.38596491228070173,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 44.53,
+   "stop": 43.900247665544185,
+   "takeProfit": 46.10438083613954,
+   "stopDist": 0.6297523344558164,
+   "tpDist": 1.5743808361395408,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 11.909443744231492,
+   "unit": "LTC",
+   "notional": 530.3275299306283,
+   "note": "Needs ~1.1x leverage",
+   "timeStop": "2026-11-27T14:28:40.050Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.39698145814104974,
+   "mae": 0.23818887488462756
   }
  }
 ]
