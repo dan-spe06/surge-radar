@@ -45476,5 +45476,134 @@
    "mfe": 0.1494459396840673,
    "mae": 0.16443889803424602
   }
+ },
+ {
+  "uid": "BNB-SHORT-1795856417094",
+  "id": "BNB",
+  "name": "BNB",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795856417094,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 5% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 3.1966758872534986,
+   "rsi": 39.08393690204835,
+   "rvol": 0.40299693387261615,
+   "bbPct": 0.05263157894736842,
+   "funding": 0.0000750624671074,
+   "oiChg6h": -0.014741373269720507
+  },
+  "plan": {
+   "entry": 550.4,
+   "stop": 555.1950138308803,
+   "takeProfit": 538.4124654227994,
+   "stopDist": 4.795013830880248,
+   "tpDist": 11.98753457720062,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 1.564124789734586,
+   "unit": "BNB",
+   "notional": 860.894284269916,
+   "note": "Needs ~1.7x leverage",
+   "timeStop": "2026-11-28T21:00:17.094Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.01042749859822109,
+   "mae": 0
+  }
+ },
+ {
+  "uid": "XRP-SHORT-1795856417136",
+  "id": "XRP",
+  "name": "XRP",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795856417136,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 16% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006761390466381493,
+   "rsi": 36.81352808500685,
+   "rvol": 0.2918042649155753,
+   "bbPct": 0.15789473684210525,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.9399,
+   "stop": 0.9500420856995722,
+   "takeProfit": 0.9145447857510693,
+   "stopDist": 0.010142085699572239,
+   "tpDist": 0.0253552142489306,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 739.4928639102632,
+   "unit": "XRP",
+   "notional": 695.0493427892563,
+   "note": "Needs ~1.4x leverage",
+   "timeStop": "2026-11-28T21:00:17.136Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0,
+   "mae": 0.029579714556418217
+  }
+ },
+ {
+  "uid": "BTC-SHORT-1795856417146",
+  "id": "BTC",
+  "name": "Bitcoin",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 44,
+  "at": 1795856417146,
+  "factors": [
+   "Volatility squeeze active",
+   "Range tight (bottom 19% of 5 days)",
+   "Volatility below average",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 373.0181162252993,
+   "rsi": 37.19788254242357,
+   "rvol": 0.2970840971663003,
+   "bbPct": 0.19298245614035087,
+   "funding": 0.0000378336704829,
+   "oiChg6h": -0.0018168115895001713
+  },
+  "plan": {
+   "entry": 59576.9,
+   "stop": 60136.42717433795,
+   "takeProfit": 58178.082064155125,
+   "stopDist": 559.527174337949,
+   "tpDist": 1398.8179358448724,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 0.013404174710324387,
+   "unit": "BTC",
+   "notional": 798.579176299525,
+   "note": "Needs ~1.6x leverage",
+   "timeStop": "2026-11-28T21:00:17.146Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.008221227155663023,
+   "mae": 0.009114838803017982
+  }
  }
 ]
