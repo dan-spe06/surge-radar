@@ -45207,7 +45207,7 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.16745235580239548,
+   "mfe": 0.4038556816410843,
    "mae": 0.12805180149596557
   }
  },
@@ -45251,8 +45251,141 @@
   "outcome": {
    "result": "OPEN",
    "r": null,
-   "mfe": 0.10186505391562052,
+   "mfe": 0.46405191228229364,
    "mae": 0.09054671459166827
+  }
+ },
+ {
+  "uid": "UNI-SHORT-1795845013365",
+  "id": "UNI",
+  "name": "Uniswap",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1795845013365,
+  "factors": [
+   "Range moderately tight (48th percentile)",
+   "Volatility below average",
+   "Volume 3.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Doji pause before continuation (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.061376119472405115,
+   "rsi": 32.714163126971414,
+   "rvol": 3.3376019189153086,
+   "bbPct": 0.48214285714285715,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 4.646,
+   "stop": 4.738064179208608,
+   "takeProfit": 4.415839551978481,
+   "stopDist": 0.09206417920860767,
+   "tpDist": 0.23016044802151917,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 81.46490920215336,
+   "unit": "UNI",
+   "notional": 378.4859681532045,
+   "note": "Spot OK",
+   "timeStop": "2026-11-28T17:50:13.365Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.24982572155326693,
+   "mae": 0.11948186682982626
+  }
+ },
+ {
+  "uid": "XLM-SHORT-1795845013029",
+  "id": "XLM",
+  "name": "Stellar",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 56,
+  "at": 1795845013029,
+  "factors": [
+   "Volatility below average",
+   "Volume 4.2x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned",
+   "Shakeout wick against the move (strong pattern)"
+  ],
+  "stats": {
+   "atr1h": 0.001062621182428282,
+   "rsi": 31.34371337638845,
+   "rvol": 4.202875278273545,
+   "bbPct": 0.6964285714285714,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.12406,
+   "stop": 0.12565393177364242,
+   "takeProfit": 0.12007517056589395,
+   "stopDist": 0.001593931773642423,
+   "tpDist": 0.003984829434106057,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 4705.345689207978,
+   "unit": "XLM",
+   "notional": 583.7451862031417,
+   "note": "Needs ~1.2x leverage",
+   "timeStop": "2026-11-28T17:50:13.029Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.3450586838752572,
+   "mae": 0.12547588504554094
+  }
+ },
+ {
+  "uid": "DOT-SHORT-1795845014348",
+  "id": "DOT",
+  "name": "Polkadot",
+  "cls": "crypto",
+  "dir": "SHORT",
+  "score": 62,
+  "at": 1795845014348,
+  "factors": [
+   "Range moderately tight (59th percentile)",
+   "Volatility below average",
+   "Volume 7.3x normal",
+   "Broke 24h low",
+   "Trend, momentum, VWAP aligned"
+  ],
+  "stats": {
+   "atr1h": 0.006436276185511525,
+   "rsi": 31.43281873901128,
+   "rvol": 7.258787240222559,
+   "bbPct": 0.5892857142857143,
+   "funding": null,
+   "oiChg6h": null
+  },
+  "plan": {
+   "entry": 0.6506,
+   "stop": 0.6602544142782673,
+   "takeProfit": 0.6264639643043317,
+   "stopDist": 0.009654414278267288,
+   "tpDist": 0.024136035695668218,
+   "rr": 2.5,
+   "risk$": 7.5,
+   "qty": 776.8467132058944,
+   "unit": "DOT",
+   "notional": 505.41647161175484,
+   "note": "Needs ~1.0x leverage",
+   "timeStop": "2026-11-28T17:50:14.348Z"
+  },
+  "outcome": {
+   "result": "OPEN",
+   "r": null,
+   "mfe": 0.31073868528235804,
+   "mae": 0.18644321116941712
   }
  }
 ]
